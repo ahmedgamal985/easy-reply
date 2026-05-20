@@ -27,7 +27,9 @@ function CompareCellNo({ label }: { label: string }) {
   );
 }
 
-const flowSteps = [
+type UseCaseFlowStep = { id: string; title: string; body: string; chip: string };
+
+const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "Comprehensive Property Insights",
@@ -58,10 +60,45 @@ const flowSteps = [
     body: "For prospects who are not ready to commit immediately, Easy Reply maintains personalized follow-ups over weeks or months keeping them engaged without requiring your attention.",
     chip: "Keeps Leads Warm",
   },
-] as const;
+];
+
+const flowStepsAr: UseCaseFlowStep[] = [
+  {
+    id: "1",
+    title: "رؤى شاملة عن العقار",
+    body: "يستفيد Easy Reply من قوائمك للإجابة عن أسئلة تفصيلية حول الموقع والمميزات والمساحات والمدارس والحي، فيمنح العملاء المحتملين وضوحًا فوريًا.",
+    chip: "يجيب عن أسئلة القوائم",
+  },
+  {
+    id: "2",
+    title: "تأهيل ذكي للمشترين",
+    body: "عبر تفاعلات حوارية طبيعية، يحدّد Easy Reply دوافع المشتري والميزانية والجدول الزمني وحالة التمويل دون الاعتماد على نماذج جامدة أو فرز يدوي.",
+    chip: "يؤهّل المشترين الجادّين",
+  },
+  {
+    id: "3",
+    title: "عرض بصري تفاعلي",
+    body: "عندما يسأل العملاء عن ميزات محددة، يشارك Easy Reply صورًا ذات صلة ويبرز الجوانب الرئيسية ويساعد المشترين على تصوّر العقار بفعالية.",
+    chip: "يعرض أبرز مميزات العقار",
+  },
+  {
+    id: "4",
+    title: "جدولة معاينات تلقائية",
+    body: "بعد تأهيل العميل المحتمل، ينسّق Easy Reply مع تقويمك لجدولة معاينات العقار بسلاسة، ما يوفر الوقت ويقلّل الفرص الضائعة.",
+    chip: "يجدول المعاينات تلقائيًا",
+  },
+  {
+    id: "5",
+    title: "رعاية مستمرة للعملاء المحتملين",
+    body: "لمن ليسوا مستعدين للالتزام فورًا، يحافظ Easy Reply على متابعات شخصية على مدى أسابيع أو أشهر لإبقائهم مهتمين دون أن يتطلب ذلك انتباهك.",
+    chip: "يحافظ على دفء العملاء المحتملين",
+  },
+];
 
 export default function RealEstateUseCasePage() {
   const { L, lang, toggleLang } = useLanguage();
+  const isAr = lang === "ar";
+  const flowSteps = isAr ? flowStepsAr : flowStepsEn;
 
   return (
     <div className="min-h-screen bg-white">
@@ -110,27 +147,33 @@ export default function RealEstateUseCasePage() {
           <div className="mx-auto max-w-6xl rounded-[28px] bg-gradient-to-br from-cyan-50 via-white to-violet-50 px-4 pb-16 pt-8 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.7)] sm:px-6 md:pb-20 md:pt-12">
             <p className="inline-flex items-center gap-2 rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
-              Real Estate Professionals
+              {isAr ? "المهنيون العقاريون" : "Real Estate Professionals"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              Turn Every Property Inquiry Into a Scheduled Viewing Effortlessly
+              {isAr
+                ? "حوّل كل استفسار عقاري إلى معاينة مجدولة بسهولة"
+                : "Turn Every Property Inquiry Into a Scheduled Viewing Effortlessly"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              In real estate, timely follow-up and personalized attention make the difference between a lost lead and
-              a booked appointment.
+              {isAr
+                ? "في العقارات، المتابعة السريعة والاهتمام الشخصي يحددان الفرق بين عميل ضائع وموعد محجوز."
+                : "In real estate, timely follow-up and personalized attention make the difference between a lost lead and a booked appointment."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              Easy Reply engages incoming inquiries instantly, answers listing questions, qualifies serious prospects,
-              and schedules viewings while nurturing leads over time.
+              {isAr
+                ? "يتفاعل Easy Reply مع الاستفسارات الواردة فورًا، ويجيب عن أسئلة القوائم، ويؤهّل العملاء الجادّين، ويجدول المعاينات مع رعاية العملاء المحتملين على المدى الطويل."
+                : "Easy Reply engages incoming inquiries instantly, answers listing questions, qualifies serious prospects, and schedules viewings while nurturing leads over time."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              This allows agents to focus on closing deals while every opportunity gets timely and consistent follow-up.
+              {isAr
+                ? "هذا يتيح للوكلاء التركيز على إغلاق الصفقات بينما يحصل كل فرصة على متابعة في الوقت المناسب وباستمرار."
+                : "This allows agents to focus on closing deals while every opportunity gets timely and consistent follow-up."}
             </p>
             <a
               href="#pricing"
               className="mt-8 inline-block rounded-lg bg-accent px-8 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-accent-hover"
             >
-              Start for free
+              {isAr ? "ابدأ مجانًا" : "Start for free"}
             </a>
           </div>
         </section>
@@ -239,7 +282,7 @@ export default function RealEstateUseCasePage() {
           <div className="mx-auto max-w-6xl">
             <h2 className="text-center font-display text-3xl font-bold text-ink md:text-4xl">{L.pricing.title}</h2>
             <p className="mx-auto mt-4 max-w-2xl text-center text-ink-muted">{L.pricing.subtitle}</p>
-            <div className="mt-14 grid gap-6 lg:grid-cols-3">
+            <div className="mt-14 mx-auto grid max-w-lg gap-6 lg:max-w-xl">
               {L.pricing.plans.map((plan) => (
                 <article
                   key={plan.name}

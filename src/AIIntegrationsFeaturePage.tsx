@@ -274,7 +274,7 @@ export default function AIIntegrationsFeaturePage() {
           <div className="mx-auto max-w-6xl">
             <h2 className="text-center font-display text-3xl font-bold text-ink md:text-4xl">{L.pricing.title}</h2>
             <p className="mx-auto mt-4 max-w-2xl text-center text-ink-muted">{L.pricing.subtitle}</p>
-            <div className="mt-14 grid gap-6 lg:grid-cols-3">
+            <div className="mt-14 mx-auto grid max-w-lg gap-6 lg:max-w-xl">
               {L.pricing.plans.map((plan) => (
                 <article
                   key={plan.name}

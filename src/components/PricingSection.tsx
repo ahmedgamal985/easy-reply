@@ -24,7 +24,7 @@ export function PricingSection({ L, lang }: { L: Copy; lang: Lang }) {
   const isAr = lang === "ar";
   const loc = L.pricing.estimate;
   const plans = L.pricing.plans;
-  const [monthlyMessages, setMonthlyMessages] = useState(100);
+  const [monthlyMessages, setMonthlyMessages] = useState(200);
 
   const presets = [100, 200, 500, 1000, 3000, 10000];
   const tok = tokensPerMessage(ESTIMATE_TOKEN_MODE);
@@ -119,7 +119,7 @@ export function PricingSection({ L, lang }: { L: Copy; lang: Lang }) {
           </div>
         </div>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-3">
+        <div className="mt-14 mx-auto grid max-w-lg gap-6 lg:max-w-xl">
           {plans.map((p) => {
             if (!hasPricingMeta(p)) return null;
             const overage = overageMessageCount(monthlyMessages, p.includedCredits);
