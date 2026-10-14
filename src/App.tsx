@@ -3,6 +3,7 @@ import { BrandMark } from "./components/BrandMark";
 import { HeroConversationPreview } from "./components/HeroConversationPreview";
 import { CompareFeatureIcon, type CompareIconId } from "./components/CompareFeatureIcon";
 import { TopNavMegaMenu } from "./components/TopNavMegaMenu";
+import { FaqSection } from "./components/FaqSection";
 import { PricingSection } from "./components/PricingSection";
 import { FeaturesSection } from "./components/features/FeaturesSection";
 import { HowItWorksSection } from "./components/how/HowItWorksSection";
@@ -211,6 +212,8 @@ export default function App() {
         <FeaturesSection />
 
         <PricingSection L={L} lang={lang} />
+
+        <FaqSection />
 
         <section className="px-3 py-16 sm:px-4 sm:py-20">
           <div className="mx-auto max-w-3xl rounded-3xl border border-gray-100 bg-gradient-to-br from-accent-soft/60 to-white p-6 text-center shadow-card sm:p-8 md:p-10">

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Login / app routes are handled on app.tryeasyreply.com
+Disallow: /signin
+
+Sitemap: https://tryeasyreply.com/sitemap.xml

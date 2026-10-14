@@ -28,11 +28,14 @@ import AISellingAgentFeaturePage from "./AISellingAgentFeaturePage";
 import MediaAIFeaturePage from "./MediaAIFeaturePage";
 import CommentDMAIFeaturePage from "./CommentDMAIFeaturePage";
 import AIIntegrationsFeaturePage from "./AIIntegrationsFeaturePage";
+import KeywordLandingPage from "./KeywordLandingPage";
 import { LanguageProvider } from "./LanguageContext";
+import { SeoUpdater } from "./components/SeoUpdater";
+import { SIGNIN_URL, SITE_URL } from "./lib/site";
 
 const whatsappAgentLink = "https://wa.me/201509000921";
-const signinLink = "https://tryeasyreply.com/signin";
-const homeLink = "https://app.tryeasyreply.com/";
+const signinLink = SIGNIN_URL;
+const homeLink = `${SITE_URL}/`;
 document.addEventListener("click", (event) => {
   const target = event.target;
   if (!(target instanceof Element)) return;
@@ -84,8 +87,18 @@ document.addEventListener("click", (event) => {
 });
 
 const path = window.location.pathname.replace(/\/+$/, "") || "/";
-const Page =
-  path === "/privacy-policy"
+
+type KeywordPageKey = "/whatsapp-automation" | "/chat-automation" | "/reply-automation" | "/ai-sales-agent";
+const KEYWORD_PATHS: KeywordPageKey[] = [
+  "/whatsapp-automation",
+  "/chat-automation",
+  "/reply-automation",
+  "/ai-sales-agent",
+];
+
+const Page = KEYWORD_PATHS.includes(path as KeywordPageKey)
+  ? () => <KeywordLandingPage pageKey={path as KeywordPageKey} />
+  : path === "/privacy-policy"
     ? PrivacyPolicyPage
     : path === "/terms"
       ? TermsPage
@@ -142,6 +155,7 @@ const Page =
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <LanguageProvider>
+      <SeoUpdater />
       <Page />
     </LanguageProvider>
   </StrictMode>

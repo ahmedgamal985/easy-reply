@@ -3,49 +3,42 @@ type BrandMarkProps = {
   variant?: "header" | "footer" | "compare";
 };
 
-const imgSizes = {
-  /** Taller than wordmark — reads clearly above the text line */
-  header:
-    "h-16 w-16 min-h-16 min-w-16 shrink-0 sm:h-[4.5rem] sm:w-[4.5rem] sm:min-h-[4.5rem] sm:min-w-[4.5rem]",
-  footer:
-    "h-14 w-14 min-h-14 min-w-14 shrink-0 sm:h-16 sm:w-16 sm:min-h-16 sm:min-w-16 md:h-[4.25rem] md:w-[4.25rem] md:min-h-[4.25rem] md:min-w-[4.25rem]",
-  compare: "h-9 w-9 min-h-9 min-w-9 shrink-0 sm:h-10 sm:w-10 sm:min-h-10 sm:min-w-10",
+const logoSizes = {
+  header: "h-10 w-auto min-h-10 sm:h-11 md:h-12",
+  footer: "h-9 w-auto min-h-9 sm:h-10 md:h-11",
+  compare: "h-8 w-auto min-h-8 sm:h-9",
 } as const;
 
 const textSizes = {
   header:
-    "whitespace-nowrap text-[1.0625rem] leading-tight sm:text-lg sm:leading-tight md:text-xl md:leading-tight",
+    "w-full text-center whitespace-nowrap text-sm font-bold leading-none tracking-[-0.02em] text-ink sm:text-base md:text-[1.05rem]",
   footer:
-    "whitespace-nowrap text-base leading-tight sm:text-lg sm:leading-tight md:text-xl md:leading-tight",
-  compare: "whitespace-nowrap text-[0.9375rem] leading-none sm:text-base sm:leading-none",
+    "w-full text-center whitespace-nowrap text-xs font-bold leading-none tracking-[-0.02em] text-ink-muted sm:text-sm",
+  compare:
+    "whitespace-nowrap text-[10px] font-semibold leading-none tracking-[-0.02em] text-ink sm:text-xs",
 } as const;
+
+const logoTone = "opacity-[0.92] saturate-[0.82] contrast-[0.94]";
 
 /**
  * Logo + wordmark lockup for Easy Reply (header / footer / compact variants).
  */
 export function BrandMark({ variant = "header" }: BrandMarkProps) {
-  const size = variant === "header" ? 72 : variant === "compare" ? 40 : 64;
-  const inner = (
-    <>
+  const isCompare = variant === "compare";
+
+  return (
+    <div
+      className={`inline-flex shrink-0 text-ink ${
+        isCompare ? "flex-row items-center gap-2" : "flex-col items-center gap-1.5 sm:gap-2"
+      }`}
+    >
       <img
         src="/logo.png"
         alt=""
-        width={size}
-        height={size}
-        className={`-me-1.5 object-contain object-center sm:-me-2 ${imgSizes[variant]}`}
+        className={`shrink-0 object-contain object-center ${logoTone} ${logoSizes[variant]}`}
         decoding="async"
       />
-      <span
-        className={`font-display font-black tracking-[-0.045em] text-black antialiased ${textSizes[variant]}`}
-      >
-        Easy Reply
-      </span>
-    </>
+      <span className={`font-display antialiased ${textSizes[variant]}`}>Easy Reply</span>
+    </div>
   );
-
-  if (variant === "compare") {
-    return <div className="inline-flex shrink-0 items-center justify-center gap-0">{inner}</div>;
-  }
-
-  return <div className="group inline-flex shrink-0 items-center gap-0">{inner}</div>;
 }

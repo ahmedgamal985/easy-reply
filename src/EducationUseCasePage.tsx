@@ -2,6 +2,7 @@ import { BrandMark } from "./components/BrandMark";
 import { CompareFeatureIcon, type CompareIconId } from "./components/CompareFeatureIcon";
 import { TopNavMegaMenu } from "./components/TopNavMegaMenu";
 import { FeaturesSection } from "./components/features/FeaturesSection";
+import { PricingSection } from "./components/PricingSection";
 import { HowItWorksSection } from "./components/how/HowItWorksSection";
 import { useLanguage } from "./LanguageContext";
 
@@ -276,56 +277,7 @@ export default function EducationUseCasePage() {
         <HowItWorksSection />
         <FeaturesSection />
 
-        <section id="pricing" className="border-t border-gray-100 bg-surface-muted px-3 py-16 sm:px-4 sm:py-20">
-          <div className="mx-auto max-w-6xl">
-            <h2 className="text-center font-display text-3xl font-bold text-ink md:text-4xl">{L.pricing.title}</h2>
-            <p className="mx-auto mt-4 max-w-2xl text-center text-ink-muted">{L.pricing.subtitle}</p>
-            <div className="mt-14 mx-auto grid max-w-lg gap-6 lg:max-w-xl">
-              {L.pricing.plans.map((plan) => (
-                <article
-                  key={plan.name}
-                  className={`flex flex-col rounded-2xl border bg-white p-6 shadow-card ${
-                    "highlighted" in plan && plan.highlighted
-                      ? "border-2 border-accent ring-4 ring-accent/15"
-                      : "border-gray-200"
-                  }`}
-                >
-                  <p className="text-xs font-semibold text-accent">{plan.tag}</p>
-                  <h3 className="mt-2 font-display text-xl font-bold text-ink">{plan.name}</h3>
-                  {plan.note ? <p className="mt-1 text-xs text-ink-faint">{plan.note}</p> : null}
-                  <p className="mt-4 font-display text-3xl font-bold text-ink">
-                    <span className="text-lg text-ink-muted">$</span>
-                    {plan.price}
-                    <span className="text-sm font-normal text-ink-muted"> / {plan.period}</span>
-                  </p>
-                  <ul className="mt-6 flex flex-1 flex-col gap-2 text-sm text-ink-muted">
-                    {plan.features.map((f) => (
-                      <li key={f} className="flex gap-2.5">
-                        <span
-                          className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent text-[10px] font-bold leading-none text-white"
-                          aria-hidden
-                        >
-                          ✓
-                        </span>
-                        {f}
-                      </li>
-                    ))}
-                  </ul>
-                  <a
-                    href="#"
-                    className={`mt-8 block w-full rounded-lg py-3 text-center text-sm font-semibold transition ${
-                      "highlighted" in plan && plan.highlighted
-                        ? "bg-accent text-white hover:bg-accent-hover"
-                        : "border border-gray-200 text-ink hover:border-accent/50 hover:text-accent"
-                    }`}
-                  >
-                    {L.pricing.cta}
-                  </a>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
+        <PricingSection L={L} lang={lang} />
 
         <section className="px-3 py-16 sm:px-4 sm:py-20">
           <div className="mx-auto max-w-3xl rounded-3xl border border-gray-100 bg-gradient-to-br from-accent-soft/60 to-white p-6 text-center shadow-card sm:p-8 md:p-10">

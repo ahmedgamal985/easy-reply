@@ -1,0 +1,51 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Sign-in / dashboard → SaaS app subdomain
+[[redirects]]
+  from = "/signin"
+  to = "https://app.tryeasyreply.com/v2"
+  status = 302
+
+[[redirects]]
+  from = "/signin/*"
+  to = "https://app.tryeasyreply.com/v2/:splat"
+  status = 302
+
+[[redirects]]
+  from = "/dashboard"
+  to = "https://app.tryeasyreply.com/dashboard"
+  status = 302
+
+[[redirects]]
+  from = "/dashboard/*"
+  to = "https://app.tryeasyreply.com/dashboard/:splat"
+  status = 302
+
+[[redirects]]
+  from = "/settings"
+  to = "https://app.tryeasyreply.com/settings"
+  status = 302
+
+[[redirects]]
+  from = "/settings/*"
+  to = "https://app.tryeasyreply.com/settings/:splat"
+  status = 302
+
+# SPA fallback — marketing site (static files like sitemap.xml are served first)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
