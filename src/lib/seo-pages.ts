@@ -342,6 +342,10 @@ export const FAQ_SCHEMA = {
       a: "Easy Reply's AI chat replies uses AI to answer incoming messages across all your messaging channels from one inbox.",
     },
     {
+      q: "Can Easy Reply message people who have not contacted me?",
+      a: "No. Easy Reply only answers conversations that a customer starts with your business, on your own WhatsApp Business, Instagram, Messenger or website chat. Plans do not include broadcasts, bulk sending or promotional messaging.",
+    },
+    {
       q: "Does Easy Reply auto-reply on WhatsApp?",
       a: "Yes. Easy Reply provides WhatsApp Business auto replies, including auto replies to the messages customers send you, media understanding, AI appointment booking, and human handoff.",
     },

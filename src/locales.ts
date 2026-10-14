@@ -130,6 +130,10 @@ export const copy = {
           a: "No. Instead of rigid button menus, Easy Reply understands what the customer actually asked, remembers the conversation, and answers from your own information.",
         },
         {
+          q: "Can Easy Reply message people who have not contacted me?",
+          a: "No. Easy Reply only answers conversations that a customer starts with your business, on your own WhatsApp Business, Instagram, Messenger or website chat. Plans do not include broadcasts, bulk sending or promotional messaging.",
+        },
+        {
           q: "Do my customers know they are chatting with AI?",
           a: "They can. Turn on \"Tell contacts they're chatting with AI\" and the agent's first reply to each person briefly mentions that it is an AI assistant. Your team can take over any conversation at any time.",
         },
@@ -453,6 +457,10 @@ export const copy = {
         {
           q: "هل Easy Reply مجرد بوت قوائم؟",
           a: "لا. بدلاً من قوائم الأزرار الجامدة، يفهم Easy Reply ما سأله العميل فعلاً، ويتذكر المحادثة، ويجيب من معلوماتك أنت.",
+        },
+        {
+          q: "هل يرسل Easy Reply رسائل لأشخاص لم يتواصلوا معي؟",
+          a: "لا. Easy Reply يرد فقط على المحادثات التي يبدأها العميل مع عملك، على حسابك في واتساب للأعمال أو إنستغرام أو ماسنجر أو دردشة موقعك. ولا تتضمن الباقات أي إرسال جماعي أو رسائل ترويجية.",
         },
         {
           q: "هل يعرف عملائي أنهم يتحدثون مع ذكاء اصطناعي؟",

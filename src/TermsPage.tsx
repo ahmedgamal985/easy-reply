@@ -16,7 +16,7 @@ const termsSectionsEn: TermsSection[] = [
   },
   {
     title: "2. Service Description",
-    paragraphs: ["Easy Reply is software that businesses use to answer their own customers. It provides:"],
+    paragraphs: ["Easy Reply is software that businesses use to answer their own customers. It only replies to conversations that a customer starts with the business; it does not include broadcasts, bulk sending or promotional messaging. It provides:"],
     bullets: [
       "An AI agent that replies to customers who message your business on WhatsApp, Instagram, Facebook Messenger and your website chat",
       "Appointment booking when a customer asks, and handoff of any chat to your team",
@@ -158,7 +158,7 @@ const termsSectionsAr: TermsSection[] = [
   },
   {
     title: "٢. وصف الخدمة",
-    paragraphs: ["Easy Reply برنامج تستخدمه الأعمال للرد على عملائها. ويوفّر:"],
+    paragraphs: ["Easy Reply برنامج تستخدمه الأعمال للرد على عملائها. وهو يرد فقط على المحادثات التي يبدأها العميل مع النشاط، ولا يتضمن أي إرسال جماعي أو رسائل ترويجية. ويوفّر:"],
     bullets: [
       "وكيل ذكاء اصطناعي يرد على العملاء الذين يراسلون عملك عبر واتساب وإنستغرام وماسنجر ودردشة موقعك",
       "حجز المواعيد عندما يطلبها العميل، وتسليم أي محادثة لفريقك",
