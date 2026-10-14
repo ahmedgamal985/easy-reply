@@ -333,16 +333,6 @@ export default function PrivacyPolicyPage() {
             <h3 className="text-xl font-semibold text-ink">Alternatives</h3>
             <ul className="mt-3 space-y-2 text-base text-ink-muted">
               <li>
-                <a href="/alternatives/manychat" className="hover:text-accent">
-                  ManyChat
-                </a>
-              </li>
-              <li>
-                <a href="/alternatives/gohighlevel" className="hover:text-accent">
-                  GoHighLevel
-                </a>
-              </li>
-              <li>
                 <a href="/alternatives/intercom" className="hover:text-accent">
                   Intercom
                 </a>
@@ -385,11 +375,6 @@ export default function PrivacyPolicyPage() {
               <li>
                 <a href="/use-cases/educational-institutions" className="hover:text-accent">
                   Education
-                </a>
-              </li>
-              <li>
-                <a href="/use-cases/social-media-brands-influencers" className="hover:text-accent">
-                  Influencers
                 </a>
               </li>
             </ul>

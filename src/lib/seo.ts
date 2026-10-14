@@ -78,7 +78,7 @@ export function updateSeo({
   upsertMeta("og:locale", lang === "ar" ? "ar_EG" : "en_US", "property");
   upsertMeta("og:locale:alternate", lang === "ar" ? "en_US" : "ar_EG", "property");
   upsertMeta("og:image", OG_IMAGE, "property");
-  upsertMeta("og:image:alt", `${SITE_NAME} — AI chat automation`, "property");
+  upsertMeta("og:image:alt", `${SITE_NAME} — AI chat replies`, "property");
 
   upsertMeta("twitter:card", "summary_large_image");
   upsertMeta("twitter:title", fullTitle);

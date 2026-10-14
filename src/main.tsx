@@ -9,10 +9,7 @@ import HighTicketUseCasePage from "./HighTicketUseCasePage";
 import EcommerceUseCasePage from "./EcommerceUseCasePage";
 import RealEstateUseCasePage from "./RealEstateUseCasePage";
 import EducationUseCasePage from "./EducationUseCasePage";
-import InfluencersUseCasePage from "./InfluencersUseCasePage";
 import UseCasesOverviewPage from "./UseCasesOverviewPage";
-import ManychatAlternativePage from "./ManychatAlternativePage";
-import GohighlevelAlternativePage from "./GohighlevelAlternativePage";
 import IntercomAlternativePage from "./IntercomAlternativePage";
 import TidioAlternativePage from "./TidioAlternativePage";
 import ZendeskAlternativePage from "./ZendeskAlternativePage";
@@ -88,12 +85,12 @@ document.addEventListener("click", (event) => {
 
 const path = window.location.pathname.replace(/\/+$/, "") || "/";
 
-type KeywordPageKey = "/whatsapp-automation" | "/chat-automation" | "/reply-automation" | "/ai-sales-agent";
+type KeywordPageKey = "/whatsapp-auto-reply" | "/ai-chat-replies" | "/auto-reply" | "/ai-assistant";
 const KEYWORD_PATHS: KeywordPageKey[] = [
-  "/whatsapp-automation",
-  "/chat-automation",
-  "/reply-automation",
-  "/ai-sales-agent",
+  "/whatsapp-auto-reply",
+  "/ai-chat-replies",
+  "/auto-reply",
+  "/ai-assistant",
 ];
 
 const Page = KEYWORD_PATHS.includes(path as KeywordPageKey)
@@ -114,13 +111,7 @@ const Page = KEYWORD_PATHS.includes(path as KeywordPageKey)
             ? RealEstateUseCasePage
             : path === "/use-cases/educational-institutions"
               ? EducationUseCasePage
-              : path === "/use-cases/social-media-brands-influencers"
-                ? InfluencersUseCasePage
-                : path === "/alternatives/manychat"
-                  ? ManychatAlternativePage
-                  : path === "/alternatives/gohighlevel"
-                    ? GohighlevelAlternativePage
-                    : path === "/alternatives/intercom"
+              : path === "/alternatives/intercom"
                       ? IntercomAlternativePage
                       : path === "/alternatives/tidio"
                         ? TidioAlternativePage
@@ -144,7 +135,7 @@ const Page = KEYWORD_PATHS.includes(path as KeywordPageKey)
                                           ? AIAppointmentBookingFeaturePage
                                           : path === "/features/one-click-ai-optimization"
                                             ? OneClickAIOptimizationFeaturePage
-                                            : path === "/features/high-ticket-sales-capability"
+                                            : path === "/features/buying-questions"
                                               ? AISellingAgentFeaturePage
                                               : path === "/features/complete-media-understanding"
                                                 ? MediaAIFeaturePage

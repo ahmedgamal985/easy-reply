@@ -322,13 +322,7 @@ export default function ZendeskAlternativePage() {
                                       ? "/use-cases/real-estate-professionals"
                                       : link === "Education" || link === "التعليم"
                                         ? "/use-cases/educational-institutions"
-                                        : link === "Influencers" || link === "المؤثرون"
-                                          ? "/use-cases/social-media-brands-influencers"
-                                          : link === "ManyChat"
-                                            ? "/alternatives/manychat"
-                                            : link === "GoHighLevel"
-                                              ? "/alternatives/gohighlevel"
-                                              : link === "Intercom"
+                                           : link === "Intercom"
                                                 ? "/alternatives/intercom"
                                                 : link === "Tidio"
                                                   ? "/alternatives/tidio"
@@ -357,7 +351,7 @@ export default function ZendeskAlternativePage() {
                                                                       ? "/features/one-click-ai-optimization"
                                                                       : link === "Buying Questions AI" ||
                                                                           link === "إجابات أسئلة الشراء"
-                                                                        ? "/features/high-ticket-sales-capability"
+                                                                        ? "/features/buying-questions"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"

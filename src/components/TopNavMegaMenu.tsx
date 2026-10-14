@@ -24,7 +24,7 @@ const megaMenus: Record<Lang, Record<string, { title: string; links: MegaLink[] 
         { label: "Real-time Web Search", href: "/features/real-time-web-search" },
         { label: "AI Appointment Booking", href: "/features/ai-appointment-booking" },
         { label: "1-Click AI", href: "/features/one-click-ai-optimization" },
-        { label: "Buying Questions AI", href: "/features/high-ticket-sales-capability" },
+        { label: "Buying Questions AI", href: "/features/buying-questions" },
         { label: "Media AI", href: "/features/complete-media-understanding" },
         { label: "AI Integrations", href: "/features/integrations" },
       ],
@@ -32,8 +32,6 @@ const megaMenus: Record<Lang, Record<string, { title: string; links: MegaLink[] 
     Alternatives: {
       title: "Alternatives",
       links: [
-        { label: "ManyChat", href: "/alternatives/manychat" },
-        { label: "GoHighLevel", href: "/alternatives/gohighlevel" },
         { label: "Intercom", href: "/alternatives/intercom" },
         { label: "Tidio", href: "/alternatives/tidio" },
         { label: "Zendesk", href: "/alternatives/zendesk" },
@@ -47,7 +45,6 @@ const megaMenus: Record<Lang, Record<string, { title: string; links: MegaLink[] 
         { label: "E-commerce", href: "/use-cases/e-commerce-brands" },
         { label: "Real Estate", href: "/use-cases/real-estate-professionals" },
         { label: "Education", href: "/use-cases/educational-institutions" },
-        { label: "Influencers", href: "/use-cases/social-media-brands-influencers" },
       ],
     },
   },
@@ -63,7 +60,7 @@ const megaMenus: Record<Lang, Record<string, { title: string; links: MegaLink[] 
         { label: "بحث ويب لحظي", href: "/features/real-time-web-search" },
         { label: "حجز مواعيد بالذكاء الاصطناعي", href: "/features/ai-appointment-booking" },
         { label: "ذكاء بنقرة واحدة", href: "/features/one-click-ai-optimization" },
-        { label: "إجابات أسئلة الشراء", href: "/features/high-ticket-sales-capability" },
+        { label: "إجابات أسئلة الشراء", href: "/features/buying-questions" },
         { label: "فهم الوسائط", href: "/features/complete-media-understanding" },
         { label: "تكاملات الذكاء الاصطناعي", href: "/features/integrations" },
       ],
@@ -71,8 +68,6 @@ const megaMenus: Record<Lang, Record<string, { title: string; links: MegaLink[] 
     "البدائل": {
       title: "البدائل",
       links: [
-        { label: "ManyChat", href: "/alternatives/manychat" },
-        { label: "GoHighLevel", href: "/alternatives/gohighlevel" },
         { label: "Intercom", href: "/alternatives/intercom" },
         { label: "Tidio", href: "/alternatives/tidio" },
         { label: "Zendesk", href: "/alternatives/zendesk" },
@@ -86,7 +81,6 @@ const megaMenus: Record<Lang, Record<string, { title: string; links: MegaLink[] 
         { label: "التجارة الإلكترونية", href: "/use-cases/e-commerce-brands" },
         { label: "العقارات", href: "/use-cases/real-estate-professionals" },
         { label: "التعليم", href: "/use-cases/educational-institutions" },
-        { label: "المؤثرون", href: "/use-cases/social-media-brands-influencers" },
       ],
     },
   },

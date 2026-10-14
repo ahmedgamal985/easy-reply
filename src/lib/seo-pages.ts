@@ -29,65 +29,65 @@ function page(
 export const PAGE_SEO: Record<string, PageSeo> = {
   "/": page(
     {
-      title: "Easy Reply — Official Website | AI WhatsApp & Chat Automation",
+      title: "Easy Reply — Official Website | AI Auto Reply for WhatsApp & Chat",
       description:
         "Easy Reply (tryeasyreply.com) is an AI assistant that answers your customers on WhatsApp, Instagram, Messenger, and web chat. Automatic replies from your own business information, appointment booking, and human handoff 24/7.",
-      keywords: `${BRAND_EN}, tryeasyreply, tryeasyreply.com, easy reply official, whatsapp automation, chat automation, reply automation`,
+      keywords: `${BRAND_EN}, tryeasyreply, tryeasyreply.com, easy reply official, whatsapp auto reply, ai chat replies, auto reply`,
     },
     {
-      title: "Easy Reply إيزي ريپلاي — الموقع الرسمي | أتمتة واتساب والردود",
+      title: "Easy Reply إيزي ريپلاي — الموقع الرسمي | الرد التلقائي على واتساب والردود",
       description:
         "Easy Reply (tryeasyreply.com) الموقع الرسمي لمساعد الذكاء الاصطناعي الذي يرد على عملائك في واتساب وإنستغرام. ردود تلقائية من معلومات عملك وحجز مواعيد على مدار الساعة.",
-      keywords: `${BRAND_AR}, tryeasyreply, tryeasyreply.com, easy reply رسمي, أتمتة الردود, أتمتة واتساب`,
+      keywords: `${BRAND_AR}, tryeasyreply, tryeasyreply.com, easy reply رسمي, الردود التلقائية, الرد التلقائي على واتساب`,
     },
   ),
 
-  "/whatsapp-automation": page(
+  "/whatsapp-auto-reply": page(
     {
-      title: "WhatsApp Automation — Easy Reply AI Auto Reply",
+      title: "WhatsApp Auto Reply — Easy Reply AI",
       description:
         "Automate WhatsApp Business replies with Easy Reply. AI answers customers who message you, answers FAQs, books appointments, and hands the chat to your team when needed — 24/7 human-like WhatsApp replies.",
-      keywords: `${BRAND_EN}, whatsapp automation, whatsapp auto reply, whatsapp business automation, whatsapp business API, whatsapp AI chatbot, whatsapp customer support AI`,
+      keywords: `${BRAND_EN}, whatsapp auto reply, whatsapp auto reply, whatsapp business auto reply, whatsapp business API, whatsapp AI chatbot, whatsapp customer support AI`,
     },
     {
-      title: "أتمتة واتساب — ردود واتساب تلقائية | Easy Reply",
+      title: "الرد التلقائي على واتساب — ردود واتساب تلقائية | Easy Reply",
       description:
         "أتمّت ردود واتساب للأعمال مع Easy Reply. ذكاء اصطناعي يرد على من يراسلونك، يجيب على الأسئلة، يحجز المواعيد، ويسلّم المحادثة لفريقك عند الحاجة — ردود واتساب على مدار الساعة.",
-      keywords: `${BRAND_AR}, أتمتة واتساب, ردود واتساب تلقائية, رد تلقائي واتساب, أتمتة الرد على واتساب, بوت واتساب, واتساب للأعمال`,
+      keywords: `${BRAND_AR}, الرد التلقائي على واتساب, ردود واتساب تلقائية, رد تلقائي واتساب, أتمتة الرد على واتساب, بوت واتساب, واتساب للأعمال`,
     },
   ),
 
-  "/chat-automation": page(
+  "/ai-chat-replies": page(
     {
-      title: "Chat Automation Software — Easy Reply AI Assistant",
+      title: "AI Chat Reply Software — Easy Reply AI Assistant",
       description:
-        "Easy Reply chat automation answers customer conversations on WhatsApp, Instagram, Messenger, and web chat. Automatic replies, appointment booking, and human handoff in one inbox.",
-      keywords: `${BRAND_EN}, chat automation, automated chat replies, AI chat automation, social media chat automation, omnichannel chat automation, conversational automation`,
+        "Easy Reply's AI chat replies answers customer conversations on WhatsApp, Instagram, Messenger, and web chat. Automatic replies, appointment booking, and human handoff in one inbox.",
+      keywords: `${BRAND_EN}, chat replies, automated chat replies, AI chat replies, social media chat replies, omnichannel chat replies, conversational automation`,
     },
     {
-      title: "أتمتة المحادثات — برنامج ردود تلقائية | Easy Reply",
+      title: "الرد الذكي على المحادثات — برنامج ردود تلقائية | Easy Reply",
       description:
-        "أتمتة محادثات Easy Reply على واتساب وإنستغرام وماسنجر ودردشة الموقع. ردود تلقائية، وحجز مواعيد، وتسليم المحادثة لفريقك في صندوق وارد واحد.",
-      keywords: `${BRAND_AR}, أتمتة المحادثات, اتمتة المحادثات, أتمتة الدردشة, ردود تلقائية, أتمتة الردود على الرسائل, ذكاء اصطناعي للدردشة`,
-    },
-  ),
-
-  "/reply-automation": page(
-    {
-      title: "Reply Automation — Auto Reply AI for Every Channel",
-      description:
-        "Easy Reply reply automation handles incoming messages automatically across WhatsApp, Instagram, and Messenger, so your team spends less time on repetitive replies.",
-      keywords: `${BRAND_EN}, reply automation, auto reply, automated replies, message reply automation, auto responder, AI auto reply`,
-    },
-    {
-      title: "أتمتة الردود — رد تلقائي على كل القنوات | Easy Reply",
-      description:
-        "أتمتة الردود من Easy Reply تتعامل مع الرسائل الواردة تلقائياً على واتساب وإنستغرام وماسنجر، فيقضي فريقك وقتاً أقل في الردود المتكررة.",
-      keywords: `${BRAND_AR}, أتمتة الردود, اتمتة الردود, رد تلقائي, ردود تلقائية, الرد الآلي, أتمتة الرد على الرسائل`,
+        "ردود ذكية على محادثات Easy Reply على واتساب وإنستغرام وماسنجر ودردشة الموقع. ردود تلقائية، وحجز مواعيد، وتسليم المحادثة لفريقك في صندوق وارد واحد.",
+      keywords: `${BRAND_AR}, الرد الذكي على المحادثات, اتمتة المحادثات, أتمتة الدردشة, ردود تلقائية, الردود التلقائية على الرسائل, ذكاء اصطناعي للدردشة`,
     },
   ),
 
-  "/ai-sales-agent": page(
+  "/auto-reply": page(
+    {
+      title: "Auto Reply AI for Every Channel",
+      description:
+        "Easy Reply's auto reply handles incoming messages automatically across WhatsApp, Instagram, and Messenger, so your team spends less time on repetitive replies.",
+      keywords: `${BRAND_EN}, auto reply, auto reply, automated replies, message auto reply, auto responder, AI auto reply`,
+    },
+    {
+      title: "الردود التلقائية — رد تلقائي على كل القنوات | Easy Reply",
+      description:
+        "الردود التلقائية من Easy Reply تتعامل مع الرسائل الواردة تلقائياً على واتساب وإنستغرام وماسنجر، فيقضي فريقك وقتاً أقل في الردود المتكررة.",
+      keywords: `${BRAND_AR}, الردود التلقائية, اتمتة الردود, رد تلقائي, ردود تلقائية, الرد الآلي, أتمتة الرد على الرسائل`,
+    },
+  ),
+
+  "/ai-assistant": page(
     {
       title: "AI That Answers Buying Questions — Easy Reply",
       description:
@@ -104,93 +104,63 @@ export const PAGE_SEO: Record<string, PageSeo> = {
 
   "/use-cases": page(
     {
-      title: "Use Cases — Easy Reply AI Chat Automation",
+      title: "Use Cases — Easy Reply AI Chat Replies",
       description: "See how Easy Reply answers customer inquiries for real estate, e-commerce, education, creators, and high-ticket service businesses.",
-      keywords: `${BRAND_EN}, chat automation use cases, whatsapp automation examples, AI customer support use cases`,
+      keywords: `${BRAND_EN}, chat replies use cases, whatsapp auto reply examples, AI customer support use cases`,
     },
     {
-      title: "حالات الاستخدام — أتمتة محادثات Easy Reply",
+      title: "حالات الاستخدام — ردود ذكية على محادثات Easy Reply",
       description: "اكتشف كيف يرد Easy Reply على استفسارات العملاء في العقارات والتجارة الإلكترونية والتعليم وصناعة المحتوى والخدمات عالية القيمة.",
-      keywords: `${BRAND_AR}, حالات استخدام, أتمتة المحادثات, أتمتة واتساب للشركات`,
+      keywords: `${BRAND_AR}, حالات استخدام, الرد الذكي على المحادثات, الرد التلقائي على واتساب للشركات`,
     },
   ),
 
   "/use-cases/high-ticket-service-providers": page(
     {
-      title: "AI Chat Automation for High-Ticket Services — Easy Reply",
+      title: "AI Chat Replies for High-Ticket Services — Easy Reply",
       description: "Answer high-ticket service inquiries with Easy Reply AI. Detailed answers from your own information, call booking when a client asks, and handoff to your team in chat.",
     },
     {
-      title: "أتمتة محادثات الخدمات عالية القيمة — Easy Reply",
+      title: "ردود ذكية على محادثات الخدمات عالية القيمة — Easy Reply",
       description: "أجب عن استفسارات الخدمات عالية القيمة مع Easy Reply. إجابات تفصيلية من معلوماتك، وحجز المكالمات حين يطلبها العميل، وتسليم المحادثة لفريقك.",
     },
   ),
 
   "/use-cases/e-commerce-brands": page(
     {
-      title: "E-commerce WhatsApp & Chat Automation — Easy Reply",
+      title: "E-commerce WhatsApp & Chat Auto Reply — Easy Reply",
       description: "Easy Reply helps e-commerce brands answer product questions and help shoppers choose the right products when they ask, on WhatsApp and Instagram.",
     },
     {
-      title: "أتمتة واتساب للتجارة الإلكترونية — Easy Reply",
+      title: "الرد التلقائي على واتساب للتجارة الإلكترونية — Easy Reply",
       description: "Easy Reply يساعد متاجر التجارة الإلكترونية على الرد على أسئلة المنتجات ومساعدة العملاء على اختيار المنتجات المناسبة حين يسألون.",
     },
   ),
 
   "/use-cases/real-estate-professionals": page(
     {
-      title: "AI for Real Estate — WhatsApp Inquiry Automation | Easy Reply",
+      title: "AI for Real Estate — AI Replies to WhatsApp Inquiries | Easy Reply",
       description: "Answer property inquiries and book viewings in chat with Easy Reply. Instant answers from your listings information and handoff to your agents when needed.",
     },
     {
-      title: "ذكاء اصطناعي للعقارات — أتمتة استفسارات واتساب | Easy Reply",
+      title: "ذكاء اصطناعي للعقارات — ردود ذكية على استفسارات واتساب | Easy Reply",
       description: "أجب عن استفسارات العقارات واحجز المعاينات داخل المحادثة مع Easy Reply. ردود فورية من معلومات عقاراتك وتسليم المحادثة لفريقك عند الحاجة.",
     },
   ),
 
   "/use-cases/educational-institutions": page(
     {
-      title: "AI Chat Automation for Education — Easy Reply",
+      title: "AI Chat Replies for Education — Easy Reply",
       description: "Easy Reply answers student inquiries and enrollment questions for schools, universities, and online courses.",
     },
     {
-      title: "أتمتة محادثات التعليم — Easy Reply",
+      title: "ردود ذكية على محادثات التعليم — Easy Reply",
       description: "Easy Reply يجيب عن استفسارات الطلاب وأسئلة التسجيل للمدارس والجامعات والدورات.",
     },
   ),
 
-  "/use-cases/social-media-brands-influencers": page(
-    {
-      title: "Instagram & Social DM Automation — Easy Reply",
-      description: "Answer the DMs people send you and handle brand inquiries with Easy Reply AI on Instagram, Facebook, and WhatsApp.",
-    },
-    {
-      title: "أتمتة رسائل إنستغرام والسوشيال — Easy Reply",
-      description: "أجب عن الرسائل الخاصة التي تصلك، وتعامل مع استفسارات العلامات التجارية مع Easy Reply على إنستغرام وواتساب.",
-    },
-  ),
 
-  "/alternatives/manychat": page(
-    {
-      title: "Easy Reply vs ManyChat — AI Reply Alternative",
-      description: "Compare Easy Reply and ManyChat. Easy Reply is an AI assistant that answers the messages your customers send you in natural conversation, not a flow-based chatbot.",
-    },
-    {
-      title: "Easy Reply vs ManyChat — بديل أذكى",
-      description: "قارن Easy Reply وManyChat. Easy Reply مساعد ذكاء اصطناعي يرد على الرسائل التي يرسلها إليك عملاؤك بحوار طبيعي، وليس شات بوت قائماً على الفلو.",
-    },
-  ),
 
-  "/alternatives/gohighlevel": page(
-    {
-      title: "Easy Reply vs GoHighLevel — Chat Automation Alternative",
-      description: "Easy Reply vs GoHighLevel for AI chat automation. Human-like AI replies to customers who message you on WhatsApp, Instagram, and Messenger.",
-    },
-    {
-      title: "Easy Reply vs GoHighLevel — بديل أتمتة المحادثات",
-      description: "Easy Reply مقابل GoHighLevel لأتمتة الرد على المحادثات بالذكاء الاصطناعي.",
-    },
-  ),
 
   "/alternatives/intercom": page(
     {
@@ -202,10 +172,10 @@ export const PAGE_SEO: Record<string, PageSeo> = {
 
   "/alternatives/tidio": page(
     {
-      title: "Easy Reply vs Tidio — AI Reply Automation Alternative",
-      description: "Easy Reply vs Tidio for reply automation. Go beyond basic live chat with AI that answers detailed questions and books appointments.",
+      title: "Easy Reply vs Tidio — AI Auto Reply Alternative",
+      description: "Easy Reply vs Tidio for AI auto replies. Go beyond basic live chat with AI that answers detailed questions and books appointments.",
     },
-    { title: "Easy Reply vs Tidio — بديل أتمتة الردود", description: "Easy Reply مقابل Tidio لأتمتة الرد على أسئلة العملاء." },
+    { title: "Easy Reply vs Tidio — بديل الردود التلقائية", description: "Easy Reply مقابل Tidio لأتمتة الرد على أسئلة العملاء." },
   ),
 
   "/alternatives/zendesk": page(
@@ -218,11 +188,11 @@ export const PAGE_SEO: Record<string, PageSeo> = {
 
   "/alternatives/diy-zapier-solutions": page(
     {
-      title: "Easy Reply vs DIY Zapier Chat Automation",
-      description: "Replace fragile Zapier DIY chat automation with Easy Reply — one AI assistant that answers customers on WhatsApp, Instagram, and Messenger.",
+      title: "Easy Reply vs DIY Zapier Chat Bots",
+      description: "Replace fragile Zapier DIY chat bots with Easy Reply — one AI assistant that answers customers on WhatsApp, Instagram, and Messenger.",
     },
     {
-      title: "Easy Reply vs Zapier — أتمتة محادثات بدون تعقيد",
+      title: "Easy Reply vs Zapier — ردود ذكية على محادثات بدون تعقيد",
       description: "استبدل حلول Zapier المعقدة بـ Easy Reply — مساعد واحد يرد على عملائك في كل القنوات.",
     },
   ),
@@ -240,46 +210,46 @@ export const PAGE_SEO: Record<string, PageSeo> = {
 
   "/features/whatsapp-business": page(
     {
-      title: "WhatsApp Business Automation — Easy Reply AI",
+      title: "WhatsApp Business Auto Reply — Easy Reply AI",
       description: "Automate WhatsApp Business replies with Easy Reply. AI answers to the messages customers send you, media understanding, appointment booking, and human handoff.",
-      keywords: `${BRAND_EN}, whatsapp business automation, whatsapp business AI, whatsapp auto reply business`,
+      keywords: `${BRAND_EN}, whatsapp business auto reply, whatsapp business AI, whatsapp auto reply business`,
     },
     {
-      title: "أتمتة واتساب للأعمال — Easy Reply",
+      title: "الرد التلقائي على واتساب للأعمال — Easy Reply",
       description: "أتمّت ردود واتساب للأعمال مع Easy Reply. ردود ذكية على رسائل عملائك، فهم وسائط، حجز مواعيد، وتسليم المحادثة لفريقك.",
-      keywords: `${BRAND_AR}, أتمتة واتساب للأعمال, واتساب بيزنس, ردود واتساب تلقائية`,
+      keywords: `${BRAND_AR}, الرد التلقائي على واتساب للأعمال, واتساب بيزنس, ردود واتساب تلقائية`,
     },
   ),
 
   "/features/instagram": page(
     {
-      title: "Instagram DM Automation — Easy Reply AI",
+      title: "Instagram DM Auto Reply — Easy Reply AI",
       description: "Automate replies to the Instagram DMs people send you with Easy Reply. An AI assistant that answers questions for creators and brands.",
     },
     {
-      title: "أتمتة رسائل إنستغرام — Easy Reply",
+      title: "الرد التلقائي على رسائل إنستغرام — Easy Reply",
       description: "أتمّت الرد على رسائل إنستغرام التي تصلك مع Easy Reply.",
     },
   ),
 
   "/features/facebook-messenger": page(
     {
-      title: "Facebook Messenger Automation — Easy Reply",
+      title: "Facebook Messenger Auto Reply — Easy Reply",
       description: "Automate replies to Facebook Messenger conversations with Easy Reply AI. Answer questions and book appointments in Messenger chat.",
     },
     {
-      title: "أتمتة ماسنجر — Easy Reply",
+      title: "الرد التلقائي على ماسنجر — Easy Reply",
       description: "أتمّت الرد على محادثات Facebook Messenger مع Easy Reply.",
     },
   ),
 
   "/features/web-chat": page(
     {
-      title: "Website Chat Automation — Easy Reply AI Agent",
-      description: "Add AI web chat automation to your site with Easy Reply. Answer visitors' questions with human-like automated replies.",
+      title: "Website Chat Auto Reply — Easy Reply AI Agent",
+      description: "Add AI replies for web chat to your site with Easy Reply. Answer visitors' questions with human-like automated replies.",
     },
     {
-      title: "أتمتة دردشة الموقع — Easy Reply",
+      title: "الرد التلقائي على دردشة الموقع — Easy Reply",
       description: "أضف دردشة موقع بالذكاء الاصطناعي مع Easy Reply.",
     },
   ),
@@ -314,7 +284,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     },
   ),
 
-  "/features/high-ticket-sales-capability": page(
+  "/features/buying-questions": page(
     {
       title: "AI That Answers Buying Questions — Easy Reply",
       description: "Easy Reply answers detailed questions about high-ticket services in chat, helps customers choose when they ask, and books calls on request.",
@@ -368,12 +338,12 @@ export const FAQ_SCHEMA = {
       a: "Easy Reply is an AI assistant that answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat. It replies automatically from your own business information, books appointments, and hands the chat to your team 24/7.",
     },
     {
-      q: "What is Easy Reply chat automation?",
-      a: "Easy Reply chat automation uses AI to answer incoming messages across all your messaging channels from one inbox.",
+      q: "What is Easy Reply's AI chat replies?",
+      a: "Easy Reply's AI chat replies uses AI to answer incoming messages across all your messaging channels from one inbox.",
     },
     {
-      q: "Does Easy Reply support WhatsApp automation?",
-      a: "Yes. Easy Reply provides WhatsApp Business automation including auto replies to the messages customers send you, media understanding, AI appointment booking, and human handoff.",
+      q: "Does Easy Reply auto-reply on WhatsApp?",
+      a: "Yes. Easy Reply provides WhatsApp Business auto replies, including auto replies to the messages customers send you, media understanding, AI appointment booking, and human handoff.",
     },
     {
       q: "Is Easy Reply a chatbot or an AI assistant?",
@@ -383,10 +353,6 @@ export const FAQ_SCHEMA = {
       q: "Can Easy Reply automate replies in Arabic and English?",
       a: "Yes. Easy Reply supports multilingual conversations including Arabic and English, with human-like replies tailored to your brand tone.",
     },
-    {
-      q: "How is Easy Reply different from ManyChat or Tidio?",
-      a: "ManyChat and Tidio focus on flows and live chat. Easy Reply answers the messages customers send you with AI that understands context, uses your own business information, and books appointments when a customer asks.",
-    },
   ],
   ar: [
     {
@@ -394,12 +360,12 @@ export const FAQ_SCHEMA = {
       a: "Easy Reply مساعد ذكاء اصطناعي يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع. يرد تلقائياً من معلومات عملك، ويحجز المواعيد، ويسلّم المحادثة لفريقك على مدار الساعة.",
     },
     {
-      q: "ما هي أتمتة الردود؟",
-      a: "أتمتة الردود تعني أن Easy Reply يرد على رسائل العملاء تلقائياً بالذكاء الاصطناعي دون تدخل يدوي — على واتساب وإنستغرام وماسنجر وموقعك.",
+      q: "ما هي الردود التلقائية؟",
+      a: "الردود التلقائية تعني أن Easy Reply يرد على رسائل العملاء تلقائياً بالذكاء الاصطناعي دون تدخل يدوي — على واتساب وإنستغرام وماسنجر وموقعك.",
     },
     {
-      q: "هل يدعم Easy Reply أتمتة واتساب؟",
-      a: "نعم. Easy Reply يوفر أتمتة واتساب للأعمال: ردود تلقائية على رسائل عملائك، فهم صور وصوت، حجز مواعيد بالذكاء الاصطناعي، وتسليم المحادثة لفريقك.",
+      q: "هل يدعم Easy Reply الرد التلقائي على واتساب؟",
+      a: "نعم. Easy Reply يوفر الرد التلقائي على واتساب للأعمال: ردود تلقائية على رسائل عملائك، فهم صور وصوت، حجز مواعيد بالذكاء الاصطناعي، وتسليم المحادثة لفريقك.",
     },
     {
       q: "هل Easy Reply شات بوت أم مساعد ذكي؟",
@@ -408,10 +374,6 @@ export const FAQ_SCHEMA = {
     {
       q: "هل يعمل Easy Reply بالعربية والإنجليزية؟",
       a: "نعم. Easy Reply يدعم محادثات متعددة اللغات بما فيها العربية والإنجليزية بردود طبيعية تناسب علامتك التجارية.",
-    },
-    {
-      q: "كيف يختلف Easy Reply عن ManyChat أو Tidio؟",
-      a: "ManyChat وTidio يركزان على الفلو والدردشة المباشرة. Easy Reply يرد على الرسائل التي يرسلها إليك العملاء بذكاء اصطناعي يفهم السياق، ويستخدم معلومات عملك، ويحجز المواعيد حين يطلبها العميل.",
     },
   ],
 };
@@ -431,8 +393,8 @@ export function buildSoftwareApplicationJsonLd(lang: "en" | "ar") {
     url: SITE_URL,
     description:
       lang === "ar"
-        ? "منصة أتمتة الردود والمحادثات بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر"
-        : "AI chat automation and reply automation platform for WhatsApp, Instagram, and Messenger",
+        ? "منصة الردود التلقائية والمحادثات بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر"
+        : "AI chat replies and auto reply platform for WhatsApp, Instagram, and Messenger",
     offers: {
       "@type": "AggregateOffer",
       lowPrice: "29",

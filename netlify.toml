@@ -44,6 +44,55 @@
   to = "/features/integrations"
   status = 301
 
+[[redirects]]
+  from = "/alternatives/manychat"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/alternatives/gohighlevel"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/use-cases/social-media-brands-influencers"
+  to = "/use-cases"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/whatsappDM.png"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/whatsapp-automation"
+  to = "/whatsapp-auto-reply"
+  status = 301
+
+[[redirects]]
+  from = "/chat-automation"
+  to = "/ai-chat-replies"
+  status = 301
+
+[[redirects]]
+  from = "/reply-automation"
+  to = "/auto-reply"
+  status = 301
+
+[[redirects]]
+  from = "/ai-sales-agent"
+  to = "/ai-assistant"
+  status = 301
+
+[[redirects]]
+  from = "/features/high-ticket-sales-capability"
+  to = "/features/buying-questions"
+  status = 301
+
 # SPA fallback — marketing site (static files like sitemap.xml are served first)
 [[redirects]]
   from = "/*"

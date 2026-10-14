@@ -4,10 +4,10 @@ const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 
 const urls = [
   `https://${HOST}/`,
-  `https://${HOST}/whatsapp-automation`,
-  `https://${HOST}/chat-automation`,
-  `https://${HOST}/reply-automation`,
-  `https://${HOST}/ai-sales-agent`,
+  `https://${HOST}/whatsapp-auto-reply`,
+  `https://${HOST}/ai-chat-replies`,
+  `https://${HOST}/auto-reply`,
+  `https://${HOST}/ai-assistant`,
   `https://${HOST}/use-cases`,
   `https://${HOST}/features/whatsapp-business`,
 ];

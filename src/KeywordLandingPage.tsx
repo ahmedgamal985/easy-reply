@@ -18,9 +18,9 @@ type KeywordContent = {
 };
 
 const CONTENT: Record<string, KeywordContent> = {
-  "/whatsapp-automation": {
+  "/whatsapp-auto-reply": {
     en: {
-      h1: "WhatsApp Automation with Easy Reply",
+      h1: "WhatsApp Auto Reply with Easy Reply",
       intro:
         "Easy Reply is the AI assistant for WhatsApp Business. It answers the customers who message you, using your FAQs, website and documents, remembers the conversation context, and hands the chat to your team when a person is needed — with human-like replies, not rigid chatbot flows.",
       bullets: [
@@ -29,10 +29,10 @@ const CONTENT: Record<string, KeywordContent> = {
         "Hand the chat to your team when needed",
         "AI appointment booking inside WhatsApp chat",
       ],
-      cta: "Start WhatsApp automation",
+      cta: "Start WhatsApp auto reply",
     },
     ar: {
-      h1: "أتمتة واتساب مع Easy Reply",
+      h1: "الرد التلقائي على واتساب مع Easy Reply",
       intro:
         "Easy Reply مساعد ذكاء اصطناعي لواتساب للأعمال. يرد على العملاء الذين يراسلونك من أسئلتك الشائعة وموقعك ومستنداتك، ويتذكّر سياق المحادثة، ويسلّم المحادثة لفريقك حين يلزم تدخّل شخص — بردود طبيعية وليس فلوهات جامدة.",
       bullets: [
@@ -41,16 +41,16 @@ const CONTENT: Record<string, KeywordContent> = {
         "تسليم المحادثة لفريقك عند الحاجة",
         "حجز مواعيد داخل محادثة واتساب",
       ],
-      cta: "ابدأ أتمتة واتساب",
+      cta: "ابدأ الرد التلقائي على واتساب",
     },
   },
-  "/chat-automation": {
+  "/ai-chat-replies": {
     en: {
-      h1: "Chat Automation for WhatsApp, Instagram & Messenger",
+      h1: "AI Chat Replies for WhatsApp, Instagram & Messenger",
       intro:
-        "Easy Reply chat automation software answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat, all from one inbox. Automate replies, answer customer questions 24/7, and hand the chat to your team when needed.",
+        "Easy Reply's AI chat replies software answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat, all from one inbox. Automate replies, answer customer questions 24/7, and hand the chat to your team when needed.",
       bullets: [
-        "Omnichannel chat automation in one place",
+        "Omnichannel chat replies in one place",
         "Human-like AI that remembers the conversation context",
         "Answers from your FAQs, website and documents",
         "Real-time web search for accurate answers",
@@ -58,11 +58,11 @@ const CONTENT: Record<string, KeywordContent> = {
       cta: "Automate your chats",
     },
     ar: {
-      h1: "أتمتة المحادثات لواتساب وإنستغرام وماسنجر",
+      h1: "الرد الذكي على المحادثات لواتساب وإنستغرام وماسنجر",
       intro:
-        "برنامج أتمتة محادثات Easy Reply يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع من صندوق وارد واحد. ردود تلقائية، وإجابات عن أسئلة العملاء على مدار الساعة، وتسليم المحادثة لفريقك عند الحاجة.",
+        "برنامج ردود ذكية على محادثات Easy Reply يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع من صندوق وارد واحد. ردود تلقائية، وإجابات عن أسئلة العملاء على مدار الساعة، وتسليم المحادثة لفريقك عند الحاجة.",
       bullets: [
-        "أتمتة محادثات متعددة القنوات",
+        "ردود ذكية على محادثات متعددة القنوات",
         "ذكاء اصطناعي يتذكّر سياق المحادثة",
         "إجابات من أسئلتك الشائعة وموقعك ومستنداتك",
         "بحث ويب لحظي لردود دقيقة",
@@ -70,11 +70,11 @@ const CONTENT: Record<string, KeywordContent> = {
       cta: "أتمّت محادثاتك",
     },
   },
-  "/reply-automation": {
+  "/auto-reply": {
     en: {
-      h1: "Reply Automation — Auto Reply on Every Channel",
+      h1: "Auto Reply on Every Channel",
       intro:
-        "Easy Reply reply automation responds to customers instantly on WhatsApp, Instagram, Messenger, and web chat. Answer more customer questions without losing the personal touch.",
+        "Easy Reply's auto reply responds to customers instantly on WhatsApp, Instagram, Messenger, and web chat. Answer more customer questions without losing the personal touch.",
       bullets: [
         "Instant auto reply 24/7",
         "Context-aware replies that remember the conversation",
@@ -84,9 +84,9 @@ const CONTENT: Record<string, KeywordContent> = {
       cta: "Automate replies now",
     },
     ar: {
-      h1: "أتمتة الردود — رد تلقائي على كل القنوات",
+      h1: "الردود التلقائية — رد تلقائي على كل القنوات",
       intro:
-        "أتمتة الردود من Easy Reply ترد على العملاء فوراً على واتساب وإنستغرام وماسنجر ودردشة الموقع. أجب عن أسئلة عملاء أكثر دون أن تفقد اللمسة الشخصية.",
+        "الردود التلقائية من Easy Reply ترد على العملاء فوراً على واتساب وإنستغرام وماسنجر ودردشة الموقع. أجب عن أسئلة عملاء أكثر دون أن تفقد اللمسة الشخصية.",
       bullets: [
         "رد تلقائي فوري على مدار الساعة",
         "ردود ذكية تتذكّر سياق المحادثة",
@@ -96,7 +96,7 @@ const CONTENT: Record<string, KeywordContent> = {
       cta: "أتمّت الردود الآن",
     },
   },
-  "/ai-sales-agent": {
+  "/ai-assistant": {
     en: {
       h1: "AI That Answers Buying Questions — Easy Reply",
       intro:
@@ -124,7 +124,7 @@ const CONTENT: Record<string, KeywordContent> = {
   },
 };
 
-type Props = { pageKey: "/whatsapp-automation" | "/chat-automation" | "/reply-automation" | "/ai-sales-agent" };
+type Props = { pageKey: "/whatsapp-auto-reply" | "/ai-chat-replies" | "/auto-reply" | "/ai-assistant" };
 
 export default function KeywordLandingPage({ pageKey }: Props) {
   const { lang, toggleLang, L } = useLanguage();
@@ -175,14 +175,14 @@ export default function KeywordLandingPage({ pageKey }: Props) {
         <nav className="mt-16 border-t border-gray-100 pt-8" aria-label="Related">
           <p className="text-sm font-semibold text-ink">{lang === "en" ? "Related pages" : "صفحات ذات صلة"}</p>
           <div className="mt-3 flex flex-wrap gap-3 text-sm">
-            <a href="/whatsapp-automation" className="text-accent hover:underline">
-              {lang === "en" ? "WhatsApp automation" : "أتمتة واتساب"}
+            <a href="/whatsapp-auto-reply" className="text-accent hover:underline">
+              {lang === "en" ? "WhatsApp auto reply" : "الرد التلقائي على واتساب"}
             </a>
-            <a href="/chat-automation" className="text-accent hover:underline">
-              {lang === "en" ? "Chat automation" : "أتمتة المحادثات"}
+            <a href="/ai-chat-replies" className="text-accent hover:underline">
+              {lang === "en" ? "AI chat replies" : "الرد الذكي على المحادثات"}
             </a>
-            <a href="/reply-automation" className="text-accent hover:underline">
-              {lang === "en" ? "Reply automation" : "أتمتة الردود"}
+            <a href="/auto-reply" className="text-accent hover:underline">
+              {lang === "en" ? "Auto reply" : "الردود التلقائية"}
             </a>
             <a href="/features/whatsapp-business" className="text-accent hover:underline">
               {lang === "en" ? "WhatsApp features" : "مزايا واتساب"}
