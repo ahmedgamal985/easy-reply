@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import PrivacyPolicyPage from "./PrivacyPolicyPage";
 import TermsPage from "./TermsPage";
+import RefundPolicyPage from "./RefundPolicyPage";
 import HighTicketUseCasePage from "./HighTicketUseCasePage";
 import EcommerceUseCasePage from "./EcommerceUseCasePage";
 import RealEstateUseCasePage from "./RealEstateUseCasePage";
@@ -102,6 +103,8 @@ const Page = KEYWORD_PATHS.includes(path as KeywordPageKey)
     ? PrivacyPolicyPage
     : path === "/terms"
       ? TermsPage
+      : path === "/refund-policy"
+      ? RefundPolicyPage
       : path === "/use-cases"
         ? UseCasesOverviewPage
       : path === "/use-cases/high-ticket-service-providers"

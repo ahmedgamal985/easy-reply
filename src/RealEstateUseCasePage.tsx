@@ -34,7 +34,7 @@ const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "Comprehensive Property Insights",
-    body: "Easy Reply leverages your listings to answer detailed questions about location, features, dimensions, schools, and neighborhood information giving prospects instant clarity.",
+    body: "Using the listing details you provide, Easy Reply answers questions about location, features, dimensions, schools, and the neighborhood, so people who inquire get clear answers right away.",
     chip: "Answers Listing Questions",
   },
   {
@@ -52,14 +52,14 @@ const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "4",
     title: "Automated Viewing Scheduling",
-    body: "Once a prospect is qualified, Easy Reply coordinates with your calendar to schedule property viewings seamlessly, saving time and reducing missed opportunities.",
+    body: "Once a buyer is qualified, Easy Reply checks your calendar and books the property viewing inside the chat, saving the back-and-forth of scheduling.",
     chip: "Books Viewings Automatically",
   },
   {
     id: "5",
-    title: "Ongoing Lead Nurturing",
-    body: "For prospects who are not ready to commit immediately, Easy Reply maintains personalized follow-ups over weeks or months keeping them engaged without requiring your attention.",
-    chip: "Keeps Leads Warm",
+    title: "Follow-Ups With Past Inquiries",
+    body: "For people who contacted you but are not ready yet, Easy Reply can send scheduled follow-ups in the same conversation. On WhatsApp, messages outside the 24-hour window use Meta-approved templates sent only to contacts who opted in.",
+    chip: "Follows Up With Inquiries",
   },
 ];
 
@@ -67,7 +67,7 @@ const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "رؤى شاملة عن العقار",
-    body: "يستفيد Easy Reply من قوائمك للإجابة عن أسئلة تفصيلية حول الموقع والمميزات والمساحات والمدارس والحي، فيمنح العملاء المحتملين وضوحًا فوريًا.",
+    body: "بالاعتماد على تفاصيل العقارات التي تضيفها، يجيب Easy Reply عن أسئلة الموقع والمميزات والمساحات والمدارس والحي، فيحصل كل من يستفسر على إجابات واضحة فورًا.",
     chip: "يجيب عن أسئلة القوائم",
   },
   {
@@ -85,14 +85,14 @@ const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "4",
     title: "جدولة معاينات تلقائية",
-    body: "بعد تأهيل العميل المحتمل، ينسّق Easy Reply مع تقويمك لجدولة معاينات العقار بسلاسة، ما يوفر الوقت ويقلّل الفرص الضائعة.",
+    body: "بعد تأهيل المشتري، يتحقق Easy Reply من تقويمك ويحجز معاينة العقار داخل المحادثة، فيوفّر عناء تنسيق المواعيد ذهابًا وإيابًا.",
     chip: "يجدول المعاينات تلقائيًا",
   },
   {
     id: "5",
-    title: "رعاية مستمرة للعملاء المحتملين",
-    body: "لمن ليسوا مستعدين للالتزام فورًا، يحافظ Easy Reply على متابعات شخصية على مدى أسابيع أو أشهر لإبقائهم مهتمين دون أن يتطلب ذلك انتباهك.",
-    chip: "يحافظ على دفء العملاء المحتملين",
+    title: "متابعة الاستفسارات السابقة",
+    body: "لمن تواصلوا معك ولم يكونوا مستعدين بعد، يمكن لـ Easy Reply إرسال متابعات مجدولة في المحادثة نفسها. على واتساب، تُرسل الرسائل خارج نافذة الـ24 ساعة بقوالب معتمدة من Meta وفقط لجهات الاتصال التي وافقت على استقبالها.",
+    chip: "يتابع الاستفسارات السابقة",
   },
 ];
 
@@ -152,23 +152,23 @@ export default function RealEstateUseCasePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "حوّل كل استفسار عقاري إلى معاينة مجدولة بسهولة"
-                : "Turn Every Property Inquiry Into a Scheduled Viewing Effortlessly"}
+                ? "أجب عن كل استفسار عقاري واحجز المعاينات داخل المحادثة"
+                : "Answer Every Property Inquiry and Book Viewings in Chat"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "في العقارات، المتابعة السريعة والاهتمام الشخصي يحددان الفرق بين عميل ضائع وموعد محجوز."
-                : "In real estate, timely follow-up and personalized attention make the difference between a lost lead and a booked appointment."}
+                ? "في العقارات، الرد السريع والدقيق على الاستفسار والاهتمام الشخصي عاملان مهمان في حجز المعاينة."
+                : "In real estate, a fast, accurate reply and personal attention matter when someone asks about a property."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتفاعل Easy Reply مع الاستفسارات الواردة فورًا، ويجيب عن أسئلة القوائم، ويؤهّل العملاء الجادّين، ويجدول المعاينات مع رعاية العملاء المحتملين على المدى الطويل."
-                : "Easy Reply engages incoming inquiries instantly, answers listing questions, qualifies serious prospects, and schedules viewings while nurturing leads over time."}
+                ? "يرد Easy Reply على الاستفسارات الواردة فورًا، ويجيب عن أسئلة العقارات، ويؤهّل المشترين الجادّين، ويجدول المعاينات، ويتابع مع من تواصلوا معك من قبل."
+                : "Easy Reply replies to incoming inquiries instantly, answers listing questions, qualifies serious buyers, schedules viewings, and follows up with people who already contacted you."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "هذا يتيح للوكلاء التركيز على إغلاق الصفقات بينما يحصل كل فرصة على متابعة في الوقت المناسب وباستمرار."
-                : "This allows agents to focus on closing deals while every opportunity gets timely and consistent follow-up."}
+                ? "يقضي الوكلاء وقتًا أقل في الأسئلة المتكررة، ويحصل كل استفسار على رد في الوقت المناسب وبأسلوب ثابت."
+                : "Agents spend less time on repetitive questions, and every inquiry gets a timely, consistent reply."}
             </p>
             <a
               href="#pricing"
@@ -187,8 +187,8 @@ export default function RealEstateUseCasePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "حل أذكى للعقارات يصعب أن تضاهيه الأساليب التقليدية"
-                : "A Smarter Solution for Real Estate That Traditional Methods Can’t Match"}
+                ? "طريقة أذكى للتعامل مع استفسارات العقارات"
+                : "A Smarter Way to Handle Property Inquiries"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -197,8 +197,8 @@ export default function RealEstateUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتفاعل Easy Reply مع كل استفسار فورًا، ويقدّم إجابات تفصيلية، ويؤهّل المشترين المتحمسين، ويجدول المعاينات تلقائيًا حتى لا تُفوّت فرصة بينما يركّز الوكلاء على إغلاق الصفقات."
-                : "Easy Reply engages every inquiry instantly, provides detailed answers, qualifies motivated buyers, and schedules viewings automatically so no opportunity is missed while agents focus on closing deals."}
+                ? "يرد Easy Reply على كل استفسار يصلك فورًا، ويقدّم إجابات تفصيلية، ويؤهّل المشترين المهتمين، ويجدول المعاينات تلقائيًا، بينما يركّز الوكلاء على العمل مع العملاء."
+                : "Easy Reply replies to every inquiry you receive instantly, provides detailed answers, qualifies interested buyers, and schedules viewings automatically, while agents focus on working with clients."}
             </p>
           </div>
         </section>
@@ -308,12 +308,14 @@ export default function RealEstateUseCasePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -414,6 +416,9 @@ export default function RealEstateUseCasePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

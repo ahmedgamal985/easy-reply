@@ -41,9 +41,9 @@ export default function WebChatFeaturePage() {
         },
         {
           id: "2",
-          title: "تفاعل استباقي",
-          body: "يبدأ المحادثات تلقائيًا وفق سلوك الزائر وسياق الصفحة وإشارات الجلسة، لتبدو المبادرة في وقتها وذات صلة.",
-          chip: "تواصل مدفوع بالسلوك",
+          title: "ترحيب استباقي داخل الموقع",
+          body: "تظهر فقاعة ترحيب مع أسئلة مقترحة داخل نافذة الدردشة على موقعك، ليعرف الزائر أن المساعدة متاحة متى احتاجها، ويبدأ المحادثة بنفسه.",
+          chip: "فقاعة ترحيب وأسئلة مقترحة",
         },
         {
           id: "3",
@@ -53,14 +53,14 @@ export default function WebChatFeaturePage() {
         },
         {
           id: "4",
-          title: "إدراك سياق الموقع",
-          body: "يتتبع الصفحات التي يستكشفها كل زائر ويشير إلى محتوى الموقع ذي الصلة بأسلوب طبيعي داخل المحادثة لزيادة التفاعل.",
-          chip: "محادثات واعية بالصفحة",
+          title: "إجابات من محتوى موقعك",
+          body: "يعتمد الذكاء الاصطناعي على صفحات موقعك ومعلوماتك المعتمدة، ويشارك روابط مباشرة للصفحات ذات الصلة بأسلوب طبيعي داخل المحادثة.",
+          chip: "روابط لصفحاتك ذات الصلة",
         },
         {
           id: "5",
           title: "تسليم سلس للفريق",
-          body: "ينقل الدردشات إلى موظفين بشريين أو يجدول معاودات الاتصال أو ينشئ تذاكر دعم عند الحاجة دون فقدان السياق.",
+          body: "ينقل الدردشة إلى أحد أعضاء فريقك أو يحجز موعدًا للتواصل عند الحاجة، دون فقدان سياق المحادثة.",
           chip: "تصعيد منظم للفريق",
         },
       ]
@@ -73,9 +73,9 @@ export default function WebChatFeaturePage() {
         },
         {
           id: "2",
-          title: "Proactive Engagement",
-          body: "Start conversations automatically based on visitor behavior, page context, and session signals so outreach feels timely and relevant.",
-          chip: "Behavior-Driven Outreach",
+          title: "Proactive Welcome on Your Site",
+          body: "Show a welcome bubble with suggested questions in the chat widget on your site, so visitors know help is available and can start a conversation whenever they need it.",
+          chip: "Welcome Bubble and Starter Questions",
         },
         {
           id: "3",
@@ -85,14 +85,14 @@ export default function WebChatFeaturePage() {
         },
         {
           id: "4",
-          title: "Website Context Awareness",
-          body: "Track pages each visitor explores and reference relevant site content naturally within the conversation to increase engagement.",
-          chip: "Page-Aware Conversations",
+          title: "Answers From Your Website Content",
+          body: "The AI draws on your website pages and approved information, and shares direct links to the relevant pages naturally within the conversation.",
+          chip: "Links to Relevant Pages",
         },
         {
           id: "5",
           title: "Seamless Handoffs",
-          body: "Transfer chats to human agents, schedule callbacks, or create support tickets when needed without losing context.",
+          body: "Hand a chat to a member of your team or book a follow-up call when needed, without losing the conversation's context.",
           chip: "Smooth Team Escalation",
         },
       ];
@@ -156,8 +156,8 @@ export default function WebChatFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply دردشة الموقع إلى قناة بيع عالية التحويل بمحادثات طبيعية تجيب على الأسئلة وتعالج الاعتراضات وتوجّه الزائر نحو الشراء."
-                : "Easy Reply transforms web chat into a high-converting sales channel with natural conversations that answer questions, resolve objections, and guide visitors toward purchase."}
+                ? "يحوّل Easy Reply دردشة الموقع إلى قناة بيع ودعم بمحادثات طبيعية تجيب على الأسئلة وتعالج الاعتراضات وتوجّه الزائر نحو الشراء."
+                : "Easy Reply turns web chat into a sales and support channel with natural conversations that answer questions, resolve objections, and guide visitors toward purchase."}
             </p>
             <a
               href="#pricing"
@@ -176,18 +176,18 @@ export default function WebChatFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يحوّل موقعك إلى محرك مبيعات يعمل على مدار الساعة"
-                : "Easy Reply Turns Your Website Into a 24/7 Sales Engine"}
+                ? "Easy Reply يضيف إلى موقعك مساعد مبيعات يعمل على مدار الساعة"
+                : "Easy Reply Adds a 24/7 Sales Assistant to Your Website"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "قد يجذب الموقع الزيارات، لكن دون تفاعل ذكي يغادر معظم الزوار دون اتخاذ خطوة."
-                : "Websites can attract traffic, but without intelligent engagement most visitors leave before taking action."}
+                ? "قد يجذب الموقع الزيارات، لكن كثيرًا من الزوار يغادرون حين لا يجدون إجابة سريعة عن أسئلتهم."
+                : "Websites can attract traffic, but many visitors leave when they can't get a quick answer to their questions."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يضيف Easy Reply دردشة ويب شبه بشرية تجيب على الأسئلة وتعالج الاعتراضات وتوجّه المستخدمين في مسار الشراء كأفضل مندوب مبيعات متاح طوال الوقت."
-                : "Easy Reply adds human-like web chat that answers questions, handles objections, and guides users through the path to purchase like a top salesperson available around the clock."}
+                ? "يضيف Easy Reply دردشة ويب شبه بشرية تجيب على الأسئلة وتعالج الاعتراضات وتوجّه المستخدمين في مسار الشراء، وتبقى متاحة طوال الوقت."
+                : "Easy Reply adds human-like web chat that answers questions, handles objections, and guides users through the path to purchase, available around the clock."}
             </p>
           </div>
         </section>
@@ -297,12 +297,14 @@ export default function WebChatFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -400,6 +402,9 @@ export default function WebChatFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

@@ -47,21 +47,21 @@ export default function AIIntegrationsFeaturePage() {
         },
         {
           id: "3",
-          title: "حملات مؤتمتة",
-          body: "أنشئ تدفقات متابعة متعددة المراحل تجمع بين محادثات الذكاء الاصطناعي ورسائل المتابعة المجدولة عبر قنوات مختلفة.",
-          chip: "حملات متعددة المراحل",
+          title: "تسلسلات متابعة",
+          body: "أنشئ متابعات متعددة الخطوات للأشخاص الذين تواصلوا معك بالفعل، تجمع بين ردود الذكاء الاصطناعي والتذكيرات المجدولة ضمن قواعد كل قناة.",
+          chip: "متابعة متعددة الخطوات",
         },
         {
           id: "4",
-          title: "محفزات سلوكية",
-          body: "تُطلق الرسائل والحملات تلقائيًا بناءً على تصرفات العميل، لضمان تواصل في الوقت المناسب وبمحتوى أكثر صلة.",
-          chip: "إطلاق حسب السلوك",
+          title: "رسائل قوالب بموافقة العميل",
+          body: "على واتساب، تُرسَل رسائل القوالب المعتمدة من Meta فقط إلى العملاء الذين وافقوا على استلامها، مثل تحديثات الطلبات والتذكيرات والعروض التي طلبوها.",
+          chip: "بموافقة العميل فقط",
         },
         {
           id: "5",
-          title: "رؤى تحويل متقدمة",
-          body: "تتبع رحلة العميل كاملة من أول محادثة حتى إتمام التحويل، مع رؤية واضحة لما يدفع الأداء والإيرادات.",
-          chip: "قياس رحلة التحويل",
+          title: "متابعة المسار والنتائج",
+          body: "تابع رحلة كل عميل من أول رسالة حتى النتيجة، وانقل الفرص بين مراحل المبيعات مع رؤية واضحة لنتائج المحادثات.",
+          chip: "يتابع الرحلة كاملة",
         },
       ]
     : [
@@ -79,20 +79,20 @@ export default function AIIntegrationsFeaturePage() {
         },
         {
           id: "3",
-          title: "Automated Campaigns",
-          body: "Launch multi-stage nurturing flows with AI conversations, reminders, and follow-ups across channels from one unified system.",
-          chip: "Runs Multi-Step Flows",
+          title: "Follow-Up Sequences",
+          body: "Set up multi-step follow-ups for people who already contacted you, combining AI replies and scheduled reminders within each channel's messaging rules.",
+          chip: "Multi-Step Follow-Ups",
         },
         {
           id: "4",
-          title: "Behavioral Triggers",
-          body: "Messages and campaigns trigger based on customer actions, ensuring each touchpoint is timely, relevant, and conversion-focused.",
-          chip: "Triggers by Behavior",
+          title: "Opt-In Template Messages",
+          body: "On WhatsApp, Meta-approved template messages go only to customers who opted in to receive them, such as order updates, reminders, and offers they asked for.",
+          chip: "Opt-In Only",
         },
         {
           id: "5",
-          title: "Conversion Insights",
-          body: "Track the full journey from first chat to final conversion with clear visibility into what drives performance and revenue.",
+          title: "Pipeline and Outcome Tracking",
+          body: "Follow each customer from first message to outcome, move opportunities through your sales stages, and see clear conversation results.",
           chip: "Measures Full Journey",
         },
       ];
@@ -147,22 +147,22 @@ export default function AIIntegrationsFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "من المحادثة إلى التحويل" : "From Chat to Conversion"}
+              {isAr ? "تنظيم جهات الاتصال والمتابعة" : "Contact Organization and Follow-Up"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "معظم حلول الدردشة تعمل بشكل منفصل وتفقد فرصًا تسويقية مهمة. Easy Reply يربط كل محادثة بمنظومتك التسويقية بشكل متكامل."
-                : "Most chatbots work in isolation and miss downstream opportunities. Easy Reply connects each conversation to your broader marketing ecosystem."}
+                ? "معظم حلول الدردشة تعمل بشكل منفصل عن بيانات العملاء. Easy Reply يربط كل محادثة بسجل جهة الاتصال الخاصة بها."
+                : "Most chatbots work in isolation from your customer data. Easy Reply links each conversation to the right contact record."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتم تنظيم العملاء المحتملين وتقسيمهم تلقائيًا لضمان انتقال كل عميل إلى المسار الصحيح دون عبء تشغيلي إضافي."
-                : "Leads are organized and segmented automatically so every prospect follows the right path with zero manual overhead."}
+                ? "يتم تنظيم الأشخاص الذين يراسلونك وتصنيفهم تلقائيًا، ليتابع كل عميل المسار المناسب له بجهد يدوي أقل."
+                : "People who message you are organized and segmented automatically, so every lead follows the right path with less manual work."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تنطلق المتابعات والحملات المخصصة تلقائيًا بناءً على المحادثة، لتحويل التفاعل إلى عملية إيراد منظمة وقابلة للتوسع."
-                : "Personalized follow-ups and campaigns trigger from chat activity, transforming engagement into structured revenue processes."}
+                ? "تنطلق المتابعات المخصصة مع من تواصلوا معك بناءً على المحادثة، ولا تُرسَل رسائل قوالب واتساب إلا للعملاء الذين وافقوا على استلامها."
+                : "Personalized follow-ups with people who contacted you are triggered by chat activity, and WhatsApp template messages go only to customers who opted in."}
             </p>
             <a
               href="#pricing"
@@ -180,17 +180,17 @@ export default function AIIntegrationsFeaturePage() {
               {isAr ? "كيف تعمل" : "How it works"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              {isAr ? "Easy Reply يوحد المحادثات مع أتمتة الحملات" : "Easy Reply Unifies Conversations With Campaign Automation"}
+              {isAr ? "Easy Reply يوحد المحادثات وجهات الاتصال والمتابعة" : "Easy Reply Unifies Conversations, Contacts, and Follow-Ups"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تعتمد كثير من الشركات على أدوات متفرقة، حيث تكون المحادثات والجهات والحملات في أنظمة منفصلة."
-                : "Many businesses operate across disconnected tools where chat, contacts, and campaigns live in separate silos."}
+                ? "تعتمد كثير من الشركات على أدوات متفرقة، حيث تكون المحادثات وجهات الاتصال والمتابعات في أنظمة منفصلة."
+                : "Many businesses operate across disconnected tools where chat, contacts, and follow-ups live in separate silos."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع Easy Reply هذه الأنظمة في تدفق واحد يجمع بين المحادثات الطبيعية وذكاء إدارة العملاء والأتمتة لرفع التحويل."
-                : "Easy Reply merges these systems into one flow, combining natural conversations with contact intelligence and automation to drive conversions."}
+                ? "يجمع Easy Reply هذه الأنظمة في مكان واحد يربط بين المحادثات الطبيعية وتنظيم جهات الاتصال وأتمتة المتابعة."
+                : "Easy Reply brings these together in one place, combining natural conversations with contact organization and follow-up automation."}
             </p>
           </div>
         </section>
@@ -300,12 +300,14 @@ export default function AIIntegrationsFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -403,6 +405,9 @@ export default function AIIntegrationsFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

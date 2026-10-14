@@ -22,11 +22,11 @@ const CONTENT: Record<string, KeywordContent> = {
     en: {
       h1: "WhatsApp Automation with Easy Reply",
       intro:
-        "Easy Reply is the AI platform for WhatsApp Business automation. Auto reply to customers, qualify leads, run campaigns, and close sales — with human-like conversations, not rigid chatbot flows.",
+        "Easy Reply is the AI platform for WhatsApp Business automation. It answers the customers who message you, qualifies leads, follows up with people who already contacted you, and guides buyers toward a purchase — with human-like conversations, not rigid chatbot flows.",
       bullets: [
         "WhatsApp auto reply for every incoming message",
         "Understand images, voice notes, and documents",
-        "Outbound WhatsApp campaigns and follow-ups",
+        "Follow-ups to opted-in customers with Meta-approved templates",
         "AI appointment booking inside WhatsApp chat",
       ],
       cta: "Start WhatsApp automation",
@@ -34,11 +34,11 @@ const CONTENT: Record<string, KeywordContent> = {
     ar: {
       h1: "أتمتة واتساب مع Easy Reply",
       intro:
-        "Easy Reply منصة أتمتة واتساب للأعمال. ردود تلقائية، تأهيل عملاء، حملات، وإغلاق صفقات — بمحادثات طبيعية وليس فلوهات جامدة.",
+        "Easy Reply منصة أتمتة واتساب للأعمال. يرد على العملاء الذين يراسلونك، ويؤهل العملاء المحتملين، ويتابع مع من تواصلوا معك من قبل، ويرشد المشترين نحو الشراء — بمحادثات طبيعية وليس فلوهات جامدة.",
       bullets: [
         "رد تلقائي على كل رسالة واتساب واردة",
         "فهم الصور والرسائل الصوتية والمستندات",
-        "حملات ومتابعات واتساب صادرة",
+        "متابعات للعملاء الموافقين بقوالب معتمدة من Meta",
         "حجز مواعيد داخل محادثة واتساب",
       ],
       cta: "ابدأ أتمتة واتساب",
@@ -48,11 +48,11 @@ const CONTENT: Record<string, KeywordContent> = {
     en: {
       h1: "Chat Automation for WhatsApp, Instagram & Messenger",
       intro:
-        "Easy Reply chat automation software runs your entire sales conversation across every messaging channel from one dashboard. Automate replies, qualify buyers, and convert chats into revenue.",
+        "Easy Reply chat automation software answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat, all from one dashboard. Automate replies, qualify buyers, and help them complete their purchase.",
       bullets: [
         "Omnichannel chat automation in one place",
         "Human-like AI that handles objections",
-        "Comment-to-DM on Instagram and Facebook",
+        "Private replies to people who comment on your posts",
         "Real-time web search for accurate answers",
       ],
       cta: "Automate your chats",
@@ -60,11 +60,11 @@ const CONTENT: Record<string, KeywordContent> = {
     ar: {
       h1: "أتمتة المحادثات لواتساب وإنستغرام وماسنجر",
       intro:
-        "برنامج أتمتة محادثات Easy Reply يدير دورة المبيعات على كل قنوات المراسلة من لوحة واحدة. ردود تلقائية وتأهيل عملاء وتحويل محادثات إلى إيرادات.",
+        "برنامج أتمتة محادثات Easy Reply يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع من لوحة واحدة. ردود تلقائية وتأهيل عملاء ومساعدتهم على إتمام الشراء.",
       bullets: [
         "أتمتة محادثات متعددة القنوات",
         "ذكاء اصطناعي يتعامل مع الاعتراضات",
-        "تحويل التعليقات إلى رسائل",
+        "رد خاص على من يعلّق على منشوراتك",
         "بحث ويب لحظي لردود دقيقة",
       ],
       cta: "أتمّت محادثاتك",
@@ -74,7 +74,7 @@ const CONTENT: Record<string, KeywordContent> = {
     en: {
       h1: "Reply Automation — Auto Reply on Every Channel",
       intro:
-        "Easy Reply reply automation responds to customers instantly on WhatsApp, Instagram, Messenger, and web chat. Scale support and sales without losing the personal touch that closes deals.",
+        "Easy Reply reply automation responds to customers instantly on WhatsApp, Instagram, Messenger, and web chat. Handle more support and sales conversations without losing the personal touch.",
       bullets: [
         "Instant auto reply 24/7",
         "Context-aware follow-ups",
@@ -86,7 +86,7 @@ const CONTENT: Record<string, KeywordContent> = {
     ar: {
       h1: "أتمتة الردود — رد تلقائي على كل القنوات",
       intro:
-        "أتمتة الردود من Easy Reply ترد على العملاء فوراً على واتساب وإنستغرام وماسنجر ودردشة الموقع. وسّع المبيعات والدعم مع لمسة شخصية تغلق الصفقات.",
+        "أتمتة الردود من Easy Reply ترد على العملاء فوراً على واتساب وإنستغرام وماسنجر ودردشة الموقع. تعامل مع محادثات مبيعات ودعم أكثر دون أن تفقد اللمسة الشخصية.",
       bullets: [
         "رد تلقائي فوري على مدار الساعة",
         "متابعات ذكية حسب السياق",
@@ -98,26 +98,26 @@ const CONTENT: Record<string, KeywordContent> = {
   },
   "/ai-sales-agent": {
     en: {
-      h1: "AI Sales Agent — Easy Reply Closes Deals in Chat",
+      h1: "AI Sales Agent — Easy Reply Sells in Chat",
       intro:
-        "Easy Reply is an AI sales agent that qualifies leads, handles objections, books appointments, and closes deals inside WhatsApp and social DMs — going far beyond a basic chatbot.",
+        "Easy Reply is an AI sales agent that answers the people who message you, qualifies leads, handles objections, books appointments, and guides buyers toward a purchase inside WhatsApp and social DMs — going far beyond a basic chatbot.",
       bullets: [
         "Qualify and score leads automatically",
-        "Handle objections like a top salesperson",
+        "Answer objections with clear, on-brand replies",
         "Book appointments without sending links",
-        "One-click AI optimization for higher conversion",
+        "One-click AI optimization of your agent's replies",
       ],
       cta: "Get your AI sales agent",
     },
     ar: {
       h1: "وكيل مبيعات بالذكاء الاصطناعي — Easy Reply",
       intro:
-        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يؤهل العملاء ويتعامل مع الاعتراضات ويحجز المواعيد ويغلق الصفقات داخل واتساب والسوشيال — أبعد بكثير من شات بوت بسيط.",
+        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يرد على من يراسلونك، ويؤهل العملاء، ويتعامل مع الاعتراضات، ويحجز المواعيد، ويرشد المشترين نحو الشراء داخل واتساب والسوشيال — أبعد بكثير من شات بوت بسيط.",
       bullets: [
         "تأهيل وتقييم العملاء تلقائياً",
-        "التعامل مع الاعتراضات كمندوب محترف",
+        "الرد على الاعتراضات بإجابات واضحة تناسب علامتك",
         "حجز مواعيد بدون روابط",
-        "تحسين بالذكاء الاصطناعي بنقرة واحدة",
+        "تحسين ردود وكيلك بالذكاء الاصطناعي بنقرة واحدة",
       ],
       cta: "احصل على وكيل المبيعات",
     },

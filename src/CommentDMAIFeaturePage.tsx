@@ -35,15 +35,15 @@ export default function CommentDMAIFeaturePage() {
     ? [
         {
           id: "1",
-          title: "مراقبة ذكية للتعليقات",
-          body: "يراقب Easy Reply تعليقات إنستغرام وفيسبوك باستمرار لاكتشاف إشارات الاهتمام والنية الشرائية مبكرًا.",
-          chip: "تحليل نية التعليق",
+          title: "فهم ذكي للتعليقات",
+          body: "يقرأ Easy Reply التعليقات الجديدة على منشوراتك في إنستغرام وفيسبوك ويفهم الأسئلة فيها، مثل السعر أو التوفر أو طريقة الطلب.",
+          chip: "يفهم سؤال المعلّق",
         },
         {
           id: "2",
-          title: "تواصل تلقائي فوري",
-          body: "عند اكتشاف تعليق واعد، يبدأ الذكاء الاصطناعي محادثة خاصة فورًا لتحويل التفاعل إلى فرصة بيع حقيقية.",
-          chip: "بدء محادثة خاصة تلقائيًا",
+          title: "رد خاص على صاحب التعليق",
+          body: "عندما يعلّق شخص على منشورك، كأن يسأل عن السعر، يرد عليه الذكاء الاصطناعي برسالة خاصة واحدة. هذا رد على الشخص الذي علّق فقط، وتستمر المحادثة إذا ردّ عليها.",
+          chip: "رد خاص على التعليق",
         },
         {
           id: "3",
@@ -54,28 +54,28 @@ export default function CommentDMAIFeaturePage() {
         {
           id: "4",
           title: "مسار بيع موجّه",
-          body: "داخل المحادثة الخاصة، يجيب Easy Reply على الأسئلة والاعتراضات ويقود العميل المحتمل خطوة بخطوة نحو الشراء.",
-          chip: "قيادة نحو الإغلاق",
+          body: "داخل المحادثة الخاصة، يجيب Easy Reply على الأسئلة والاعتراضات بالمعلومات التي تعتمدها، ويساعد المهتم على إتمام الطلب أو حجز موعد.",
+          chip: "يساعد على إتمام الطلب",
         },
         {
           id: "5",
-          title: "رؤى أداء واضحة",
-          body: "تحليلات دقيقة تُظهر أي المنشورات والتعليقات تحقق أعلى قيمة، مع رؤية مباشرة لعائد التحويل من التعليقات.",
-          chip: "قياس عائد التحويل",
+          title: "اختر المنشورات",
+          body: "حدّد ما إذا كان الذكاء الاصطناعي يرد على التعليقات في كل منشوراتك أو في منشورات محددة تختارها فقط.",
+          chip: "كل المنشورات أو بعضها",
         },
       ]
     : [
         {
           id: "1",
-          title: "Intelligent Comment Monitoring",
-          body: "Easy Reply continuously monitors Instagram and Facebook comments to detect intent-rich signals and early buying interest.",
-          chip: "Monitors Comment Intent",
+          title: "Comment Understanding",
+          body: "Easy Reply reads new comments on your Instagram and Facebook posts and understands the questions in them, such as price, availability, or how to order.",
+          chip: "Understands the Question",
         },
         {
           id: "2",
-          title: "Automated Outreach",
-          body: "When a high-potential comment is found, the AI instantly starts a private conversation to move engagement into a conversion path.",
-          chip: "Starts Private Chats",
+          title: "Private Reply to the Commenter",
+          body: "When someone comments on your post, for example asking the price, the AI sends that person one private reply. It only replies to the person who commented, and the conversation continues if they respond.",
+          chip: "Replies Privately",
         },
         {
           id: "3",
@@ -86,14 +86,14 @@ export default function CommentDMAIFeaturePage() {
         {
           id: "4",
           title: "Guided Sales Flow",
-          body: "Inside the private chat, Easy Reply answers objections, clarifies value, and guides the lead through your sales journey.",
-          chip: "Guides to Purchase",
+          body: "Inside the private chat, Easy Reply answers questions and objections with your approved information and helps the person place an order or book an appointment.",
+          chip: "Helps Them Order",
         },
         {
           id: "5",
-          title: "Performance Insights",
-          body: "Built-in analytics reveal which posts and comments generate the highest-value conversations and strongest conversion outcomes.",
-          chip: "Tracks Comment ROI",
+          title: "Choose Your Posts",
+          body: "Decide whether the AI answers comments on all of your posts or only on specific posts you choose.",
+          chip: "All Posts or Selected Ones",
         },
       ];
 
@@ -147,22 +147,22 @@ export default function CommentDMAIFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "من التعليقات إلى التحويلات" : "From Comments to Conversions"}
+              {isAr ? "من التعليقات إلى محادثات خاصة" : "From Comments to Private Conversations"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "معظم المنصات تفصل التعليقات عن الرسائل الخاصة، بينما يحدد Easy Reply التعليقات الجاهزة للبيع تلقائيًا على إنستغرام وفيسبوك."
-                : "Most platforms keep comments disconnected from private messaging. Easy Reply identifies sales-ready comments on Instagram and Facebook automatically."}
+                ? "يسأل كثير من المتابعين عن السعر أو التفاصيل في التعليقات. عندما يعلّق شخص على منشورك في إنستغرام أو فيسبوك، يستطيع Easy Reply الرد عليه برسالة خاصة."
+                : "Many followers ask about prices or details in the comments. When someone comments on your Instagram or Facebook post, Easy Reply can reply to them privately."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بمجرد ظهور تعليق واعد، يبدأ الذكاء الاصطناعي محادثة خاصة ويتفاعل بشكل طبيعي ويقود العميل نحو قرار الشراء."
-                : "Once a promising comment appears, the AI starts a private chat, engages naturally, and guides the user toward a purchase."}
+                ? "يرد الذكاء الاصطناعي على صاحب التعليق فقط، مستفيدًا من سياق المنشور، ثم يجيب عن أسئلته ويساعده على الشراء إن كان مهتمًا."
+                : "The AI replies only to the person who commented, using the post's context, then answers their questions and helps them buy if they are interested."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "وهكذا يتحول التفاعل اليومي إلى محادثات بيع مؤثرة وقناة إيراد موثوقة عبر السوشيال ميديا."
-                : "This turns everyday engagement into meaningful sales conversations and a reliable social revenue channel."}
+                ? "وهكذا تتحول أسئلة التعليقات إلى محادثات حقيقية مع عملاء مهتمين."
+                : "This turns questions in your comments into real conversations with interested customers."}
             </p>
             <a
               href="#pricing"
@@ -180,7 +180,7 @@ export default function CommentDMAIFeaturePage() {
               {isAr ? "كيف تعمل" : "How it works"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              {isAr ? "Easy Reply يحوّل التعليقات إلى عملاء" : "Easy Reply Turns Comments Into Customers"}
+              {isAr ? "Easy Reply يحوّل التعليقات إلى محادثات" : "Easy Reply Turns Comments Into Conversations"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -189,8 +189,8 @@ export default function CommentDMAIFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يكتشف Easy Reply التعليقات عالية النية، ويبدأ محادثات خاصة فورًا، ثم ينقل العميل المحتمل خلال رحلة شراء سلسة وواضحة."
-                : "Easy Reply detects high-intent comments, starts private conversations instantly, and moves prospects through a smooth purchase journey."}
+                ? "يرد Easy Reply برسالة خاصة على من يعلّق على منشورك، ويجيب عن أسئلته، ويساعده على الخطوة التالية في رحلة شراء سلسة وواضحة."
+                : "Easy Reply replies privately to people who comment on your posts, answers their questions, and helps them with the next step in a smooth purchase journey."}
             </p>
           </div>
         </section>
@@ -300,12 +300,14 @@ export default function CommentDMAIFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -403,6 +405,9 @@ export default function CommentDMAIFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

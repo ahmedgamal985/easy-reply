@@ -5,15 +5,14 @@ export const defaultLang: Lang = "en";
 const BASIC_FEATURES_EN = [
   "CRM features",
   "Contact management",
-  "SMS text marketing",
-  "WhatsApp marketing",
-  "Social & messaging channels (Facebook, Instagram, iMessage, Line)",
+  "Two-way SMS conversations",
+  "Opt-in WhatsApp template messages",
+  "Facebook, Instagram, Messenger & LINE",
   "Website chat",
   "Telegram integration",
   "Unlimited appointment calendars",
   "Unlimited workflow automations",
   "Sales pipelines",
-  "Reviews management",
   "Analytics & reports",
   "AI virtual assistant",
   "AI customer conversations",
@@ -30,15 +29,14 @@ const BASIC_FEATURES_EN = [
 const PRO_FEATURES_EN = [
   "CRM features",
   "Contact management",
-  "SMS text marketing",
-  "WhatsApp marketing",
-  "Social & messaging channels (Facebook, Instagram, iMessage, Line)",
+  "Two-way SMS conversations",
+  "Opt-in WhatsApp template messages",
+  "Facebook, Instagram, Messenger & LINE",
   "Website chat",
   "Telegram integration",
   "Unlimited appointment calendars",
   "Unlimited workflow automations",
   "Sales pipelines",
-  "Reviews management",
   "Analytics & reports",
   "AI virtual assistant",
   "AI customer conversations",
@@ -60,15 +58,14 @@ const PRO_FEATURES_EN = [
 const PREMIUM_FEATURES_EN = [
   "CRM features",
   "Contact management",
-  "SMS text marketing",
-  "WhatsApp marketing",
-  "Social & messaging channels (Facebook, Instagram, iMessage, Line)",
+  "Two-way SMS conversations",
+  "Opt-in WhatsApp template messages",
+  "Facebook, Instagram, Messenger & LINE",
   "Website chat",
   "Telegram integration",
   "Unlimited appointment calendars",
   "Unlimited workflow automations",
   "Sales pipelines",
-  "Reviews management",
   "Analytics & reports",
   "AI virtual assistant",
   "AI customer conversations",
@@ -94,15 +91,14 @@ const PREMIUM_FEATURES_EN = [
 const BASIC_FEATURES_AR = [
   "مزايا CRM",
   "إدارة جهات الاتصال",
-  "تسويق عبر الرسائل النصية SMS",
-  "تسويق عبر واتساب",
-  "قنوات التواصل الاجتماعي والمراسلة (فيسبوك، إنستغرام، آيمسج، لاين)",
+  "محادثات SMS ثنائية الاتجاه",
+  "رسائل قوالب واتساب للعملاء الموافقين",
+  "فيسبوك وإنستغرام وماسنجر ولاين",
   "دردشة الموقع",
   "تكامل تيليجرام",
   "تقويمات مواعيد غير محدودة",
   "أتمتة سير عمل غير محدودة",
   "مسارات مبيعات (Pipelines)",
-  "إدارة التقييمات",
   "التحليلات والتقارير",
   "مساعد افتراضي بالذكاء الاصطناعي",
   "محادثات عملاء بالذكاء الاصطناعي",
@@ -119,15 +115,14 @@ const BASIC_FEATURES_AR = [
 const PRO_FEATURES_AR = [
   "مزايا CRM",
   "إدارة جهات الاتصال",
-  "تسويق عبر الرسائل النصية SMS",
-  "تسويق عبر واتساب",
-  "قنوات التواصل الاجتماعي والمراسلة (فيسبوك، إنستغرام، آيمسج، لاين)",
+  "محادثات SMS ثنائية الاتجاه",
+  "رسائل قوالب واتساب للعملاء الموافقين",
+  "فيسبوك وإنستغرام وماسنجر ولاين",
   "دردشة الموقع",
   "تكامل تيليجرام",
   "تقويمات مواعيد غير محدودة",
   "أتمتة سير عمل غير محدودة",
   "مسارات مبيعات (Pipelines)",
-  "إدارة التقييمات",
   "التحليلات والتقارير",
   "مساعد افتراضي بالذكاء الاصطناعي",
   "محادثات عملاء بالذكاء الاصطناعي",
@@ -149,15 +144,14 @@ const PRO_FEATURES_AR = [
 const PREMIUM_FEATURES_AR = [
   "مزايا CRM",
   "إدارة جهات الاتصال",
-  "تسويق عبر الرسائل النصية SMS",
-  "تسويق عبر واتساب",
-  "قنوات التواصل الاجتماعي والمراسلة (فيسبوك، إنستغرام، آيمسج، لاين)",
+  "محادثات SMS ثنائية الاتجاه",
+  "رسائل قوالب واتساب للعملاء الموافقين",
+  "فيسبوك وإنستغرام وماسنجر ولاين",
   "دردشة الموقع",
   "تكامل تيليجرام",
   "تقويمات مواعيد غير محدودة",
   "أتمتة سير عمل غير محدودة",
   "مسارات مبيعات (Pipelines)",
-  "إدارة التقييمات",
   "التحليلات والتقارير",
   "مساعد افتراضي بالذكاء الاصطناعي",
   "محادثات عملاء بالذكاء الاصطناعي",
@@ -185,7 +179,7 @@ export const copy = {
     meta: {
       title: "Easy Reply — AI chat automation for WhatsApp, Instagram & Messenger",
       description:
-        "Easy Reply is an AI sales agent for WhatsApp, Instagram, Messenger, and web chat. Automate replies, qualify leads, book appointments, and close deals 24/7.",
+        "Easy Reply is an AI sales agent for WhatsApp, Instagram, Messenger, and web chat. Automate replies, qualify leads, book appointments, and guide buyers to purchase, 24/7.",
     },
     faq: {
       title: "Frequently Asked Questions about Easy Reply",
@@ -193,7 +187,7 @@ export const copy = {
       items: [
         {
           q: "What is Easy Reply?",
-          a: "Easy Reply is an AI sales agent that automates WhatsApp, Instagram, Messenger, and web chat. It replies automatically, qualifies leads, books appointments, and closes deals 24/7.",
+          a: "Easy Reply is an AI sales agent that automates WhatsApp, Instagram, Messenger, and web chat. It replies automatically, qualifies leads, books appointments, and guides buyers to purchase, 24/7.",
         },
         {
           q: "What is chat automation with Easy Reply?",
@@ -201,11 +195,11 @@ export const copy = {
         },
         {
           q: "Does Easy Reply support WhatsApp automation?",
-          a: "Yes. Easy Reply offers full WhatsApp Business automation: auto replies, media understanding, outbound campaigns, and AI appointment booking.",
+          a: "Yes. Easy Reply automates WhatsApp Business conversations: it answers the customers who message you, understands images and voice notes, books appointments, and can send Meta-approved template messages to customers who opted in.",
         },
         {
           q: "Is Easy Reply a chatbot or a sales agent?",
-          a: "Easy Reply is an AI sales agent — not a basic chatbot. It handles objections, remembers context, and closes deals.",
+          a: "Easy Reply is an AI sales agent — not a basic chatbot. It answers objections, remembers context, and guides buyers to purchase.",
         },
         {
           q: "Does Easy Reply work in Arabic and English?",
@@ -270,23 +264,23 @@ export const copy = {
       ],
     },
     stats: [
-      { label: "Brands on the platform", value: "500+" },
-      { label: "AI-powered messages", value: "100k+" },
-      { label: "AI sales generated", value: "$5M+" },
+      { label: "Channels in one inbox", value: "4" },
+      { label: "Typical setup", value: "~15 min" },
+      { label: "Always answering", value: "24/7" },
     ],
     vision: {
       title: "Revolutionizing sales conversations with truly human AI",
-      body: "While others create frustrating bot experiences, we've pioneered AI that builds genuine relationships and guides buyers with remarkable humanity. Our vision: helping businesses scale meaningful sales conversations without losing the personal touch that closes deals.",
+      body: "Instead of rigid bot menus, Easy Reply holds a natural conversation that builds trust and guides buyers with remarkable humanity. Our vision: helping businesses scale meaningful sales conversations without losing the personal touch that closes deals.",
     },
     compare: {
       badge: "Us vs. them",
       title: "Sales agent vs. regular chatbot",
       subtitle:
-        "You pay for results, not feature lists. Here's why teams stick with us.",
+        "What an AI sales agent does that a menu-based chatbot does not.",
       colFeature: "Capability",
       colCompetitor: "Regular chatbots",
       rows: [
-        { icon: "deal", name: "Closes deals" },
+        { icon: "deal", name: "Guides buyers to a purchase" },
         { icon: "objection", name: "Handles objections" },
         { icon: "media", name: "Understands images, voice & video" },
         { icon: "calendar", name: "Books appointments in chat" },
@@ -330,16 +324,16 @@ export const copy = {
           desc: "We read your offer, pricing, and FAQs to shape the agent — no manual prompt writing.",
         },
         {
-          title: "Pick Their Channels",
-          desc: "WhatsApp, Instagram, Messenger, website chat. Toggle on what they need. Done.",
+          title: "Pick your channels",
+          desc: "WhatsApp, Instagram, Messenger, website chat. Turn on the ones you use. Done.",
         },
         {
           title: "Turn It On",
-          desc: "The AI starts handling conversations immediately. Qualifying leads. Booking appointments. Closing deals. 24/7. Now add it to your client's invoice.",
+          desc: "The AI starts answering the customers who message you: qualifying leads, answering questions, booking appointments and following up, 24/7.",
         },
         {
-          title: "Watch the Money Come In",
-          desc: "Your AI agent sells for your client around the clock. Use one-click optimization to automatically improve conversion rates over time.",
+          title: "Keep improving",
+          desc: "Review results from your dashboard and use one-click optimization to refine how the agent answers over time.",
         },
       ],
     },
@@ -351,7 +345,7 @@ export const copy = {
         {
           icon: "sell",
           title: "It sells",
-          desc: "Qualifies leads, handles objections, builds trust, closes deals. From $27 products to $50K+ services.",
+          desc: "Qualifies leads, answers objections with your own information, builds trust and guides buyers to purchase, for simple products and consultative services alike.",
         },
         {
           icon: "calendar",
@@ -377,20 +371,20 @@ export const copy = {
         },
         {
           icon: "plane",
-          title: "It runs campaigns",
-          desc: "Outbound messages, follow-ups, comment-to-DM on Instagram and Facebook — for your channels.",
+          title: "It follows up",
+          desc: "Timely follow-ups with people who contacted you, Meta-approved templates for customers who opted in, and private replies to people who comment on your posts.",
         },
       ],
       bottomRow: [
         {
           icon: "link",
-          title: "It connects to everything",
-          desc: "ManyChat, GoHighLevel, Intercom, Tidio, Zendesk, Zapier. Webhooks and API.",
+          title: "It connects to your tools",
+          desc: "Send leads and conversations to your CRM, help desk or automation tools through webhooks, the API or Zapier.",
         },
         {
           icon: "roi",
-          title: "Why it pays for itself",
-          desc: "Cover more DMs without hiring more staff. More booked calls from the same traffic — many teams see Easy Reply pay for itself within weeks.",
+          title: "Built to save your team time",
+          desc: "Answer more messages without adding staff, around the clock, while your team steps in only where it matters.",
         },
       ],
     },
@@ -399,7 +393,7 @@ export const copy = {
       subtitle:
         "Don’t strand conversations outside CRM, support, or automation. Use native-style connectors, webhooks, and APIs.",
       tags: [
-        "Popular chat automation tools",
+        "Chat automation tools",
         "CRM & pipeline tools",
         "Support & ticketing",
         "Zapier & no-code",
@@ -408,44 +402,47 @@ export const copy = {
       ],
     },
     pricing: {
-      title: "Every feature on every plan.",
+      title: "Simple pricing. Pick the replies you need.",
       subtitle:
-        "Payment method: InstaPay. A 3-day free trial is available for testing only. To activate your account, contact support listed below and we will set up your plan.",
+        "All prices are in US dollars. Start with a 3-day free trial, cancel any time, and get a full refund within 14 days of your first payment. Our order process is conducted by our online reseller Paddle.com, the Merchant of Record for all our orders.",
+      footnote:
+        "Need more? Add 1,000 extra AI replies for $5. Yearly billing is priced at 10 months, so you get 2 months free. Taxes may apply depending on your country.",
+      refundLabel: "Refund Policy",
       contactsLabel: "AI Replies per Month",
-      currency: "EGP",
-      cta: "Start trial",
+      currency: "USD",
+      cta: "Start free trial",
       plans: [
         {
           name: "Starter",
           tag: "Getting started",
-          price: "3,000",
+          price: "$19",
           period: "mo",
-          contacts: 1000,
+          contacts: 1500,
           features: [...BASIC_FEATURES_EN],
         },
         {
           name: "Growth",
           tag: "Most popular",
-          price: "6,500",
+          price: "$49",
           period: "mo",
-          contacts: 3000,
+          contacts: 5000,
           highlighted: true,
           features: [...PRO_FEATURES_EN],
         },
         {
-          name: "Professional",
+          name: "Pro",
           tag: "Busy businesses",
-          price: "11,500",
+          price: "$99",
           period: "mo",
-          contacts: 6000,
+          contacts: 12000,
           features: [...PREMIUM_FEATURES_EN],
         },
         {
-          name: "Complete",
+          name: "Scale",
           tag: "High volume",
-          price: "18,000",
+          price: "$199",
           period: "mo",
-          contacts: 10000,
+          contacts: 25000,
           features: [...PREMIUM_FEATURES_EN],
         },
       ],
@@ -456,7 +453,7 @@ export const copy = {
       cta: "Get started",
     },
     footer: {
-      tagline: "Original marketing UI — not affiliated with any third-party product.",
+      tagline: "AI sales and support agent for WhatsApp, Instagram, Messenger and web chat.",
       privacy: "Privacy",
       terms: "Terms",
       columns: [
@@ -487,7 +484,7 @@ export const copy = {
         },
         {
           title: "Company",
-          links: ["Pricing", "Contact", "About", "Privacy Policy", "Terms", "Sign In"],
+          links: ["Pricing", "Contact", "Refund Policy", "Privacy Policy", "Terms", "Sign In"],
         },
       ],
     },
@@ -509,7 +506,7 @@ export const copy = {
     meta: {
       title: "Easy Reply — أتمتة دردشة بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر",
       description:
-        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر ودردشة الموقع. ردود تلقائية، تأهيل العملاء، حجز المواعيد، وإغلاق الصفقات على مدار الساعة.",
+        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر ودردشة الموقع. ردود تلقائية، تأهيل العملاء، حجز المواعيد، وقيادة المشتري إلى الشراء على مدار الساعة.",
     },
     faq: {
       title: "الأسئلة الشائعة عن Easy Reply",
@@ -517,7 +514,7 @@ export const copy = {
       items: [
         {
           q: "ما هو Easy Reply (إيزي ريپلاي)؟",
-          a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يؤتمت محادثات واتساب وإنستغرام وماسنجر. يرد تلقائياً، يؤهل العملاء، يحجز المواعيد، ويغلق الصفقات.",
+          a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يؤتمت محادثات واتساب وإنستغرام وماسنجر. يرد تلقائياً، يؤهل العملاء، يحجز المواعيد، ويقود المشتري إلى الشراء.",
         },
         {
           q: "ما هي أتمتة الردود؟",
@@ -525,11 +522,11 @@ export const copy = {
         },
         {
           q: "هل يدعم Easy Reply أتمتة واتساب؟",
-          a: "نعم. Easy Reply يوفر أتمتة واتساب للأعمال: ردود تلقائية، فهم وسائط، حملات صادرة، وحجز مواعيد.",
+          a: "نعم. Easy Reply يؤتمت محادثات واتساب للأعمال: يرد على العملاء الذين يراسلونك، ويفهم الصور والرسائل الصوتية، ويحجز المواعيد، ويمكنه إرسال رسائل قوالب معتمدة من ميتا للعملاء الذين وافقوا على استقبالها.",
         },
         {
           q: "هل Easy Reply شات بوت أم وكيل مبيعات؟",
-          a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي — يتعامل مع الاعتراضات ويغلق الصفقات، وليس شات بوت بسيط.",
+          a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي — يرد على الاعتراضات ويقود المشتري إلى الشراء، وليس شات بوت بسيط.",
         },
         {
           q: "هل يعمل Easy Reply بالعربية والإنجليزية؟",
@@ -537,7 +534,7 @@ export const copy = {
         },
         {
           q: "ما الفرق بين Easy Reply وManyChat؟",
-          a: "ManyChat يركز على الفلو. Easy Reply مبني للبيع — تأهيل العملاء وإغلاق الصفقات تلقائياً.",
+          a: "ManyChat يركز على الفلو. Easy Reply مبني للبيع — يؤهّل العملاء ويقودهم إلى الشراء داخل المحادثة.",
         },
       ],
     },
@@ -590,23 +587,23 @@ export const copy = {
       ],
     },
     stats: [
-      { label: "علامات على المنصة", value: "٥٠٠+" },
-      { label: "رسائل بالذكاء الاصطناعي", value: "١٠٠ ألف+" },
-      { label: "مبيعات بالذكاء الاصطناعي", value: "$5M+" },
+      { label: "قنوات في صندوق واحد", value: "٤" },
+      { label: "مدة الإعداد التقريبية", value: "١٥ دقيقة" },
+      { label: "يرد دائماً", value: "24/7" },
     ],
     vision: {
-      title: "ثورة في محادثات المبيعات بذكاء اصطناعي بشري بحق",
-      body: "بينما يقدّم كثيرون تجارب بوت محبطة، بنينا ذكاءً اصطناعياً يصنع علاقات حقيقية ويقود المشترين بإنسانية واضحة. رؤيتنا: تمكين الأعمال من توسيع محادثات المبيعات المؤثرة دون أن تضيع اللمسة الشخصية التي تُغلق الصفقات.",
+      title: "محادثات مبيعات طبيعية بالذكاء الاصطناعي",
+      body: "بدلاً من قوائم البوت الجامدة، يدير Easy Reply محادثة طبيعية تبني الثقة وتقود المشترين بأسلوب إنساني. رؤيتنا: تمكين الأعمال من توسيع محادثات المبيعات المؤثرة دون أن تضيع اللمسة الشخصية التي تُغلق الصفقات.",
     },
     compare: {
       badge: "إحنا مقابل الباقي",
       title: "وكيل مبيعات مقابل البوت العادي",
       subtitle:
-        "تدفع من أجل النتائج لا لقوائم المزايا. الفرق هنا.",
+        "ما يقدّمه وكيل المبيعات بالذكاء الاصطناعي ولا يقدّمه بوت القوائم.",
       colFeature: "القدرة",
       colCompetitor: "بوتات دردشة عادية",
       rows: [
-        { icon: "deal", name: "يُغلق الصفقات" },
+        { icon: "deal", name: "يقود المشتري إلى الشراء" },
         { icon: "objection", name: "يتعامل مع الاعتراضات" },
         { icon: "media", name: "يفهم الصور والصوت والفيديو" },
         { icon: "calendar", name: "يحجز المواعيد داخل المحادثة" },
@@ -650,16 +647,16 @@ export const copy = {
           desc: "نقرأ عرضك، الأسعار، والأسئلة الشائعة لصياغة الوكيل — دون كتابة برومبت يدوياً.",
         },
         {
-          title: "اختَر قنواتهم",
-          desc: "واتساب، إنستغرام، ماسنجر، ودردشة الموقع. فعّل ما يحتاجونه. انتهى.",
+          title: "اختَر قنواتك",
+          desc: "واتساب، إنستغرام، ماسنجر، ودردشة الموقع. فعّل القنوات التي تستخدمها. انتهى.",
         },
         {
           title: "شغّله",
-          desc: "يبدأ الذكاء الاصطناعي التعامل مع المحادثات فوراً: تأهيل العملاء، حجز المواعيد، وإغلاق الصفقات — على مدار الساعة. أضِف ذلك إلى فاتورة عميلك.",
+          desc: "يبدأ الذكاء الاصطناعي الرد على العملاء الذين يراسلونك فوراً: تأهيل العملاء، والإجابة عن الأسئلة، وحجز المواعيد، والمتابعة — على مدار الساعة.",
         },
         {
-          title: "شاهد الفلوس وهي تدخل",
-          desc: "وكيل الذكاء الاصطناعي يبيع لعميلك على مدار الساعة. استخدم التحسين بنقرة واحدة لتحسين معدلات التحويل تلقائياً مع الوقت.",
+          title: "استمر في التحسين",
+          desc: "تابع النتائج من لوحة التحكم، واستخدم التحسين بنقرة واحدة لتطوير طريقة رد الوكيل مع الوقت.",
         },
       ],
     },
@@ -671,7 +668,7 @@ export const copy = {
         {
           icon: "sell",
           title: "يبيع",
-          desc: "يؤهّل العملاء، يعالج الاعتراضات، يبني الثقة، ويُغلق الصفقات — من منتجات بسيطة إلى خدمات بعشرات الآلاف.",
+          desc: "يؤهّل العملاء، ويرد على الاعتراضات بمعلوماتك أنت، ويبني الثقة، ويقود المشتري إلى الشراء — للمنتجات البسيطة والخدمات الاستشارية على حد سواء.",
         },
         {
           icon: "calendar",
@@ -697,20 +694,20 @@ export const copy = {
         },
         {
           icon: "plane",
-          title: "يشغّل الحملات",
-          desc: "رسائل صادرة، متابعات، وتعليق→خاص على إنستغرام وفيسبوك — لقنواتك.",
+          title: "يتابع",
+          desc: "متابعات في وقتها مع من تواصلوا معك، وقوالب معتمدة من ميتا للعملاء الموافقين، وردود خاصة على من يعلّقون على منشوراتك.",
         },
       ],
       bottomRow: [
         {
           icon: "link",
-          title: "يتصل بكل شيء",
-          desc: "ManyChat، GoHighLevel، Intercom، Tidio، Zendesk، Zapier. ويب هوك وAPI.",
+          title: "يتصل بأدواتك",
+          desc: "أرسل العملاء والمحادثات إلى نظام CRM أو أداة الدعم أو أدوات الأتمتة عبر الويب هوك أو الـ API أو Zapier.",
         },
         {
           icon: "roi",
-          title: "لماذا يستحق تكلفته",
-          desc: "تغطية أوسع للرسائل دون توظيف إضافي. مكالمات محجوزة أكثر من نفس الزيارات — كثير من الفرق يلاحظ أن Easy Reply يغطي اشتراكه خلال أسابيع.",
+          title: "يوفّر وقت فريقك",
+          desc: "رد على رسائل أكثر دون توظيف إضافي، على مدار الساعة، ويتدخل فريقك فقط حيث يلزم.",
         },
       ],
     },
@@ -719,7 +716,7 @@ export const copy = {
       subtitle:
         "لا تعزل المحادثة عن CRM أو الدعم أو الأتمتة. تكاملات جاهزة أو ويب هوك وAPI.",
       tags: [
-        "منصات أتمتة الدردشة الشائعة",
+        "أدوات أتمتة الدردشة",
         "أنظمة CRM ومسارات البيع",
         "أدوات الدعم والتذاكر",
         "Zapier والأتمتة بدون كود",
@@ -728,44 +725,47 @@ export const copy = {
       ],
     },
     pricing: {
-      title: "كل المزايا في كل باقة.",
+      title: "أسعار بسيطة. اختر عدد الردود الذي تحتاجه.",
       subtitle:
-        "الدفع عن طريق إنستا باي. فيه تجربة مجانية 3 أيام للتجربة بس. عشان نفعّل حسابك، كلّم الدعم الموضح تحت وإحنا هنجهّزلك الباقة المناسبة.",
+        "جميع الأسعار بالدولار الأمريكي. ابدأ بتجربة مجانية لمدة ٣ أيام، وألغِ في أي وقت، واسترد كامل المبلغ خلال ١٤ يوماً من أول دفعة. تتم عملية الشراء من خلال الموزّع المعتمد لدينا Paddle.com، وهو البائع الرسمي (Merchant of Record) لجميع طلباتنا.",
+      footnote:
+        "تحتاج المزيد؟ أضف ١٬٠٠٠ رد إضافي مقابل ٥ دولارات. الاشتراك السنوي بسعر ١٠ أشهر، أي شهرين مجاناً. قد تُضاف الضرائب حسب بلدك.",
+      refundLabel: "سياسة الاسترداد",
       contactsLabel: "ردود ذكية شهرياً",
-      currency: "ج.م",
-      cta: "ابدأ تجربة",
+      currency: "USD",
+      cta: "ابدأ التجربة المجانية",
       plans: [
         {
           name: "البداية",
           tag: "للبداية",
-          price: "3,000",
+          price: "$19",
           period: "شهرياً",
-          contacts: 1000,
+          contacts: 1500,
           features: [...BASIC_FEATURES_AR],
         },
         {
           name: "النمو",
           tag: "الأكثر طلباً",
-          price: "6,500",
+          price: "$49",
           period: "شهرياً",
-          contacts: 3000,
+          contacts: 5000,
           highlighted: true,
           features: [...PRO_FEATURES_AR],
         },
         {
           name: "المحترف",
-          tag: "للشغل المزدحم",
-          price: "11,500",
+          tag: "للأعمال المزدحمة",
+          price: "$99",
           period: "شهرياً",
-          contacts: 6000,
+          contacts: 12000,
           features: [...PREMIUM_FEATURES_AR],
         },
         {
-          name: "المتكامل",
-          tag: "حجم عالي",
-          price: "18,000",
+          name: "التوسّع",
+          tag: "حجم عالٍ",
+          price: "$199",
           period: "شهرياً",
-          contacts: 10000,
+          contacts: 25000,
           features: [...PREMIUM_FEATURES_AR],
         },
       ],
@@ -776,7 +776,7 @@ export const copy = {
       cta: "ابدأ الآن",
     },
     footer: {
-      tagline: "واجهة تسويق أصلية — غير تابعة لمنتج طرف ثالث.",
+      tagline: "وكيل مبيعات ودعم بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر ودردشة الموقع.",
       privacy: "سياسة الخصوصية",
       terms: "الشروط",
       columns: [
@@ -807,7 +807,7 @@ export const copy = {
         },
         {
           title: "الشركة",
-          links: ["الأسعار", "تواصل", "من نحن", "سياسة الخصوصية", "الشروط", "تسجيل الدخول"],
+          links: ["الأسعار", "تواصل", "سياسة الاسترداد", "سياسة الخصوصية", "الشروط", "تسجيل الدخول"],
         },
       ],
     },

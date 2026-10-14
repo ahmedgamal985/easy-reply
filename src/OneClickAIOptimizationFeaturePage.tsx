@@ -35,65 +35,65 @@ export default function OneClickAIOptimizationFeaturePage() {
     ? [
         {
           id: "1",
-          title: "تمييز أنماط النجاح",
-          body: "يميّز Easy Reply المحادثات الأعلى أداءً التي أدت إلى مبيعات وحجوزات وغيرها من النتائج المستهدفة.",
-          chip: "يكتشف الأنماط الفائزة",
+          title: "تعليمات بلغة بسيطة",
+          body: "اكتب ما تريد تغييره بكلماتك، مثل عرض جديد أو ردود أقصر أو موضوع يجب تجنبه، ويحوّله Easy Reply إلى تعليمات محدّثة للذكاء الاصطناعي.",
+          chip: "صف التغيير بكلماتك",
         },
         {
           id: "2",
-          title: "تحليل المحادثات",
-          body: "يراجع التحليل المتقدم الصياغة ومعالجة الاعتراضات والبنى الإقناعية التي جعلت تلك التفاعلات ناجحة.",
-          chip: "يحلّل ما يحوّل",
+          title: "إصلاح رد بعينه",
+          body: "حدّد ردًا لم يعجبك أثناء التجربة واشرح السبب، فيقترح الذكاء الاصطناعي تعديلات على التعليمات والأسئلة الشائعة ليجيب بشكل أفضل في المرة القادمة.",
+          chip: "يتعلّم من ملاحظاتك",
         },
         {
           id: "3",
           title: "تطبيق بنقرة واحدة",
-          body: "بنقرة واحدة تُدمَج أنماط النجاح المثبتة في نموذج الذكاء الاصطناعي لديك لتحسين المحادثات المستقبلية فورًا.",
-          chip: "ترقية فورية للاستراتيجية",
+          body: "بنقرة واحدة يعيد الذكاء الاصطناعي صياغة تعليمات الوكيل وأسئلته الشائعة لتتوافق مع هدفك، دون الحاجة إلى كتابة أوامر معقدة.",
+          chip: "تحديث فوري للاستراتيجية",
         },
         {
           id: "4",
-          title: "تعلّم مستمر",
-          body: "مع ظهور تفاعلات ناجحة جديدة، يصقل Easy Reply الأسلوب والرسائل باستمرار ليتوافق مع ما يعمل أفضل.",
-          chip: "في تحسّن دائم",
+          title: "مراجعة جنبًا إلى جنب",
+          body: "يُعرض كل تعديل مقترح بجانب النسخة الحالية، مع قائمة منفصلة بالأسئلة الشائعة المضافة والمعدّلة والمحذوفة.",
+          chip: "راجع كل تغيير",
         },
         {
           id: "5",
-          title: "متابعة الأداء",
-          body: "تُظهر التحليلات المدمجة أثر التحسين على التحويل والإيراد، لتمنح رؤية واضحة للعائد والفعالية.",
-          chip: "أثر قابل للقياس على التحويل",
+          title: "القرار بيدك",
+          body: "لا يُطبَّق أي تغيير قبل موافقتك، ويُحفَظ كمسودة يمكنك تجربتها قبل نشرها.",
+          chip: "موافقتك قبل النشر",
         },
       ]
     : [
         {
           id: "1",
-          title: "Success Pattern Recognition",
-          body: "Easy Reply identifies top-performing conversations that led to sales, bookings, and other target outcomes.",
-          chip: "Finds Winning Patterns",
+          title: "Plain-Language Instructions",
+          body: "Describe what should change in your own words, such as a new offer, shorter replies, or a topic to avoid, and Easy Reply turns it into updated AI instructions.",
+          chip: "Describe the Change",
         },
         {
           id: "2",
-          title: "Conversation Analysis",
-          body: "Advanced analysis reviews phrasing, objection handling, and persuasive structures that made those interactions successful.",
-          chip: "Analyzes What Converts",
+          title: "Fix a Specific Reply",
+          body: "Flag a reply you didn't like while testing, explain why, and the AI suggests changes to its instructions and FAQs so it answers better next time.",
+          chip: "Learns From Your Feedback",
         },
         {
           id: "3",
           title: "One-Click Implementation",
-          body: "With one click, proven success patterns are rolled into your AI model to improve future conversations immediately.",
-          chip: "Instant Strategy Upgrade",
+          body: "With one click, the AI rewrites your agent's instructions and FAQs to match your goal, with no prompt writing needed.",
+          chip: "Instant Strategy Update",
         },
         {
           id: "4",
-          title: "Continuous Learning",
-          body: "As new successful interactions emerge, Easy Reply continuously refines approach and messaging to stay aligned with what works best.",
-          chip: "Always Improving",
+          title: "Side-by-Side Review",
+          body: "Every proposed change is shown next to the current version, with FAQ additions, edits, and removals listed separately.",
+          chip: "Review Every Change",
         },
         {
           id: "5",
-          title: "Performance Tracking",
-          body: "Built-in analytics show how optimization impacts conversion and revenue, giving clear visibility into ROI and effectiveness.",
-          chip: "Measured Conversion Impact",
+          title: "You Stay in Control",
+          body: "Nothing goes live until you approve it, and changes are saved as a draft you can test before publishing.",
+          chip: "Approve Before Publishing",
         },
       ];
 
@@ -147,22 +147,22 @@ export default function OneClickAIOptimizationFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "تحسين الذكاء الاصطناعي بنقرة واحدة لمزيد من التحويل" : "One-Click AI Optimization for Higher Conversions"}
+              {isAr ? "تحسين وكيل الذكاء الاصطناعي بنقرة واحدة" : "One-Click Optimization for Your AI Agent"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تتطلب معظم أنظمة الذكاء الاصطناعي ضبطًا يدويًا متكررًا. يحلّل Easy Reply أفضل المحادثات أداءً ويضبط أسلوبه تلقائيًا بنقرة واحدة."
-                : "Most AI systems require frequent manual tuning. Easy Reply analyzes top-performing conversations and fine-tunes its approach automatically with one click."}
+                ? "تتطلب معظم أنظمة الذكاء الاصطناعي ضبطًا يدويًا متكررًا. مع Easy Reply تكتب ما تريد تحسينه، ويحدّث الذكاء الاصطناعي تعليماته بنقرة واحدة."
+                : "Most AI systems require frequent manual tuning. With Easy Reply, you describe what to improve and the AI updates its own instructions with one click."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتعلّم الذكاء الاصطناعي من تفاعلات حقيقية لتحسين التفاعل ومعالجة الاعتراضات ونتائج التحويل دون جهد تقني من فريقك."
-                : "The AI learns from real interactions to improve engagement, objection handling, and conversion outcomes without technical effort from your team."}
+                ? "يطبّق الذكاء الاصطناعي ملاحظاتك لتحسين الأسلوب والإجابات ومعالجة الاعتراضات دون جهد تقني من فريقك."
+                : "The AI applies your feedback to improve tone, answers, and objection handling without technical effort from your team."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بلا برمجة ولا إعداد معقّد، فقط محادثات أذكى تُغلق المزيد من الصفقات مع مرور الوقت."
-                : "No coding and no complex setup, just smarter conversations that close more prospects over time."}
+                ? "بلا برمجة ولا إعداد معقّد، فقط تعليمات أوضح وإجابات أفضل مع مرور الوقت."
+                : "No coding and no complex setup, just clearer instructions and better answers over time."}
             </p>
             <a
               href="#pricing"
@@ -180,7 +180,7 @@ export default function OneClickAIOptimizationFeaturePage() {
               {isAr ? "كيف تعمل" : "How it works"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              {isAr ? "Easy Reply يحوّل كل محادثة إلى ذكاء اصطناعي أذكى" : "Easy Reply Turns Every Conversation Into Smarter AI"}
+              {isAr ? "Easy Reply يحوّل ملاحظاتك إلى ذكاء اصطناعي أذكى" : "Easy Reply Turns Your Feedback Into Smarter AI"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -189,8 +189,8 @@ export default function OneClickAIOptimizationFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يؤتمت Easy Reply التحسين بتحليل التفاعلات الناجحة وتحسين جودة الردود والإقناع والفعالية باستمرار."
-                : "Easy Reply automates optimization by analyzing successful interactions and continuously improving response quality, persuasion, and effectiveness."}
+                ? "يؤتمت Easy Reply إعادة الصياغة: أخبره بما تريد تحسينه، وراجع التعديلات المقترحة جنبًا إلى جنب، وانشر فقط ما توافق عليه."
+                : "Easy Reply automates the rewrite: tell it what to improve, review the proposed changes side by side, and publish only what you approve."}
             </p>
           </div>
         </section>
@@ -300,12 +300,14 @@ export default function OneClickAIOptimizationFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -403,6 +405,9 @@ export default function OneClickAIOptimizationFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

@@ -36,7 +36,7 @@ export default function RealTimeWebSearchFeaturePage() {
         {
           id: "1",
           title: "اكتشاف فجوات المعرفة",
-          body: "يميّز Easy Reply متى يتجاوز السؤال السياق الحالي ويشغّل تلقائيًا بحثًا متقدمًا على الويب لتقديم إجابات دقيقة.",
+          body: "يميّز Easy Reply متى لا تكفي الأسئلة الشائعة والتعليمات للإجابة، فيبحث تلقائيًا على الويب ليقدّم إجابة محدّثة.",
           chip: "يكتشف السياق الناقص",
         },
         {
@@ -47,9 +47,9 @@ export default function RealTimeWebSearchFeaturePage() {
         },
         {
           id: "3",
-          title: "تقييم المصادر",
-          body: "تُرشَّح نتائج البحث حسب الصلة والمصداقية قبل الاستخدام، ما يعزّز موثوقية الردود ودقتها.",
-          chip: "ترشيح حسب المصداقية",
+          title: "البحث في صفحاتك أولًا",
+          body: "أضف حتى 10 صفحات من موقعك، مثل الأسعار أو المنتجات المتوفرة أو القوائم، ليتحقق منها الذكاء الاصطناعي لحظيًا ويشارك روابطها المباشرة.",
+          chip: "بحث في صفحات تختارها",
         },
         {
           id: "4",
@@ -59,16 +59,16 @@ export default function RealTimeWebSearchFeaturePage() {
         },
         {
           id: "5",
-          title: "تعلّم مستمر",
-          body: "تُحفَظ أنماط المعلومات المتكررة لتحسين سرعة الرد ودقته في المحادثات اللاحقة.",
-          chip: "يتحسّن مع الوقت",
+          title: "قراءة الروابط التي يرسلها العملاء",
+          body: "عندما يرسل العميل رابطًا داخل المحادثة، يستطيع الذكاء الاصطناعي قراءة الصفحة واستخدام معلوماتها في الرد.",
+          chip: "يفهم الروابط المرسلة",
         },
       ]
     : [
         {
           id: "1",
           title: "Knowledge Gap Detection",
-          body: "Easy Reply recognizes when a question exceeds current context and automatically triggers advanced web search to deliver accurate answers.",
+          body: "Easy Reply recognizes when your FAQs and instructions aren't enough to answer a question and automatically searches the web for an up-to-date answer.",
           chip: "Detects Missing Context",
         },
         {
@@ -79,9 +79,9 @@ export default function RealTimeWebSearchFeaturePage() {
         },
         {
           id: "3",
-          title: "Source Evaluation",
-          body: "Search results are filtered for relevance and credibility before being used, helping ensure responses are trustworthy and precise.",
-          chip: "Credibility Filtering",
+          title: "Your Own Pages First",
+          body: "Add up to 10 pages from your site, such as pricing, available products, or listings, for the AI to check live and link to directly.",
+          chip: "Searches Pages You Choose",
         },
         {
           id: "4",
@@ -91,9 +91,9 @@ export default function RealTimeWebSearchFeaturePage() {
         },
         {
           id: "5",
-          title: "Continuous Learning",
-          body: "High-frequency information patterns are remembered to improve response speed and accuracy in future conversations.",
-          chip: "Improves Over Time",
+          title: "Reads Links Customers Share",
+          body: "When a customer pastes a link into the chat, the AI can read that page and use its information in the reply.",
+          chip: "Understands Shared Links",
         },
       ];
 
@@ -147,7 +147,7 @@ export default function RealTimeWebSearchFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "بحث ويب لحظي لذكاء اصطناعي دقيق دائمًا" : "Real-Time Web Search for Always-Accurate AI"}
+              {isAr ? "بحث ويب لحظي لإجابات محدّثة" : "Real-Time Web Search for Up-to-Date Answers"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -156,8 +156,8 @@ export default function RealTimeWebSearchFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتصل Easy Reply بالويب في الوقت الفعلي لتقديم ردود محدثة عن الأحداث الجارية والمنتجات المحددة والمواضيع سريعة التغيّر."
-                : "Easy Reply accesses the web in real time to provide up-to-date responses on current events, specific products, and fast-changing topics."}
+                ? "يبحث Easy Reply في صفحات موقعك وعلى الويب في الوقت الفعلي ليقدّم ردودًا محدّثة عن الأسعار والتوفر والمنتجات والمعلومات سريعة التغيّر."
+                : "Easy Reply searches your website pages and the web in real time to give up-to-date answers about pricing, availability, products, and other fast-changing details."}
             </p>
             <a
               href="#pricing"
@@ -186,8 +186,8 @@ export default function RealTimeWebSearchFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يشغّل Easy Reply بحثًا حيًا على الويب أثناء المحادثات ليعيد ردودًا دقيقة وواثقة، حتى للأسئلة شديدة التحديد أو الحساسة زمنيًا."
-                : "Easy Reply runs live web search during conversations to return precise and confident responses, even for highly specific or time-sensitive questions."}
+                ? "يشغّل Easy Reply بحثًا حيًا على الويب أثناء المحادثات ليقدّم ردودًا أدق، حتى للأسئلة شديدة التحديد أو المرتبطة بمعلومات تتغير باستمرار."
+                : "Easy Reply runs live web search during conversations to give more precise answers, even for highly specific or time-sensitive questions."}
             </p>
           </div>
         </section>
@@ -297,12 +297,14 @@ export default function RealTimeWebSearchFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -400,6 +402,9 @@ export default function RealTimeWebSearchFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

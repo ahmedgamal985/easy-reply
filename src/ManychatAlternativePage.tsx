@@ -34,32 +34,32 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "ManyChat relies on structured flows and predefined paths, which often lead to rigid scripted interactions. Easy Reply understands context, remembers prior exchanges, and adapts responses in real time for a more natural conversation experience.",
-    chip: "Adapts in Real Time",
+    body: "ManyChat is built around structured flows and predefined paths, which work well for predictable journeys. Easy Reply is built around AI conversations that follow context, remember earlier messages in the chat, and adapt each reply to what the customer actually asked.",
+    chip: "Adapts to Context",
   },
   {
     id: "2",
     title: "Unified Multi-Channel Experience",
-    body: "ManyChat was built around Facebook-native workflows. Easy Reply delivers consistent quality across WhatsApp, Instagram, Facebook Messenger, and web chat so your customer experience stays aligned on every channel.",
-    chip: "One Quality Standard",
+    body: "Easy Reply runs one AI agent with one knowledge base across WhatsApp, Instagram, Facebook Messenger, and web chat, so answers and tone stay consistent wherever a customer writes in.",
+    chip: "One Agent, Every Channel",
   },
   {
     id: "3",
-    title: "Sales Capability",
-    body: "ManyChat is strong for campaign automation, but limited in complex sales conversations. Easy Reply guides prospects through decision stages, handles objections, and supports higher-value transactions.",
-    chip: "Built for Conversion",
+    title: "Sales Conversations",
+    body: "ManyChat is widely used for flow-based chat automation. Easy Reply is built around sales conversations: it answers product questions, handles common objections, and guides interested customers toward booking or buying, with a hand-off to your team when needed.",
+    chip: "Built for Sales Conversations",
   },
   {
     id: "4",
-    title: "Advanced Media Understanding",
-    body: "ManyChat can process basic image inputs, while Easy Reply interprets images, transcribes voice notes, analyzes video, and extracts key details from documents for deeper interactions.",
+    title: "Media Understanding",
+    body: "Easy Reply can read images, transcribe voice notes, look at video, and pull key details from documents that customers send, so it can answer questions that arrive as media rather than text.",
     chip: "Understands Rich Media",
   },
   {
     id: "5",
-    title: "Continuous Optimization",
-    body: "ManyChat often requires manual flow updates to improve performance. Easy Reply improves from winning conversations and refines response quality continuously with minimal manual tuning.",
-    chip: "Improves Automatically",
+    title: "Ongoing Improvement",
+    body: "Flow-based setups are usually improved by editing flows by hand. With Easy Reply, you can review past conversations and apply suggested improvements to your agent's knowledge and instructions in one click.",
+    chip: "One-Click Improvements",
   },
 ];
 
@@ -67,32 +67,32 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "يعتمد ManyChat على تدفقات منظّمة ومسارات جاهزة، ما يؤدي غالباً إلى حوارات جامدة ونمطية. يفهم Easy Reply السياق، يتذكر ما سبق، ويعدّل الإجابات لحظياً لتجربة حوار أقرب إلى الطبيعي.",
-    chip: "يتكيّف لحظياً",
+    body: "بُني ManyChat حول تدفقات منظّمة ومسارات جاهزة، وهي مناسبة للرحلات المتوقّعة. أما Easy Reply فمبني حول محادثات بالذكاء الاصطناعي تتابع السياق، وتتذكّر الرسائل السابقة في المحادثة، وتكيّف كل رد بحسب ما سأل عنه العميل فعلاً.",
+    chip: "يتكيّف مع السياق",
   },
   {
     id: "2",
     title: "تجربة موحّدة عبر القنوات",
-    body: "بُني ManyChat حول مسارات مرتبطة بفيسبوك بشكل أساسي. يقدّم Easy Reply جودة ثابتة عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع، فتبقى تجربة عميلك متسقة في كل قناة.",
-    chip: "معيار جودة واحد",
+    body: "يشغّل Easy Reply وكيلاً واحداً بالذكاء الاصطناعي وقاعدة معرفة واحدة عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع، فتبقى الإجابات والأسلوب متّسقة أينما راسلك العميل.",
+    chip: "وكيل واحد لكل القنوات",
   },
   {
     id: "3",
-    title: "قدرات البيع",
-    body: "ManyChat قوي في أتمتة الحملات، لكنه يحدّ عند حوارات البيع المعقّدة. يقود Easy Reply العملاء عبر مراحل القرار، يتعامل مع الاعتراضات، ويدعم صفقات ذات قيمة أعلى.",
-    chip: "مصمّم للتحويل",
+    title: "محادثات البيع",
+    body: "يُستخدم ManyChat على نطاق واسع لأتمتة الدردشة المبنية على التدفقات. أما Easy Reply فمبني حول محادثات البيع: يجيب عن أسئلة المنتج، ويتعامل مع الاعتراضات الشائعة، ويوجّه العملاء المهتمين نحو الحجز أو الشراء، مع تحويل المحادثة إلى فريقك عند الحاجة.",
+    chip: "مصمّم لمحادثات البيع",
   },
   {
     id: "4",
-    title: "فهم متقدّم للوسائط",
-    body: "يتعامل ManyChat مع صور أساسية، بينما يفسّر Easy Reply الصور، ينسخ الملاحظات الصوتية، يحلّل الفيديو، ويستخرج المعلومات المهمة من المستندات لتفاعلات أعمق.",
+    title: "فهم الوسائط",
+    body: "يستطيع Easy Reply قراءة الصور، وتفريغ الملاحظات الصوتية، ومشاهدة الفيديو، واستخراج المعلومات المهمة من المستندات التي يرسلها العملاء، فيجيب عن الأسئلة حتى عندما تصل في صورة وسائط لا نص.",
     chip: "يفهم الوسائط الغنية",
   },
   {
     id: "5",
     title: "تحسين مستمر",
-    body: "يحتاج ManyChat غالباً إلى تحديث يدوي للتدفقات لتحسين الأداء. يتعلّم Easy Reply من المحادثات الناجحة ويرفع جودة الردود باستمرار مع أقل قدر من الضبط اليدوي.",
-    chip: "يتحسّن تلقائياً",
+    body: "عادةً ما تُحسَّن الأنظمة المبنية على التدفقات بتعديلها يدوياً. مع Easy Reply يمكنك مراجعة المحادثات السابقة وتطبيق التحسينات المقترحة على معرفة وكيلك وتعليماته بنقرة واحدة.",
+    chip: "تحسينات بنقرة واحدة",
   },
 ];
 
@@ -155,18 +155,18 @@ export default function ManychatAlternativePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يُبنى ManyChat على تدفقات منظّمة ومسارات رسائل محدّدة مسبقاً، بينما يشغّل Easy Reply حوارات ديناميكية قريبة من الإنسان وتتكيّف مع السياق لحظياً."
-                : "ManyChat is built around structured flows and predefined messaging paths, while Easy Reply runs dynamic human-like conversations that adapt to context in real time."}
+                ? "يُبنى ManyChat على تدفقات منظّمة ومسارات رسائل محدّدة مسبقاً، بينما يشغّل Easy Reply محادثات بالذكاء الاصطناعي قريبة من الإنسان تتكيّف مع السياق لحظياً."
+                : "ManyChat is built around structured flows and predefined messaging paths, while Easy Reply runs human-like AI conversations that adapt to context in real time."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بدلاً من دفع المستخدمين عبر تسلسلات ثابتة، يرد Easy Reply بشكل طبيعي، يتعامل مع الاعتراضات المعقّدة، ويدعم نتائج مبيعات عالية القيمة."
-                : "Instead of pushing users through static sequences, Easy Reply responds naturally, handles complex objections, and supports high-value sales outcomes."}
+                ? "بدلاً من رسم كل مسار مسبقاً، تزوّد Easy Reply بمعلومات عملك، فيرد على العملاء الذين يراسلونك، ويتعامل مع الاعتراضات الشائعة، ويساعدهم على التقدّم نحو الشراء."
+                : "Rather than mapping every path in advance, you give Easy Reply your business information and it answers customers who message you, handles common objections, and helps them move toward a purchase."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "هذا يمكّن الفرق من تجاوز الأتمتة البسيطة إلى محادثات تؤثر في القرار وتولّد إيراداً قابلاً للقياس."
-                : "This helps teams move beyond basic automation into conversations that influence decisions and generate measurable revenue."}
+                ? "هكذا تتجاوز الفرق الأتمتة البسيطة إلى محادثات تدعم قرارات الشراء الحقيقية."
+                : "This helps teams go beyond basic automation toward conversations that support real buying decisions."}
             </p>
             <a
               href="#pricing"
@@ -185,18 +185,18 @@ export default function ManychatAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "ManyChat وضع الأساس، لكن حدوده باتت واضحة اليوم"
-                : "ManyChat Set the Foundation, But Its Limitations Are Now Clear"}
+                ? "أتمتة التدفقات ومحادثات الذكاء الاصطناعي تحلّان مشكلتين مختلفتين"
+                : "Flow Automation and AI Conversations Solve Different Problems"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "ساعد ManyChat الشركات على تبنّي الأتمتة بسرعة عبر تدفقات بسيطة وتسلسلات جاهزة."
-                : "ManyChat helped businesses adopt automation quickly through simple flows and predefined sequences."}
+                ? "ساعد ManyChat كثيراً من الشركات على تبنّي أتمتة الدردشة عبر تدفقات وتسلسلات جاهزة."
+                : "ManyChat helped many businesses adopt chat automation through flows and predefined sequences."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "مع تقدّم توقّعات المشترين، أصبحت هذه الهياكل الجامعة عائقاً أمام الحوار الطبيعي وتقدّم المبيعات الحقيقي. الفرق المعاصرة تحتاج تواصلاً تكيّفياً مصمّماً للتحويل."
-                : "As buyer expectations advanced, those rigid structures became a bottleneck for natural conversation and real sales progression. Modern teams now need adaptive communication designed for conversion."}
+                ? "تعمل التدفقات أفضل ما يكون عندما تكون المحادثات متوقّعة. وحين يطرح العملاء أسئلة مفتوحة أو يقارنون بين الخيارات، يستطيع وكيل ذكاء اصطناعي يفهم السياق أن يمضي بالمحادثة أبعد، وهذا ما صُمّم Easy Reply من أجله."
+                : "Flows work best when conversations are predictable. When customers ask open-ended questions or compare options, an AI agent that understands context can carry the conversation further. That is what Easy Reply is designed for."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function ManychatAlternativePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -411,6 +413,9 @@ export default function ManychatAlternativePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

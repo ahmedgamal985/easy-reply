@@ -1,10 +1,12 @@
 import type { Copy, Lang } from "../locales";
+import { SIGNIN_URL } from "../lib/site";
 
 export function PricingPlansGrid({ L }: { L: Copy; lang: Lang }) {
   // Western numerals in both languages so the reply count and the price match.
   const fmt = (n: number) => n.toLocaleString("en-US");
 
   return (
+    <>
     <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {L.pricing.plans.map((plan) => {
         const isHighlighted = "highlighted" in plan && plan.highlighted;
@@ -56,7 +58,7 @@ export function PricingPlansGrid({ L }: { L: Copy; lang: Lang }) {
               ))}
             </ul>
             <a
-              href="#"
+              href={SIGNIN_URL}
               className={`mt-6 block w-full rounded-lg py-3 text-center text-sm font-semibold transition ${
                 isHighlighted
                   ? "bg-accent text-white hover:bg-accent-hover"
@@ -69,5 +71,13 @@ export function PricingPlansGrid({ L }: { L: Copy; lang: Lang }) {
         );
       })}
     </div>
+    {/* Extra replies, yearly billing and taxes, then the refund policy - Paddle asks for it to be easy to find. */}
+    <p className="mx-auto mt-8 max-w-3xl text-center text-sm text-ink-muted">
+      {L.pricing.footnote}{" "}
+      <a href="/refund-policy" className="font-semibold text-accent hover:text-accent-hover">
+        {L.pricing.refundLabel}
+      </a>
+    </p>
+    </>
   );
 }

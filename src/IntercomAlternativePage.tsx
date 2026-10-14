@@ -34,31 +34,31 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "Intercom Resolution Bot is mainly designed for ticket deflection and support workflows. Easy Reply is built for natural sales conversations that retain context, build trust, and move prospects toward conversion.",
+    body: "Intercom's AI is designed largely around customer support and resolving questions. Easy Reply is built around sales conversations that keep context, build trust, and guide prospects toward a decision.",
     chip: "Built for Sales Dialogue",
   },
   {
     id: "2",
     title: "Unified Multi-Channel Experience",
-    body: "Intercom is strongest in website and in-app messaging, which can limit consistency across external channels. Easy Reply maintains high conversation quality across WhatsApp, Instagram, Facebook Messenger, and web chat.",
+    body: "Intercom is best known for website and in-app messaging. Easy Reply is built around the messaging apps where many customers already write in, WhatsApp, Instagram, and Facebook Messenger, plus web chat, all answered by one agent.",
     chip: "Consistent Across Channels",
   },
   {
     id: "3",
-    title: "Predictable Pricing",
-    body: "Intercom seat-based pricing can scale up quickly as teams expand. Easy Reply provides flat-rate pricing to keep costs predictable regardless of team growth.",
-    chip: "Flat, Predictable Cost",
+    title: "Clear Plans",
+    body: "Every team's needs are different, so compare options against your own team size and usage. Easy Reply's plans are listed in the pricing section on this page, so you can see what is included before you start.",
+    chip: "Plans Shown Up Front",
   },
   {
     id: "4",
-    title: "Rapid Sales Deployment",
-    body: "Intercom includes some sales tooling but remains support-centric. Easy Reply is sales-first, helping teams qualify leads, handle objections, and guide purchase decisions efficiently.",
-    chip: "Fast Time to Revenue",
+    title: "Sales-First Design",
+    body: "Intercom offers sales features alongside its support focus. Easy Reply is sales-first, helping teams qualify leads, handle objections, and guide purchase decisions in chat.",
+    chip: "Sales-First by Design",
   },
   {
     id: "5",
-    title: "Advanced Media Intelligence",
-    body: "Intercom supports basic image handling but has limited depth with voice notes, video, and documents. Easy Reply understands all these media formats for richer and more effective conversations.",
+    title: "Media Understanding",
+    body: "Easy Reply understands images, voice notes, video, and documents that customers send, so the conversation can continue naturally whatever format a question arrives in.",
     chip: "Understands Rich Media",
   },
 ];
@@ -67,31 +67,31 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "بوت Intercom للحلول مُصمَّم أساساً لتحويل التذاكر وسير عمل الدعم. بُني Easy Reply لحوارات بيع طبيعية تحافظ على السياق، تبني الثقة، وتقود العملاء المحتملين نحو التحويل.",
+    body: "صُمّم الذكاء الاصطناعي في Intercom إلى حد كبير حول دعم العملاء وحلّ استفساراتهم. أما Easy Reply فمبني حول محادثات البيع التي تحافظ على السياق، وتبني الثقة، وتوجّه العملاء المحتملين نحو القرار.",
     chip: "مصمّم لحوار البيع",
   },
   {
     id: "2",
     title: "تجربة موحّدة عبر القنوات",
-    body: "Intercom الأقوى في رسائل الموقع والتطبيق، ما قد يحدّ الاتساق خارجها. يحافظ Easy Reply على جودة محادثة عالية عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع.",
+    body: "يُعرف Intercom أكثر برسائل الموقع والتطبيق. أما Easy Reply فمبني حول تطبيقات المراسلة التي يراسلك منها كثير من العملاء أصلاً، واتساب وإنستغرام وفيسبوك ماسنجر، إضافة إلى دردشة الموقع، ويرد عليها كلها وكيل واحد.",
     chip: "اتساق عبر القنوات",
   },
   {
     id: "3",
-    title: "تسعير متوقّع",
-    body: "تسعير Intercom حسب المقاعد يرتفع سريعاً مع توسّع الفريق. يوفّر Easy Reply سعراً ثابتاً لتبقى التكاليف متوقّعة مهما كبر الفريق.",
-    chip: "تكلفة ثابتة ومتوقّعة",
+    title: "خطط واضحة",
+    body: "تختلف احتياجات كل فريق، لذا قارن الخيارات بحسب حجم فريقك واستخدامك. خطط Easy Reply معروضة في قسم الأسعار في هذه الصفحة، لتعرف ما تتضمّنه قبل أن تبدأ.",
+    chip: "خطط معروضة بوضوح",
   },
   {
     id: "4",
-    title: "نشر سريع للمبيعات",
-    body: "يتضمّن Intercom بعض أدوات البيع لكنه يبقى محوره الدعم. Easy Reply يركّز على المبيعات أولاً: تأهيل العملاء، معالجة الاعتراضات، وتوجيه قرار الشراء بكفاءة.",
-    chip: "أسرع طريقاً للإيراد",
+    title: "تصميم يبدأ بالمبيعات",
+    body: "يقدّم Intercom ميزات للبيع إلى جانب تركيزه على الدعم. أما Easy Reply فيضع المبيعات أولاً: يساعد الفرق على تأهيل العملاء المحتملين، ومعالجة الاعتراضات، وتوجيه قرار الشراء داخل المحادثة.",
+    chip: "المبيعات أولاً",
   },
   {
     id: "5",
-    title: "ذكاء متقدّم للوسائط",
-    body: "يدعم Intercom الصور بشكل أساسي مع عمق محدود للملاحظات الصوتية والفيديو والمستندات. يفهم Easy Reply هذه الصيغ كلها لحوارات أغنى وأكثر فعالية.",
+    title: "فهم الوسائط",
+    body: "يفهم Easy Reply الصور والملاحظات الصوتية والفيديو والمستندات التي يرسلها العملاء، فتستمر المحادثة بشكل طبيعي أيّاً كانت صيغة السؤال.",
     chip: "يفهم الوسائط الغنية",
   },
 ];
@@ -185,18 +185,18 @@ export default function IntercomAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Intercom مهّد الطريق، لكنه يتقصّر أمام الذكاء الاصطناعي الموجّه للمبيعات"
-                : "Intercom Paved the Way, But Falls Short on Sales-Focused AI"}
+                ? "Intercom رائد في الدعم، وEasy Reply مبني لمحادثات البيع"
+                : "Intercom Leads in Support; Easy Reply Is Built for Sales Conversations"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "طالما كان Intercom رائداً في رسائل العملاء عبر الدعم والتفاعل والتسويق."
-                : "Intercom has long been a leader in customer messaging across support, engagement, and marketing."}
+                ? "طالما كان Intercom رائداً في رسائل العملاء، خاصة في الدعم والتفاعل."
+                : "Intercom has long been a leader in customer messaging, especially for support and engagement."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عندما يكون الهدف توليد إيراد عبر حوارات بيع مدعومة بالذكاء الاصطناعي، تبرز حدوده. يملأ Easy Reply هذه الفجوة بتفاعلات واعية بالسياق تحوّل التفاعل إلى نتائج قابلة للقياس."
-                : "When the objective is revenue generation through AI-driven sales conversations, its limitations become clear. Easy Reply fills this gap with context-aware interactions that convert engagement into measurable outcomes."}
+                ? "عندما يكون الهدف تحويل المحادثات إلى مبيعات، قد يكون وكيل مخصّص للبيع هو الخيار الأنسب. صُمّم Easy Reply لذلك، بمحادثات واعية بالسياق تساعد العملاء المهتمين على التقدّم نحو القرار."
+                : "When the goal is turning conversations into sales, an agent built for selling can be a better fit. Easy Reply is designed for that, with context-aware conversations that help interested customers move toward a decision."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function IntercomAlternativePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -411,6 +413,9 @@ export default function IntercomAlternativePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

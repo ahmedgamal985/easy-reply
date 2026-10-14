@@ -34,32 +34,32 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "GoHighLevel includes chat as one feature inside a broader stack, often relying on rigid flows. Easy Reply is purpose-built for context-aware human-like conversations that engage prospects and move them toward conversion.",
+    body: "GoHighLevel is an all-in-one platform where chat is one part of a broader CRM and automation suite. Easy Reply focuses on one job: context-aware, human-like AI conversations that answer prospects and help them move toward a decision.",
     chip: "Designed for Natural Dialogue",
   },
   {
     id: "2",
-    title: "Implementation Speed",
-    body: "GoHighLevel typically requires longer setup because of its wide configuration surface. Easy Reply is optimized for fast deployment so teams can go live quickly and start generating outcomes sooner.",
-    chip: "Launches Fast",
+    title: "Setup Focus",
+    body: "An all-in-one platform has many areas to configure. Easy Reply has a narrower scope: describe your business, add your website, connect your channels, and test your agent before it goes live.",
+    chip: "Quick Setup",
   },
   {
     id: "3",
     title: "Sales Capability",
-    body: "GoHighLevel handles basic chat interactions, but can struggle in complex sales conversations. Easy Reply guides high-value decision journeys, handles nuanced objections, and supports conversion-focused discussions.",
+    body: "GoHighLevel covers many stages of the sales and CRM process. Easy Reply goes deep on the conversation itself: qualifying leads, answering detailed questions, handling objections, and booking appointments in chat.",
     chip: "Handles Complex Sales",
   },
   {
     id: "4",
     title: "Media Intelligence",
-    body: "GoHighLevel has limited media-depth in chat experiences. Easy Reply understands images, voice notes, video, and documents to deliver richer communication and stronger context.",
+    body: "Easy Reply understands images, voice notes, video, and documents that customers send in chat, so it can respond to what they share, not only to what they type.",
     chip: "Understands Rich Inputs",
   },
   {
     id: "5",
     title: "Continuous Optimization",
-    body: "GoHighLevel performance often improves through manual tuning. Easy Reply continuously improves conversational quality automatically by learning from interactions over time.",
-    chip: "Improves Automatically",
+    body: "With Easy Reply, you can review past conversations and apply AI-suggested improvements to your agent in one click, which reduces the manual tuning needed to keep replies accurate.",
+    chip: "One-Click Improvements",
   },
 ];
 
@@ -67,32 +67,32 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "يدمج GoHighLevel الدردشة كإحدى الميزات ضمن منصة أوسع، وغالباً بمسارات جامدة. صُمّم Easy Reply خصيصاً لحوارات بشرية واعية بالسياق تجذب العملاء المحتملين وتقودهم نحو التحويل.",
+    body: "GoHighLevel منصة شاملة تمثّل الدردشة فيها جزءاً واحداً من مجموعة أوسع لإدارة علاقات العملاء والأتمتة. أما Easy Reply فيركّز على مهمة واحدة: محادثات بالذكاء الاصطناعي واعية بالسياق وقريبة من الإنسان، تجيب العملاء المحتملين وتساعدهم على التقدّم نحو القرار.",
     chip: "مصمّم لحوار طبيعي",
   },
   {
     id: "2",
-    title: "سرعة التنفيذ",
-    body: "يستغرق إعداد GoHighLevel وقتاً أطول عادةً بسبب سطح الإعداد الواسع. يُحسَّن Easy Reply للنشر السريع لتطلق الفرق العمل بسرعة وتبدأ بنتائج أسرع.",
-    chip: "إطلاق سريع",
+    title: "تركيز الإعداد",
+    body: "في المنصات الشاملة جوانب كثيرة تحتاج إلى إعداد. نطاق Easy Reply أضيق: عرّف عملك، وأضف موقعك، واربط قنواتك، واختبر وكيلك قبل تشغيله.",
+    chip: "إعداد سريع",
   },
   {
     id: "3",
     title: "قدرات البيع",
-    body: "يتعامل GoHighLevel مع تفاعلات دردشة أساسية، لكنه يتعثّر أحياناً في حوارات البيع المعقّدة. يوجّه Easy Reply رحلات قرار عالية القيمة، يتعامل مع الاعتراضات الدقيقة، ويدعم حوارات مركّزة على التحويل.",
+    body: "يغطي GoHighLevel مراحل كثيرة من عملية البيع وإدارة علاقات العملاء. أما Easy Reply فيتعمّق في المحادثة نفسها: تأهيل العملاء المحتملين، والإجابة عن الأسئلة التفصيلية، والتعامل مع الاعتراضات، وحجز المواعيد داخل المحادثة.",
     chip: "يتقن المبيعات المعقّدة",
   },
   {
     id: "4",
     title: "ذكاء الوسائط",
-    body: "عمق GoHighLevel في الوسائط داخل الدردشة محدود. يفهم Easy Reply الصور والملاحظات الصوتية والفيديو والمستندات لتواصل أغنى وسياق أوضح.",
+    body: "يفهم Easy Reply الصور والملاحظات الصوتية والفيديو والمستندات التي يرسلها العملاء في المحادثة، فيرد على ما يشاركونه لا على ما يكتبونه فقط.",
     chip: "يفهم المدخلات الغنية",
   },
   {
     id: "5",
     title: "تحسين مستمر",
-    body: "يتحسّن أداء GoHighLevel غالباً عبر ضبط يدوي. يرفع Easy Reply جودة الحوار تلقائياً مع الوقت بالتعلّم من التفاعلات.",
-    chip: "يتحسّن تلقائياً",
+    body: "مع Easy Reply يمكنك مراجعة المحادثات السابقة وتطبيق تحسينات يقترحها الذكاء الاصطناعي على وكيلك بنقرة واحدة، فيقلّ الضبط اليدوي اللازم لإبقاء الردود دقيقة.",
+    chip: "تحسينات بنقرة واحدة",
   },
 ];
 
@@ -155,8 +155,8 @@ export default function GohighlevelAlternativePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يقدّم GoHighLevel مجموعة تسويقية واسعة مع دعم دردشة أساسي للمسارات العامة."
-                : "GoHighLevel offers a broad marketing suite with basic chat support for general workflows."}
+                ? "يقدّم GoHighLevel منصة شاملة لإدارة علاقات العملاء والأتمتة والمواقع، والدردشة فيها أداة من أدوات كثيرة."
+                : "GoHighLevel offers a broad all-in-one platform for CRM, automation, and websites, with chat as one of many tools."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -165,8 +165,8 @@ export default function GohighlevelAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بدلاً من اتساع المنتج مع سطحية في عمق الحوار، صُمّم Easy Reply لتوجيه القرارات، معالجة الاعتراضات، وتحويل العملاء المؤهّلين إلى مشترين."
-                : "Instead of breadth with shallow conversation depth, Easy Reply is built to guide decisions, handle objections, and convert qualified leads into paying customers."}
+                ? "بدلاً من تغطية كل وظائف العمل، صُمّم Easy Reply لتوجيه القرارات، ومعالجة الاعتراضات، ومساعدة العملاء المؤهّلين على أن يصبحوا مشترين."
+                : "Rather than covering every business function, Easy Reply is built to guide decisions, handle objections, and help qualified leads become paying customers."}
             </p>
             <a
               href="#pricing"
@@ -185,18 +185,18 @@ export default function GohighlevelAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "GoHighLevel يغطي وظائف كثيرة، لكنه يفتقر للعمق في محادثات الذكاء الاصطناعي"
-                : "GoHighLevel Covers Many Functions, but Lacks Depth in Conversational AI"}
+                ? "GoHighLevel يغطي وظائف كثيرة، وEasy Reply يركّز على المحادثة"
+                : "GoHighLevel Covers Many Functions; Easy Reply Focuses on the Conversation"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع GoHighLevel بين إدارة علاقات العملاء والأتمتة وأدوات الموقع وميزات دردشة أساسية في منصة واحدة."
-                : "GoHighLevel combines CRM, automation, website tools, and basic chat features in one platform."}
+                ? "يجمع GoHighLevel بين إدارة علاقات العملاء والأتمتة وأدوات الموقع وميزات الدردشة في منصة واحدة."
+                : "GoHighLevel combines CRM, automation, website tools, and chat features in one platform."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "هذه الراحة الواسعة تأتي مع حدود في جودة الحوار الديناميكي. صُمّم Easy Reply للتفاعل الأعمق وأداء تحويل أقوى حيث يكون تنفيذ المحادثة هو الأهم."
-                : "That broad convenience comes with limits in dynamic conversation quality. Easy Reply is purpose-built for deeper engagement and stronger conversion performance where conversational execution matters most."}
+                ? "يناسب هذا الاتساع الفرق التي تريد أداة واحدة لمهام كثيرة. أما Easy Reply فمصمّم للفرق التي تكون أولويتها جودة المحادثة نفسها، حين يكون أسلوب الحوار هو ما يصنع الفرق."
+                : "That breadth suits teams who want one tool for many jobs. Easy Reply is purpose-built for teams whose priority is the quality of the conversation itself, where how you talk to customers matters most."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function GohighlevelAlternativePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -411,6 +413,9 @@ export default function GohighlevelAlternativePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

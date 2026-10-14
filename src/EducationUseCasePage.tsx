@@ -46,19 +46,19 @@ const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "3",
     title: "Financial Aid Support",
-    body: "Easy Reply clarifies tuition costs, scholarship opportunities, payment plans, and aid options so prospects understand affordability with confidence.",
+    body: "Using the information you provide, Easy Reply explains tuition costs, scholarship opportunities, payment plans, and aid options so applicants understand what each option involves.",
     chip: "Clarifies Funding Options",
   },
   {
     id: "4",
     title: "Candidate Qualification",
-    body: "Through natural conversations, Easy Reply identifies academic background, interests, timeline, and commitment level so serious candidates are prioritized.",
+    body: "Through natural conversations with students who reach out, Easy Reply asks about academic background, interests, and timeline so your team can see which programs fit each applicant.",
     chip: "Prioritizes Best-Fit Applicants",
   },
   {
     id: "5",
     title: "Enrollment Coordination",
-    body: "Once a candidate is qualified, Easy Reply schedules meetings with the right advisors or faculty based on program interest, reducing delays and improving conversion.",
+    body: "When an applicant is ready, Easy Reply schedules a meeting with the right advisor or faculty member based on program interest, reducing back-and-forth and waiting time.",
     chip: "Schedules Advisor Meetings",
   },
 ];
@@ -79,19 +79,19 @@ const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "3",
     title: "دعم التمويل والمساعدة المالية",
-    body: "يوضّح Easy Reply تكاليف الدراسة وفرص المنح وخطط الدفع وخيارات المساعدة حتى يفهم المتقدّمون القدرة على التحمّل بثقة.",
+    body: "بالاعتماد على المعلومات التي تقدّمها، يوضّح Easy Reply تكاليف الدراسة وفرص المنح وخطط الدفع وخيارات المساعدة حتى يفهم المتقدّمون ما يتضمنه كل خيار.",
     chip: "يوضّح خيارات التمويل",
   },
   {
     id: "4",
     title: "تأهيل المرشحين",
-    body: "عبر حوارات طبيعية، يحدّد Easy Reply الخلفية الأكاديمية والاهتمامات والجدول الزمني ومستوى الالتزام فيُعطي الأولوية للمرشحين الأكثر جدية.",
+    body: "عبر حوارات طبيعية مع الطلاب الذين يتواصلون معك، يسأل Easy Reply عن الخلفية الأكاديمية والاهتمامات والجدول الزمني ليرى فريقك البرامج الأنسب لكل متقدّم.",
     chip: "يُقدّم المتقدمين الأنسب",
   },
   {
     id: "5",
     title: "تنسيق التسجيل",
-    body: "بعد تأهيل المرشح، يجدول Easy Reply لقاءات مع المستشارين أو أعضاء هيئة التدريس المناسبين حسب البرنامج، ما يقلّل التأخير ويحسّن التحويل.",
+    body: "عندما يكون المتقدّم مستعدًا، يجدول Easy Reply لقاءً مع المستشار أو عضو هيئة التدريس المناسب حسب البرنامج، ما يقلّل المراسلات المتبادلة ووقت الانتظار.",
     chip: "يجدول لقاءات المستشارين",
   },
 ];
@@ -152,8 +152,8 @@ export default function EducationUseCasePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "حوّل الطلاب المحتملين إلى مرشحين مسجّلين"
-                : "Turn Prospective Students Into Enrolled Candidates"}
+                ? "أجب عن كل استفسار قبول في أي وقت"
+                : "Answer Every Admissions Inquiry, Day or Night"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -167,8 +167,8 @@ export default function EducationUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "النتيجة: رحلة تقديم أكثر سلاسة، وتحويل تسجيل أعلى، وعبء إداري أخف على فريقك."
-                : "The outcome is a smoother application journey, higher enrollment conversion, and lower administrative workload for your team."}
+                ? "يحصل المتقدّمون على إجابات واضحة في الوقت الذي يسألون فيه، ويقضي فريقك وقتًا أقل في الرد على الأسئلة المتكررة."
+                : "Applicants get clear answers when they ask, and your team spends less time on repetitive questions."}
             </p>
             <a
               href="#pricing"
@@ -195,8 +195,8 @@ export default function EducationUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يستجيب Easy Reply فورًا بإرشاد دقيق مع تحديد وتقديم المرشحين عاليي النية، فيركّز فريق القبول على المحادثات عالية القيمة."
-                : "Easy Reply responds instantly with accurate guidance while identifying and prioritizing high-intent candidates, so your admissions team can focus on high-value conversations."}
+                ? "يرد Easy Reply على هذه الأسئلة فورًا بالاعتماد على معلوماتك، ويحيل المتقدّمين الجادّين إلى فريق القبول، فيركّز الفريق على المحادثات التي تحتاج إليه."
+                : "Easy Reply answers these questions instantly using your information and passes serious applicants to your admissions team, so the team can focus on the conversations that need them."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function EducationUseCasePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -412,6 +414,9 @@ export default function EducationUseCasePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

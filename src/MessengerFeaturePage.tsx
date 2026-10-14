@@ -41,14 +41,14 @@ export default function MessengerFeaturePage() {
         },
         {
           id: "2",
-          title: "تحويل التعليق إلى ماسنجر",
-          body: "يرصد التعليقات الجاهزة للبيع على منشورات فيسبوك ويبدأ فورًا محادثات خاصة مع العملاء الأكثر جاهزية.",
-          chip: "توجيه ذكي من التعليق",
+          title: "الرد على التعليقات عبر ماسنجر",
+          body: "عندما يعلّق شخص على منشور صفحتك على فيسبوك، كأن يسأل عن السعر، يرد عليه الذكاء الاصطناعي برسالة خاصة على ماسنجر، وتستمر المحادثة إذا ردّ عليها.",
+          chip: "رد خاص على صاحب التعليق",
         },
         {
           id: "3",
           title: "تكامل إعلانات فيسبوك",
-          body: "يواصل المحادثة القادمة من حملات Messenger Ads مع الحفاظ على السياق، لضمان تجربة شخصية عبر رحلة العميل.",
+          body: "عندما يضغط شخص على إعلانك ويراسلك عبر ماسنجر، يكمل الذكاء الاصطناعي المحادثة مع مراعاة الإعلان الذي جاء منه، لتبقى التجربة شخصية ومترابطة.",
           chip: "استمرارية من الإعلان للمحادثة",
         },
         {
@@ -59,9 +59,9 @@ export default function MessengerFeaturePage() {
         },
         {
           id: "5",
-          title: "تكامل كتالوج فيسبوك",
-          body: "يعرض منتجات متجر فيسبوك داخل المحادثة، ويوجه العميل من التصفح إلى إتمام الشراء بسلاسة.",
-          chip: "بيع متصل بالكتالوج",
+          title: "صور المنتجات وروابطها داخل المحادثة",
+          body: "يشارك صور المنتجات وقوائم الأسعار وروابط صفحات متجرك داخل المحادثة، ويساعد العميل على الانتقال من التصفح إلى الشراء بسلاسة.",
+          chip: "بيع داخل المحادثة",
         },
       ]
     : [
@@ -73,14 +73,14 @@ export default function MessengerFeaturePage() {
         },
         {
           id: "2",
-          title: "Comment-to-Messenger Conversion",
-          body: "Automatically detect sales-ready comments on Facebook posts and start private Messenger conversations with qualified prospects instantly.",
-          chip: "Comment Trigger Routing",
+          title: "Comment-to-Messenger Replies",
+          body: "When someone comments on your Facebook Page post, for example asking the price, the AI replies to that person privately in Messenger. The conversation continues if they reply.",
+          chip: "Private Reply to Commenters",
         },
         {
           id: "3",
           title: "Facebook Ad Integration",
-          body: "Continue conversations from Messenger ad campaigns with full context preserved, keeping interactions personalized through the customer journey.",
+          body: "When someone clicks your ad and messages you on Messenger, the AI continues the conversation with the ad's context in mind, keeping the experience personal and connected.",
           chip: "Ad-to-Chat Continuity",
         },
         {
@@ -91,9 +91,9 @@ export default function MessengerFeaturePage() {
         },
         {
           id: "5",
-          title: "Facebook Catalog Integration",
-          body: "Reference products from your Facebook Shop inside chat and guide buyers from browsing to checkout with conversational assistance.",
-          chip: "Shop-Connected Selling",
+          title: "Product Photos and Links in Chat",
+          body: "Share product photos, price lists, and links to your store pages inside the chat, and help buyers move from browsing to checkout.",
+          chip: "Selling Inside the Chat",
         },
       ];
 
@@ -156,8 +156,8 @@ export default function MessengerFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply ماسنجر إلى قناة بيع عالية الأداء، تؤهل العملاء المحتملين وتحول الاهتمام العابر إلى عملاء فعليين على مدار الساعة."
-                : "Easy Reply transforms Messenger into a high-performing sales channel that qualifies leads and converts casual interest into paying customers around the clock."}
+                ? "يحوّل Easy Reply ماسنجر إلى قناة بيع منظمة، يرد فيها الذكاء الاصطناعي على من يراسلك ويؤهل العملاء المحتملين ويساعدهم على الشراء على مدار الساعة."
+                : "Easy Reply turns Messenger into an organized sales channel where AI answers the people who message you, qualifies leads, and helps them buy around the clock."}
             </p>
             <a
               href="#pricing"
@@ -176,8 +176,8 @@ export default function MessengerFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يفتح Facebook Messenger كقناة مولدة للإيراد"
-                : "Easy Reply Unlocks Facebook Messenger as a Revenue-Generating Channel"}
+                ? "Easy Reply يجعل Facebook Messenger قناة مبيعات ودعم منظمة"
+                : "Easy Reply Turns Facebook Messenger Into an Organized Sales and Support Channel"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -186,8 +186,8 @@ export default function MessengerFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع Easy Reply بين أتمتة مخصصة لماسنجر ومحادثات ذكاء اصطناعي طبيعية واعية بالسياق، لتأهيل العملاء ورفع التحويل بشكل مستمر."
-                : "Easy Reply combines Messenger-native automation with natural context-aware AI conversations that qualify leads and drive conversions continuously."}
+                ? "يجمع Easy Reply بين أتمتة مخصصة لماسنجر ومحادثات ذكاء اصطناعي طبيعية واعية بالسياق، ليرد على كل رسالة ويؤهل العملاء المهتمين باستمرار."
+                : "Easy Reply combines Messenger-native automation with natural, context-aware AI conversations that answer every message and qualify interested leads around the clock."}
             </p>
           </div>
         </section>
@@ -297,12 +297,14 @@ export default function MessengerFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -400,6 +402,9 @@ export default function MessengerFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

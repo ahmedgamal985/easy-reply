@@ -33,66 +33,66 @@ type UseCaseFlowStep = { id: string; title: string; body: string; chip: string }
 const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
-    title: "Comment Monitoring",
-    body: "Easy Reply continuously monitors your Instagram and Facebook posts for comments, detecting expressions of interest or purchase intent.",
-    chip: "Tracks Intent Signals",
+    title: "Answering Your DMs",
+    body: "When people message you on Instagram, Facebook, or WhatsApp asking about a product, price, link, or how to join, Easy Reply answers using the information you provide.",
+    chip: "Answers Incoming DMs",
   },
   {
     id: "2",
-    title: "Automated Direct Message Initiation",
-    body: "When a promising comment is identified, Easy Reply automatically starts a private conversation and references the exact post that attracted the follower.",
-    chip: "Starts DMs Instantly",
+    title: "Private Replies to Commenters",
+    body: "On posts where you turn it on, when someone comments asking about an offer, Easy Reply replies to that person privately and mentions the post they commented on. The conversation continues only if they reply.",
+    chip: "Replies to Commenters",
   },
   {
     id: "3",
-    title: "Personalized Product Guidance",
-    body: "Based on each follower's intent, Easy Reply guides them toward relevant products or services from your catalog to turn curiosity into purchases.",
-    chip: "Guides Right Offers",
+    title: "Guidance to Your Own Offers",
+    body: "When someone asks, Easy Reply recommends the right product, course, or service from your own catalog and shares the link to buy it.",
+    chip: "Points to Your Offers",
   },
   {
     id: "4",
-    title: "Objection Handling",
-    body: "Easy Reply addresses common hesitation around price, delivery, and product specifics with clear responses that improve conversion confidence.",
-    chip: "Removes Buying Friction",
+    title: "Answering Questions and Concerns",
+    body: "Easy Reply answers common questions about price, delivery, and product details with clear responses that help people decide for themselves.",
+    chip: "Answers Buyer Questions",
   },
   {
     id: "5",
-    title: "Audience Insights",
-    body: "Easy Reply captures recurring preferences, questions, and objections, giving your team practical insights to improve content and product strategy.",
-    chip: "Surfaces Actionable Trends",
+    title: "Brand and Collaboration Inquiries",
+    body: "Easy Reply replies to brand and collaboration inquiries with your standard information, collects the key details, and tags the conversation so you can review it.",
+    chip: "Handles Collab Inquiries",
   },
 ];
 
 const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "1",
-    title: "مراقبة التعليقات",
-    body: "يراقب Easy Reply باستمرار منشورات إنستغرام وفيسبوك للتعليقات، ويكتشف تعبيرات الاهتمام أو نية الشراء.",
-    chip: "يتتبّع إشارات النية",
+    title: "الرد على رسائلك الخاصة",
+    body: "عندما يراسلك أحد على إنستغرام أو فيسبوك أو واتساب ليسأل عن منتج أو سعر أو رابط أو طريقة الاشتراك، يجيبه Easy Reply بالاعتماد على المعلومات التي تقدّمها.",
+    chip: "يرد على الرسائل الواردة",
   },
   {
     id: "2",
-    title: "بدء الرسائل الخاصة تلقائيًا",
-    body: "عند رصد تعليق واعد، يبدأ Easy Reply محادثة خاصة تلقائيًا مع الإشارة إلى المنشور الذي جذب المتابع.",
-    chip: "يبدأ الرسائل فورًا",
+    title: "رد خاص على أصحاب التعليقات",
+    body: "في المنشورات التي تفعّل عليها الميزة، عندما يعلّق شخص ليسأل عن عرض ما، يرد عليه Easy Reply برسالة خاصة مع الإشارة إلى المنشور الذي علّق عليه. وتستمر المحادثة فقط إذا ردّ هو.",
+    chip: "يرد على أصحاب التعليقات",
   },
   {
     id: "3",
-    title: "إرشاد منتج مخصّص",
-    body: "بحسب نية كل متابع، يوجّه Easy Reply نحو منتجات أو خدمات مناسبة من كتالوجك لتحويل الفضول إلى مشتريات.",
-    chip: "يوجّه العروض المناسبة",
+    title: "الإرشاد إلى عروضك الخاصة",
+    body: "عندما يسأل أحد، يقترح Easy Reply المنتج أو الدورة أو الخدمة المناسبة من كتالوجك الخاص ويشارك رابط الشراء.",
+    chip: "يوجّه إلى عروضك",
   },
   {
     id: "4",
-    title: "معالجة الاعتراضات",
-    body: "يعالج Easy Reply التردّد الشائع حول السعر والتوصيل وتفاصيل المنتج بردود واضحة تعزّز ثقة التحويل.",
-    chip: "يزيل احتكاك الشراء",
+    title: "الإجابة عن الأسئلة والمخاوف",
+    body: "يجيب Easy Reply عن الأسئلة الشائعة حول السعر والتوصيل وتفاصيل المنتج بردود واضحة تساعد السائل على اتخاذ قراره بنفسه.",
+    chip: "يجيب عن أسئلة المشترين",
   },
   {
     id: "5",
-    title: "رؤى الجمهور",
-    body: "يلتقط Easy Reply التفضيلات والأسئلة والاعتراضات المتكررة، فيمنح فريقك رؤى عملية لتحسين المحتوى واستراتيجية المنتج.",
-    chip: "يبرز اتجاهات قابلة للتنفيذ",
+    title: "استفسارات العلامات التجارية والتعاون",
+    body: "يرد Easy Reply على استفسارات العلامات التجارية وطلبات التعاون بمعلوماتك المعتادة، ويجمع التفاصيل الأساسية، ويضع وسمًا على المحادثة لتراجعها بنفسك.",
+    chip: "يتعامل مع طلبات التعاون",
   },
 ];
 
@@ -152,23 +152,23 @@ export default function InfluencersUseCasePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "حوّل تفاعل المتابعين إلى إيرادات تلقائيًا"
-                : "Turn Follower Engagement Into Revenue Automatically"}
+                ? "أجب عن رسائل جمهورك وتعليقاته دون أن يتراكم عليك الرد"
+                : "Answer Your Audience's DMs and Comments Without Falling Behind"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يعاني كثير من مبدعي وسائل التواصل من صعوبة تحويل التعليقات والرسائل الخاصة إلى دخل بثبات."
-                : "Many social media creators struggle to monetize comments and direct messages consistently."}
+                ? "يتلقى كثير من صنّاع المحتوى رسائل وتعليقات أكثر مما يستطيعون الرد عليه: أسئلة عن المنتجات، وطلبات تعاون، واستفسارات عن طريقة الشراء."
+                : "Many creators get more DMs and comments than they can answer: product questions, collaboration requests, and people asking how to buy."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يبدأ Easy Reply محادثات مخصّصة مع المتابعين المتفاعلين، ويوجّههم نحو المنتجات أو الخدمات المناسبة، ويحوّل الاهتمام العابر إلى مشتريات حقيقية."
-                : "Easy Reply starts personalized conversations with engaged followers, guides them toward the right products or services, and converts casual attention into real purchases."}
+                ? "يرد Easy Reply على من يراسلونك، ويرد برسالة خاصة على من يعلّق على منشوراتك ليسأل عن عرض ما، ويرشدهم إلى منتجاتك أو دوراتك أو خدماتك الخاصة عندما يسألون."
+                : "Easy Reply answers the people who message you, replies privately to people who comment on your posts asking about an offer, and points them to your own products, courses, or services when they ask."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل ذلك تفاعل الجمهور إلى قناة إيرادات متكررة دون زيادة العبء اليدوي."
-                : "This turns audience interaction into a repeatable revenue channel without adding manual workload."}
+                ? "وتحصل استفسارات العلامات التجارية وطلبات التعاون على رد سريع مع تسجيل تفاصيلها لتراجعها بنفسك."
+                : "Brand and collaboration inquiries get a prompt reply, with the details captured for you to review."}
             </p>
             <a
               href="#pricing"
@@ -190,13 +190,13 @@ export default function InfluencersUseCasePage() {
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تفاعل الجمهور من أقوى أصول نموّك، لكن الردّ على كل تعليق يدويًا لا يتوسّع مع حجم الجمهور."
-                : "Audience engagement is one of your strongest growth assets, but replying to every comment manually does not scale."}
+                ? "يطرح جمهورك الأسئلة نفسها مرارًا، والرد على كل رسالة يدويًا يستهلك ساعات من وقتك."
+                : "Your audience asks many of the same questions, and replying to every message by hand takes hours."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply قسم التعليقات إلى محرّك تحويل عبر بدء محادثات مخصّصة، وتوجيه المتابعين نحو العروض، ونقل النية إلى مبيعات بكفاءة."
-                : "Easy Reply converts your comment section into a conversion engine by starting tailored conversations, guiding followers toward offers, and moving intent to sales efficiently."}
+                ? "يجيب Easy Reply عن هذه الأسئلة في الرسائل الخاصة، ويرد برسالة خاصة على من يعلّق ليسأل عن عرض ما، ويساعد من يطلب الشراء على الوصول إلى منتجاتك الخاصة."
+                : "Easy Reply answers those questions in DMs, replies privately to commenters who ask about an offer, and helps people who want to buy find your own products."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function InfluencersUseCasePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -412,6 +414,9 @@ export default function InfluencersUseCasePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

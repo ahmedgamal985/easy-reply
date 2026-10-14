@@ -42,19 +42,19 @@ export default function AISellingAgentFeaturePage() {
         {
           id: "2",
           title: "معالجة متقدمة للاعتراضات",
-          body: "يميّز الذكاء الاصطناعي الاعتراضات المعقّدة ويردّ برسائل إقناع مخصّصة لإبقاء العملاء ذوي النية العالية في المسار.",
+          body: "يميّز الذكاء الاصطناعي الاعتراضات المعقّدة ويرد عليها بإجابات واضحة ومخصّصة مستمدة من المعلومات التي تعتمدها.",
           chip: "يتعامل مع اعتراضات معقّدة",
         },
         {
           id: "3",
           title: "تواصل واضح للقيمة",
-          body: "للعروض المميزة، يشرح Easy Reply العائد والمزايا الاستراتيجية والنتائج العملية حتى يرى المشتري بوضوح لماذا الاستثمار مبرّر.",
-          chip: "يوضّح العائد بوضوح",
+          body: "للعروض المميزة، يشرح Easy Reply المزايا والنتائج العملية كما وصفتها أنت، ليفهم المشتري قيمة ما يشتريه بوضوح.",
+          chip: "يوضّح القيمة بوضوح",
         },
         {
           id: "4",
-          title: "تخفيف استباقي للمخاطر",
-          body: "يحصل العملاء ذوو القيمة العالية على تفاصيل تبني الثقة وضمانات وإثبات اجتماعي مناسب لتقليل مخاطر الشراء المدركة.",
+          title: "إجابة مخاوف المشتري",
+          body: "يحصل العملاء المهتمون بعروض عالية القيمة على إجابات واضحة عن الشروط والسياسات والخطوات التالية التي حددتها، ليقرروا بثقة. ويشارك الذكاء الاصطناعي فقط المعلومات التي اعتمدتها دون أن يقدّم وعودًا من عنده.",
           chip: "يعزّز ثقة الشراء",
         },
         {
@@ -74,19 +74,19 @@ export default function AISellingAgentFeaturePage() {
         {
           id: "2",
           title: "Advanced Objection Handling",
-          body: "The AI identifies sophisticated objections and responds with tailored persuasive messaging to keep high-intent prospects moving forward.",
+          body: "The AI identifies complex objections and responds with clear, tailored answers drawn from the information you approve.",
           chip: "Handles Complex Objections",
         },
         {
           id: "3",
           title: "Clear Value Communication",
-          body: "For premium offers, Easy Reply explains ROI, strategic advantages, and practical outcomes so buyers clearly see why the investment is justified.",
-          chip: "Communicates ROI Clearly",
+          body: "For premium offers, Easy Reply explains the benefits and practical outcomes you have described, so buyers clearly understand the value of what they are buying.",
+          chip: "Communicates Value Clearly",
         },
         {
           id: "4",
-          title: "Proactive Risk Mitigation",
-          body: "High-value prospects receive confidence-building details, guarantees, and relevant social proof to reduce perceived purchase risk.",
+          title: "Answering Buyer Concerns",
+          body: "Prospects considering high-value offers get clear answers about the terms, policies, and next steps you have provided, so they can decide with confidence. The AI shares only information you have approved and never makes promises of its own.",
           chip: "Builds Buying Confidence",
         },
         {
@@ -147,22 +147,22 @@ export default function AISellingAgentFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "ذكاء اصطناعي يُغلق صفقات عالية القيمة" : "AI That Closes High-Ticket Deals"}
+              {isAr ? "ذكاء اصطناعي لمحادثات المبيعات عالية القيمة" : "AI for High-Ticket, Consultative Sales Conversations"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تتعامل معظم روبوتات الدردشة مع أسئلة بسيطة فقط. يبيع Easy Reply بنشاط منتجات وخدمات مميزة، بما في ذلك عروض تتجاوز 50 ألف دولار، باستخدام تقنيات بيع استشارية متقدمة."
-                : "Most chatbots handle simple questions only. Easy Reply actively sells premium products and services, including offers priced above $50K, using advanced consultative sales techniques."}
+                ? "تتعامل معظم روبوتات الدردشة مع أسئلة بسيطة فقط. يتولى Easy Reply محادثات بيع أطول وأكثر استشارية للمنتجات والخدمات المميزة مع العملاء الذين يراسلونك."
+                : "Most chatbots handle simple questions only. Easy Reply handles longer, consultative sales conversations about premium products and services with the customers who message you."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "من التأهيل إلى معالجة الاعتراضات، يعكس الذكاء الاصطناعي خبرة أفضل مندوبي المبيعات ويحوّل المحادثات إلى نتائج عالية القيمة."
-                : "From qualification to objection handling, the AI mirrors top sales expertise and converts conversations into high-value outcomes."}
+                ? "يستطيع الذكاء الاصطناعي تأهيل العملاء المحتملين، والإجابة عن الاعتراضات بالمعلومات التي تعتمدها، وحجز المواعيد مع فريقك."
+                : "The AI can qualify leads, answer objections with your approved information, and book appointments with your team."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يمكن للأعمال توسيع نطاق مبيعات عالية القيمة المعقّدة على مدار الساعة دون توسيع فريق المبيعات."
-                : "Businesses can scale complex high-ticket sales around the clock without expanding their sales team."}
+                ? "يحصل عملاؤك على إجابات مدروسة على مدار الساعة، ويتدخل فريقك عندما تحتاج المحادثة إلى شخص."
+                : "Your prospects get thoughtful answers around the clock, and your team steps in when a conversation needs a person."}
             </p>
             <a
               href="#pricing"
@@ -181,18 +181,18 @@ export default function AISellingAgentFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يحوّل الذكاء الاصطناعي إلى خبير مبيعات عالية القيمة"
-                : "Easy Reply Turns AI Into a High-Ticket Sales Expert"}
+                ? "Easy Reply يتولى محادثات البيع الاستشارية الأطول"
+                : "Easy Reply Handles Longer, Consultative Sales Conversations"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تقليديًا، كان بيع الخدمات المميزة يتطلب مختصي إغلاق بشريين ذوي خبرة عالية."
-                : "Traditionally, selling premium services required highly experienced human closers."}
+                ? "عادةً ما يتضمن بيع الخدمات المميزة محادثات أطول وأسئلة أكثر وإجابات تحتاج إلى عناية."
+                : "Selling premium services usually involves longer conversations, more questions, and answers that need care."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يشغّل Easy Reply محادثات استشارية طبيعية تؤهل المشترين وتتجاوز الاعتراضات وتُغلق صفقات مميزة لعروض فاخرة ومؤسسية وعالية القيمة."
-                : "Easy Reply runs natural consultative conversations that qualify buyers, overcome objections, and close premium deals for luxury, enterprise, and high-value offerings."}
+                ? "يجري Easy Reply محادثات استشارية طبيعية تؤهل المشترين وتجيب عن اعتراضاتهم وتحجز المواعيد للعروض الفاخرة والمؤسسية وعالية القيمة."
+                : "Easy Reply runs natural consultative conversations that qualify buyers, answer their objections, and book appointments for luxury, enterprise, and high-value offerings."}
             </p>
           </div>
         </section>
@@ -302,12 +302,14 @@ export default function AISellingAgentFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -405,6 +407,9 @@ export default function AISellingAgentFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

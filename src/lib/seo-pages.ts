@@ -31,7 +31,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     {
       title: "Easy Reply — Official Website | AI WhatsApp & Chat Automation",
       description:
-        "Easy Reply (tryeasyreply.com) is the official AI sales agent for WhatsApp, Instagram, Messenger, and web chat. Automate replies, qualify leads, and close deals 24/7.",
+        "Easy Reply (tryeasyreply.com) is an AI sales agent that answers your customers on WhatsApp, Instagram, Messenger, and web chat. Automate replies, qualify leads, and book appointments 24/7.",
       keywords: `${BRAND_EN}, tryeasyreply, tryeasyreply.com, easy reply official, whatsapp automation, chat automation, reply automation`,
     },
     {
@@ -46,14 +46,14 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     {
       title: "WhatsApp Automation — Easy Reply AI Auto Reply",
       description:
-        "Automate WhatsApp Business replies with Easy Reply. AI qualifies leads, answers FAQs, books appointments, and closes sales — 24/7 human-like WhatsApp automation.",
-      keywords: `${BRAND_EN}, whatsapp automation, whatsapp auto reply, whatsapp business automation, automated whatsapp messages, whatsapp AI chatbot, whatsapp sales automation`,
+        "Automate WhatsApp Business replies with Easy Reply. AI answers customers who message you, qualifies leads, answers FAQs, and books appointments — 24/7 human-like WhatsApp automation.",
+      keywords: `${BRAND_EN}, whatsapp automation, whatsapp auto reply, whatsapp business automation, whatsapp business API, whatsapp AI chatbot, whatsapp sales automation`,
     },
     {
       title: "أتمتة واتساب — ردود واتساب تلقائية | Easy Reply",
       description:
-        "أتمّت ردود واتساب للأعمال مع Easy Reply. ذكاء اصطناعي يؤهل العملاء، يجيب على الأسئلة، يحجز المواعيد، ويبيع — أتمتة واتساب على مدار الساعة.",
-      keywords: `${BRAND_AR}, أتمتة واتساب, ردود واتساب تلقائية, رد تلقائي واتساب, أتمتة رسائل واتساب, بوت واتساب, واتساب للأعمال`,
+        "أتمّت ردود واتساب للأعمال مع Easy Reply. ذكاء اصطناعي يرد على من يراسلونك، يؤهل العملاء، يجيب على الأسئلة، ويحجز المواعيد — أتمتة واتساب على مدار الساعة.",
+      keywords: `${BRAND_AR}, أتمتة واتساب, ردود واتساب تلقائية, رد تلقائي واتساب, أتمتة الرد على واتساب, بوت واتساب, واتساب للأعمال`,
     },
   ),
 
@@ -61,14 +61,14 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     {
       title: "Chat Automation Software — Easy Reply AI Sales Agent",
       description:
-        "Easy Reply chat automation runs sales conversations on WhatsApp, Instagram, Messenger, and web chat. Automate replies, follow-ups, and conversions in one platform.",
+        "Easy Reply chat automation answers customer conversations on WhatsApp, Instagram, Messenger, and web chat. Automate replies, follow-ups, and bookings in one platform.",
       keywords: `${BRAND_EN}, chat automation, automated chat replies, AI chat automation, social media chat automation, omnichannel chat automation, conversational automation`,
     },
     {
       title: "أتمتة المحادثات — برنامج ردود تلقائية | Easy Reply",
       description:
-        "أتمتة محادثات Easy Reply على واتساب وإنستغرام وماسنجر ودردشة الموقع. ردود تلقائية، متابعات، وتحويل العملاء في منصة واحدة.",
-      keywords: `${BRAND_AR}, أتمتة المحادثات, اتمتة المحادثات, أتمتة الدردشة, ردود تلقائية, أتمتة رسائل, ذكاء اصطناعي للدردشة`,
+        "أتمتة محادثات Easy Reply على واتساب وإنستغرام وماسنجر ودردشة الموقع. ردود تلقائية، متابعات، وحجز مواعيد في منصة واحدة.",
+      keywords: `${BRAND_AR}, أتمتة المحادثات, اتمتة المحادثات, أتمتة الدردشة, ردود تلقائية, أتمتة الردود على الرسائل, ذكاء اصطناعي للدردشة`,
     },
   ),
 
@@ -76,28 +76,28 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     {
       title: "Reply Automation — Auto Reply AI for Every Channel",
       description:
-        "Easy Reply reply automation handles incoming messages automatically across WhatsApp, Instagram, and Messenger. Scale customer conversations without hiring more staff.",
+        "Easy Reply reply automation handles incoming messages automatically across WhatsApp, Instagram, and Messenger, so your team spends less time on repetitive replies.",
       keywords: `${BRAND_EN}, reply automation, auto reply, automated replies, message reply automation, auto responder, AI auto reply`,
     },
     {
       title: "أتمتة الردود — رد تلقائي على كل القنوات | Easy Reply",
       description:
-        "أتمتة الردود من Easy Reply تتعامل مع الرسائل الواردة تلقائياً على واتساب وإنستغرام وماسنجر. وسّع محادثات العملاء بدون توظيف فريق أكبر.",
+        "أتمتة الردود من Easy Reply تتعامل مع الرسائل الواردة تلقائياً على واتساب وإنستغرام وماسنجر، فيقضي فريقك وقتاً أقل في الردود المتكررة.",
       keywords: `${BRAND_AR}, أتمتة الردود, اتمتة الردود, رد تلقائي, ردود تلقائية, الرد الآلي, أتمتة الرد على الرسائل`,
     },
   ),
 
   "/ai-sales-agent": page(
     {
-      title: "AI Sales Agent — Easy Reply Closes Deals in Chat",
+      title: "AI Sales Agent — Easy Reply Sells in Chat",
       description:
-        "Easy Reply is an AI sales agent that qualifies leads, handles objections, and closes deals in WhatsApp, Instagram, and Messenger conversations — not just a chatbot.",
-      keywords: `${BRAND_EN}, AI sales agent, AI selling agent, sales automation AI, conversational sales AI, AI closer, chat sales automation`,
+        "Easy Reply is an AI sales agent that answers inquiries, qualifies leads, handles objections, and books appointments in WhatsApp, Instagram, and Messenger conversations — not just a chatbot.",
+      keywords: `${BRAND_EN}, AI sales agent, AI selling agent, sales automation AI, conversational sales AI, AI sales assistant, chat sales automation`,
     },
     {
       title: "وكيل مبيعات بالذكاء الاصطناعي | Easy Reply",
       description:
-        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يؤهل العملاء ويتعامل مع الاعتراضات ويغلق الصفقات في محادثات واتساب وإنستغرام — ليس مجرد شات بوت.",
+        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يرد على الاستفسارات ويؤهل العملاء ويتعامل مع الاعتراضات ويحجز المواعيد في محادثات واتساب وإنستغرام — ليس مجرد شات بوت.",
       keywords: `${BRAND_AR}, وكيل مبيعات بالذكاء الاصطناعي, ذكاء اصطناعي للمبيعات, أتمتة المبيعات, بوت مبيعات, شات بوت مبيعات`,
     },
   ),
@@ -105,12 +105,12 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/use-cases": page(
     {
       title: "Use Cases — Easy Reply AI Chat Automation",
-      description: "See how Easy Reply automates sales conversations for real estate, e-commerce, education, influencers, and high-ticket service businesses.",
+      description: "See how Easy Reply answers customer inquiries for real estate, e-commerce, education, creators, and high-ticket service businesses.",
       keywords: `${BRAND_EN}, chat automation use cases, whatsapp automation examples, AI sales use cases`,
     },
     {
       title: "حالات الاستخدام — أتمتة محادثات Easy Reply",
-      description: "اكتشف كيف يستخدم Easy Reply أتمتة محادثات المبيعات في العقارات والتجارة الإلكترونية والتعليم والمؤثرين.",
+      description: "اكتشف كيف يرد Easy Reply على استفسارات العملاء في العقارات والتجارة الإلكترونية والتعليم وصناعة المحتوى والخدمات عالية القيمة.",
       keywords: `${BRAND_AR}, حالات استخدام, أتمتة المحادثات, أتمتة واتساب للشركات`,
     },
   ),
@@ -118,33 +118,33 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/use-cases/high-ticket-service-providers": page(
     {
       title: "AI Chat Automation for High-Ticket Sales — Easy Reply",
-      description: "Close high-ticket deals with Easy Reply AI. Qualify premium leads, handle objections, and book strategy calls automatically in chat.",
+      description: "Answer high-ticket inquiries with Easy Reply AI. Qualify premium leads, handle objections, and book strategy calls automatically in chat.",
     },
     {
       title: "أتمتة محادثات المبيعات عالية القيمة — Easy Reply",
-      description: "أغلق صفقات عالية القيمة مع Easy Reply. أهل العملاء المميزين وتعامل مع الاعتراضات واحجز المكالمات تلقائياً.",
+      description: "أجب عن استفسارات الخدمات عالية القيمة مع Easy Reply. أهّل العملاء المميزين وتعامل مع الاعتراضات واحجز المكالمات تلقائياً.",
     },
   ),
 
   "/use-cases/e-commerce-brands": page(
     {
       title: "E-commerce WhatsApp & Chat Automation — Easy Reply",
-      description: "Easy Reply helps e-commerce brands automate product questions, recover carts, and convert DMs into sales on WhatsApp and Instagram.",
+      description: "Easy Reply helps e-commerce brands answer product questions, suggest the right products, and follow up with shoppers who messaged them on WhatsApp and Instagram.",
     },
     {
       title: "أتمتة واتساب للتجارة الإلكترونية — Easy Reply",
-      description: "Easy Reply يساعد متاجر التجارة الإلكترونية على أتمتة أسئلة المنتجات واسترجاع السلات وتحويل الرسائل إلى مبيعات.",
+      description: "Easy Reply يساعد متاجر التجارة الإلكترونية على الرد على أسئلة المنتجات واقتراح المنتجات المناسبة ومتابعة العملاء الذين راسلوها.",
     },
   ),
 
   "/use-cases/real-estate-professionals": page(
     {
       title: "AI for Real Estate — WhatsApp Lead Automation | Easy Reply",
-      description: "Turn property inquiries into scheduled viewings with Easy Reply. Instant answers, buyer qualification, and automated follow-ups for real estate.",
+      description: "Answer property inquiries and book viewings in chat with Easy Reply. Instant answers, buyer qualification, and follow-ups with people who contacted you.",
     },
     {
       title: "ذكاء اصطناعي للعقارات — أتمتة عملاء واتساب | Easy Reply",
-      description: "حوّل استفسارات العقارات إلى معاينات مجدولة مع Easy Reply. ردود فورية وتأهيل مشترين ومتابعات تلقائية.",
+      description: "أجب عن استفسارات العقارات واحجز المعاينات داخل المحادثة مع Easy Reply. ردود فورية وتأهيل مشترين ومتابعة من تواصلوا معك.",
     },
   ),
 
@@ -162,22 +162,22 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/use-cases/social-media-brands-influencers": page(
     {
       title: "Instagram & Social DM Automation — Easy Reply",
-      description: "Convert comments to DMs and automate influencer sales conversations with Easy Reply AI on Instagram, Facebook, and WhatsApp.",
+      description: "Answer your audience's DMs, reply privately to people who comment on your posts, and handle brand inquiries with Easy Reply AI on Instagram, Facebook, and WhatsApp.",
     },
     {
       title: "أتمتة رسائل إنستغرام والسوشيال — Easy Reply",
-      description: "حوّل التعليقات إلى رسائل وأتمّت محادثات المبيعات للمؤثرين مع Easy Reply على إنستغرام وواتساب.",
+      description: "أجب عن رسائل جمهورك الخاصة، ورد برسالة خاصة على من يعلّق على منشوراتك، وتعامل مع استفسارات العلامات التجارية مع Easy Reply على إنستغرام وواتساب.",
     },
   ),
 
   "/alternatives/manychat": page(
     {
       title: "Easy Reply vs ManyChat — AI Sales Agent Alternative",
-      description: "Compare Easy Reply and ManyChat. Easy Reply is an AI sales agent that closes deals, not just a flow-based chatbot.",
+      description: "Compare Easy Reply and ManyChat. Easy Reply is an AI sales agent that holds real conversations with your customers, not just a flow-based chatbot.",
     },
     {
       title: "Easy Reply vs ManyChat — بديل أذكى",
-      description: "قارن Easy Reply وManyChat. Easy Reply وكيل مبيعات بالذكاء الاصطناعي يغلق الصفقات.",
+      description: "قارن Easy Reply وManyChat. Easy Reply وكيل مبيعات بالذكاء الاصطناعي يجري محادثات حقيقية مع عملائك، وليس مجرد شات بوت قائم على الفلو.",
     },
   ),
 
@@ -195,7 +195,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/alternatives/intercom": page(
     {
       title: "Easy Reply vs Intercom — AI Sales Alternative",
-      description: "Easy Reply vs Intercom: an AI sales agent built for closing deals in WhatsApp and social DMs, not just support tickets.",
+      description: "Easy Reply vs Intercom: an AI sales agent built for sales conversations in WhatsApp and social DMs, not just support tickets.",
     },
     { title: "Easy Reply vs Intercom", description: "Easy Reply بديل Intercom لوكيل مبيعات بالذكاء الاصطناعي." },
   ),
@@ -230,7 +230,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/features/human-like-ai-conversations": page(
     {
       title: "Human-Like AI Conversations — Easy Reply",
-      description: "Easy Reply delivers human-like AI conversations that build trust, handle objections, and guide buyers to purchase.",
+      description: "Easy Reply delivers natural, human-like AI conversations that answer questions, handle objections, and guide buyers toward a purchase.",
     },
     {
       title: "محادثات ذكاء اصطناعي شبيهة بالبشر — Easy Reply",
@@ -241,12 +241,12 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/features/whatsapp-business": page(
     {
       title: "WhatsApp Business Automation — Easy Reply AI",
-      description: "Automate WhatsApp Business with Easy Reply. AI replies, media understanding, campaigns, and sales — full WhatsApp automation.",
+      description: "Automate WhatsApp Business with Easy Reply. AI replies, media understanding, appointment booking, and follow-ups to opted-in customers with Meta-approved templates.",
       keywords: `${BRAND_EN}, whatsapp business automation, whatsapp business AI, whatsapp auto reply business`,
     },
     {
       title: "أتمتة واتساب للأعمال — Easy Reply",
-      description: "أتمّت واتساب للأعمال مع Easy Reply. ردود ذكية، فهم وسائط، حملات، ومبيعات.",
+      description: "أتمّت واتساب للأعمال مع Easy Reply. ردود ذكية، فهم وسائط، حجز مواعيد، ومتابعات للعملاء الموافقين بقوالب معتمدة من Meta.",
       keywords: `${BRAND_AR}, أتمتة واتساب للأعمال, واتساب بيزنس, ردود واتساب تلقائية`,
     },
   ),
@@ -254,18 +254,18 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/features/instagram": page(
     {
       title: "Instagram DM Automation — Easy Reply AI",
-      description: "Automate Instagram DMs and comment-to-DM with Easy Reply. AI sales agent for influencers and brands.",
+      description: "Automate replies to Instagram DMs and reply privately to people who comment on your posts with Easy Reply. AI sales agent for creators and brands.",
     },
     {
       title: "أتمتة رسائل إنستغرام — Easy Reply",
-      description: "أتمّت رسائل إنستغرام والتعليقات إلى DM مع Easy Reply.",
+      description: "أتمّت الرد على رسائل إنستغرام، ورد برسالة خاصة على من يعلّق على منشوراتك مع Easy Reply.",
     },
   ),
 
   "/features/facebook-messenger": page(
     {
       title: "Facebook Messenger Automation — Easy Reply",
-      description: "Automate Facebook Messenger conversations with Easy Reply AI. Qualify leads and close sales in Messenger chat.",
+      description: "Automate replies to Facebook Messenger conversations with Easy Reply AI. Answer questions, qualify leads, and book appointments in Messenger chat.",
     },
     {
       title: "أتمتة ماسنجر — Easy Reply",
@@ -276,7 +276,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/features/web-chat": page(
     {
       title: "Website Chat Automation — Easy Reply AI Agent",
-      description: "Add AI web chat automation to your site with Easy Reply. Convert visitors with human-like automated replies.",
+      description: "Add AI web chat automation to your site with Easy Reply. Answer visitors' questions with human-like automated replies.",
     },
     {
       title: "أتمتة دردشة الموقع — Easy Reply",
@@ -306,19 +306,22 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/features/one-click-ai-optimization": page(
     {
       title: "One-Click AI Optimization — Easy Reply",
-      description: "Improve conversion rates automatically with Easy Reply one-click AI optimization.",
+      description: "Improve your AI agent's replies in one click with Easy Reply, based on patterns from your own past conversations.",
     },
-    { title: "تحسين الذكاء الاصطناعي بنقرة — Easy Reply", description: "حسّن معدلات التحويل تلقائياً." },
+    {
+      title: "تحسين الذكاء الاصطناعي بنقرة — Easy Reply",
+      description: "حسّن ردود وكيل الذكاء الاصطناعي بنقرة واحدة بناءً على أنماط من محادثاتك السابقة.",
+    },
   ),
 
   "/features/high-ticket-sales-capability": page(
     {
       title: "AI Selling Agent for High-Ticket Sales — Easy Reply",
-      description: "Easy Reply AI selling agent closes high-ticket deals in chat with objection handling and trust building.",
+      description: "Easy Reply AI selling agent handles high-ticket inquiries in chat with consultative questions, objection handling, and call booking.",
     },
     {
       title: "وكيل بيع بالذكاء الاصطناعي — Easy Reply",
-      description: "Easy Reply يغلق صفقات عالية القيمة في المحادثة.",
+      description: "Easy Reply يتعامل مع استفسارات الخدمات عالية القيمة في المحادثة ويجيب عن الاعتراضات ويحجز المكالمات.",
     },
   ),
 
@@ -333,19 +336,22 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/features/comment-to-dm-conversion": page(
     {
       title: "Comment to DM Automation — Easy Reply",
-      description: "Convert Instagram and Facebook comments into DMs automatically with Easy Reply AI.",
+      description: "Reply privately to people who comment on your Instagram and Facebook posts with Easy Reply AI.",
     },
-    { title: "تحويل التعليقات إلى رسائل — Easy Reply", description: "حوّل التعليقات إلى DM تلقائياً." },
+    {
+      title: "تحويل التعليقات إلى رسائل — Easy Reply",
+      description: "رد برسالة خاصة على من يعلّق على منشوراتك في إنستغرام وفيسبوك مع Easy Reply.",
+    },
   ),
 
   "/features/advanced-contact-campaign-management": page(
     {
-      title: "Contact & Campaign Automation — Easy Reply",
-      description: "Manage contacts, tags, and outbound campaigns across WhatsApp, Instagram, and Messenger with Easy Reply.",
+      title: "Contact Management & Follow-Ups — Easy Reply",
+      description: "Manage contacts, tags, and follow-ups with customers who contacted you across WhatsApp, Instagram, and Messenger with Easy Reply.",
     },
     {
-      title: "إدارة الحملات وجهات الاتصال — Easy Reply",
-      description: "أدر جهات الاتصال والحملات الصادرة مع Easy Reply.",
+      title: "إدارة جهات الاتصال والمتابعات — Easy Reply",
+      description: "أدر جهات الاتصال والوسوم والمتابعات مع العملاء الذين تواصلوا معك على واتساب وإنستغرام وماسنجر مع Easy Reply.",
     },
   ),
 
@@ -358,13 +364,18 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     { title: "Terms of Service", description: "Easy Reply terms of service." },
     { title: "الشروط", description: "شروط استخدام Easy Reply." },
   ),
+
+  "/refund-policy": page(
+    { title: "Refund Policy", description: "Easy Reply refund policy: a full refund within 14 days of your first payment. Payments and refunds are handled by Paddle.com, our Merchant of Record." },
+    { title: "سياسة الاسترداد", description: "سياسة الاسترداد في Easy Reply: استرداد كامل خلال ١٤ يوماً من أول دفعة. يتولّى Paddle.com المدفوعات والاسترداد بصفته البائع الرسمي." },
+  ),
 };
 
 export const FAQ_SCHEMA = {
   en: [
     {
       q: "What is Easy Reply?",
-      a: "Easy Reply is an AI sales agent that automates WhatsApp, Instagram, Messenger, and web chat conversations. It replies automatically, qualifies leads, books appointments, and closes deals 24/7.",
+      a: "Easy Reply is an AI sales agent that answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat. It replies automatically, qualifies leads, and books appointments 24/7.",
     },
     {
       q: "What is Easy Reply chat automation?",
@@ -372,11 +383,11 @@ export const FAQ_SCHEMA = {
     },
     {
       q: "Does Easy Reply support WhatsApp automation?",
-      a: "Yes. Easy Reply provides full WhatsApp Business automation including auto replies, media understanding, outbound campaigns, and AI appointment booking.",
+      a: "Yes. Easy Reply provides WhatsApp Business automation including auto replies, media understanding, AI appointment booking, and follow-ups to opted-in customers using Meta-approved templates.",
     },
     {
       q: "Is Easy Reply a chatbot or a sales agent?",
-      a: "Easy Reply is an AI sales agent — not a basic chatbot. It handles objections, builds trust, remembers context, and closes deals, not just answers FAQs.",
+      a: "Easy Reply is an AI sales agent — not a basic chatbot. It handles objections, remembers context, and guides buyers toward a purchase, not just answers FAQs.",
     },
     {
       q: "Can Easy Reply automate replies in Arabic and English?",
@@ -384,13 +395,13 @@ export const FAQ_SCHEMA = {
     },
     {
       q: "How is Easy Reply different from ManyChat or Tidio?",
-      a: "ManyChat and Tidio focus on flows and support. Easy Reply is built to sell — qualifying leads, handling objections, and closing deals automatically in chat.",
+      a: "ManyChat and Tidio focus on flows and support. Easy Reply is built for sales conversations — qualifying leads, handling objections, and booking appointments automatically in chat.",
     },
   ],
   ar: [
     {
       q: "ما هو Easy Reply (إيزي ريپلاي)؟",
-      a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يؤتمت محادثات واتساب وإنستغرام وماسنجر ودردشة الموقع. يرد تلقائياً، يؤهل العملاء، يحجز المواعيد، ويغلق الصفقات على مدار الساعة.",
+      a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع. يرد تلقائياً، يؤهل العملاء، ويحجز المواعيد على مدار الساعة.",
     },
     {
       q: "ما هي أتمتة الردود؟",
@@ -398,11 +409,11 @@ export const FAQ_SCHEMA = {
     },
     {
       q: "هل يدعم Easy Reply أتمتة واتساب؟",
-      a: "نعم. Easy Reply يوفر أتمتة واتساب للأعمال كاملة: ردود تلقائية، فهم صور وصوت، حملات صادرة، وحجز مواعيد بالذكاء الاصطناعي.",
+      a: "نعم. Easy Reply يوفر أتمتة واتساب للأعمال: ردود تلقائية، فهم صور وصوت، حجز مواعيد بالذكاء الاصطناعي، ومتابعات للعملاء الموافقين بقوالب معتمدة من Meta.",
     },
     {
       q: "هل Easy Reply شات بوت أم وكيل مبيعات؟",
-      a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي — ليس شات بوت بسيط. يتعامل مع الاعتراضات، يبني الثقة، يتذكر السياق، ويغلق الصفقات.",
+      a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي — ليس شات بوت بسيط. يتعامل مع الاعتراضات، يتذكر السياق، ويرشد المشترين نحو الشراء.",
     },
     {
       q: "هل يعمل Easy Reply بالعربية والإنجليزية؟",
@@ -410,7 +421,7 @@ export const FAQ_SCHEMA = {
     },
     {
       q: "كيف يختلف Easy Reply عن ManyChat أو Tidio؟",
-      a: "ManyChat وTidio يركزان على الفلو والدعم. Easy Reply مبني للبيع — تأهيل العملاء، التعامل مع الاعتراضات، وإغلاق الصفقات تلقائياً.",
+      a: "ManyChat وTidio يركزان على الفلو والدعم. Easy Reply مبني لمحادثات البيع — تأهيل العملاء، التعامل مع الاعتراضات، وحجز المواعيد تلقائياً.",
     },
   ],
 };
@@ -433,9 +444,11 @@ export function buildSoftwareApplicationJsonLd(lang: "en" | "ar") {
         ? "منصة أتمتة الردود والمحادثات بالذكاء الاصطناعي لواتساب وإنستغرام وماسنجر"
         : "AI chat automation and reply automation platform for WhatsApp, Instagram, and Messenger",
     offers: {
-      "@type": "Offer",
-      price: "3000",
-      priceCurrency: "EGP",
+      "@type": "AggregateOffer",
+      lowPrice: "19",
+      highPrice: "199",
+      priceCurrency: "USD",
+      offerCount: 4,
     },
     publisher: {
       "@type": "Organization",

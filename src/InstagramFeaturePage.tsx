@@ -35,9 +35,9 @@ export default function InstagramFeaturePage() {
     ? [
         {
           id: "1",
-          title: "تحويل التعليقات إلى رسائل خاصة",
-          body: "يرصد النظام التعليقات التي تعكس نية شراء، ويبدأ تلقائيًا محادثة خاصة مع العميل المناسب في الوقت المناسب.",
-          chip: "أتمتة تحويل التعليق",
+          title: "الرد على التعليقات برسالة خاصة",
+          body: "عندما يعلّق شخص على منشورك، كأن يسأل عن السعر، يرد عليه الذكاء الاصطناعي برسالة خاصة، وتستمر المحادثة فقط إذا ردّ عليها.",
+          chip: "رد خاص على صاحب التعليق",
         },
         {
           id: "2",
@@ -53,23 +53,23 @@ export default function InstagramFeaturePage() {
         },
         {
           id: "4",
-          title: "تكامل Instagram Shopping",
-          body: "ينقل المتابعين من التصفح داخل المتجر إلى إتمام الشراء عبر محادثة مخصصة وسلسة.",
-          chip: "من المتجر إلى الشراء",
+          title: "أسئلة المنتجات داخل الرسائل",
+          body: "يجيب عن أسئلة المنتجات داخل الرسائل ويشارك صورها وأسعارها وروابط صفحات متجرك، لينتقل المتابع من التصفح إلى الشراء بسهولة.",
+          chip: "من السؤال إلى الشراء",
         },
         {
           id: "5",
-          title: "التفاعل مع المنشن والتاغ",
-          body: "يتابع المنشن والتاغ في القصص، ثم يحول التفاعل العام إلى محادثات خاصة عالية التحويل.",
-          chip: "التقاط تفاعل القصص",
+          title: "الرد على تفاعلات القصص",
+          body: "عندما يرد شخص على قصتك أو يذكرك في قصته، يصلك ذلك كرسالة خاصة، فيرد الذكاء الاصطناعي في السياق الصحيح مع مراعاة محتوى القصة.",
+          chip: "يرد على تفاعلات القصص",
         },
       ]
     : [
         {
           id: "1",
-          title: "Comment-to-DM Conversion",
-          body: "Automatically detect comments that signal buying intent and start private one-to-one conversations with the right prospects instantly.",
-          chip: "Comment Trigger Automation",
+          title: "Comment-to-DM Replies",
+          body: "When someone comments on your post, for example asking the price, the AI replies to that person with a private message. The conversation continues only if they reply.",
+          chip: "Private Reply to Commenters",
         },
         {
           id: "2",
@@ -85,15 +85,15 @@ export default function InstagramFeaturePage() {
         },
         {
           id: "4",
-          title: "Instagram Shopping Integration",
-          body: "Guide followers from browsing your Instagram Shop to completing purchases through personalized conversational assistance.",
-          chip: "Shop-to-Checkout Guidance",
+          title: "Product Questions in DM",
+          body: "Answer product questions in DM and share product photos, prices, and links to your store pages so followers can move from browsing to buying.",
+          chip: "From Question to Purchase",
         },
         {
           id: "5",
-          title: "Story Mentions and Tags",
-          body: "Monitor story mentions and tags, then convert public engagement into private high-converting sales conversations.",
-          chip: "Story Engagement Capture",
+          title: "Story Replies and Mentions",
+          body: "When someone replies to your Story or mentions you in theirs, it arrives as a DM and the AI answers in context, with the Story content in view.",
+          chip: "Answers Story Replies",
         },
       ];
 
@@ -151,13 +151,13 @@ export default function InstagramFeaturePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "الكثير من العلامات التجارية تضيع فرصًا مهمة بسبب عدم استثمار تفاعل إنستغرام أو الاعتماد على ردود عامة."
-                : "Many brands lose opportunities by leaving Instagram engagement untapped or relying on generic replies."}
+                ? "كثير من العلامات التجارية تتأخر في الرد على رسائل إنستغرام أو تعتمد على ردود عامة لا تجيب عن سؤال العميل."
+                : "Many brands answer Instagram DMs late or rely on generic replies that don't answer the customer's question."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply الرسائل المباشرة على إنستغرام إلى قناة بيع فعالة عبر ذكاء اصطناعي يتفاعل بشكل طبيعي ويؤهل العملاء ويحوّل التفاعل إلى إيراد."
-                : "Easy Reply transforms Instagram Direct Messages into a high-performing sales channel using AI that interacts naturally, qualifies interest, and turns engagement into revenue."}
+                ? "يحوّل Easy Reply الرسائل المباشرة على إنستغرام إلى قناة بيع منظمة عبر ذكاء اصطناعي يرد بشكل طبيعي ويجيب عن الأسئلة ويؤهل المهتمين ويساعدهم على الشراء."
+                : "Easy Reply turns Instagram Direct Messages into an organized sales channel, using AI that replies naturally, answers questions, qualifies interest, and helps customers buy."}
             </p>
             <a
               href="#pricing"
@@ -176,13 +176,13 @@ export default function InstagramFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يفتح إنستغرام كقناة مبيعات عالية التحويل"
-                : "Easy Reply Unlocks Instagram as a High-Converting Sales Channel"}
+                ? "Easy Reply يجعل رسائل إنستغرام قناة مبيعات منظمة"
+                : "Easy Reply Turns Instagram DMs Into an Organized Sales Channel"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "إنستغرام يمتلك حجم تفاعل ضخم، لكن كثيرًا من الشركات لا تتمكن من تحويله إلى نتائج بيع مستقرة."
-                : "Instagram has massive attention and engagement, but many businesses fail to convert that momentum into predictable sales outcomes."}
+                ? "يتلقى إنستغرام كثيرًا من الرسائل والتعليقات والردود على القصص، لكن كثيرًا من الشركات لا تستطيع الرد عليها جميعًا بسرعة."
+                : "Instagram brings in a steady stream of DMs, comments, and story replies, but many businesses can't answer them all quickly."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -297,12 +297,14 @@ export default function InstagramFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -400,6 +402,9 @@ export default function InstagramFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

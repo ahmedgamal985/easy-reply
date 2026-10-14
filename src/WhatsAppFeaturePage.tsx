@@ -36,31 +36,31 @@ export default function WhatsAppFeaturePage() {
         {
           id: "1",
           title: "محادثات شبه بشرية",
-          body: "يحفظ Easy Reply السياق ويفهم التفاصيل الدقيقة ويتواصل بأسلوب طبيعي، فتبدو التفاعلات وكأنها مع مندوب مبيعات ماهر.",
+          body: "يحفظ Easy Reply السياق ويفهم التفاصيل الدقيقة ويتواصل بأسلوب طبيعي، فيحصل كل عميل يراسلك على ردود واضحة ومفيدة بلغة قريبة من لغة فريقك.",
           chip: "تدفق حواري طبيعي",
         },
         {
           id: "2",
           title: "ذكاء متقدم للوسائط",
-          body: "يحلّل تلقائيًا الصور والملاحظات الصوتية والفيديو والمستندات التي يشاركها العملاء المحتملون على واتساب ويردّ عليها لمزيد من ثراء المحادثة ودقة المعلومة.",
+          body: "يفهم الصور والرسائل الصوتية والفيديو والمستندات التي يرسلها العملاء على واتساب ويردّ عليها، لتكون المحادثة أوضح والمعلومة أدق.",
           chip: "يفهم الوسائط الغنية",
         },
         {
           id: "3",
-          title: "إدارة واجهات واتساب للأعمال",
-          body: "يبسّط إعداد القوالب وسير الموافقات ومراقبة الامتثال ليبقى حساب واتساب لديك سليمًا ومُحسَّنًا.",
+          title: "إدارة WhatsApp Business API",
+          body: "يبسّط إعداد القوالب وتقديمها لموافقة Meta ومتابعة حالة اعتمادها، ليبقى حساب واتساب لديك منظمًا ومتوافقًا مع سياسات واتساب.",
           chip: "عمليات API منظّمة",
         },
         {
           id: "4",
-          title: "أتمتة حملات الإرسال الجماعي",
-          body: "يشغّل حملات مستهدفة برسائل مخصّصة لرفع جودة التفاعل وزيادة إمكانات التحويل.",
-          chip: "حملات إرسال آلية",
+          title: "رسائل القوالب للعملاء الموافقين فقط",
+          body: "أرسل رسائل قوالب واتساب المعتمدة من Meta فقط إلى العملاء الذين وافقوا على استلامها، مثل تحديثات الطلبات وتذكيرات المواعيد والعروض التي طلبوها بأنفسهم.",
+          chip: "قوالب معتمدة بموافقة العميل",
         },
         {
           id: "5",
           title: "تكامل سلس مع أنظمة CRM",
-          body: "يزامن محادثات واتساب مع بيانات جهات الاتصال لملفات موحّدة وسجلّ كامل لتفاعلات العملاء.",
+          body: "تُحفَظ كل محادثة واتساب في ملف جهة الاتصال، لتحصل على ملف موحّد وسجلّ كامل لتفاعلات كل عميل.",
           chip: "بيانات عملاء موحّدة",
         },
       ]
@@ -68,31 +68,31 @@ export default function WhatsAppFeaturePage() {
         {
           id: "1",
           title: "Human-Like Conversations",
-          body: "Easy Reply remembers context, interprets nuance, and communicates naturally so interactions feel like speaking with a skilled human sales rep.",
+          body: "Easy Reply remembers context, interprets nuance, and communicates naturally, so every customer who messages you gets clear, helpful replies in a tone that matches your team.",
           chip: "Natural Conversational Flow",
         },
         {
           id: "2",
           title: "Advanced Media Intelligence",
-          body: "Automatically analyze and respond to images, voice notes, videos, and documents shared by prospects on WhatsApp for richer and better-informed conversations.",
+          body: "Understand and respond to images, voice notes, videos, and documents that customers send on WhatsApp, for clearer and better-informed conversations.",
           chip: "Understands Rich Media",
         },
         {
           id: "3",
           title: "WhatsApp Business API Management",
-          body: "Simplify template setup, approval flow, and compliance monitoring to keep your WhatsApp account healthy and optimized.",
+          body: "Simplify template setup, submission for Meta approval, and approval-status tracking to keep your WhatsApp account organized and within WhatsApp policies.",
           chip: "Streamlined API Operations",
         },
         {
           id: "4",
-          title: "Broadcast Campaign Automation",
-          body: "Run targeted campaigns with personalized messaging that improves engagement quality and increases conversion potential.",
-          chip: "Automated Broadcast Campaigns",
+          title: "Opt-In Template Messages",
+          body: "Send Meta-approved WhatsApp template messages only to customers who opted in to receive them, such as order updates, appointment reminders, and offers they asked for.",
+          chip: "Approved, Opt-In Only",
         },
         {
           id: "5",
           title: "Seamless CRM Integration",
-          body: "Sync WhatsApp conversations directly with your contact data to maintain unified profiles and a complete customer interaction history.",
+          body: "Every WhatsApp conversation is saved to the contact's profile, giving you a unified record and a complete customer interaction history.",
           chip: "Unified Customer Data",
         },
       ];
@@ -147,22 +147,22 @@ export default function WhatsAppFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "حوّل واتساب إلى آلة مبيعات تعمل على مدار الساعة" : "Transform WhatsApp Into a 24/7 Sales Machine"}
+              {isAr ? "ذكاء اصطناعي يرد على عملائك في واتساب على مدار الساعة" : "AI That Answers Your WhatsApp Customers 24/7"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجدُ كثير من الأعمال صعوبة في مجاراة أحجام المحادثات العالية على واتساب، ما يترك فرصًا للإيراد دون استغلال."
-                : "Many businesses struggle to keep up with high volumes of WhatsApp conversations, leaving revenue opportunities untouched."}
+                ? "يجد كثير من الأعمال صعوبة في الرد على كل رسائل واتساب بسرعة، فتبقى أسئلة العملاء دون إجابة لساعات."
+                : "Many businesses struggle to answer every WhatsApp message quickly, leaving customer questions waiting for hours."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply واتساب إلى قناة بيع آلية عالية الأداء، يتفاعل مع العملاء المحتملين بأسلوب بشري طبيعي ويؤهل العملاء على نطاق واسع."
-                : "Easy Reply turns WhatsApp into a fully automated high-performing sales channel, engaging prospects in natural human-like interactions and qualifying leads at scale."}
+                ? "يرد Easy Reply على العملاء الذين يراسلونك على واتساب بأسلوب طبيعي، فيجيب عن أسئلتهم ويؤهل العملاء المحتملين ويحجز المواعيد اعتمادًا على المعلومات التي تعتمدها."
+                : "Easy Reply answers the customers who message you on WhatsApp in a natural, human-like way, answering their questions, qualifying leads, and booking appointments using the information you approve."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتيح ذلك البيع الدائم دون زيادة العبء اليدوي."
-                : "This enables always-on selling without increasing manual workload."}
+                ? "يبقى فريقك متاحًا للمحادثات التي تحتاج تدخلًا بشريًا، دون زيادة العبء اليدوي."
+                : "Your team stays free for the conversations that need a human, without adding manual workload."}
             </p>
             <a
               href="#pricing"
@@ -181,18 +181,18 @@ export default function WhatsAppFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يحوّل واتساب إلى قناة بيع عالية الأداء"
-                : "Easy Reply Turns WhatsApp Into a High-Performing Sales Channel"}
+                ? "Easy Reply يحوّل واتساب إلى قناة مبيعات ودعم منظمة"
+                : "Easy Reply Turns WhatsApp Into an Organized Sales and Support Channel"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يمنح واتساب وصولًا إلى قاعدة عملاء ضخمة، لكن دون أتمتة ذكية تصبح صناديق الوارد غير قابلة للإدارة وتضيع الفرص."
-                : "WhatsApp provides access to an enormous customer base, but without intelligent automation, inboxes become unmanageable and opportunities are missed."}
+                ? "يفضّل كثير من العملاء التواصل عبر واتساب، لكن دون أدوات ذكية يصعب الرد على كل رسالة في وقتها."
+                : "Many customers prefer to reach businesses on WhatsApp, but without smart tools it is hard to answer every message on time."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع Easy Reply بين تكامل متخصص لواتساب ومحادثات طبيعية واعية بالسياق لتأهيل العملاء ودفع التحويل على نطاق واسع."
-                : "Easy Reply combines specialized WhatsApp integration with natural context-aware conversations to qualify leads and drive conversions at scale."}
+                ? "يجمع Easy Reply بين تكامل متخصص لواتساب ومحادثات طبيعية واعية بالسياق، ليجيب العملاء الذين يراسلونك ويؤهل المهتمين منهم ويتابع معهم."
+                : "Easy Reply combines a dedicated WhatsApp integration with natural, context-aware conversations to answer the customers who message you, qualify interested leads, and follow up with them."}
             </p>
           </div>
         </section>
@@ -302,12 +302,14 @@ export default function WhatsAppFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -405,6 +407,9 @@ export default function WhatsAppFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

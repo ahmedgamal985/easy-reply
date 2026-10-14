@@ -42,25 +42,25 @@ export default function MediaAIFeaturePage() {
         {
           id: "2",
           title: "تفسير الرسائل الصوتية",
-          body: "يحوّل Easy Reply الرسائل الصوتية إلى نص بدقة عالية، ثم يفهم السياق ويرد بأسلوب طبيعي وواضح.",
+          body: "يحوّل Easy Reply الرسائل الصوتية إلى نص تلقائيًا، ثم يفهم السياق ويرد بأسلوب طبيعي وواضح.",
           chip: "تفريغ وفهم للصوت",
         },
         {
           id: "3",
           title: "تحليل الفيديو",
-          body: "عند مشاركة فيديو، يحلل النظام الإشارات المرئية والصوتية معًا لتقديم ردود مرتبطة بالسياق الفعلي للمحادثة.",
-          chip: "فهم شامل للفيديو",
+          body: "عندما يرسل العميل فيديو، يفهم الذكاء الاصطناعي محتواه ليقدّم ردودًا مرتبطة بالسياق الفعلي للمحادثة.",
+          chip: "يفهم مقاطع الفيديو",
         },
         {
           id: "4",
           title: "ذكاء المستندات",
-          body: "من ملفات PDF إلى الجداول، يستخرج الذكاء الاصطناعي المعلومات المهمة لدعم محادثات أكثر احترافية حول العقود والمواصفات والتقارير.",
+          body: "من ملفات PDF وغيرها من المستندات، يستخرج الذكاء الاصطناعي المعلومات المهمة لدعم محادثات أكثر احترافية حول العقود والمواصفات والتقارير.",
           chip: "استخراج ذكي للبيانات",
         },
         {
           id: "5",
           title: "ردود سياقية طبيعية",
-          body: "بعد تحليل الوسائط، يقدّم Easy Reply ردودًا سلسة تحافظ على تدفق المحادثة وتدعم فرص التحويل بشكل فعّال.",
+          body: "بعد فهم الوسائط، يقدّم Easy Reply ردودًا سلسة تحافظ على تدفق المحادثة وتساعد العميل على الوصول إلى ما يحتاجه.",
           chip: "تجربة محادثة بشرية",
         },
       ]
@@ -74,25 +74,25 @@ export default function MediaAIFeaturePage() {
         {
           id: "2",
           title: "Voice Interpretation",
-          body: "Voice notes are transcribed with high accuracy so Easy Reply can understand and respond naturally to spoken questions and comments.",
+          body: "Voice notes are transcribed automatically so Easy Reply can understand and respond naturally to spoken questions and comments.",
           chip: "Transcribes and Understands Voice",
         },
         {
           id: "3",
           title: "Video Analysis",
-          body: "When customers share videos, Easy Reply analyzes both visual and audio signals to deliver relevant and context-aware responses.",
-          chip: "Processes Video Signals",
+          body: "When customers send videos, Easy Reply understands their content to give relevant, context-aware responses.",
+          chip: "Understands Videos",
         },
         {
           id: "4",
           title: "Document Intelligence",
-          body: "From PDFs to spreadsheets, the AI extracts key information to support informed conversations around contracts, specs, and reports.",
+          body: "From PDFs and other documents, the AI extracts key information to support informed conversations around contracts, specs, and reports.",
           chip: "Understands Documents",
         },
         {
           id: "5",
           title: "Contextual Responses",
-          body: "After media analysis, Easy Reply responds in a smooth conversational style that keeps interactions natural and sales-focused.",
+          body: "After understanding the media, Easy Reply responds in a smooth conversational style that keeps interactions natural and helps customers get what they need.",
           chip: "Natural Multimodal Replies",
         },
       ];
@@ -161,8 +161,8 @@ export default function MediaAIFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "من الصور والصوت إلى ملفات PDF والفيديو، تتم معالجة كل صيغة باحتراف لرفع الدقة وتحسين التحويل."
-                : "From photos and audio to PDFs and video, every format is processed to improve accuracy and conversion."}
+                ? "من الصور والصوت إلى ملفات PDF والفيديو، يفهم الذكاء الاصطناعي كل صيغة ليجيب بدقة أكبر."
+                : "From photos and audio to PDFs and video, the AI understands each format so it can answer more accurately."}
             </p>
             <a
               href="#pricing"
@@ -189,8 +189,8 @@ export default function MediaAIFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يعالج Easy Reply جميع أنواع الوسائط ويرد بطريقة طبيعية، ليمنحك تجربة تواصل سلسة وفعالة تضاهي أفضل مندوبي المبيعات لديك."
-                : "Easy Reply processes all media types and responds naturally, delivering interactions as smooth and effective as your top human sales agents."}
+                ? "يعالج Easy Reply الصور والرسائل الصوتية والفيديو والمستندات ويرد بطريقة طبيعية، لتبقى المحادثة سلسة وواضحة مهما كانت طريقة تواصل العميل."
+                : "Easy Reply handles images, voice notes, videos, and documents and responds naturally, keeping the conversation smooth and clear however the customer chooses to communicate."}
             </p>
           </div>
         </section>
@@ -300,12 +300,14 @@ export default function MediaAIFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -403,6 +405,9 @@ export default function MediaAIFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

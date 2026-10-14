@@ -39,26 +39,26 @@ const flowStepsEn: UseCaseFlowStep[] = [
   },
   {
     id: "2",
-    title: "Clear Value Framing",
-    body: "It translates your offer into concrete business outcomes, helping prospects connect investment level to measurable return.",
-    chip: "Frames ROI Clearly",
+    title: "Clear Offer Explanation",
+    body: "Using the information you provide, it explains what your offer includes, who it is for, and how it works, so the person asking can judge whether it fits their needs.",
+    chip: "Explains Your Offer",
   },
   {
     id: "3",
     title: "Objection Navigation",
-    body: "Questions around timing, risk, and pricing are handled with structured responses that keep trust high and momentum intact.",
-    chip: "Resolves Friction",
+    body: "Questions about timing, scope, and pricing are answered with clear, structured responses based on your own policies and offer details.",
+    chip: "Answers Concerns",
   },
   {
     id: "4",
     title: "Lead Prioritization",
-    body: "Signals from the conversation are scored to identify high-intent buyers, so your team focuses on opportunities that are most likely to close.",
+    body: "Signals from the conversation help identify the inquiries that best match your criteria, so your team can focus its time where it matters most.",
     chip: "Flags Best-Fit Leads",
   },
   {
     id: "5",
-    title: "Commitment Booking",
-    body: "Once alignment is clear, the assistant moves the prospect to a scheduled call with the right context captured for your team.",
+    title: "Call Booking",
+    body: "When the person is ready, the assistant books a call on your calendar and records the conversation context for your team.",
     chip: "Schedules Qualified Calls",
   },
 ];
@@ -72,26 +72,26 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "2",
-    title: "تأطير القيمة بوضوح",
-    body: "يترجم عرضكم إلى نتائج أعمال ملموسة، فيساعد العملاء المحتملين على ربط مستوى الاستثمار بعائد قابل للقياس.",
-    chip: "يشرح العائد على الاستثمار",
+    title: "شرح العرض بوضوح",
+    body: "بالاعتماد على المعلومات التي تقدّمونها، يشرح ما يتضمنه عرضكم ولمن هو وكيف يعمل، ليتمكن السائل من تقدير مدى ملاءمته لاحتياجاته.",
+    chip: "يشرح عرضكم",
   },
   {
     id: "3",
     title: "اجتياز الاعتراضات",
-    body: "تُعالج أسئلة التوقيت والمخاطر والتسعير بردود منظّمة تحافظ على الثقة وتدفع المحادثة قدمًا.",
-    chip: "يزيل الاحتكاك",
+    body: "تُجاب أسئلة التوقيت والنطاق والتسعير بردود واضحة ومنظّمة مبنية على سياساتكم وتفاصيل عرضكم.",
+    chip: "يجيب عن المخاوف",
   },
   {
     id: "4",
     title: "أولوية العملاء المحتملين",
-    body: "تُقيّم إشارات المحادثة لتحديد مشترين ذوي نية عالية، ليركّز فريقكم على الفرص الأقرب للإغلاق.",
+    body: "تساعد إشارات المحادثة على تحديد الاستفسارات الأكثر توافقًا مع معاييركم، ليركّز فريقكم وقته حيث يهمّ أكثر.",
     chip: "يحدد العملاء الأنسب",
   },
   {
     id: "5",
-    title: "حجز الالتزام",
-    body: "عندما يتضح التوافق، ينقل المساعد العميل المحتمل إلى مكالمة مجدولة مع تسجيل السياق المناسب لفريقكم.",
+    title: "حجز المكالمات",
+    body: "عندما يكون الشخص مستعدًا، يحجز المساعد مكالمة في تقويمكم ويسجّل سياق المحادثة لفريقكم.",
     chip: "يجدول مكالمات مؤهّلة",
   },
 ];
@@ -152,8 +152,8 @@ export default function HighTicketUseCasePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "حوّل محادثات القيمة العالية إلى عملاء ملتزمين"
-                : "Turn High-Value Conversations Into Committed Clients"}
+                ? "أجب عن استفسارات الخدمات عالية القيمة واحجز مكالمات مؤهّلة"
+                : "Answer High-Value Inquiries and Book Qualified Calls"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -162,13 +162,13 @@ export default function HighTicketUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يدير Easy Reply محادثات استشارية منظّمة تتحقق من النية وتعالج الاعتراضات وتوجّه العملاء المحتملين نحو خطوة تالية واثقة."
-                : "Easy Reply runs structured consultative conversations that validate intent, resolve objections, and guide prospects toward a confident next step."}
+                ? "عندما يراسل شخص نشاطك، يدير Easy Reply محادثة استشارية منظّمة تفهم احتياجه وتجيب عن أسئلته واعتراضاته وتقترح خطوة تالية واضحة."
+                : "When someone messages your business, Easy Reply runs a structured, consultative conversation that understands their needs, answers questions and objections, and suggests a clear next step."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بحلول وقت وصولهم إلى تقويمكم يكونون على اطلاع ومتسقون مع عرضكم وجاهزون للمضي، ما يقلل احتكاك المبيعات ويسرّع الإيرادات."
-                : "By the time someone reaches your calendar, they are informed, aligned, and ready to move, reducing sales friction and accelerating revenue."}
+                ? "عند حجز المكالمة تكون التفاصيل الأساسية مسجّلة لفريقكم، فتبدأ المكالمة بسياق واضح بدل الأسئلة الأولية."
+                : "When a call is booked, the key details are already captured for your team, so the call starts with context instead of basic questions."}
             </p>
             <a
               href="#pricing"
@@ -308,12 +308,14 @@ export default function HighTicketUseCasePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -414,6 +416,9 @@ export default function HighTicketUseCasePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

@@ -101,13 +101,13 @@ export default function UseCasesOverviewPage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "لكل نشاط تجاري تحدياته الخاصة، لكن الفرصة واحدة: تحويل المحادثات اليومية إلى عائد فعلي قابل للقياس."
-                : "Every business has different sales challenges, but all share the same opportunity: turning daily conversations into measurable revenue."}
+                ? "لكل نشاط تجاري تحدياته الخاصة، لكن الحاجة واحدة تقريبًا: الرد على العملاء الذين يراسلونك بسرعة ودقة وفي أي وقت."
+                : "Every business has different sales challenges, but most share the same need: answering the customers who message them quickly, accurately, and at any hour."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتكيف Easy Reply مع طبيعة قطاعك، ويقدم محادثات بيع ذكية وعالية التحويل عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع."
-                : "Easy Reply adapts to your industry and delivers high-converting, human-like conversations across WhatsApp, Instagram, Facebook Messenger, and web chat."}
+                ? "يتكيف Easy Reply مع طبيعة قطاعك، ويرد على العملاء الذين يراسلونك عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع بردود طبيعية قريبة من أسلوب البشر."
+                : "Easy Reply adapts to your industry and answers the customers who message you on WhatsApp, Instagram, Facebook Messenger, and web chat with natural, human-like replies."}
             </p>
           </div>
         </section>
@@ -119,12 +119,12 @@ export default function UseCasesOverviewPage() {
               {isAr ? "حالات استخدام تفصيلية" : "Detailed Use Cases"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              {isAr ? "حلول مخصصة تصنع تحويلًا حقيقيًا" : "Tailored Solutions That Convert"}
+              {isAr ? "حلول مصممة حسب قطاعك" : "Solutions Tailored to Your Industry"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "اكتشف كيف تستخدم الشركات في قطاعات مختلفة Easy Reply لأتمتة المحادثات، والتفاعل الطبيعي مع العملاء المحتملين، ورفع معدلات التحويل بشكل واضح."
-                : "See how teams across industries use Easy Reply to automate conversations, engage prospects naturally, and increase conversion rates."}
+                ? "اكتشف كيف تستخدم الفرق في قطاعات مختلفة Easy Reply للرد على الرسائل الواردة، وتأهيل الاستفسارات، وحجز المواعيد داخل المحادثة."
+                : "See how teams across industries use Easy Reply to answer incoming messages, qualify inquiries, and book appointments inside the chat."}
             </p>
           </div>
 
@@ -225,12 +225,14 @@ export default function UseCasesOverviewPage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -328,6 +330,9 @@ export default function UseCasesOverviewPage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

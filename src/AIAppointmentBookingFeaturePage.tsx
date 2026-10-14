@@ -41,9 +41,9 @@ export default function AIAppointmentBookingFeaturePage() {
         },
         {
           id: "2",
-          title: "معالجة مقنعة للاعتراضات",
-          body: "عند تردد العملاء بشأن التوقيت أو السعر أو الجاهزية، يردّ الذكاء الاصطناعي بإقناع ويحافظ على الزخم نحو اجتماع مؤكد.",
-          chip: "يدفع العملاء المترددين للأمام",
+          title: "إجابة واضحة عن المخاوف",
+          body: "عند تردد العملاء بشأن التوقيت أو السعر أو الجاهزية، يجيب الذكاء الاصطناعي بالمعلومات التي تعتمدها ويساعدهم على اختيار موعد مناسب.",
+          chip: "يساعد العملاء المترددين",
         },
         {
           id: "3",
@@ -60,7 +60,7 @@ export default function AIAppointmentBookingFeaturePage() {
         {
           id: "5",
           title: "متابعة آلية",
-          body: "يرسل Easy Reply التأكيدات والتذكيرات ويتعامل مع طلبات إعادة الجدولة تلقائيًا حتى لا تُهمل العملاء المؤهلون.",
+          body: "يرسل Easy Reply التأكيدات والتذكيرات لمن حجزوا موعدًا ويتعامل مع طلبات إعادة الجدولة تلقائيًا، حتى لا يُنسى أي موعد.",
           chip: "تدفق تذكيرات آلي",
         },
       ]
@@ -73,9 +73,9 @@ export default function AIAppointmentBookingFeaturePage() {
         },
         {
           id: "2",
-          title: "Persuasive Objection Handling",
-          body: "When prospects hesitate with concerns around timing, price, or readiness, the AI responds persuasively and keeps momentum toward a confirmed meeting.",
-          chip: "Moves Hesitant Leads Forward",
+          title: "Clear Answers to Concerns",
+          body: "When prospects hesitate over timing, price, or readiness, the AI answers with the information you approve and helps them pick a suitable time.",
+          chip: "Helps Hesitant Leads Decide",
         },
         {
           id: "3",
@@ -92,7 +92,7 @@ export default function AIAppointmentBookingFeaturePage() {
         {
           id: "5",
           title: "Automated Follow-Up",
-          body: "Easy Reply sends confirmations, reminders, and handles rescheduling requests automatically so qualified leads are never dropped.",
+          body: "Easy Reply sends confirmations and reminders to people who booked, and handles rescheduling requests automatically, so appointments don't slip through the cracks.",
           chip: "Automated Reminder Flow",
         },
       ];
@@ -158,8 +158,8 @@ export default function AIAppointmentBookingFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "كل تفاعل يصبح فرصة تحويل، ينقل العملاء من الاهتمام إلى موعد مؤكد دون احتكاك."
-                : "Every interaction becomes a conversion opportunity, moving leads from interest to a confirmed appointment without friction."}
+                ? "ينتقل العميل المهتم من السؤال إلى موعد مؤكد داخل المحادثة نفسها، دون خطوات إضافية."
+                : "Interested customers move from a question to a confirmed appointment in the same conversation, without extra steps."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -304,12 +304,14 @@ export default function AIAppointmentBookingFeaturePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -407,6 +409,9 @@ export default function AIAppointmentBookingFeaturePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

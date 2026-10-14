@@ -242,6 +242,8 @@ export default function App() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                               ? "/privacy-policy"
                               : link === "Terms" || link === "الشروط"
@@ -300,7 +302,7 @@ export default function App() {
                                                                                 link === "تكاملات الذكاء الاصطناعي"
                                                                               ? "/features/advanced-contact-campaign-management"
                                 : link === "Sign In" || link === "تسجيل الدخول"
-                                  ? "#pricing"
+                                  ? "/signin"
                                   : "#";
 
                     return (
@@ -348,6 +350,9 @@ export default function App() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

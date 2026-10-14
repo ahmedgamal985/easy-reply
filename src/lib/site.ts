@@ -43,4 +43,5 @@ export const MARKETING_PATHS = [
   "/features/advanced-contact-campaign-management",
   "/privacy-policy",
   "/terms",
+  "/refund-policy",
 ] as const;

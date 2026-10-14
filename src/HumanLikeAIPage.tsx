@@ -80,7 +80,7 @@ export default function HumanLikeAIPage() {
         {
           id: "3",
           title: "Deep Understanding",
-          body: "Instead of reacting to simple keywords or triggers, Easy Reply interprets intent and meaning to handle complex or ambiguous messages with high accuracy.",
+          body: "Instead of reacting to simple keywords or triggers, Easy Reply interprets intent and meaning to handle complex or ambiguous messages more reliably.",
           chip: "Intent-Level Understanding",
         },
         {
@@ -147,7 +147,7 @@ export default function HumanLikeAIPage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "محادثات بشرية تقود إلى التحويل" : "Human-Like Conversations That Convert"}
+              {isAr ? "محادثات ذكاء اصطناعي طبيعية بأسلوب بشري" : "Natural, Human-Like AI Conversations"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -156,13 +156,13 @@ export default function HumanLikeAIPage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يوفر Easy Reply محادثات طبيعية بأسلوب بشري، تبني الثقة وتعالج الاعتراضات وتدفع العميل نحو قرار شراء فعلي."
-                : "Easy Reply runs natural human-like conversations that build trust, resolve objections, and move prospects toward real buying decisions."}
+                ? "يجري Easy Reply محادثات طبيعية بأسلوب بشري مع العملاء الذين يراسلونك، فيبني الثقة ويجيب عن الاعتراضات بالمعلومات التي تعتمدها ويساعد العميل على اتخاذ قراره."
+                : "Easy Reply holds natural, human-like conversations with the customers who message you, building trust, answering objections with the information you approve, and helping them make a decision."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "وهذا يحول التفاعل اليومي إلى إيراد قابل للقياس، حتى في الخدمات والمنتجات عالية القيمة."
-                : "This turns everyday interactions into measurable revenue, including high-value products and services."}
+                ? "ويناسب ذلك المنتجات اليومية والخدمات عالية القيمة على حد سواء."
+                : "This works for everyday products as well as high-value services."}
             </p>
             <a
               href="#pricing"
@@ -191,8 +191,8 @@ export default function HumanLikeAIPage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يعتمد Easy Reply على محرك محادثات متقدم يقدم تفاعلًا طبيعيًا لدرجة أن كثيرًا من المستخدمين يظنون أنهم يتحدثون مع مندوب مبيعات حقيقي. يبني الثقة ويتعامل مع الاعتراضات ويقود العميل بسلاسة نحو قرار الشراء."
-                : "Easy Reply uses a proprietary conversation engine to deliver interactions so natural that users often assume they are speaking with a human sales rep. It builds trust, handles objections, and guides prospects through purchase decisions smoothly."}
+                ? "يعتمد Easy Reply على نماذج ذكاء اصطناعي متقدمة تقدم تفاعلًا طبيعيًا وواضحًا يشبه حديث فريقك. يبني الثقة ويتعامل مع الاعتراضات ويرافق العميل بسلاسة حتى قرار الشراء."
+                : "Easy Reply is built on advanced AI models that deliver natural, clear conversations in the voice of your team. It builds trust, handles objections, and guides customers through purchase decisions smoothly."}
             </p>
           </div>
         </section>
@@ -302,12 +302,14 @@ export default function HumanLikeAIPage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -405,6 +407,9 @@ export default function HumanLikeAIPage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

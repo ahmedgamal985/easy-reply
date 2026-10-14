@@ -34,32 +34,32 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Platform Integration",
-    body: "DIY solutions usually require connecting multiple systems, creating many failure points. Easy Reply brings everything into one coherent platform designed to work reliably from day one.",
+    body: "DIY setups usually connect several separate tools, and every connection is another piece to maintain. Easy Reply brings your channels, knowledge, and AI agent together in one platform.",
     chip: "One Unified Platform",
   },
   {
     id: "2",
     title: "Maintenance Requirements",
-    body: "DIY setups need ongoing development as APIs, webhooks, and integrations change. Easy Reply removes that burden with continuous updates handled automatically.",
-    chip: "No Ongoing Dev Burden",
+    body: "DIY setups need ongoing work as APIs, webhooks, and integrations change. With Easy Reply, the platform and its channel connections are maintained by our team.",
+    chip: "Less Upkeep for You",
   },
   {
     id: "3",
     title: "Conversation Quality",
-    body: "General-purpose AI in DIY stacks is often not optimized for sales outcomes. Easy Reply is purpose-built for selling with objection handling and persuasive conversational flow.",
+    body: "A general-purpose AI model in a DIY stack needs its own prompts and testing to handle sales well. Easy Reply is set up for sales conversations from the start, with objection handling and a guided conversational flow.",
     chip: "Sales-Optimized AI",
   },
   {
     id: "4",
     title: "Reliability",
-    body: "DIY architectures can fail frequently due to interdependent tools. Easy Reply provides enterprise-grade stability and resilient handling of external API variability.",
-    chip: "Enterprise Reliability",
+    body: "Chains of interdependent tools can break when any one of them changes. Easy Reply is a single managed platform, so there are fewer moving parts for you to keep running.",
+    chip: "Fewer Moving Parts",
   },
   {
     id: "5",
     title: "Time-to-Value",
-    body: "DIY implementations often take weeks or months before meaningful impact. Easy Reply can launch in minutes and start driving measurable revenue quickly.",
-    chip: "Faster Revenue Impact",
+    body: "Building and testing a DIY stack can take time before it is ready for customers. With Easy Reply, you describe your business, connect your channels, and test your agent before it goes live.",
+    chip: "Quick Setup",
   },
 ];
 
@@ -67,32 +67,32 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "تكامل المنصة",
-    body: "حلول «اصنعها بنفسك» تتطلّب غالباً ربط أنظمة متعددة، ما يخلق نقاط فشل كثيرة. يجمع Easy Reply كل شيء في منصة متماسكة مصمّمة للعمل بثبات من اليوم الأول.",
+    body: "حلول «اصنعها بنفسك» تربط عادةً عدة أدوات منفصلة، وكل ربط منها قطعة إضافية تحتاج إلى صيانة. يجمع Easy Reply قنواتك ومعرفتك ووكيل الذكاء الاصطناعي في منصة واحدة.",
     chip: "منصة موحّدة واحدة",
   },
   {
     id: "2",
     title: "متطلبات الصيانة",
-    body: "تتطلّب إعدادات DIY تطويراً مستمراً مع تغيّر واجهات البرمجة والويب هوكس والتكاملات. يزيل Easy Reply هذا العبء بتحديثات مستمرة تُدار تلقائياً.",
-    chip: "دون عبء تطوير مستمر",
+    body: "تحتاج إعدادات DIY إلى عمل مستمر كلما تغيّرت واجهات البرمجة والويب هوكس والتكاملات. مع Easy Reply يتولّى فريقنا صيانة المنصة وربط القنوات.",
+    chip: "صيانة أقل عليك",
   },
   {
     id: "3",
     title: "جودة المحادثة",
-    body: "الذكاء العام في أكوام DIY غالباً غير مُحسَّن لنتائج المبيعات. صُمّم Easy Reply للبيع مع معالجة الاعتراضات وتدفّق حواري مقنع.",
+    body: "يحتاج نموذج الذكاء الاصطناعي العام في إعدادات DIY إلى تعليمات واختبارات خاصة ليتقن البيع. أما Easy Reply فمُعدّ لمحادثات البيع من البداية، مع معالجة الاعتراضات وتدفّق حواري موجَّه.",
     chip: "ذكاء مُحسَّن للمبيعات",
   },
   {
     id: "4",
     title: "الموثوقية",
-    body: "قد تتعطّل بنى DIY كثيراً بسبب أدوات مترابطة. يوفّر Easy Reply استقراراً بمستوى المؤسسات وتعاملاً مرناً مع تباين واجهات الطرف الثالث.",
-    chip: "موثوقية على مستوى المؤسسات",
+    body: "سلاسل الأدوات المترابطة قد تتعطّل عندما تتغيّر أي واحدة منها. Easy Reply منصة واحدة مُدارة، فتقلّ الأجزاء التي عليك متابعة تشغيلها.",
+    chip: "أجزاء متحركة أقل",
   },
   {
     id: "5",
     title: "الوقت حتى القيمة",
-    body: "تستغرق تنفيذات DIY غالباً أسابيع أو شهوراً قبل أثر حقيقي. يمكن إطلاق Easy Reply خلال دقائق وبدء دفع إيراد قابل للقياس بسرعة.",
-    chip: "أثر أسرع على الإيراد",
+    body: "بناء إعداد DIY واختباره قد يستغرق وقتاً قبل أن يصبح جاهزاً للعملاء. مع Easy Reply تعرّف عملك، وتربط قنواتك، وتختبر وكيلك قبل تشغيله.",
+    chip: "إعداد سريع",
   },
 ];
 
@@ -155,18 +155,18 @@ export default function DIYZapierAlternativePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تعتمد أكوام DIY وZapier غالباً على أدوات منفصلة متعددة، فتنشأ تجارب مجزّأة تتعطّل بسهولة وتبدو آلية."
-                : "DIY Zapier stacks often depend on multiple disconnected tools, creating fragmented experiences that break easily and feel robotic."}
+                ? "تعتمد إعدادات DIY المبنية بـZapier وأدوات أخرى غالباً على عدة خدمات منفصلة يجب أن تبقى كلها تعمل معاً."
+                : "DIY stacks built with Zapier and other tools often depend on several separate services that all need to keep working together."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يوفّر Easy Reply منصة واحدة متكاملة مع حوارات طبيعية قريبة من الإنسان تبيع منتجاتك وخدماتك بفعالية."
-                : "Easy Reply provides one integrated platform with natural human-like conversations that actively sell your products and services."}
+                ? "يوفّر Easy Reply منصة واحدة متكاملة مع محادثات طبيعية قريبة من الإنسان تساعدك على بيع منتجاتك وخدماتك."
+                : "Easy Reply provides one integrated platform with natural, human-like conversations that help you sell your products and services."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بدلاً من صيانة أتمتات معقّدة عبر أدوات متفرقة، تحصل على تنفيذ مبيعات موثوق من نظام موحّد."
-                : "Instead of maintaining complex automations across tools, you get reliable sales execution from a unified system."}
+                ? "بدلاً من صيانة أتمتات عبر أدوات كثيرة، تدير محادثات البيع من نظام واحد."
+                : "Instead of maintaining automations across many tools, you run your sales conversations from one system."}
             </p>
             <a
               href="#pricing"
@@ -185,18 +185,18 @@ export default function DIYZapierAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "حلول DIY قد تبدأ بسيطة، لكنها تتقصّر في الواقع"
-                : "DIY Solutions May Start Simple, But Fall Short in Practice"}
+                ? "حلول DIY قد تنجح، لكنها تحتاج إلى جهد مستمر"
+                : "DIY Solutions Can Work, But They Take Ongoing Effort"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "دمج Zapier وOpenAI وأدوات قنوات منفصلة قد يبدو جذاباً في البداية لأتمتة المحادثات."
-                : "Combining Zapier, OpenAI, and separate channel tools can look attractive at first for conversational automation."}
+                ? "قد يبدو الجمع بين Zapier ونموذج ذكاء اصطناعي وأدوات قنوات منفصلة خياراً جذاباً في البداية لأتمتة المحادثات."
+                : "Combining Zapier, an AI model, and separate channel tools can look attractive at first for conversational automation."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عملياً، تُدخل هذه التركيبات الموزّعة هشاشة تقنية، وتجربة مستخدم غير متسقة، وأداء تحويل ضعيفاً. يزيل Easy Reply هذا التعقيد بمنصة سلسة واحدة مبنية للإيراد."
-                : "In practice, these patchwork setups introduce technical fragility, inconsistent user experience, and weak conversion performance. Easy Reply removes that complexity with one seamless platform built for revenue."}
+                ? "عملياً، تحتاج هذه الإعدادات إلى صيانة منتظمة، وقد تختلف تجربة العميل من قناة إلى أخرى. يستبدل Easy Reply هذا الخليط بمنصة واحدة مبنية لمحادثات البيع."
+                : "In practice, these setups need regular maintenance, and the customer experience can vary from channel to channel. Easy Reply replaces that patchwork with one platform built for sales conversations."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function DIYZapierAlternativePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -411,6 +413,9 @@ export default function DIYZapierAlternativePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

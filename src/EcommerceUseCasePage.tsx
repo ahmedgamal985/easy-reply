@@ -51,15 +51,15 @@ const flowStepsEn: UseCaseFlowStep[] = [
   },
   {
     id: "4",
-    title: "Cart Recovery Optimization",
-    body: "Easy Reply identifies abandoned carts and re-engages customers with personalized follow-ups, addressing the exact reasons behind hesitation to recover lost sales.",
-    chip: "Recovers Abandoned Carts",
+    title: "Follow-Ups in the Same Conversation",
+    body: "When a shopper who messaged you goes quiet before buying, Easy Reply can follow up in that conversation to answer what held them back. On WhatsApp, follow-ups outside the 24-hour window use Meta-approved templates and go only to customers who opted in.",
+    chip: "Follows Up in Context",
   },
   {
     id: "5",
-    title: "Intelligent Cross-Selling",
-    body: "By understanding customer behavior and purchase intent, Easy Reply recommends relevant complementary products that naturally increase order value.",
-    chip: "Boosts Order Value",
+    title: "Relevant Product Suggestions",
+    body: "Based on what the shopper asked about, Easy Reply can suggest complementary products from your catalog that fit their needs.",
+    chip: "Suggests Related Products",
   },
 ];
 
@@ -84,15 +84,15 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "4",
-    title: "تحسين استعادة السلة",
-    body: "يكتشف Easy Reply السلات المتروكة ويعيد التفاعل مع العملاء بمتابعات مخصّصة، معالجة أسباب التردّد بدقة لاستعادة المبيعات الضائعة.",
-    chip: "يستعيد السلال المهجورة",
+    title: "متابعة داخل المحادثة نفسها",
+    body: "عندما يتوقف عميل راسلك عن الرد قبل الشراء، يمكن لـ Easy Reply متابعته في المحادثة نفسها للإجابة عمّا جعله يتردد. على واتساب، تُرسل المتابعات خارج نافذة الـ24 ساعة بقوالب معتمدة من Meta وفقط للعملاء الذين وافقوا على استقبالها.",
+    chip: "يتابع ضمن سياق المحادثة",
   },
   {
     id: "5",
-    title: "بيع متقاطع ذكي",
-    body: "بفهم سلوك العميل ونية الشراء، يوصي Easy Reply بمنتجات مكمّلة مناسبة ترفع قيمة الطلب بشكل طبيعي.",
-    chip: "يرفع قيمة الطلب",
+    title: "اقتراحات منتجات مناسبة",
+    body: "بناءً على ما سأل عنه العميل، يمكن لـ Easy Reply اقتراح منتجات مكمّلة من كتالوجك تناسب احتياجه.",
+    chip: "يقترح منتجات ذات صلة",
   },
 ];
 
@@ -148,27 +148,33 @@ export default function EcommerceUseCasePage() {
           <div className="mx-auto max-w-6xl rounded-[28px] bg-gradient-to-br from-cyan-50 via-white to-violet-50 px-4 pb-16 pt-8 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.7)] sm:px-6 md:pb-20 md:pt-12">
             <p className="inline-flex items-center gap-2 rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
-              E-commerce Brands
+              {isAr ? "علامات التجارة الإلكترونية" : "E-commerce Brands"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              Convert Product Questions Into Faster Checkouts
+              {isAr
+                ? "أجب عن أسئلة المنتجات لحظة سؤال العميل"
+                : "Answer Product Questions the Moment Shoppers Ask"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              Online shoppers move quickly when answers are clear and relevant.
+              {isAr
+                ? "يتخذ المتسوقون قراراتهم بسرعة عندما تكون الإجابات واضحة وذات صلة."
+                : "Online shoppers decide faster when answers are clear and relevant."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              Easy Reply gives buyers instant product clarity, personalized guidance, and confidence to complete the
-              purchase.
+              {isAr
+                ? "يرد Easy Reply على العملاء الذين يراسلونك بتفاصيل واضحة عن المنتجات وإرشاد شخصي يساعدهم على اختيار ما يناسبهم."
+                : "Easy Reply answers the shoppers who message you with clear product details and personal guidance that helps them choose what fits."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              The result is fewer drop-offs, stronger conversion, and higher average order value without adding manual
-              support load.
+              {isAr
+                ? "يتعامل فريقك مع أسئلة متكررة أقل، ويحصل العملاء على الإجابة بينما لا يزالون يتخذون قرارهم."
+                : "Your team handles fewer repetitive questions, and shoppers get answers while they are still deciding."}
             </p>
             <a
               href="#pricing"
               className="mt-8 inline-block rounded-lg bg-accent px-8 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-accent-hover"
             >
-              Start for free
+              {isAr ? "ابدأ مجانًا" : "Start for free"}
             </a>
           </div>
         </section>
@@ -177,18 +183,20 @@ export default function EcommerceUseCasePage() {
           <div className="mx-auto max-w-4xl text-center">
             <p className="inline-flex items-center gap-2 rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
-              How it works
+              {isAr ? "كيف يعمل" : "How it works"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              A Smarter Approach for E-Commerce That Traditional Tools Can’t Match
+              {isAr ? "نهج أذكى لمحادثات التجارة الإلكترونية" : "A Smarter Approach to E-Commerce Conversations"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              E-commerce growth relies on guiding customers to the right products and resolving concerns before they
-              abandon their journey.
+              {isAr
+                ? "يحتاج المتسوقون إلى من يرشدهم إلى المنتج المناسب ويجيب عن مخاوفهم قبل أن يقرروا الشراء."
+                : "Shoppers need help finding the right product and answers to their concerns before they decide to buy."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              Easy Reply creates personalized shopping experiences across all messaging channels, boosting conversion
-              rates and increasing average order value.
+              {isAr
+                ? "يقدّم Easy Reply تجربة تسوّق شخصية داخل القناة التي اختارها العميل للتواصل معك، سواء كانت واتساب أو إنستغرام أو ماسنجر أو دردشة الموقع."
+                : "Easy Reply provides a personal shopping experience in whichever channel the shopper chose to contact you: WhatsApp, Instagram, Messenger, or web chat."}
             </p>
           </div>
         </section>
@@ -298,12 +306,14 @@ export default function EcommerceUseCasePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -404,6 +414,9 @@ export default function EcommerceUseCasePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

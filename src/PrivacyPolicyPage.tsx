@@ -21,7 +21,7 @@ const sectionsEn: PolicySection[] = [
       "Account Information: Name, email address, phone number, company name, billing information",
       "Business Data: Customer lists, conversation histories, product information, pricing data",
       "Communication Data: Messages, voice notes, images, and documents shared through our platform",
-      "Payment Information: Processed securely through Stripe (we don't store card details)",
+      "Payment Information: Payments are processed by Paddle.com, our reseller and Merchant of Record. Paddle collects your card or other payment details directly; we never see or store them. We receive the order details we need, such as your name, email, plan and billing country.",
       "",
       "2.2 Automatically Collected Information",
       "Usage Data: Features used, conversation metrics, API calls, performance data",
@@ -43,14 +43,14 @@ const sectionsEn: PolicySection[] = [
       "Handle customer support and respond to inquiries",
       "Process payments and manage subscriptions",
       "Send service updates and important notifications",
-      "3.2 AI Processing: We use AI services from OpenAI, Anthropic (Claude), and Google (Gemini). Your data is NOT used to train AI models and is processed solely to provide our Services.",
+      "3.2 AI Processing: We use third-party AI model providers to understand messages and draft replies. Your data is NOT used to train AI models and is processed solely to provide our Services.",
       "3.3 Legal Basis for Processing (GDPR): Contract performance, legitimate interests, consent, and legal obligations.",
     ],
   },
   {
     title: "4. Data Sharing and Sub-Processors",
     body: [
-      "We may share data with service providers that help us operate the platform, including AI providers, communication providers, infrastructure providers, and payment processors.",
+      "We may share data with service providers that help us operate the platform, including AI providers, communication providers, infrastructure providers, and Paddle.com, which processes payments as our Merchant of Record.",
       "We do NOT sell your personal data or share data for third-party marketing.",
     ],
   },
@@ -156,7 +156,7 @@ const sectionsAr: PolicySection[] = [
       "معلومات الحساب: الاسم، البريد الإلكتروني، رقم الهاتف، اسم الشركة، بيانات الفوترة",
       "بيانات الأعمال: قوائم العملاء، سجلات المحادثات، معلومات المنتجات، بيانات التسعير",
       "بيانات التواصل: الرسائل، الملاحظات الصوتية، الصور، والمستندات المشاركة عبر منصتنا",
-      "معلومات الدفع: تُعالج بأمان عبر Stripe (لا نخزن بيانات البطاقات)",
+      "معلومات الدفع: تُعالج المدفوعات عبر Paddle.com، الموزّع المعتمد لدينا والبائع الرسمي (Merchant of Record). يجمع Paddle بيانات بطاقتك أو وسيلة دفعك مباشرة، ولا نطّلع عليها ولا نخزّنها. ونتلقّى فقط تفاصيل الطلب اللازمة مثل اسمك وبريدك والخطة وبلد الفوترة.",
       "",
       "٢.٢ المعلومات المجمعة تلقائيًا",
       "بيانات الاستخدام: الميزات المستخدمة، مقاييس المحادثات، استدعاءات واجهة البرمجة، بيانات الأداء",
@@ -178,14 +178,14 @@ const sectionsAr: PolicySection[] = [
       "تقديم الدعم والرد على الاستفسارات",
       "معالجة المدفوعات وإدارة الاشتراكات",
       "إرسال تحديثات الخدمة والإشعارات المهمة",
-      "٣.٢ معالجة الذكاء الاصطناعي: نستخدم خدمات ذكاء اصطناعي من OpenAI وAnthropic (Claude) وGoogle (Gemini). لا تُستخدم بياناتكم لتدريب نماذج الذكاء الاصطناعي، ويقتصر المعالجة على تقديم خدماتنا.",
+      "٣.٢ معالجة الذكاء الاصطناعي: نستخدم مزوّدي نماذج ذكاء اصطناعي من أطراف ثالثة لفهم الرسائل وصياغة الردود. لا تُستخدم بياناتكم لتدريب نماذج الذكاء الاصطناعي، وتقتصر المعالجة على تقديم خدماتنا.",
       "٣.٣ الأساس القانوني للمعالجة (GDPR): تنفيذ العقد، المصالح المشروعة، الموافقة، والالتزامات القانونية.",
     ],
   },
   {
     title: "٤. مشاركة البيانات والمعالجون الفرعيون",
     body: [
-      "قد نشارك البيانات مع مزودي خدمات يساعدوننا في تشغيل المنصة، بما في ذلك مزودي الذكاء الاصطناعي والاتصالات والبنية التحتية ومعالجات الدفع.",
+      "قد نشارك البيانات مع مزودي خدمات يساعدوننا في تشغيل المنصة، بما في ذلك مزودي الذكاء الاصطناعي والاتصالات والبنية التحتية، وPaddle.com الذي يعالج المدفوعات بصفته البائع الرسمي لطلباتنا.",
       "لا نبيع بياناتكم الشخصية ولا نشاركها لتسويق أطراف ثالثة.",
     ],
   },
@@ -287,7 +287,7 @@ export default function PrivacyPolicyPage() {
           {isAr ? "سياسة الخصوصية" : "Privacy Policy"}
         </h1>
         <p className="mt-4 text-center text-ink-muted">
-          {isAr ? "آخر تحديث: سبتمبر ٢٠٢٥" : "Last updated: September, 2025"}
+          {isAr ? "آخر تحديث: ١٤ أكتوبر ٢٠٢٦" : "Last updated: October 14, 2026"}
         </p>
 
         <div className="mt-10 space-y-8 text-ink-muted">
@@ -418,6 +418,11 @@ export default function PrivacyPolicyPage() {
                   Terms
                 </a>
               </li>
+              <li>
+                <a href="/refund-policy" className="hover:text-accent">
+                  Refund Policy
+                </a>
+              </li>
               <li>Sign In</li>
             </ul>
           </div>
@@ -445,6 +450,9 @@ export default function PrivacyPolicyPage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               Terms
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              Refund Policy
             </a>
           </div>
         </div>

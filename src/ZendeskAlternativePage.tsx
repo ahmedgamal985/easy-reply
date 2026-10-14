@@ -34,31 +34,31 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Fundamental Purpose",
-    body: "Zendesk is designed to manage support tickets and resolve customer issues efficiently. Easy Reply is built to drive revenue through conversational selling that turns interactions into sales opportunities.",
+    body: "Zendesk is designed to manage support tickets and resolve customer issues efficiently. Easy Reply is built for conversational selling, helping turn customer conversations into sales opportunities.",
     chip: "Support vs Revenue Focus",
   },
   {
     id: "2",
     title: "Conversation Quality",
-    body: "Zendesk AI is optimized for issue classification and ticket handling. Easy Reply runs natural context-aware conversations that build trust and guide prospects toward purchase decisions.",
+    body: "Zendesk's AI is built around support use cases such as resolving and routing customer requests. Easy Reply runs context-aware conversations focused on building trust and guiding prospects toward a purchase decision.",
     chip: "Sales-Grade Conversations",
   },
   {
     id: "3",
-    title: "Pricing Structure",
-    body: "Zendesk per-seat pricing can increase quickly as teams scale. Easy Reply uses flat-rate pricing for cost predictability and better margin control.",
-    chip: "Flat Predictable Cost",
+    title: "Clear Plans",
+    body: "Every team's needs are different, so compare options against your own team size and usage. Easy Reply's plans are listed in the pricing section on this page, so you can see what is included before you start.",
+    chip: "Plans Shown Up Front",
   },
   {
     id: "4",
-    title: "Implementation Timeline",
-    body: "Zendesk rollouts often involve longer setup and training cycles. Easy Reply connects with messaging channels and starts delivering outcomes in minutes.",
-    chip: "Go Live Fast",
+    title: "Setup Scope",
+    body: "Zendesk is a full support platform covering ticketing, help centers, and agent workspaces, so rollouts usually take some planning. Easy Reply has a narrower scope: describe your business, connect your messaging channels, and test your agent before it goes live.",
+    chip: "Quick Setup",
   },
   {
     id: "5",
     title: "Channel Coverage",
-    body: "Zendesk centers on ticket-oriented support messaging. Easy Reply delivers unified real-time conversations across WhatsApp, Instagram, Facebook Messenger, and web chat.",
+    body: "Zendesk centers on ticket-based support across its channels. Easy Reply focuses on real-time sales conversations on WhatsApp, Instagram, Facebook Messenger, and web chat.",
     chip: "Unified Channel Coverage",
   },
 ];
@@ -67,31 +67,31 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "الغرض الجوهري",
-    body: "صُمّم Zendesk لإدارة تذاكر الدعم وحل مشكلات العملاء بكفاءة. بُني Easy Reply لدفع الإيراد عبر البيع المحادثي الذي يحوّل التفاعلات إلى فرص بيع.",
+    body: "صُمّم Zendesk لإدارة تذاكر الدعم وحل مشكلات العملاء بكفاءة. أما Easy Reply فمبني للبيع عبر المحادثة، ويساعد على تحويل محادثات العملاء إلى فرص بيع.",
     chip: "دعم مقابل تركيز على الإيراد",
   },
   {
     id: "2",
     title: "جودة المحادثة",
-    body: "يُحسَّن ذكاء Zendesk الاصطناعي لتصنيف المشكلات ومعالجة التذاكر. يشغّل Easy Reply حوارات طبيعية واعية بالسياق تبني الثقة وتوجّه العملاء المحتملين نحو قرار الشراء.",
+    body: "بُني الذكاء الاصطناعي في Zendesk حول حالات الدعم، مثل حلّ طلبات العملاء وتوجيهها. أما Easy Reply فيشغّل محادثات واعية بالسياق تركّز على بناء الثقة وتوجيه العملاء المحتملين نحو قرار الشراء.",
     chip: "حوارات بمستوى المبيعات",
   },
   {
     id: "3",
-    title: "هيكل التسعير",
-    body: "تسعير Zendesk لكل مقعد يرتفع سريعاً مع توسّع الفريق. يعتمد Easy Reply سعراً ثابتاً لتوقّع التكاليف والتحكّم الأفضل في الهامش.",
-    chip: "تكلفة ثابتة متوقّعة",
+    title: "خطط واضحة",
+    body: "تختلف احتياجات كل فريق، لذا قارن الخيارات بحسب حجم فريقك واستخدامك. خطط Easy Reply معروضة في قسم الأسعار في هذه الصفحة، لتعرف ما تتضمّنه قبل أن تبدأ.",
+    chip: "خطط معروضة بوضوح",
   },
   {
     id: "4",
-    title: "جدول التنفيذ",
-    body: "تنفيذ Zendesk يتضمّن غالباً إعداداً وتدريباً أطول. يتصل Easy Reply بقنوات الرسائل ويبدأ تقديم النتائج خلال دقائق.",
-    chip: "انطلاق سريع",
+    title: "نطاق الإعداد",
+    body: "Zendesk منصة دعم متكاملة تشمل التذاكر ومراكز المساعدة ومساحات عمل الموظفين، لذا يحتاج تطبيقها عادةً إلى بعض التخطيط. نطاق Easy Reply أضيق: عرّف عملك، واربط قنوات المراسلة، واختبر وكيلك قبل تشغيله.",
+    chip: "إعداد سريع",
   },
   {
     id: "5",
     title: "تغطية القنوات",
-    body: "يركّز Zendesk على رسائل الدعم المرتبطة بالتذاكر. يقدّم Easy Reply حوارات لحظية موحّدة عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع.",
+    body: "يتمحور Zendesk حول الدعم المبني على التذاكر عبر قنواته. أما Easy Reply فيركّز على محادثات البيع اللحظية عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع.",
     chip: "تغطية موحّدة للقنوات",
   },
 ];
@@ -165,8 +165,8 @@ export default function ZendeskAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بدلاً من التوقف عند حلّ الدعم، يساعد Easy Reply على تحويل التفاعل إلى نتائج مبيعات عالية القيمة."
-                : "Instead of stopping at support resolution, Easy Reply helps turn engagement into high-value sales outcomes."}
+                ? "إلى جانب الإجابة عن الأسئلة، يساعد Easy Reply على تحويل المحادثات إلى فرص بيع."
+                : "Beyond answering questions, Easy Reply helps turn conversations into sales opportunities."}
             </p>
             <a
               href="#pricing"
@@ -181,17 +181,22 @@ export default function ZendeskAlternativePage() {
           <div className="mx-auto max-w-4xl text-center">
             <p className="inline-flex items-center gap-2 rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
-              How it works
+              {isAr ? "كيف يعمل" : "How it works"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              Zendesk Excels at Support, But Falls Short for Sales
+              {isAr
+                ? "Zendesk متميّز في الدعم، وEasy Reply مبني للمبيعات"
+                : "Zendesk Excels at Support; Easy Reply Is Built for Sales"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              Zendesk offers a robust ecosystem for ticket management and support operations.
+              {isAr
+                ? "يقدّم Zendesk منظومة متكاملة لإدارة التذاكر وعمليات الدعم."
+                : "Zendesk offers a robust ecosystem for ticket management and support operations."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
-              When the goal shifts to revenue through sales conversations, its conversational limits become visible.
-              Easy Reply fills that gap with human-like interactions that qualify leads and convert interest into sales.
+              {isAr
+                ? "عندما يصبح الهدف إدارة محادثات البيع، قد يكون وكيل مخصّص للبيع هو الخيار الأنسب. صُمّم Easy Reply لذلك، بتفاعلات قريبة من الإنسان تؤهّل العملاء المحتملين وتساعد على تحويل الاهتمام إلى مبيعات."
+                : "When the goal shifts to sales conversations, an agent built for selling can be a better fit. Easy Reply is designed for that, with human-like interactions that qualify leads and help turn interest into sales."}
             </p>
           </div>
         </section>
@@ -301,12 +306,14 @@ export default function ZendeskAlternativePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -406,6 +413,9 @@ export default function ZendeskAlternativePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>

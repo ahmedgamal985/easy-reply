@@ -37,6 +37,7 @@ const paths = [
   { loc: "/features/advanced-contact-campaign-management", priority: "0.8", changefreq: "weekly" },
   { loc: "/privacy-policy", priority: "0.3", changefreq: "yearly" },
   { loc: "/terms", priority: "0.3", changefreq: "yearly" },
+  { loc: "/refund-policy", priority: "0.3", changefreq: "yearly" },
 ];
 
 const today = new Date().toISOString().slice(0, 10);

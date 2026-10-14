@@ -34,32 +34,32 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "Tidio often depends on templates and decision trees that can feel scripted. Easy Reply delivers natural context-aware conversations, remembers past interactions, and adapts responses in real time.",
+    body: "Tidio combines live chat with templates and flow builders for common scenarios. Easy Reply runs AI conversations that follow context, remember earlier messages, and adapt replies in real time.",
     chip: "Natural, Adaptive Replies",
   },
   {
     id: "2",
     title: "Multi-Channel Coverage",
-    body: "Tidio focuses mainly on website chat with limited external channel depth. Easy Reply provides seamless engagement across WhatsApp, Instagram, Facebook Messenger, and web chat.",
+    body: "Tidio is best known for website live chat. Easy Reply answers customers on WhatsApp, Instagram, Facebook Messenger, and web chat with one AI agent and one knowledge base.",
     chip: "Consistent Across Channels",
   },
   {
     id: "3",
     title: "Sales Capabilities",
-    body: "Tidio handles basic FAQs and lead capture, but is limited in complex selling. Easy Reply qualifies leads, addresses objections, and guides prospects through full buying decisions.",
+    body: "Tidio is widely used for FAQs, live chat, and lead capture. Easy Reply focuses on the sales conversation itself: qualifying leads, addressing objections, and guiding prospects toward a buying decision.",
     chip: "Built for Conversion",
   },
   {
     id: "4",
-    title: "Advanced Media Understanding",
-    body: "Tidio can process simple images, but has limited support for voice notes, video, and documents. Easy Reply understands rich media formats for deeper, information-rich interactions.",
+    title: "Media Understanding",
+    body: "Easy Reply understands images, voice notes, video, and documents that customers send, so it can give more informed answers when a question is not just text.",
     chip: "Understands Rich Media",
   },
   {
     id: "5",
-    title: "Robust Business Tools",
-    body: "Tidio provides basic contact and automation features. Easy Reply supports advanced workflows including appointment booking, objection handling, and campaign optimization to improve sales outcomes.",
-    chip: "Stronger Revenue Workflow",
+    title: "Sales Tools Built In",
+    body: "Easy Reply includes appointment booking in chat, objection handling, and contact management, and connects to your other tools through webhooks and API.",
+    chip: "Sales Workflow Built In",
   },
 ];
 
@@ -67,32 +67,32 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "يعتمد Tidio غالباً على قوالب وأشجار قرار تبدو نمطية. يقدّم Easy Reply حوارات طبيعية واعية بالسياق، يتذكر ما سبق، ويعدّل الردود لحظياً.",
+    body: "يجمع Tidio بين الدردشة المباشرة والقوالب وأدوات بناء التدفقات للحالات الشائعة. أما Easy Reply فيشغّل محادثات بالذكاء الاصطناعي تتابع السياق، وتتذكّر الرسائل السابقة، وتكيّف الردود لحظياً.",
     chip: "ردود طبيعية وتكيّفية",
   },
   {
     id: "2",
     title: "تغطية متعددة القنوات",
-    body: "يركّز Tidio على دردشة الموقع مع عمق محدود في القنوات الخارجية. يوفّر Easy Reply تفاعلاً سلساً عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع.",
+    body: "يُعرف Tidio أكثر بالدردشة المباشرة على المواقع. أما Easy Reply فيرد على العملاء عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع بوكيل ذكاء اصطناعي واحد وقاعدة معرفة واحدة.",
     chip: "اتساق عبر القنوات",
   },
   {
     id: "3",
     title: "قدرات البيع",
-    body: "يتعامل Tidio مع الأسئلة الشائعة وجمع العملاء المحتملين، لكنه يحدّ في البيع المعقّد. يؤهّل Easy Reply العملاء، يعالج الاعتراضات، ويوجّههم عبر قرار الشراء كاملاً.",
+    body: "يُستخدم Tidio على نطاق واسع للأسئلة الشائعة والدردشة المباشرة وجمع العملاء المحتملين. أما Easy Reply فيركّز على محادثة البيع نفسها: تأهيل العملاء المحتملين، ومعالجة الاعتراضات، وتوجيههم نحو قرار الشراء.",
     chip: "مصمّم للتحويل",
   },
   {
     id: "4",
-    title: "فهم متقدّم للوسائط",
-    body: "يعالج Tidio صوراً بسيطة مع دعم محدود للملاحظات الصوتية والفيديو والمستندات. يفهم Easy Reply صيغ الوسائط الغنية لتفاعلات أعمق وأغنى بالمعلومات.",
+    title: "فهم الوسائط",
+    body: "يفهم Easy Reply الصور والملاحظات الصوتية والفيديو والمستندات التي يرسلها العملاء، ليقدّم إجابات أدق حين لا يكون السؤال نصاً فقط.",
     chip: "يفهم الوسائط الغنية",
   },
   {
     id: "5",
-    title: "أدوات أعمال قوية",
-    body: "يقدّم Tidio ميزات أساسية للجهات والأتمتة. يدعم Easy Reply مسارات عمل متقدّمة تشمل حجز المواعيد ومعالجة الاعتراضات وتحسين الحملات لرفع نتائج المبيعات.",
-    chip: "مسار إيراد أقوى",
+    title: "أدوات بيع مدمجة",
+    body: "يتضمّن Easy Reply حجز المواعيد داخل المحادثة، ومعالجة الاعتراضات، وإدارة جهات الاتصال، ويتصل بأدواتك الأخرى عبر الويب هوكس وواجهة البرمجة (API).",
+    chip: "مسار بيع متكامل",
   },
 ];
 
@@ -155,18 +155,18 @@ export default function TidioAlternativePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجعل Tidio تفاعل الموقع بسيطاً عبر ردود مبنية على قوالب وأتمتة أساسية."
-                : "Tidio makes website engagement simple with template-based responses and basic automation."}
+                ? "يجعل Tidio التفاعل مع زوّار الموقع بسيطاً عبر الدردشة المباشرة والقوالب والأتمتة."
+                : "Tidio makes website engagement simple with live chat, templates, and automation."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يسلك Easy Reply مساراً مختلفاً عبر تشغيل حوارات طبيعية قريبة من الإنسان تفعل أكثر بكثير من مجرد الرد على الاستفسارات."
-                : "Easy Reply takes a different path by running natural human-like conversations that do far more than respond to inquiries."}
+                ? "يسلك Easy Reply مساراً مختلفاً عبر تشغيل محادثات طبيعية قريبة من الإنسان تتجاوز مجرد الرد على الاستفسارات."
+                : "Easy Reply takes a different path by running natural, human-like conversations that go beyond answering inquiries."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يبني الثقة، يحلّ الاعتراضات، ويوجّه العملاء المحتملين نحو قرار الشراء لتتحوّل الاستفسارات اليومية إلى إيراد حقيقي."
-                : "It builds trust, resolves objections, and guides prospects toward purchase decisions so daily inquiries can become real revenue."}
+                ? "يبني الثقة، ويعالج الاعتراضات، ويوجّه العملاء المحتملين نحو قرار الشراء، لتتحوّل الاستفسارات اليومية إلى فرص بيع."
+                : "It builds trust, addresses objections, and guides prospects toward purchase decisions, so everyday inquiries can turn into sales opportunities."}
             </p>
             <a
               href="#pricing"
@@ -185,18 +185,18 @@ export default function TidioAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Tidio يمنح بداية سهلة، لكنه يتقصّر أمام المبيعات المتقدّمة"
-                : "Tidio Offers an Easy Start, But Falls Short for Advanced Sales"}
+                ? "Tidio يسهّل دردشة الموقع، وEasy Reply يركّز على محادثات البيع"
+                : "Tidio Makes Website Chat Easy; Easy Reply Focuses on Sales Conversations"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بُني Tidio كحل دردشة موقع سهل الاستخدام مع إعداد سريع وأتمتات أساسية."
-                : "Tidio is built as a user-friendly website chat solution with quick setup and basic automations."}
+                ? "بُني Tidio كحل دردشة موقع سهل الاستخدام مع إعداد سريع وأتمتة."
+                : "Tidio is built as a user-friendly website chat solution with quick setup and automations."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "مع ارتفاع توقّعات العملاء وتعقيد المبيعات، تبرز هذه الحدود أكثر. يعالج Easy Reply ذلك بحوارات واعية بالسياق تعالج الاعتراضات وتحوّل النية إلى إيراد قابل للقياس."
-                : "As customer expectations and sales complexity increase, those limits become more visible. Easy Reply addresses this with context-aware conversations that handle objections and convert intent into measurable revenue."}
+                ? "حين تصبح محادثات البيع أكثر تعقيداً، تحتاج بعض الفرق إلى وكيل يدير حواراً أطول وواعياً بالسياق. صُمّم Easy Reply لذلك، فيعالج الاعتراضات ويساعد العملاء على الانتقال من الاهتمام إلى الشراء."
+                : "As sales conversations get more complex, some teams need an agent that can carry a longer, context-aware exchange. Easy Reply is designed for that, handling objections and helping customers move from interest to purchase."}
             </p>
           </div>
         </section>
@@ -306,12 +306,14 @@ export default function TidioAlternativePage() {
                         ? "#pricing"
                         : link === "Contact" || link === "تواصل"
                           ? "#contact"
+                          : link === "Refund Policy" || link === "سياسة الاسترداد"
+                            ? "/refund-policy"
                           : link === "Privacy Policy" || link === "سياسة الخصوصية"
                             ? "/privacy-policy"
                             : link === "Terms" || link === "الشروط"
                               ? "/terms"
                               : link === "Sign In" || link === "تسجيل الدخول"
-                                ? "#pricing"
+                                ? "/signin"
                                 : link === "High-Ticket"
                                   ? "/use-cases/high-ticket-service-providers"
                                   : link === "E-commerce" || link === "التجارة الإلكترونية"
@@ -411,6 +413,9 @@ export default function TidioAlternativePage() {
             </a>
             <a href="/terms" className="hover:text-accent">
               {L.footer.terms}
+            </a>
+            <a href="/refund-policy" className="hover:text-accent">
+              {L.pricing.refundLabel}
             </a>
           </div>
         </div>
