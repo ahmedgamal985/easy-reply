@@ -202,6 +202,10 @@ export const copy = {
           a: "Easy Reply is an AI sales agent — not a basic chatbot. It answers objections, remembers context, and guides buyers to purchase.",
         },
         {
+          q: "Do my customers know they are chatting with AI?",
+          a: "They can. Turn on \"Tell contacts they're chatting with AI\" and the agent's first reply to each person briefly mentions that it is an AI assistant. Your team can take over any conversation at any time.",
+        },
+        {
           q: "Does Easy Reply work in Arabic and English?",
           a: "Yes. Easy Reply supports multilingual conversations including Arabic and English with replies tailored to your brand.",
         },
@@ -527,6 +531,10 @@ export const copy = {
         {
           q: "هل Easy Reply شات بوت أم وكيل مبيعات؟",
           a: "Easy Reply وكيل مبيعات بالذكاء الاصطناعي — يرد على الاعتراضات ويقود المشتري إلى الشراء، وليس شات بوت بسيط.",
+        },
+        {
+          q: "هل يعرف عملائي أنهم يتحدثون مع ذكاء اصطناعي؟",
+          a: "نعم، إذا أردت. فعّل خيار \"إخبار العملاء بأنهم يتحدثون مع ذكاء اصطناعي\" وسيذكر الوكيل في أول رد لكل شخص أنه مساعد ذكاء اصطناعي. ويمكن لفريقك تولّي أي محادثة في أي وقت.",
         },
         {
           q: "هل يعمل Easy Reply بالعربية والإنجليزية؟",

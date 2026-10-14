@@ -32,6 +32,7 @@ const termsSectionsEn: TermsSection[] = [
       "The Services use third-party AI models to understand messages and draft replies on your behalf.",
       "Your data is processed only to provide the Services and is not used to train third-party AI models. Using the Services does not grant you ownership of those models.",
       "AI-generated replies can contain mistakes. You are responsible for the instructions and information you give the agent and for reviewing its behaviour.",
+      "You must not present the AI agent as a human where the law or a channel's policies require you to disclose AI. The \"Tell contacts they're chatting with AI\" setting makes the agent say it is an AI assistant in its first reply to each person.",
     ],
   },
   {
@@ -171,6 +172,7 @@ const termsSectionsAr: TermsSection[] = [
       "تستخدم الخدمات نماذج ذكاء اصطناعي من أطراف ثالثة لفهم الرسائل وصياغة الردود نيابةً عنك.",
       "تُعالج بياناتك فقط لتقديم الخدمات، ولا تُستخدم لتدريب نماذج الذكاء الاصطناعي لدى الأطراف الثالثة. ولا يمنحك استخدام الخدمات ملكية تلك النماذج.",
       "قد تحتوي الردود المولّدة بالذكاء الاصطناعي على أخطاء. أنت مسؤول عن التعليمات والمعلومات التي تعطيها للوكيل وعن مراجعة أدائه.",
+      "لا يجوز لك تقديم وكيل الذكاء الاصطناعي على أنه إنسان حيث يوجب القانون أو سياسات القناة الإفصاح عن استخدام الذكاء الاصطناعي. ويجعل خيار \"إخبار العملاء بأنهم يتحدثون مع ذكاء اصطناعي\" الوكيلَ يذكر أنه مساعد ذكاء اصطناعي في أول رد لكل شخص.",
     ],
   },
   {
