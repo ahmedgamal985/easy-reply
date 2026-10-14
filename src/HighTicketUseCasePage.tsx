@@ -33,9 +33,9 @@ type UseCaseFlowStep = { id: string; title: string; body: string; chip: string }
 const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
-    title: "Consultative Discovery",
-    body: "The assistant opens with targeted discovery prompts to understand context, urgency, constraints, and desired outcomes before recommending anything.",
-    chip: "Maps Buyer Intent",
+    title: "Understanding the Question",
+    body: "When someone messages you, the assistant asks a few clarifying questions to understand their context, timing, constraints, and what they are looking for before answering.",
+    chip: "Understands the Request",
   },
   {
     id: "2",
@@ -45,30 +45,30 @@ const flowStepsEn: UseCaseFlowStep[] = [
   },
   {
     id: "3",
-    title: "Objection Navigation",
+    title: "Answering Concerns",
     body: "Questions about timing, scope, and pricing are answered with clear, structured responses based on your own policies and offer details.",
     chip: "Answers Concerns",
   },
   {
     id: "4",
-    title: "Lead Prioritization",
-    body: "Signals from the conversation help identify the inquiries that best match your criteria, so your team can focus its time where it matters most.",
-    chip: "Flags Best-Fit Leads",
+    title: "Handoff to Your Team",
+    body: "When a question needs a person, the assistant hands the chat to your team with the full conversation context, so nobody has to repeat themselves.",
+    chip: "Hands Off to Your Team",
   },
   {
     id: "5",
     title: "Call Booking",
-    body: "When the person is ready, the assistant books a call on your calendar and records the conversation context for your team.",
-    chip: "Schedules Qualified Calls",
+    body: "When the person asks to speak with your team, the assistant books a call on your calendar and records the conversation context for your team.",
+    chip: "Books Calls on Request",
   },
 ];
 
 const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "1",
-    title: "اكتشاف استشاري موجّه",
-    body: "يبدأ المساعد بطلبات اكتشاف مستهدفة لفهم السياق والإلحاح والقيود والنتائج المرغوبة قبل أن يقترح أي حل.",
-    chip: "يخطط نية المشتري",
+    title: "فهم السؤال",
+    body: "عندما يراسلك أحد، يطرح المساعد بعض الأسئلة التوضيحية لفهم سياقه وتوقيته وقيوده وما يبحث عنه قبل أن يجيب.",
+    chip: "يفهم الطلب",
   },
   {
     id: "2",
@@ -78,21 +78,21 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "3",
-    title: "اجتياز الاعتراضات",
+    title: "الإجابة عن المخاوف",
     body: "تُجاب أسئلة التوقيت والنطاق والتسعير بردود واضحة ومنظّمة مبنية على سياساتكم وتفاصيل عرضكم.",
     chip: "يجيب عن المخاوف",
   },
   {
     id: "4",
-    title: "أولوية العملاء المحتملين",
-    body: "تساعد إشارات المحادثة على تحديد الاستفسارات الأكثر توافقًا مع معاييركم، ليركّز فريقكم وقته حيث يهمّ أكثر.",
-    chip: "يحدد العملاء الأنسب",
+    title: "التحويل إلى فريقكم",
+    body: "عندما يحتاج السؤال إلى شخص من فريقكم، يحوّل المساعد المحادثة إليكم مع سياقها كاملًا، فلا يضطر أحد إلى تكرار كلامه.",
+    chip: "يحوّل المحادثة لفريقكم",
   },
   {
     id: "5",
     title: "حجز المكالمات",
-    body: "عندما يكون الشخص مستعدًا، يحجز المساعد مكالمة في تقويمكم ويسجّل سياق المحادثة لفريقكم.",
-    chip: "يجدول مكالمات مؤهّلة",
+    body: "عندما يطلب الشخص التحدث مع فريقكم، يحجز المساعد مكالمة في تقويمكم ويسجّل سياق المحادثة لفريقكم.",
+    chip: "يحجز المكالمات عند الطلب",
   },
 ];
 
@@ -152,18 +152,18 @@ export default function HighTicketUseCasePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "أجب عن استفسارات الخدمات عالية القيمة واحجز مكالمات مؤهّلة"
-                : "Answer High-Value Inquiries and Book Qualified Calls"}
+                ? "أجب عن استفسارات الخدمات عالية القيمة واحجز المكالمات عندما يطلبها العملاء"
+                : "Answer High-Value Inquiries and Book Calls When Customers Ask"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "مبيعات الخدمات المميزة تُبنى على الثقة والوضوح والتوقيت، لا على الرد السريع وحده."
-                : "High-ticket sales are built on trust, clarity, and timing, not just quick replies."}
+                ? "العملاء الذين يسألون عن الخدمات المميزة ينتظرون الثقة والوضوح والإجابات الدقيقة، لا الرد السريع وحده."
+                : "Customers asking about premium services expect trust, clarity, and accurate answers, not just quick replies."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عندما يراسل شخص نشاطك، يدير Easy Reply محادثة استشارية منظّمة تفهم احتياجه وتجيب عن أسئلته واعتراضاته وتقترح خطوة تالية واضحة."
-                : "When someone messages your business, Easy Reply runs a structured, consultative conversation that understands their needs, answers questions and objections, and suggests a clear next step."}
+                ? "عندما يراسل شخص نشاطك، يرد Easy Reply بمحادثة واضحة ومفيدة تفهم احتياجه وتجيب عن أسئلته ومخاوفه من معلوماتكم، وتعرض عليه حجز مكالمة مع فريقكم إن رغب."
+                : "When someone messages your business, Easy Reply replies with a clear, helpful conversation that understands their needs, answers their questions and concerns from your own information, and offers to book a call with your team if they want one."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -187,18 +187,18 @@ export default function HighTicketUseCasePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "طريقة أذكى لمقدمي الخدمات لاجتياز المبيعات المعقّدة"
-                : "A Smarter Way for Service Providers to Navigate Complex Sales"}
+                ? "طريقة أذكى لمقدمي الخدمات للإجابة عن الأسئلة التفصيلية"
+                : "A Smarter Way for Service Providers to Answer Detailed Questions"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بيع الخدمات المميزة كان تقليديًا يتطلّب فرقًا خبيرة ودورات مبيعات طويلة واستهلاكًا كبيرًا للموارد."
-                : "Selling premium services has traditionally required experienced teams and long, resource-heavy sales cycles."}
+                ? "الإجابة عن أسئلة الخدمات المميزة كانت تتطلّب تقليديًا فريقًا خبيرًا وكثيرًا من الرسائل المتبادلة."
+                : "Answering questions about premium services has traditionally required experienced staff and a lot of back-and-forth."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يقدّم Easy Reply نموذجًا أسرع وأكثر اتساقًا يشرح العروض المعقّدة بوضوح، ويجيب على الأسئلة التفصيلية لحظيًا، ويتعامل مع الاعتراضات الدقيقة مع إبقاء المحادثة متقدمة."
-                : "Easy Reply introduces a faster, more consistent model that explains complex offers with clarity, answers detailed questions in real time, and handles nuanced objections while moving the conversation forward."}
+                ? "يقدّم Easy Reply نموذجًا أسرع وأكثر اتساقًا يشرح العروض المعقّدة بوضوح، ويجيب على الأسئلة التفصيلية لحظيًا، ويتعامل مع المخاوف الدقيقة اعتمادًا على سياساتكم وتفاصيل عرضكم."
+                : "Easy Reply introduces a faster, more consistent model that explains complex offers with clarity, answers detailed questions in real time, and addresses detailed concerns using your own policies and offer details."}
             </p>
           </div>
         </section>
@@ -357,18 +357,15 @@ export default function HighTicketUseCasePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                       : "#";
 
                     return (

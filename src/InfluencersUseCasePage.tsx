@@ -33,66 +33,66 @@ type UseCaseFlowStep = { id: string; title: string; body: string; chip: string }
 const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
-    title: "Answering Your DMs",
-    body: "When people message you on Instagram, Facebook, or WhatsApp asking about a product, price, link, or how to join, Easy Reply answers using the information you provide.",
-    chip: "Answers Incoming DMs",
+    title: "Answering Your Messages",
+    body: "When fans message you on Instagram, Facebook, or WhatsApp asking about a product, price, link, or how to join, Easy Reply answers using the information you provide.",
+    chip: "Answers Incoming Messages",
   },
   {
     id: "2",
-    title: "Private Replies to Commenters",
-    body: "On posts where you turn it on, when someone comments asking about an offer, Easy Reply replies to that person privately and mentions the post they commented on. The conversation continues only if they reply.",
-    chip: "Replies to Commenters",
-  },
-  {
-    id: "3",
     title: "Guidance to Your Own Offers",
     body: "When someone asks, Easy Reply recommends the right product, course, or service from your own catalog and shares the link to buy it.",
     chip: "Points to Your Offers",
   },
   {
-    id: "4",
+    id: "3",
     title: "Answering Questions and Concerns",
     body: "Easy Reply answers common questions about price, delivery, and product details with clear responses that help people decide for themselves.",
-    chip: "Answers Buyer Questions",
+    chip: "Answers Product Questions",
+  },
+  {
+    id: "4",
+    title: "Brand and Collaboration Inquiries",
+    body: "When a brand messages you about a collaboration, Easy Reply replies with your standard information, collects the key details, and tags the conversation so you can review it.",
+    chip: "Handles Collab Inquiries",
   },
   {
     id: "5",
-    title: "Brand and Collaboration Inquiries",
-    body: "Easy Reply replies to brand and collaboration inquiries with your standard information, collects the key details, and tags the conversation so you can review it.",
-    chip: "Handles Collab Inquiries",
+    title: "Handing Chats to You",
+    body: "When a message needs your personal attention, Easy Reply hands the chat to you or your team with the full conversation context.",
+    chip: "Hands the Chat to You",
   },
 ];
 
 const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "1",
-    title: "الرد على رسائلك الخاصة",
-    body: "عندما يراسلك أحد على إنستغرام أو فيسبوك أو واتساب ليسأل عن منتج أو سعر أو رابط أو طريقة الاشتراك، يجيبه Easy Reply بالاعتماد على المعلومات التي تقدّمها.",
+    title: "الرد على رسائلك",
+    body: "عندما يراسلك المعجبون على إنستغرام أو فيسبوك أو واتساب ليسألوا عن منتج أو سعر أو رابط أو طريقة الاشتراك، يجيبهم Easy Reply بالاعتماد على المعلومات التي تقدّمها.",
     chip: "يرد على الرسائل الواردة",
   },
   {
     id: "2",
-    title: "رد خاص على أصحاب التعليقات",
-    body: "في المنشورات التي تفعّل عليها الميزة، عندما يعلّق شخص ليسأل عن عرض ما، يرد عليه Easy Reply برسالة خاصة مع الإشارة إلى المنشور الذي علّق عليه. وتستمر المحادثة فقط إذا ردّ هو.",
-    chip: "يرد على أصحاب التعليقات",
-  },
-  {
-    id: "3",
     title: "الإرشاد إلى عروضك الخاصة",
     body: "عندما يسأل أحد، يقترح Easy Reply المنتج أو الدورة أو الخدمة المناسبة من كتالوجك الخاص ويشارك رابط الشراء.",
     chip: "يوجّه إلى عروضك",
   },
   {
-    id: "4",
+    id: "3",
     title: "الإجابة عن الأسئلة والمخاوف",
     body: "يجيب Easy Reply عن الأسئلة الشائعة حول السعر والتوصيل وتفاصيل المنتج بردود واضحة تساعد السائل على اتخاذ قراره بنفسه.",
-    chip: "يجيب عن أسئلة المشترين",
+    chip: "يجيب عن أسئلة المنتجات",
+  },
+  {
+    id: "4",
+    title: "استفسارات العلامات التجارية والتعاون",
+    body: "عندما تراسلك علامة تجارية بخصوص تعاون، يرد Easy Reply بمعلوماتك المعتادة، ويجمع التفاصيل الأساسية، ويضع وسمًا على المحادثة لتراجعها بنفسك.",
+    chip: "يتعامل مع طلبات التعاون",
   },
   {
     id: "5",
-    title: "استفسارات العلامات التجارية والتعاون",
-    body: "يرد Easy Reply على استفسارات العلامات التجارية وطلبات التعاون بمعلوماتك المعتادة، ويجمع التفاصيل الأساسية، ويضع وسمًا على المحادثة لتراجعها بنفسك.",
-    chip: "يتعامل مع طلبات التعاون",
+    title: "تحويل المحادثة إليك",
+    body: "عندما تحتاج رسالة إلى اهتمامك الشخصي، يحوّل Easy Reply المحادثة إليك أو إلى فريقك مع سياقها كاملًا.",
+    chip: "يحوّل المحادثة إليك",
   },
 ];
 
@@ -152,18 +152,18 @@ export default function InfluencersUseCasePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "أجب عن رسائل جمهورك وتعليقاته دون أن يتراكم عليك الرد"
-                : "Answer Your Audience's DMs and Comments Without Falling Behind"}
+                ? "أجب عن الرسائل التي يرسلها إليك المعجبون والعلامات التجارية دون أن يتراكم عليك الرد"
+                : "Answer the Messages Fans and Brands Send You Without Falling Behind"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتلقى كثير من صنّاع المحتوى رسائل وتعليقات أكثر مما يستطيعون الرد عليه: أسئلة عن المنتجات، وطلبات تعاون، واستفسارات عن طريقة الشراء."
-                : "Many creators get more DMs and comments than they can answer: product questions, collaboration requests, and people asking how to buy."}
+                ? "يتلقى كثير من صنّاع المحتوى رسائل أكثر مما يستطيعون الرد عليه: أسئلة عن المنتجات، وطلبات تعاون، واستفسارات عن طريقة الشراء."
+                : "Many creators get more messages than they can answer: product questions, collaboration requests, and people asking how to buy."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يرد Easy Reply على من يراسلونك، ويرد برسالة خاصة على من يعلّق على منشوراتك ليسأل عن عرض ما، ويرشدهم إلى منتجاتك أو دوراتك أو خدماتك الخاصة عندما يسألون."
-                : "Easy Reply answers the people who message you, replies privately to people who comment on your posts asking about an offer, and points them to your own products, courses, or services when they ask."}
+                ? "يرد Easy Reply على من يراسلونك، ويرشدهم إلى منتجاتك أو دوراتك أو خدماتك الخاصة عندما يسألون عنها."
+                : "Easy Reply answers the people who message you and, when they ask, points them to your own products, courses, or services."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -190,13 +190,13 @@ export default function InfluencersUseCasePage() {
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يطرح جمهورك الأسئلة نفسها مرارًا، والرد على كل رسالة يدويًا يستهلك ساعات من وقتك."
-                : "Your audience asks many of the same questions, and replying to every message by hand takes hours."}
+                ? "من يراسلونك يطرحون الأسئلة نفسها مرارًا، والرد على كل رسالة يدويًا يستهلك ساعات من وقتك."
+                : "The people who message you ask many of the same questions, and replying to every message by hand takes hours."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجيب Easy Reply عن هذه الأسئلة في الرسائل الخاصة، ويرد برسالة خاصة على من يعلّق ليسأل عن عرض ما، ويساعد من يطلب الشراء على الوصول إلى منتجاتك الخاصة."
-                : "Easy Reply answers those questions in DMs, replies privately to commenters who ask about an offer, and helps people who want to buy find your own products."}
+                ? "يجيب Easy Reply عن هذه الأسئلة في المحادثة نفسها التي طُرحت فيها، ويساعد من يسأل عن طريقة الشراء على الوصول إلى منتجاتك الخاصة."
+                : "Easy Reply answers those questions in the same chat they were asked in, and helps people who ask how to buy find your own products."}
             </p>
           </div>
         </section>
@@ -355,18 +355,15 @@ export default function InfluencersUseCasePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                           : "#";
 
                     return (

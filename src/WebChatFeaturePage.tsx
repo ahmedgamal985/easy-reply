@@ -36,12 +36,12 @@ export default function WebChatFeaturePage() {
         {
           id: "1",
           title: "محادثات شبه بشرية",
-          body: "يحتفظ Easy Reply بالسياق ويفهم التفاصيل الدقيقة ويردّ بأسلوب طبيعي، فتبدو التفاعلات وكأنها مع أفضل مندوبي مبيعات لديك.",
-          chip: "حوار بيع طبيعي",
+          body: "يحتفظ Easy Reply بالسياق ويفهم التفاصيل الدقيقة ويردّ بأسلوب طبيعي، فتبدو التفاعلات وكأنها مع أفضل أفراد فريقك.",
+          chip: "حوار طبيعي",
         },
         {
           id: "2",
-          title: "ترحيب استباقي داخل الموقع",
+          title: "رسالة ترحيب داخل الموقع",
           body: "تظهر فقاعة ترحيب مع أسئلة مقترحة داخل نافذة الدردشة على موقعك، ليعرف الزائر أن المساعدة متاحة متى احتاجها، ويبدأ المحادثة بنفسه.",
           chip: "فقاعة ترحيب وأسئلة مقترحة",
         },
@@ -68,12 +68,12 @@ export default function WebChatFeaturePage() {
         {
           id: "1",
           title: "Human-Like Conversations",
-          body: "Easy Reply retains context, understands nuance, and responds naturally to create interactions that feel like your best sales representatives.",
-          chip: "Natural Sales Dialogue",
+          body: "Easy Reply retains context, understands nuance, and responds naturally to create interactions that feel like your best team members.",
+          chip: "Natural Dialogue",
         },
         {
           id: "2",
-          title: "Proactive Welcome on Your Site",
+          title: "Welcome Message on Your Site",
           body: "Show a welcome bubble with suggested questions in the chat widget on your site, so visitors know help is available and can start a conversation whenever they need it.",
           chip: "Welcome Bubble and Starter Questions",
         },
@@ -92,7 +92,7 @@ export default function WebChatFeaturePage() {
         {
           id: "5",
           title: "Seamless Handoffs",
-          body: "Hand a chat to a member of your team or book a follow-up call when needed, without losing the conversation's context.",
+          body: "Hand a chat to a member of your team or book a call with your team when needed, without losing the conversation's context.",
           chip: "Smooth Team Escalation",
         },
       ];
@@ -147,17 +147,17 @@ export default function WebChatFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "حوّل زوار موقعك إلى عملاء يدفعون" : "Turn Website Visitors Into Paying Customers"}
+              {isAr ? "ذكاء اصطناعي يجيب زوار موقعك على مدار الساعة" : "AI That Answers Your Website Visitors 24/7"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تخسر مواقع كثيرة مبيعات محتملة لأن الأسئلة تبقى بلا جواب أو لأن الروبوتات تبدو آلية وباردة."
-                : "Many websites lose potential sales because questions go unanswered or bots feel robotic."}
+                ? "في مواقع كثيرة تبقى أسئلة الزوار بلا جواب، أو تبدو الروبوتات آلية وباردة."
+                : "On many websites, visitors' questions go unanswered or bots feel robotic."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply دردشة الموقع إلى قناة بيع ودعم بمحادثات طبيعية تجيب على الأسئلة وتعالج الاعتراضات وتوجّه الزائر نحو الشراء."
-                : "Easy Reply turns web chat into a sales and support channel with natural conversations that answer questions, resolve objections, and guide visitors toward purchase."}
+                ? "يحوّل Easy Reply دردشة الموقع إلى قناة دعم بمحادثات طبيعية تجيب عن أسئلة الزوار وتساعدهم على إيجاد المنتج أو الصفحة المناسبة عندما يطلبون ذلك."
+                : "Easy Reply turns web chat into a support channel with natural conversations that answer visitors' questions and help them find the right product or page when they ask."}
             </p>
             <a
               href="#pricing"
@@ -176,8 +176,8 @@ export default function WebChatFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يضيف إلى موقعك مساعد مبيعات يعمل على مدار الساعة"
-                : "Easy Reply Adds a 24/7 Sales Assistant to Your Website"}
+                ? "Easy Reply يضيف إلى موقعك مساعد ذكاء اصطناعي يعمل على مدار الساعة"
+                : "Easy Reply Adds a 24/7 AI Assistant to Your Website"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -186,8 +186,8 @@ export default function WebChatFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يضيف Easy Reply دردشة ويب شبه بشرية تجيب على الأسئلة وتعالج الاعتراضات وتوجّه المستخدمين في مسار الشراء، وتبقى متاحة طوال الوقت."
-                : "Easy Reply adds human-like web chat that answers questions, handles objections, and guides users through the path to purchase, available around the clock."}
+                ? "يضيف Easy Reply دردشة ويب شبه بشرية تجيب عن الأسئلة وتشارك روابط الصفحات المناسبة وتحوّل المحادثة إلى فريقك عند الحاجة، وتبقى متاحة طوال الوقت."
+                : "Easy Reply adds human-like web chat that answers questions, shares links to the right pages, and hands the chat to your team when needed, available around the clock."}
             </p>
           </div>
         </section>
@@ -346,18 +346,15 @@ export default function WebChatFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                 : "#";
 
                     return (

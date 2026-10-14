@@ -22,11 +22,11 @@ const CONTENT: Record<string, KeywordContent> = {
     en: {
       h1: "WhatsApp Automation with Easy Reply",
       intro:
-        "Easy Reply is the AI platform for WhatsApp Business automation. It answers the customers who message you, qualifies leads, follows up with people who already contacted you, and guides buyers toward a purchase — with human-like conversations, not rigid chatbot flows.",
+        "Easy Reply is the AI assistant for WhatsApp Business. It answers the customers who message you, using your FAQs, website and documents, remembers the conversation context, and hands the chat to your team when a person is needed — with human-like replies, not rigid chatbot flows.",
       bullets: [
         "WhatsApp auto reply for every incoming message",
         "Understand images, voice notes, and documents",
-        "Follow-ups to opted-in customers with Meta-approved templates",
+        "Hand the chat to your team when needed",
         "AI appointment booking inside WhatsApp chat",
       ],
       cta: "Start WhatsApp automation",
@@ -34,11 +34,11 @@ const CONTENT: Record<string, KeywordContent> = {
     ar: {
       h1: "أتمتة واتساب مع Easy Reply",
       intro:
-        "Easy Reply منصة أتمتة واتساب للأعمال. يرد على العملاء الذين يراسلونك، ويؤهل العملاء المحتملين، ويتابع مع من تواصلوا معك من قبل، ويرشد المشترين نحو الشراء — بمحادثات طبيعية وليس فلوهات جامدة.",
+        "Easy Reply مساعد ذكاء اصطناعي لواتساب للأعمال. يرد على العملاء الذين يراسلونك من أسئلتك الشائعة وموقعك ومستنداتك، ويتذكّر سياق المحادثة، ويسلّم المحادثة لفريقك حين يلزم تدخّل شخص — بردود طبيعية وليس فلوهات جامدة.",
       bullets: [
         "رد تلقائي على كل رسالة واتساب واردة",
         "فهم الصور والرسائل الصوتية والمستندات",
-        "متابعات للعملاء الموافقين بقوالب معتمدة من Meta",
+        "تسليم المحادثة لفريقك عند الحاجة",
         "حجز مواعيد داخل محادثة واتساب",
       ],
       cta: "ابدأ أتمتة واتساب",
@@ -48,11 +48,11 @@ const CONTENT: Record<string, KeywordContent> = {
     en: {
       h1: "Chat Automation for WhatsApp, Instagram & Messenger",
       intro:
-        "Easy Reply chat automation software answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat, all from one dashboard. Automate replies, qualify buyers, and help them complete their purchase.",
+        "Easy Reply chat automation software answers the customers who message you on WhatsApp, Instagram, Messenger, and web chat, all from one inbox. Automate replies, answer customer questions 24/7, and hand the chat to your team when needed.",
       bullets: [
         "Omnichannel chat automation in one place",
-        "Human-like AI that handles objections",
-        "Private replies to people who comment on your posts",
+        "Human-like AI that remembers the conversation context",
+        "Answers from your FAQs, website and documents",
         "Real-time web search for accurate answers",
       ],
       cta: "Automate your chats",
@@ -60,11 +60,11 @@ const CONTENT: Record<string, KeywordContent> = {
     ar: {
       h1: "أتمتة المحادثات لواتساب وإنستغرام وماسنجر",
       intro:
-        "برنامج أتمتة محادثات Easy Reply يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع من لوحة واحدة. ردود تلقائية وتأهيل عملاء ومساعدتهم على إتمام الشراء.",
+        "برنامج أتمتة محادثات Easy Reply يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع من صندوق وارد واحد. ردود تلقائية، وإجابات عن أسئلة العملاء على مدار الساعة، وتسليم المحادثة لفريقك عند الحاجة.",
       bullets: [
         "أتمتة محادثات متعددة القنوات",
-        "ذكاء اصطناعي يتعامل مع الاعتراضات",
-        "رد خاص على من يعلّق على منشوراتك",
+        "ذكاء اصطناعي يتذكّر سياق المحادثة",
+        "إجابات من أسئلتك الشائعة وموقعك ومستنداتك",
         "بحث ويب لحظي لردود دقيقة",
       ],
       cta: "أتمّت محادثاتك",
@@ -74,52 +74,52 @@ const CONTENT: Record<string, KeywordContent> = {
     en: {
       h1: "Reply Automation — Auto Reply on Every Channel",
       intro:
-        "Easy Reply reply automation responds to customers instantly on WhatsApp, Instagram, Messenger, and web chat. Handle more support and sales conversations without losing the personal touch.",
+        "Easy Reply reply automation responds to customers instantly on WhatsApp, Instagram, Messenger, and web chat. Answer more customer questions without losing the personal touch.",
       bullets: [
         "Instant auto reply 24/7",
-        "Context-aware follow-ups",
+        "Context-aware replies that remember the conversation",
         "Multilingual replies including Arabic and English",
-        "Built for sales, not just FAQs",
+        "Answers detailed questions, not just FAQs",
       ],
       cta: "Automate replies now",
     },
     ar: {
       h1: "أتمتة الردود — رد تلقائي على كل القنوات",
       intro:
-        "أتمتة الردود من Easy Reply ترد على العملاء فوراً على واتساب وإنستغرام وماسنجر ودردشة الموقع. تعامل مع محادثات مبيعات ودعم أكثر دون أن تفقد اللمسة الشخصية.",
+        "أتمتة الردود من Easy Reply ترد على العملاء فوراً على واتساب وإنستغرام وماسنجر ودردشة الموقع. أجب عن أسئلة عملاء أكثر دون أن تفقد اللمسة الشخصية.",
       bullets: [
         "رد تلقائي فوري على مدار الساعة",
-        "متابعات ذكية حسب السياق",
+        "ردود ذكية تتذكّر سياق المحادثة",
         "دعم العربية والإنجليزية",
-        "مبني للبيع وليس للأسئلة الشائعة فقط",
+        "يجيب عن الأسئلة التفصيلية وليس الأسئلة الشائعة فقط",
       ],
       cta: "أتمّت الردود الآن",
     },
   },
   "/ai-sales-agent": {
     en: {
-      h1: "AI Sales Agent — Easy Reply Sells in Chat",
+      h1: "AI That Answers Buying Questions — Easy Reply",
       intro:
-        "Easy Reply is an AI sales agent that answers the people who message you, qualifies leads, handles objections, books appointments, and guides buyers toward a purchase inside WhatsApp and social DMs — going far beyond a basic chatbot.",
+        "Easy Reply is an AI assistant that answers the people who message you with questions about your products, prices and plans, helps them choose the right option when they ask, books appointments on request, and hands the chat to your team when needed — inside WhatsApp and social DMs, going far beyond a basic chatbot.",
       bullets: [
-        "Qualify and score leads automatically",
-        "Answer objections with clear, on-brand replies",
+        "Answer product and pricing questions from your own information",
+        "Clear, on-brand replies to customer concerns",
         "Book appointments without sending links",
         "One-click AI optimization of your agent's replies",
       ],
-      cta: "Get your AI sales agent",
+      cta: "Get your AI assistant",
     },
     ar: {
-      h1: "وكيل مبيعات بالذكاء الاصطناعي — Easy Reply",
+      h1: "ذكاء اصطناعي يجيب عن أسئلة الشراء — Easy Reply",
       intro:
-        "Easy Reply وكيل مبيعات بالذكاء الاصطناعي يرد على من يراسلونك، ويؤهل العملاء، ويتعامل مع الاعتراضات، ويحجز المواعيد، ويرشد المشترين نحو الشراء داخل واتساب والسوشيال — أبعد بكثير من شات بوت بسيط.",
+        "Easy Reply مساعد ذكاء اصطناعي يرد على من يراسلونك بأسئلة عن منتجاتك وأسعارك وخططك، ويساعدهم على اختيار الخيار المناسب حين يسألون، ويحجز المواعيد عند الطلب، ويسلّم المحادثة لفريقك عند الحاجة — داخل واتساب والسوشيال، أبعد بكثير من شات بوت بسيط.",
       bullets: [
-        "تأهيل وتقييم العملاء تلقائياً",
-        "الرد على الاعتراضات بإجابات واضحة تناسب علامتك",
+        "الإجابة عن أسئلة المنتجات والأسعار من معلوماتك أنت",
+        "ردود واضحة تناسب علامتك على استفسارات العملاء",
         "حجز مواعيد بدون روابط",
         "تحسين ردود وكيلك بالذكاء الاصطناعي بنقرة واحدة",
       ],
-      cta: "احصل على وكيل المبيعات",
+      cta: "احصل على مساعدك الذكي",
     },
   },
 };

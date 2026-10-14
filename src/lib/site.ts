@@ -9,7 +9,7 @@ export const SIGNIN_URL = `${APP_URL}/v2`;
 export const SITE_NAME = "Easy Reply";
 
 export const DEFAULT_DESCRIPTION =
-  "Easy Reply is an AI sales agent for WhatsApp, Instagram, Messenger, and web chat. Automate replies, qualify leads, book appointments, and close deals 24/7.";
+  "Easy Reply is an AI assistant that answers the messages your customers send you on WhatsApp, Instagram, Messenger, and web chat: instant replies from your own information, appointment booking, and human handoff, 24/7.";
 
 export const MARKETING_PATHS = [
   "/",
@@ -39,8 +39,7 @@ export const MARKETING_PATHS = [
   "/features/one-click-ai-optimization",
   "/features/high-ticket-sales-capability",
   "/features/complete-media-understanding",
-  "/features/comment-to-dm-conversion",
-  "/features/advanced-contact-campaign-management",
+  "/features/integrations",
   "/privacy-policy",
   "/terms",
   "/refund-policy",

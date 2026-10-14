@@ -34,13 +34,13 @@ const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "In-Depth Program Knowledge",
-    body: "Easy Reply understands your curriculum offerings and provides detailed information about degrees, certificates, courses, and learning outcomes helping prospective students make informed decisions.",
+    body: "Easy Reply understands your curriculum offerings and provides detailed information about degrees, certificates, courses, and learning outcomes, helping students who ask make informed decisions.",
     chip: "Explains Programs Clearly",
   },
   {
     id: "2",
     title: "Admissions Guidance",
-    body: "Instead of relying on forms, Easy Reply guides applicants through admissions steps, deadlines, requirements, and required documents in a conversational and easy-to-follow flow.",
+    body: "Instead of relying on forms, Easy Reply guides applicants through admissions steps, deadlines, requirements, and required documents in a simple, conversational way.",
     chip: "Guides Application Steps",
   },
   {
@@ -51,14 +51,14 @@ const flowStepsEn: UseCaseFlowStep[] = [
   },
   {
     id: "4",
-    title: "Candidate Qualification",
-    body: "Through natural conversations with students who reach out, Easy Reply asks about academic background, interests, and timeline so your team can see which programs fit each applicant.",
-    chip: "Prioritizes Best-Fit Applicants",
+    title: "Full Context for Your Team",
+    body: "Easy Reply remembers what each student has already shared in the conversation, such as their academic background, interests, and timeline, so answers stay consistent and your team sees the full context when it steps in.",
+    chip: "Remembers Student Context",
   },
   {
     id: "5",
-    title: "Enrollment Coordination",
-    body: "When an applicant is ready, Easy Reply schedules a meeting with the right advisor or faculty member based on program interest, reducing back-and-forth and waiting time.",
+    title: "Advisor Meetings on Request",
+    body: "When an applicant asks to speak with someone, Easy Reply schedules a meeting with the right advisor or faculty member based on program interest, reducing back-and-forth and waiting time.",
     chip: "Schedules Advisor Meetings",
   },
 ];
@@ -67,13 +67,13 @@ const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "معرفة عميقة بالبرامج",
-    body: "يفهم Easy Reply عروض المناهج لديك ويقدّم معلومات تفصيلية عن الشهادات والدورات ومخرجات التعلّم، فيساعد الطلاب المحتملين على اتخاذ قرارات واعية.",
+    body: "يفهم Easy Reply عروض المناهج لديك ويقدّم معلومات تفصيلية عن الشهادات والدورات ومخرجات التعلّم، فيساعد الطلاب الذين يسألون على اتخاذ قرارات واعية.",
     chip: "يشرح البرامج بوضوح",
   },
   {
     id: "2",
     title: "إرشاد القبول",
-    body: "بدل الاعتماد على النماذج فقط، يوجّه Easy Reply المتقدّمين عبر خطوات القبول والمواعيد النهائية والمتطلبات والوثائق المطلوبة في تدفّق حواري سهل المتابعة.",
+    body: "بدل الاعتماد على النماذج فقط، يوجّه Easy Reply المتقدّمين عبر خطوات القبول والمواعيد النهائية والمتطلبات والوثائق المطلوبة في حوار بسيط وواضح.",
     chip: "يرشد خطوات التقديم",
   },
   {
@@ -84,14 +84,14 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "4",
-    title: "تأهيل المرشحين",
-    body: "عبر حوارات طبيعية مع الطلاب الذين يتواصلون معك، يسأل Easy Reply عن الخلفية الأكاديمية والاهتمامات والجدول الزمني ليرى فريقك البرامج الأنسب لكل متقدّم.",
-    chip: "يُقدّم المتقدمين الأنسب",
+    title: "سياق كامل لفريقك",
+    body: "يتذكّر Easy Reply ما ذكره كل طالب في المحادثة، مثل خلفيته الأكاديمية واهتماماته وموعد التحاقه، فتبقى الإجابات متسقة ويرى فريقك السياق كاملًا عندما يتدخل.",
+    chip: "يتذكّر سياق كل طالب",
   },
   {
     id: "5",
-    title: "تنسيق التسجيل",
-    body: "عندما يكون المتقدّم مستعدًا، يجدول Easy Reply لقاءً مع المستشار أو عضو هيئة التدريس المناسب حسب البرنامج، ما يقلّل المراسلات المتبادلة ووقت الانتظار.",
+    title: "لقاءات المستشارين عند الطلب",
+    body: "عندما يطلب المتقدّم التحدث مع أحد، يجدول Easy Reply لقاءً مع المستشار أو عضو هيئة التدريس المناسب حسب البرنامج، ما يقلّل المراسلات المتبادلة ووقت الانتظار.",
     chip: "يجدول لقاءات المستشارين",
   },
 ];
@@ -162,8 +162,8 @@ export default function EducationUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجيب Easy Reply عن أسئلة البرامج، ويوضّح المتطلبات، ويرشد المتقدّمين في كل خطوة، ويربط المرشحين المؤهّلين بالمستشارين المناسبين."
-                : "Easy Reply answers program questions, clarifies requirements, guides applicants through each step, and connects qualified candidates with the right advisors."}
+                ? "يجيب Easy Reply عن أسئلة البرامج، ويوضّح المتطلبات، ويرشد المتقدّمين في كل خطوة، ويحجز لقاءً مع المستشار المناسب عندما يطلبه المتقدّم."
+                : "Easy Reply answers program questions, clarifies requirements, guides applicants through each step, and books a meeting with the right advisor when an applicant asks."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -190,13 +190,13 @@ export default function EducationUseCasePage() {
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يطرح الطلاب المحتملون أسئلة كثيرة عن البرامج والمواعيد والمتطلبات والقدرة على التحمل المالي."
-                : "Prospective students ask many questions about programs, deadlines, requirements, and affordability."}
+                ? "يطرح الطلاب أسئلة كثيرة عن البرامج والمواعيد والمتطلبات والقدرة على التحمل المالي."
+                : "Students ask many questions about programs, deadlines, requirements, and affordability."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يرد Easy Reply على هذه الأسئلة فورًا بالاعتماد على معلوماتك، ويحيل المتقدّمين الجادّين إلى فريق القبول، فيركّز الفريق على المحادثات التي تحتاج إليه."
-                : "Easy Reply answers these questions instantly using your information and passes serious applicants to your admissions team, so the team can focus on the conversations that need them."}
+                ? "يرد Easy Reply على هذه الأسئلة فورًا بالاعتماد على معلوماتك، ويحوّل المحادثة إلى فريق القبول عندما يحتاج المتقدّم إلى شخص، فيركّز الفريق على المحادثات التي تحتاج إليه."
+                : "Easy Reply answers these questions instantly using your information and hands the chat to your admissions team when an applicant needs a person, so the team can focus on the conversations that need them."}
             </p>
           </div>
         </section>
@@ -355,18 +355,15 @@ export default function EducationUseCasePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                         : "#";
 
                     return (

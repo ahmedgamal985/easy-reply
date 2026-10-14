@@ -46,8 +46,8 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "3",
     title: "Conversation Quality",
-    body: "A general-purpose AI model in a DIY stack needs its own prompts and testing to handle sales well. Easy Reply is set up for sales conversations from the start, with objection handling and a guided conversational flow.",
-    chip: "Sales-Optimized AI",
+    body: "A general-purpose AI model in a DIY stack needs its own prompts and testing to answer customers well. Easy Reply is set up to answer customer questions from the start, using your FAQs, website and documents, remembering the conversation context, and handing the chat to your team when needed.",
+    chip: "Ready to Answer Customers",
   },
   {
     id: "4",
@@ -79,13 +79,13 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "3",
     title: "جودة المحادثة",
-    body: "يحتاج نموذج الذكاء الاصطناعي العام في إعدادات DIY إلى تعليمات واختبارات خاصة ليتقن البيع. أما Easy Reply فمُعدّ لمحادثات البيع من البداية، مع معالجة الاعتراضات وتدفّق حواري موجَّه.",
-    chip: "ذكاء مُحسَّن للمبيعات",
+    body: "يحتاج نموذج الذكاء الاصطناعي العام في إعدادات DIY إلى تعليمات واختبارات خاصة ليجيب العملاء جيداً. أما Easy Reply فمُعدّ للإجابة عن أسئلة العملاء من البداية، يستخدم أسئلتك الشائعة وموقعك ومستنداتك، ويتذكّر سياق المحادثة، ويسلّم المحادثة لفريقك عند الحاجة.",
+    chip: "جاهز للرد على العملاء",
   },
   {
     id: "4",
     title: "الموثوقية",
-    body: "سلاسل الأدوات المترابطة قد تتعطّل عندما تتغيّر أي واحدة منها. Easy Reply منصة واحدة مُدارة، فتقلّ الأجزاء التي عليك متابعة تشغيلها.",
+    body: "سلاسل الأدوات المترابطة قد تتعطّل عندما تتغيّر أي واحدة منها. Easy Reply منصة واحدة مُدارة، فتقلّ الأجزاء التي عليك إبقاؤها تعمل.",
     chip: "أجزاء متحركة أقل",
   },
   {
@@ -160,13 +160,13 @@ export default function DIYZapierAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يوفّر Easy Reply منصة واحدة متكاملة مع محادثات طبيعية قريبة من الإنسان تساعدك على بيع منتجاتك وخدماتك."
-                : "Easy Reply provides one integrated platform with natural, human-like conversations that help you sell your products and services."}
+                ? "يوفّر Easy Reply منصة واحدة متكاملة ترد على العملاء الذين يراسلونك بردود طبيعية قريبة من الإنسان، وتجيب عن أسئلتهم حول منتجاتك وخدماتك."
+                : "Easy Reply provides one integrated platform that answers customers who message you with natural, human-like replies about your products and services."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بدلاً من صيانة أتمتات عبر أدوات كثيرة، تدير محادثات البيع من نظام واحد."
-                : "Instead of maintaining automations across many tools, you run your sales conversations from one system."}
+                ? "بدلاً من صيانة أتمتات عبر أدوات كثيرة، تدير الرد على عملائك من صندوق وارد واحد."
+                : "Instead of maintaining automations across many tools, you handle customer replies from one inbox."}
             </p>
             <a
               href="#pricing"
@@ -195,8 +195,8 @@ export default function DIYZapierAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عملياً، تحتاج هذه الإعدادات إلى صيانة منتظمة، وقد تختلف تجربة العميل من قناة إلى أخرى. يستبدل Easy Reply هذا الخليط بمنصة واحدة مبنية لمحادثات البيع."
-                : "In practice, these setups need regular maintenance, and the customer experience can vary from channel to channel. Easy Reply replaces that patchwork with one platform built for sales conversations."}
+                ? "عملياً، تحتاج هذه الإعدادات إلى صيانة منتظمة، وقد تختلف تجربة العميل من قناة إلى أخرى. يستبدل Easy Reply هذا الخليط بمنصة واحدة مبنية للرد على أسئلة العملاء."
+                : "In practice, these setups need regular maintenance, and the customer experience can vary from channel to channel. Easy Reply replaces that patchwork with one platform built to answer customer questions."}
             </p>
           </div>
         </section>
@@ -355,18 +355,15 @@ export default function DIYZapierAlternativePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                       : "#";
 
                     return (

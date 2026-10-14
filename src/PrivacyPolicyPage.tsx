@@ -9,7 +9,7 @@ const sectionsEn: PolicySection[] = [
   {
     title: "1. Introduction",
     body: [
-      'This Privacy Policy describes how Easy Reply ("we," "us," or "our") collects, uses, and shares information when you use our AI-powered sales and customer engagement platform and related services ("Services").',
+      'This Privacy Policy describes how Easy Reply ("we," "us," or "our") collects, uses, and shares information when you use our AI-powered customer conversation platform and related services ("Services").',
       "We are committed to protecting your privacy and complying with the General Data Protection Regulation (GDPR) and other applicable data protection laws.",
       `Data Controller: Ahmed Gamal, Egypt, operating Easy Reply. Contact: ${contactEmail}`,
     ],
@@ -39,7 +39,7 @@ const sectionsEn: PolicySection[] = [
     body: ["3.1 Primary Purposes"],
     bullets: [
       "Provide and maintain our Services",
-      "Process AI-powered conversations and sales automation",
+      "Process AI-powered replies to your customers",
       "Handle customer support and respond to inquiries",
       "Process payments and manage subscriptions",
       "Send service updates and important notifications",
@@ -144,7 +144,7 @@ const sectionsAr: PolicySection[] = [
   {
     title: "١. مقدمة",
     body: [
-      'تصف سياسة الخصوصية هذه كيفية قيام Easy Reply («نحن» أو «لنا») بجمع المعلومات واستخدامها ومشاركتها عند استخدامكم منصة المبيعات والتفاعل مع العملاء المدعومة بالذكاء الاصطناعي والخدمات ذات الصلة («الخدمات»).',
+      'تصف سياسة الخصوصية هذه كيفية قيام Easy Reply («نحن» أو «لنا») بجمع المعلومات واستخدامها ومشاركتها عند استخدامكم منصة محادثات العملاء المدعومة بالذكاء الاصطناعي والخدمات ذات الصلة («الخدمات»).',
       "نلتزم بحماية خصوصيتكم والامتثال للائحة حماية البيانات العامة (GDPR) وغيرها من قوانين حماية البيانات المعمول بها.",
       `جهة التحكم في البيانات: أحمد جمال (Ahmed Gamal)، مصر، مشغّل خدمة Easy Reply. للتواصل: ${contactEmail}`,
     ],
@@ -174,7 +174,7 @@ const sectionsAr: PolicySection[] = [
     body: ["٣.١ الأغراض الأساسية"],
     bullets: [
       "تقديم الخدمات وصيانتها",
-      "معالجة المحادثات المدعومة بالذكاء الاصطناعي وأتمتة المبيعات",
+      "معالجة المحادثات المدعومة بالذكاء الاصطناعي والردود التلقائية على العملاء",
       "تقديم الدعم والرد على الاستفسارات",
       "معالجة المدفوعات وإدارة الاشتراكات",
       "إرسال تحديثات الخدمة والإشعارات المهمة",
@@ -287,7 +287,7 @@ export default function PrivacyPolicyPage() {
           {isAr ? "سياسة الخصوصية" : "Privacy Policy"}
         </h1>
         <p className="mt-4 text-center text-ink-muted">
-          {isAr ? "آخر تحديث: ١٤ أكتوبر ٢٠٢٦" : "Last updated: October 14, 2026"}
+          {isAr ? "آخر تحديث: ١٥ أكتوبر ٢٠٢٦" : "Last updated: October 15, 2026"}
         </p>
 
         <div className="mt-10 space-y-8 text-ink-muted">

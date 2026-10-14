@@ -33,6 +33,17 @@
   to = "https://app.tryeasyreply.com/settings/:splat"
   status = 302
 
+# Retired pages (Paddle review, Oct 2026)
+[[redirects]]
+  from = "/features/comment-to-dm-conversion"
+  to = "/features/instagram"
+  status = 301
+
+[[redirects]]
+  from = "/features/advanced-contact-campaign-management"
+  to = "/features/integrations"
+  status = 301
+
 # SPA fallback — marketing site (static files like sitemap.xml are served first)
 [[redirects]]
   from = "/*"

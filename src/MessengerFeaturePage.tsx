@@ -41,27 +41,27 @@ export default function MessengerFeaturePage() {
         },
         {
           id: "2",
-          title: "الرد على التعليقات عبر ماسنجر",
-          body: "عندما يعلّق شخص على منشور صفحتك على فيسبوك، كأن يسأل عن السعر، يرد عليه الذكاء الاصطناعي برسالة خاصة على ماسنجر، وتستمر المحادثة إذا ردّ عليها.",
-          chip: "رد خاص على صاحب التعليق",
+          title: "تحويل سلس إلى فريقك",
+          body: "عندما تحتاج المحادثة إلى شخص، يحوّل الذكاء الاصطناعي محادثة ماسنجر إلى فريقك مع سياقها الكامل، فلا يضطر العميل إلى تكرار كلامه.",
+          chip: "تحويل سلس إلى الفريق",
         },
         {
           id: "3",
-          title: "تكامل إعلانات فيسبوك",
-          body: "عندما يضغط شخص على إعلانك ويراسلك عبر ماسنجر، يكمل الذكاء الاصطناعي المحادثة مع مراعاة الإعلان الذي جاء منه، لتبقى التجربة شخصية ومترابطة.",
+          title: "يعرف من أين بدأت المحادثة",
+          body: "عندما يراسلك شخص عبر ماسنجر من أحد إعلاناتك على فيسبوك، يكمل الذكاء الاصطناعي المحادثة مع مراعاة الإعلان الذي جاء منه، لتبقى التجربة شخصية ومترابطة.",
           chip: "استمرارية من الإعلان للمحادثة",
         },
         {
           id: "4",
           title: "فهم متقدم للوسائط",
-          body: "يفهم الصور والفيديوهات والروابط المرسلة داخل ماسنجر ليقدم ردودًا أدق وأكثر تأثيرًا.",
+          body: "يفهم الصور والفيديوهات والروابط المرسلة داخل ماسنجر ليقدم ردودًا أدق وأكثر فائدة.",
           chip: "فهم للمحتوى المرسل",
         },
         {
           id: "5",
           title: "صور المنتجات وروابطها داخل المحادثة",
-          body: "يشارك صور المنتجات وقوائم الأسعار وروابط صفحات متجرك داخل المحادثة، ويساعد العميل على الانتقال من التصفح إلى الشراء بسلاسة.",
-          chip: "بيع داخل المحادثة",
+          body: "يشارك صور المنتجات وقوائم الأسعار وروابط صفحات متجرك داخل المحادثة عندما يطلبها العميل، ليحصل على ما يحتاجه دون مغادرة المحادثة.",
+          chip: "إجابات بالصور والروابط",
         },
       ]
     : [
@@ -73,27 +73,27 @@ export default function MessengerFeaturePage() {
         },
         {
           id: "2",
-          title: "Comment-to-Messenger Replies",
-          body: "When someone comments on your Facebook Page post, for example asking the price, the AI replies to that person privately in Messenger. The conversation continues if they reply.",
-          chip: "Private Reply to Commenters",
+          title: "Smooth Handoff to Your Team",
+          body: "When a conversation needs a person, the AI hands the Messenger chat to your team with its full context, so the customer never has to repeat themselves.",
+          chip: "Smooth Human Handoff",
         },
         {
           id: "3",
-          title: "Facebook Ad Integration",
-          body: "When someone clicks your ad and messages you on Messenger, the AI continues the conversation with the ad's context in mind, keeping the experience personal and connected.",
+          title: "Knows Where the Chat Started",
+          body: "When someone messages you on Messenger from one of your Facebook ads, the AI continues the conversation with the ad's context in mind, keeping the experience personal and connected.",
           chip: "Ad-to-Chat Continuity",
         },
         {
           id: "4",
           title: "Advanced Media Intelligence",
-          body: "Analyze and respond intelligently to images, videos, and links shared in Messenger for richer and more persuasive conversations.",
+          body: "Analyze and respond intelligently to images, videos, and links shared in Messenger for richer and more helpful conversations.",
           chip: "Understands Shared Media",
         },
         {
           id: "5",
           title: "Product Photos and Links in Chat",
-          body: "Share product photos, price lists, and links to your store pages inside the chat, and help buyers move from browsing to checkout.",
-          chip: "Selling Inside the Chat",
+          body: "Share product photos, price lists, and links to your store pages inside the chat when customers ask, so they get what they need without leaving the conversation.",
+          chip: "Answers With Photos and Links",
         },
       ];
 
@@ -147,17 +147,17 @@ export default function MessengerFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "حوّل Facebook Messenger إلى قناة بيع تعمل 24/7" : "Turn Facebook Messenger Into a 24/7 Sales Channel"}
+              {isAr ? "ذكاء اصطناعي يرد على رسائل Facebook Messenger على مدار الساعة" : "AI That Answers Your Facebook Messenger Chats 24/7"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تخسر شركات كثيرة فرصًا حقيقية بسبب ترك استفسارات ماسنجر دون رد أو الاعتماد على ردود تلقائية عامة."
-                : "Many businesses lose opportunities by leaving Messenger inquiries unanswered or relying on generic automated replies."}
+                ? "تترك شركات كثيرة استفسارات ماسنجر دون رد أو تعتمد على ردود تلقائية عامة لا تجيب عن سؤال العميل."
+                : "Many businesses leave Messenger questions unanswered or rely on generic automated replies that don't answer the customer's question."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply ماسنجر إلى قناة بيع منظمة، يرد فيها الذكاء الاصطناعي على من يراسلك ويؤهل العملاء المحتملين ويساعدهم على الشراء على مدار الساعة."
-                : "Easy Reply turns Messenger into an organized sales channel where AI answers the people who message you, qualifies leads, and helps them buy around the clock."}
+                ? "يرد الذكاء الاصطناعي في Easy Reply على من يراسلك عبر ماسنجر على مدار الساعة، اعتمادًا على معلوماتك، ويساعد العملاء على اختيار الخيار المناسب عندما يطلبون ذلك."
+                : "Easy Reply's AI answers the people who message you on Messenger around the clock, using your information and helping customers choose the right option when they ask."}
             </p>
             <a
               href="#pricing"
@@ -176,18 +176,18 @@ export default function MessengerFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يجعل Facebook Messenger قناة مبيعات ودعم منظمة"
-                : "Easy Reply Turns Facebook Messenger Into an Organized Sales and Support Channel"}
+                ? "Easy Reply يجعل Facebook Messenger قناة دعم منظمة"
+                : "Easy Reply Turns Facebook Messenger Into an Organized Support Channel"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يوفر Facebook Messenger وصولًا يوميًا لجمهور ضخم، لكن معظم الفرق لا تستطيع إدارة هذا الحجم بسرعة واتساق."
-                : "Facebook Messenger gives businesses access to a massive daily audience, but most teams struggle to handle volume with consistency and speed."}
+                ? "يراسل كثير من العملاء الشركات عبر Facebook Messenger يوميًا، لكن معظم الفرق لا تستطيع إدارة هذا الحجم بسرعة واتساق."
+                : "Many customers message businesses on Facebook Messenger every day, but most teams struggle to handle the volume with consistency and speed."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع Easy Reply بين أتمتة مخصصة لماسنجر ومحادثات ذكاء اصطناعي طبيعية واعية بالسياق، ليرد على كل رسالة ويؤهل العملاء المهتمين باستمرار."
-                : "Easy Reply combines Messenger-native automation with natural, context-aware AI conversations that answer every message and qualify interested leads around the clock."}
+                ? "يجمع Easy Reply بين أتمتة مخصصة لماسنجر ومحادثات ذكاء اصطناعي طبيعية واعية بالسياق، ليرد على كل رسالة على مدار الساعة ويحوّل المحادثة إلى فريقك عند الحاجة."
+                : "Easy Reply combines Messenger-native automation with natural, context-aware AI conversations that answer every message around the clock and hand the chat to your team when needed."}
             </p>
           </div>
         </section>
@@ -346,18 +346,15 @@ export default function MessengerFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                               : "#";
 
                     return (

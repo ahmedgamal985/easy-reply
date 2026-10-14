@@ -34,7 +34,7 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "GoHighLevel is an all-in-one platform where chat is one part of a broader CRM and automation suite. Easy Reply focuses on one job: context-aware, human-like AI conversations that answer prospects and help them move toward a decision.",
+    body: "GoHighLevel is an all-in-one platform where chat is one part of a broader CRM and automation suite. Easy Reply focuses on one job: context-aware, human-like AI replies to the messages customers send you, answering their questions from your own business information.",
     chip: "Designed for Natural Dialogue",
   },
   {
@@ -45,9 +45,9 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   },
   {
     id: "3",
-    title: "Sales Capability",
-    body: "GoHighLevel covers many stages of the sales and CRM process. Easy Reply goes deep on the conversation itself: qualifying leads, answering detailed questions, handling objections, and booking appointments in chat.",
-    chip: "Handles Complex Sales",
+    title: "Depth of Answers",
+    body: "GoHighLevel covers many business functions in one suite. Easy Reply goes deep on answering inbound messages: detailed questions about your products or services, booking appointments when a customer asks, and handing the chat to your team when needed.",
+    chip: "Handles Detailed Questions",
   },
   {
     id: "4",
@@ -67,7 +67,7 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "GoHighLevel منصة شاملة تمثّل الدردشة فيها جزءاً واحداً من مجموعة أوسع لإدارة علاقات العملاء والأتمتة. أما Easy Reply فيركّز على مهمة واحدة: محادثات بالذكاء الاصطناعي واعية بالسياق وقريبة من الإنسان، تجيب العملاء المحتملين وتساعدهم على التقدّم نحو القرار.",
+    body: "GoHighLevel منصة شاملة تمثّل الدردشة فيها جزءاً واحداً من مجموعة أوسع لإدارة علاقات العملاء والأتمتة. أما Easy Reply فيركّز على مهمة واحدة: ردود بالذكاء الاصطناعي واعية بالسياق وقريبة من الإنسان على الرسائل التي يرسلها إليك العملاء، تجيب عن أسئلتهم من معلومات عملك.",
     chip: "مصمّم لحوار طبيعي",
   },
   {
@@ -78,9 +78,9 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   },
   {
     id: "3",
-    title: "قدرات البيع",
-    body: "يغطي GoHighLevel مراحل كثيرة من عملية البيع وإدارة علاقات العملاء. أما Easy Reply فيتعمّق في المحادثة نفسها: تأهيل العملاء المحتملين، والإجابة عن الأسئلة التفصيلية، والتعامل مع الاعتراضات، وحجز المواعيد داخل المحادثة.",
-    chip: "يتقن المبيعات المعقّدة",
+    title: "عمق الإجابات",
+    body: "يغطي GoHighLevel وظائف عمل كثيرة في مجموعة واحدة. أما Easy Reply فيتعمّق في الرد على الرسائل الواردة: الأسئلة التفصيلية عن منتجاتك أو خدماتك، وحجز المواعيد حين يطلب العميل، وتسليم المحادثة لفريقك عند الحاجة.",
+    chip: "يجيب عن الأسئلة التفصيلية",
   },
   {
     id: "4",
@@ -160,13 +160,13 @@ export default function GohighlevelAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يسلك Easy Reply مساراً مركّزاً عبر تخصّصه في محادثات ذكاء اصطناعي متقدّمة تجذب العملاء المحتملين عبر تفاعلات طبيعية مبنية على السياق."
-                : "Easy Reply takes a focused path by specializing in advanced conversational AI that engages prospects through natural context-driven interactions."}
+                ? "يسلك Easy Reply مساراً مركّزاً: ذكاء اصطناعي يرد على العملاء الذين يراسلونك، بردود طبيعية مبنية على السياق ومعلومات عملك."
+                : "Easy Reply takes a focused path: AI that answers customers who message you, with natural, context-aware replies based on your business information."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "بدلاً من تغطية كل وظائف العمل، صُمّم Easy Reply لتوجيه القرارات، ومعالجة الاعتراضات، ومساعدة العملاء المؤهّلين على أن يصبحوا مشترين."
-                : "Rather than covering every business function, Easy Reply is built to guide decisions, handle objections, and help qualified leads become paying customers."}
+                ? "بدلاً من تغطية كل وظائف العمل، صُمّم Easy Reply ليجيب عن أسئلة العملاء على مدار الساعة، ويحجز المواعيد حين يطلبونها، ويسلّم المحادثة لفريقك عند الحاجة."
+                : "Rather than covering every business function, Easy Reply is built to answer customer questions 24/7, book appointments when customers ask, and hand the chat to your team when needed."}
             </p>
             <a
               href="#pricing"
@@ -355,18 +355,15 @@ export default function GohighlevelAlternativePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                               : "#";
 
                     return (

@@ -74,7 +74,7 @@ export default function MediaAIFeaturePage() {
         {
           id: "2",
           title: "Voice Interpretation",
-          body: "Voice notes are transcribed automatically so Easy Reply can understand and respond naturally to spoken questions and comments.",
+          body: "Voice notes are transcribed automatically so Easy Reply can understand and respond naturally to spoken questions and requests.",
           chip: "Transcribes and Understands Voice",
         },
         {
@@ -184,8 +184,8 @@ export default function MediaAIFeaturePage() {
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "محادثات البيع الحقيقية تتجاوز النصوص؛ فالعملاء يرسلون صورًا ورسائل صوتية ومقاطع فيديو ومستندات أثناء اتخاذ القرار."
-                : "Real sales conversations go beyond text. Customers share images, voice notes, videos, and documents when evaluating decisions."}
+                ? "محادثات العملاء الحقيقية تتجاوز النصوص؛ فالعملاء يرسلون صورًا ورسائل صوتية ومقاطع فيديو ومستندات عندما يطلبون المساعدة."
+                : "Real customer conversations go beyond text. Customers share images, voice notes, videos, and documents when they ask for help."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -349,18 +349,15 @@ export default function MediaAIFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                           : "#";
 
                     return (

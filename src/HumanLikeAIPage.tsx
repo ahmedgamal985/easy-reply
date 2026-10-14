@@ -60,7 +60,7 @@ export default function HumanLikeAIPage() {
         {
           id: "5",
           title: "اتساق مع هوية العلامة",
-          body: "يعكس Easy Reply صوت علامتك وقيمها باستمرار، ليحافظ كل رد على نفس الهوية بأسلوب واضح ومقنع.",
+          body: "يعكس Easy Reply صوت علامتك وقيمها باستمرار، ليحافظ كل رد على نفس الهوية بأسلوب واضح وودود.",
           chip: "تواصل مطابق للهوية",
         },
       ]
@@ -68,13 +68,13 @@ export default function HumanLikeAIPage() {
         {
           id: "1",
           title: "Context Maintenance",
-          body: "Unlike template-based bots that lose track of conversations, Easy Reply keeps full context across interactions so every discussion remains coherent and naturally connected.",
+          body: "Unlike scripted bots that lose track of conversations, Easy Reply keeps full context across interactions so every discussion remains coherent and naturally connected.",
           chip: "Persistent Context Memory",
         },
         {
           id: "2",
           title: "Emotional Intelligence",
-          body: "Easy Reply detects sentiment and adapts tone accordingly, responding with empathy when users are frustrated and matching positive energy when prospects are excited.",
+          body: "Easy Reply detects sentiment and adapts tone accordingly, responding with empathy when users are frustrated and matching positive energy when customers are excited.",
           chip: "Tone-Aware Responses",
         },
         {
@@ -92,7 +92,7 @@ export default function HumanLikeAIPage() {
         {
           id: "5",
           title: "Brand Personality Alignment",
-          body: "Easy Reply consistently reflects your brand voice and values, ensuring each conversation matches your identity while staying clear, persuasive, and on-brand.",
+          body: "Easy Reply consistently reflects your brand voice and values, ensuring each conversation matches your identity while staying clear, friendly, and on-brand.",
           chip: "On-Brand Communication",
         },
       ];
@@ -151,13 +151,13 @@ export default function HumanLikeAIPage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "معظم البوتات تبدو جامدة ومصطنعة، وهذا يسبب إحباطًا للعملاء المحتملين."
-                : "Most chatbots feel scripted and impersonal, which can frustrate potential customers."}
+                ? "معظم البوتات تبدو جامدة ومصطنعة، وهذا يسبب إحباطًا للعملاء."
+                : "Most chatbots feel scripted and impersonal, which can frustrate customers."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجري Easy Reply محادثات طبيعية بأسلوب بشري مع العملاء الذين يراسلونك، فيبني الثقة ويجيب عن الاعتراضات بالمعلومات التي تعتمدها ويساعد العميل على اتخاذ قراره."
-                : "Easy Reply holds natural, human-like conversations with the customers who message you, building trust, answering objections with the information you approve, and helping them make a decision."}
+                ? "يجري Easy Reply محادثات طبيعية بأسلوب بشري مع العملاء الذين يراسلونك، فيجيب عن أسئلتهم بالمعلومات التي تعتمدها ويساعدهم على اختيار ما يناسبهم عندما يطلبون ذلك."
+                : "Easy Reply holds natural, human-like conversations with the customers who message you, answering their questions with the information you approve and helping them choose what fits when they ask."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -191,8 +191,8 @@ export default function HumanLikeAIPage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يعتمد Easy Reply على نماذج ذكاء اصطناعي متقدمة تقدم تفاعلًا طبيعيًا وواضحًا يشبه حديث فريقك. يبني الثقة ويتعامل مع الاعتراضات ويرافق العميل بسلاسة حتى قرار الشراء."
-                : "Easy Reply is built on advanced AI models that deliver natural, clear conversations in the voice of your team. It builds trust, handles objections, and guides customers through purchase decisions smoothly."}
+                ? "يعتمد Easy Reply على نماذج ذكاء اصطناعي متقدمة تقدم تفاعلًا طبيعيًا وواضحًا يشبه حديث فريقك. يجيب عن الأسئلة بوضوح ويتذكر سياق المحادثة ويحوّلها إلى فريقك عند الحاجة."
+                : "Easy Reply is built on advanced AI models that deliver natural, clear conversations in the voice of your team. It answers questions clearly, remembers the conversation, and hands the chat to your team when needed."}
             </p>
           </div>
         </section>
@@ -351,18 +351,15 @@ export default function HumanLikeAIPage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                         : "#";
 
                     return (

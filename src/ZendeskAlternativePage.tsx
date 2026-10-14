@@ -34,14 +34,14 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Fundamental Purpose",
-    body: "Zendesk is designed to manage support tickets and resolve customer issues efficiently. Easy Reply is built for conversational selling, helping turn customer conversations into sales opportunities.",
-    chip: "Support vs Revenue Focus",
+    body: "Zendesk is designed to manage support tickets and resolve customer issues efficiently. Easy Reply is built to answer customers directly in the messaging apps they already use, with AI replies based on your own business information.",
+    chip: "Tickets vs Instant Answers",
   },
   {
     id: "2",
     title: "Conversation Quality",
-    body: "Zendesk's AI is built around support use cases such as resolving and routing customer requests. Easy Reply runs context-aware conversations focused on building trust and guiding prospects toward a purchase decision.",
-    chip: "Sales-Grade Conversations",
+    body: "Zendesk's AI is built around support use cases such as resolving and routing customer requests. Easy Reply replies in a natural, human-like way, remembers the conversation context, and hands the chat to your team when a person is needed.",
+    chip: "Human-Like Conversations",
   },
   {
     id: "3",
@@ -58,7 +58,7 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "5",
     title: "Channel Coverage",
-    body: "Zendesk centers on ticket-based support across its channels. Easy Reply focuses on real-time sales conversations on WhatsApp, Instagram, Facebook Messenger, and web chat.",
+    body: "Zendesk centers on ticket-based support across its channels. Easy Reply focuses on real-time replies to customers who message you on WhatsApp, Instagram, Facebook Messenger, and web chat.",
     chip: "Unified Channel Coverage",
   },
 ];
@@ -67,14 +67,14 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "الغرض الجوهري",
-    body: "صُمّم Zendesk لإدارة تذاكر الدعم وحل مشكلات العملاء بكفاءة. أما Easy Reply فمبني للبيع عبر المحادثة، ويساعد على تحويل محادثات العملاء إلى فرص بيع.",
-    chip: "دعم مقابل تركيز على الإيراد",
+    body: "صُمّم Zendesk لإدارة تذاكر الدعم وحل مشكلات العملاء بكفاءة. أما Easy Reply فمبني للرد على العملاء مباشرة في تطبيقات المراسلة التي يستخدمونها أصلاً، بردود ذكاء اصطناعي مبنية على معلومات عملك.",
+    chip: "تذاكر مقابل إجابات فورية",
   },
   {
     id: "2",
     title: "جودة المحادثة",
-    body: "بُني الذكاء الاصطناعي في Zendesk حول حالات الدعم، مثل حلّ طلبات العملاء وتوجيهها. أما Easy Reply فيشغّل محادثات واعية بالسياق تركّز على بناء الثقة وتوجيه العملاء المحتملين نحو قرار الشراء.",
-    chip: "حوارات بمستوى المبيعات",
+    body: "بُني الذكاء الاصطناعي في Zendesk حول حالات الدعم، مثل حلّ طلبات العملاء وتوجيهها. أما Easy Reply فيرد بأسلوب طبيعي قريب من الإنسان، ويتذكّر سياق المحادثة، ويسلّم المحادثة لفريقك حين يلزم تدخّل شخص.",
+    chip: "حوارات قريبة من الإنسان",
   },
   {
     id: "3",
@@ -91,7 +91,7 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "5",
     title: "تغطية القنوات",
-    body: "يتمحور Zendesk حول الدعم المبني على التذاكر عبر قنواته. أما Easy Reply فيركّز على محادثات البيع اللحظية عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع.",
+    body: "يتمحور Zendesk حول الدعم المبني على التذاكر عبر قنواته. أما Easy Reply فيركّز على الرد اللحظي على العملاء الذين يراسلونك عبر واتساب وإنستغرام وفيسبوك ماسنجر ودردشة الموقع.",
     chip: "تغطية موحّدة للقنوات",
   },
 ];
@@ -160,13 +160,13 @@ export default function ZendeskAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يسلك Easy Reply مسار المبيعات أولاً مع ذكاء اصطناعي مخصّص لحوارات طبيعية تؤهّل النية، تعالج الاعتراضات، وتوجّه قرار الشراء."
-                : "Easy Reply takes a sales-first path with AI built specifically for natural conversations that qualify intent, address objections, and guide buying decisions."}
+                ? "يسلك Easy Reply مساراً مختلفاً: ذكاء اصطناعي يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع بحوار طبيعي، على مدار الساعة."
+                : "Easy Reply takes a different path: AI that answers customers who message you on WhatsApp, Instagram, Messenger and web chat in natural conversation, 24/7."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "إلى جانب الإجابة عن الأسئلة، يساعد Easy Reply على تحويل المحادثات إلى فرص بيع."
-                : "Beyond answering questions, Easy Reply helps turn conversations into sales opportunities."}
+                ? "يجيب من أسئلتك الشائعة وموقعك ومستنداتك، ويفهم الصور والملاحظات الصوتية، ويحجز المواعيد حين يطلبها العميل."
+                : "It answers from your FAQs, website and documents, understands images and voice notes, and books appointments when a customer asks."}
             </p>
             <a
               href="#pricing"
@@ -185,8 +185,8 @@ export default function ZendeskAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Zendesk متميّز في الدعم، وEasy Reply مبني للمبيعات"
-                : "Zendesk Excels at Support; Easy Reply Is Built for Sales"}
+                ? "Zendesk متميّز في التذاكر، وEasy Reply مبني للرد الفوري في تطبيقات المراسلة"
+                : "Zendesk Excels at Tickets; Easy Reply Is Built for Instant Answers in Messaging Apps"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -195,8 +195,8 @@ export default function ZendeskAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عندما يصبح الهدف إدارة محادثات البيع، قد يكون وكيل مخصّص للبيع هو الخيار الأنسب. صُمّم Easy Reply لذلك، بتفاعلات قريبة من الإنسان تؤهّل العملاء المحتملين وتساعد على تحويل الاهتمام إلى مبيعات."
-                : "When the goal shifts to sales conversations, an agent built for selling can be a better fit. Easy Reply is designed for that, with human-like interactions that qualify leads and help turn interest into sales."}
+                ? "عندما يراسلك العملاء على واتساب وإنستغرام وماسنجر وينتظرون إجابة فورية، قد يكون مساعد مخصّص لهذه القنوات هو الخيار الأنسب. صُمّم Easy Reply لذلك، بردود قريبة من الإنسان تجيب عن أسئلتهم وتسلّم المحادثة لفريقك عند الحاجة."
+                : "When customers message you on WhatsApp, Instagram and Messenger and expect an instant answer, an assistant built for those channels can be a better fit. Easy Reply is designed for that, with human-like replies that answer their questions and hand the chat to your team when needed."}
             </p>
           </div>
         </section>
@@ -355,18 +355,15 @@ export default function ZendeskAlternativePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                     : "#";
 
                     return (

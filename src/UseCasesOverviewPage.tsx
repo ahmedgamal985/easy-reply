@@ -97,12 +97,12 @@ export default function UseCasesOverviewPage() {
               {isAr ? "نظرة عامة على حالات الاستخدام" : "Use Cases Overview"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "محادثات مبيعات بشرية الذكاء عبر مختلف القطاعات" : "Human-Like AI Sales Across Industries"}
+              {isAr ? "ردود ذكية بأسلوب بشري على عملائك في مختلف القطاعات" : "Human-Like AI Customer Replies Across Industries"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
                 ? "لكل نشاط تجاري تحدياته الخاصة، لكن الحاجة واحدة تقريبًا: الرد على العملاء الذين يراسلونك بسرعة ودقة وفي أي وقت."
-                : "Every business has different sales challenges, but most share the same need: answering the customers who message them quickly, accurately, and at any hour."}
+                : "Every business gets different customer questions, but most share the same need: answering the customers who message them quickly, accurately, and at any hour."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -123,8 +123,8 @@ export default function UseCasesOverviewPage() {
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "اكتشف كيف تستخدم الفرق في قطاعات مختلفة Easy Reply للرد على الرسائل الواردة، وتأهيل الاستفسارات، وحجز المواعيد داخل المحادثة."
-                : "See how teams across industries use Easy Reply to answer incoming messages, qualify inquiries, and book appointments inside the chat."}
+                ? "اكتشف كيف تستخدم الفرق في قطاعات مختلفة Easy Reply للرد على الرسائل الواردة، والإجابة عن أسئلة العملاء، وحجز المواعيد داخل المحادثة عندما يطلبها العميل."
+                : "See how teams across industries use Easy Reply to answer incoming messages, respond to customer questions, and book appointments inside the chat when a customer asks."}
             </p>
           </div>
 
@@ -274,18 +274,15 @@ export default function UseCasesOverviewPage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                               : "#";
 
                     return (

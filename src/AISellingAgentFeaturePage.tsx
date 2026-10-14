@@ -35,65 +35,65 @@ export default function AISellingAgentFeaturePage() {
     ? [
         {
           id: "1",
-          title: "أسلوب بيع استشاري",
-          body: "يبني Easy Reply الثقة عبر حوار قائم على القيمة يكشف الأهداف والقيود والأولويات بدل دفع عروض عامة.",
-          chip: "بيع يبدأ بالثقة",
+          title: "يفهم ما يبحث عنه العميل",
+          body: "عندما يسأل العملاء عن منتجاتك أو خدماتك، يطرح Easy Reply أسئلة مفيدة عن أهدافهم واحتياجاتهم بدل تقديم إجابات عامة.",
+          chip: "مساعدة بلا إلحاح",
         },
         {
           id: "2",
-          title: "معالجة متقدمة للاعتراضات",
-          body: "يميّز الذكاء الاصطناعي الاعتراضات المعقّدة ويرد عليها بإجابات واضحة ومخصّصة مستمدة من المعلومات التي تعتمدها.",
-          chip: "يتعامل مع اعتراضات معقّدة",
+          title: "إجابات واضحة عن الأسئلة المفصّلة",
+          body: "يميّز الذكاء الاصطناعي الأسئلة المفصّلة والمعقّدة ويرد عليها بإجابات واضحة ومخصّصة مستمدة من المعلومات التي تعتمدها.",
+          chip: "يجيب عن الأسئلة المعقّدة",
         },
         {
           id: "3",
           title: "تواصل واضح للقيمة",
-          body: "للعروض المميزة، يشرح Easy Reply المزايا والنتائج العملية كما وصفتها أنت، ليفهم المشتري قيمة ما يشتريه بوضوح.",
+          body: "للمنتجات والخدمات المميزة، يشرح Easy Reply المزايا والنتائج العملية كما وصفتها أنت، ليفهم العميل بوضوح ما يسأل عنه.",
           chip: "يوضّح القيمة بوضوح",
         },
         {
           id: "4",
-          title: "إجابة مخاوف المشتري",
-          body: "يحصل العملاء المهتمون بعروض عالية القيمة على إجابات واضحة عن الشروط والسياسات والخطوات التالية التي حددتها، ليقرروا بثقة. ويشارك الذكاء الاصطناعي فقط المعلومات التي اعتمدتها دون أن يقدّم وعودًا من عنده.",
-          chip: "يعزّز ثقة الشراء",
+          title: "إجابة مخاوف العميل",
+          body: "يحصل العملاء الذين يسألون عن منتجات وخدمات عالية القيمة على إجابات واضحة عن الشروط والسياسات والخطوات التالية التي حددتها، ليقرروا بثقة. ويشارك الذكاء الاصطناعي فقط المعلومات التي اعتمدتها دون أن يقدّم وعودًا من عنده.",
+          chip: "يعزّز ثقة العميل",
         },
         {
           id: "5",
-          title: "دعم قرار موجّه",
-          body: "يدعم Easy Reply قرارات تضم أطرافًا متعددة بمشاركة الموارد والسياق والإرشاد المناسب لكل مشارك في العملية.",
-          chip: "يدعم فرق شراء معقّدة",
+          title: "دعم القرارات الجماعية",
+          body: "عندما يشارك أكثر من شخص في القرار، يجيب Easy Reply كل واحد منهم بالموارد والسياق والإرشاد المناسب، ويحوّل المحادثة إلى فريقك عند الحاجة.",
+          chip: "يدعم قرارات الفرق",
         },
       ]
     : [
         {
           id: "1",
-          title: "Consultative Selling Approach",
-          body: "Easy Reply builds trust through value-driven dialogue that uncovers goals, constraints, and priorities instead of pushing generic offers.",
-          chip: "Trust-First Selling",
+          title: "Understands What the Customer Is Looking For",
+          body: "When customers ask about your products or services, Easy Reply asks helpful questions about their goals and needs instead of giving generic answers.",
+          chip: "Helpful, Not Pushy",
         },
         {
           id: "2",
-          title: "Advanced Objection Handling",
-          body: "The AI identifies complex objections and responds with clear, tailored answers drawn from the information you approve.",
-          chip: "Handles Complex Objections",
+          title: "Clear Answers to Detailed Questions",
+          body: "The AI recognizes detailed and complex questions and responds with clear, tailored answers drawn from the information you approve.",
+          chip: "Handles Complex Questions",
         },
         {
           id: "3",
           title: "Clear Value Communication",
-          body: "For premium offers, Easy Reply explains the benefits and practical outcomes you have described, so buyers clearly understand the value of what they are buying.",
+          body: "For premium products and services, Easy Reply explains the benefits and practical outcomes you have described, so customers clearly understand what they are asking about.",
           chip: "Communicates Value Clearly",
         },
         {
           id: "4",
-          title: "Answering Buyer Concerns",
-          body: "Prospects considering high-value offers get clear answers about the terms, policies, and next steps you have provided, so they can decide with confidence. The AI shares only information you have approved and never makes promises of its own.",
-          chip: "Builds Buying Confidence",
+          title: "Answering Customer Concerns",
+          body: "Customers asking about high-value products or services get clear answers about the terms, policies, and next steps you have provided, so they can decide with confidence. The AI shares only information you have approved and never makes promises of its own.",
+          chip: "Builds Customer Confidence",
         },
         {
           id: "5",
-          title: "Guided Decision Support",
-          body: "Easy Reply supports multi-stakeholder decisions by sharing the right resources, context, and guidance for each participant in the process.",
-          chip: "Supports Complex Buying Teams",
+          title: "Support for Group Decisions",
+          body: "When several people are involved in a decision, Easy Reply answers each of them with the right resources, context, and guidance, and hands the chat to your team when needed.",
+          chip: "Supports Team Decisions",
         },
       ];
 
@@ -147,22 +147,22 @@ export default function AISellingAgentFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "ذكاء اصطناعي لمحادثات المبيعات عالية القيمة" : "AI for High-Ticket, Consultative Sales Conversations"}
+              {isAr ? "ذكاء اصطناعي يجيب عن أسئلة الشراء" : "AI That Answers Buying Questions"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تتعامل معظم روبوتات الدردشة مع أسئلة بسيطة فقط. يتولى Easy Reply محادثات بيع أطول وأكثر استشارية للمنتجات والخدمات المميزة مع العملاء الذين يراسلونك."
-                : "Most chatbots handle simple questions only. Easy Reply handles longer, consultative sales conversations about premium products and services with the customers who message you."}
+                ? "تتعامل معظم روبوتات الدردشة مع أسئلة بسيطة فقط. يتولى Easy Reply محادثات أطول وأكثر تفصيلًا عن المنتجات والخدمات المميزة مع العملاء الذين يراسلونك."
+                : "Most chatbots handle simple questions only. Easy Reply handles longer, more detailed conversations about premium products and services with the customers who message you."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يستطيع الذكاء الاصطناعي تأهيل العملاء المحتملين، والإجابة عن الاعتراضات بالمعلومات التي تعتمدها، وحجز المواعيد مع فريقك."
-                : "The AI can qualify leads, answer objections with your approved information, and book appointments with your team."}
+                ? "يستطيع الذكاء الاصطناعي الإجابة عن الأسئلة والمخاوف بالمعلومات التي تعتمدها، ومساعدة العملاء على اختيار الخيار المناسب عندما يطلبون ذلك، وحجز المواعيد مع فريقك."
+                : "The AI can answer questions and concerns with your approved information, help customers choose the right option when they ask, and book appointments with your team."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
                 ? "يحصل عملاؤك على إجابات مدروسة على مدار الساعة، ويتدخل فريقك عندما تحتاج المحادثة إلى شخص."
-                : "Your prospects get thoughtful answers around the clock, and your team steps in when a conversation needs a person."}
+                : "Your customers get thoughtful answers around the clock, and your team steps in when a conversation needs a person."}
             </p>
             <a
               href="#pricing"
@@ -181,18 +181,18 @@ export default function AISellingAgentFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يتولى محادثات البيع الاستشارية الأطول"
-                : "Easy Reply Handles Longer, Consultative Sales Conversations"}
+                ? "Easy Reply يتولى محادثات العملاء الأطول والأكثر تفصيلًا"
+                : "Easy Reply Handles Longer, More Detailed Customer Conversations"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عادةً ما يتضمن بيع الخدمات المميزة محادثات أطول وأسئلة أكثر وإجابات تحتاج إلى عناية."
-                : "Selling premium services usually involves longer conversations, more questions, and answers that need care."}
+                ? "عادةً ما تتضمن أسئلة العملاء عن الخدمات المميزة محادثات أطول وتفاصيل أكثر وإجابات تحتاج إلى عناية."
+                : "Customer questions about premium services usually involve longer conversations, more details, and answers that need care."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجري Easy Reply محادثات استشارية طبيعية تؤهل المشترين وتجيب عن اعتراضاتهم وتحجز المواعيد للعروض الفاخرة والمؤسسية وعالية القيمة."
-                : "Easy Reply runs natural consultative conversations that qualify buyers, answer their objections, and book appointments for luxury, enterprise, and high-value offerings."}
+                ? "يجري Easy Reply محادثات طبيعية ومفيدة تجيب عن أسئلة العملاء ومخاوفهم وتحجز المواعيد للخدمات الفاخرة والمؤسسية وعالية القيمة."
+                : "Easy Reply holds natural, helpful conversations that answer customers' questions and concerns and book appointments for luxury, enterprise, and high-value offerings."}
             </p>
           </div>
         </section>
@@ -351,18 +351,15 @@ export default function AISellingAgentFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                         : "#";
 
                     return (

@@ -156,8 +156,8 @@ export default function OneClickAIOptimizationFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يطبّق الذكاء الاصطناعي ملاحظاتك لتحسين الأسلوب والإجابات ومعالجة الاعتراضات دون جهد تقني من فريقك."
-                : "The AI applies your feedback to improve tone, answers, and objection handling without technical effort from your team."}
+                ? "يطبّق الذكاء الاصطناعي ملاحظاتك لتحسين الأسلوب والإجابات والرد على المخاوف الشائعة دون جهد تقني من فريقك."
+                : "The AI applies your feedback to improve tone, answers, and replies to common concerns without technical effort from your team."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -349,18 +349,15 @@ export default function OneClickAIOptimizationFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                       : "#";
 
                     return (

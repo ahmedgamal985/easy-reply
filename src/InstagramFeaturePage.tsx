@@ -35,9 +35,9 @@ export default function InstagramFeaturePage() {
     ? [
         {
           id: "1",
-          title: "الرد على التعليقات برسالة خاصة",
-          body: "عندما يعلّق شخص على منشورك، كأن يسأل عن السعر، يرد عليه الذكاء الاصطناعي برسالة خاصة، وتستمر المحادثة فقط إذا ردّ عليها.",
-          chip: "رد خاص على صاحب التعليق",
+          title: "رد فوري على الرسائل الخاصة",
+          body: "عندما يراسل شخص نشاطك التجاري على إنستغرام، كأن يسأل عن السعر، يجيبه الذكاء الاصطناعي فورًا بالمعلومات التي تعتمدها، ليلًا ونهارًا.",
+          chip: "ردود DM على مدار الساعة",
         },
         {
           id: "2",
@@ -48,14 +48,14 @@ export default function InstagramFeaturePage() {
         {
           id: "3",
           title: "فهم متقدم للوسائط",
-          body: "يحلل الصور والفيديوهات والمحتوى المرسل داخل رسائل إنستغرام للرد بدقة وإقناع أعلى.",
+          body: "يحلل الصور والفيديوهات والمحتوى المرسل داخل رسائل إنستغرام للرد بدقة ووضوح أكبر.",
           chip: "ردود واعية بالمحتوى",
         },
         {
           id: "4",
           title: "أسئلة المنتجات داخل الرسائل",
-          body: "يجيب عن أسئلة المنتجات داخل الرسائل ويشارك صورها وأسعارها وروابط صفحات متجرك، لينتقل المتابع من التصفح إلى الشراء بسهولة.",
-          chip: "من السؤال إلى الشراء",
+          body: "يجيب عن أسئلة المنتجات داخل الرسائل ويشارك صورها وأسعارها وروابط صفحات متجرك، ليحصل العميل على ما سأل عنه في مكان واحد.",
+          chip: "يجيب عن أسئلة المنتجات",
         },
         {
           id: "5",
@@ -67,9 +67,9 @@ export default function InstagramFeaturePage() {
     : [
         {
           id: "1",
-          title: "Comment-to-DM Replies",
-          body: "When someone comments on your post, for example asking the price, the AI replies to that person with a private message. The conversation continues only if they reply.",
-          chip: "Private Reply to Commenters",
+          title: "Instant Answers to DMs",
+          body: "When someone messages your business on Instagram, for example asking the price, the AI answers right away with the information you approve, day or night.",
+          chip: "24/7 DM Replies",
         },
         {
           id: "2",
@@ -80,14 +80,14 @@ export default function InstagramFeaturePage() {
         {
           id: "3",
           title: "Advanced Media Intelligence",
-          body: "Analyze and respond intelligently to images, videos, and shared media in Instagram DMs for more informed and persuasive conversations.",
+          body: "Analyze and respond intelligently to images, videos, and shared media in Instagram DMs for more informed and helpful conversations.",
           chip: "Media-Aware Responses",
         },
         {
           id: "4",
           title: "Product Questions in DM",
-          body: "Answer product questions in DM and share product photos, prices, and links to your store pages so followers can move from browsing to buying.",
-          chip: "From Question to Purchase",
+          body: "Answer product questions in DM and share product photos, prices, and links to your store pages so customers get what they asked for in one place.",
+          chip: "Answers Product Questions",
         },
         {
           id: "5",
@@ -147,7 +147,7 @@ export default function InstagramFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "حوّل رسائل إنستغرام إلى قناة بيع تعمل 24/7" : "Turn Instagram DMs Into a 24/7 Sales Channel"}
+              {isAr ? "ذكاء اصطناعي يرد على رسائل إنستغرام على مدار الساعة" : "AI That Answers Your Instagram DMs 24/7"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -156,8 +156,8 @@ export default function InstagramFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يحوّل Easy Reply الرسائل المباشرة على إنستغرام إلى قناة بيع منظمة عبر ذكاء اصطناعي يرد بشكل طبيعي ويجيب عن الأسئلة ويؤهل المهتمين ويساعدهم على الشراء."
-                : "Easy Reply turns Instagram Direct Messages into an organized sales channel, using AI that replies naturally, answers questions, qualifies interest, and helps customers buy."}
+                ? "يرد Easy Reply على الأشخاص الذين يراسلونك على إنستغرام عبر ذكاء اصطناعي يرد بشكل طبيعي ويجيب عن أسئلتهم ويساعدهم على اختيار المنتج المناسب عندما يطلبون ذلك."
+                : "Easy Reply answers the people who message you on Instagram, using AI that replies naturally, answers their questions, and helps them choose the right product when they ask."}
             </p>
             <a
               href="#pricing"
@@ -176,18 +176,18 @@ export default function InstagramFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يجعل رسائل إنستغرام قناة مبيعات منظمة"
-                : "Easy Reply Turns Instagram DMs Into an Organized Sales Channel"}
+                ? "Easy Reply ينظّم رسائل إنستغرام ويرد عليها"
+                : "Easy Reply Brings Order to Your Instagram DMs"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتلقى إنستغرام كثيرًا من الرسائل والتعليقات والردود على القصص، لكن كثيرًا من الشركات لا تستطيع الرد عليها جميعًا بسرعة."
-                : "Instagram brings in a steady stream of DMs, comments, and story replies, but many businesses can't answer them all quickly."}
+                ? "يتلقى إنستغرام كثيرًا من الرسائل والردود على القصص، لكن كثيرًا من الشركات لا تستطيع الرد عليها جميعًا بسرعة."
+                : "Instagram brings in a steady stream of DMs and story replies, but many businesses can't answer them all quickly."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتكامل Easy Reply مع إنستغرام ليجري محادثات طبيعية تشبه البشر، فيؤهل المتابعين وينقلهم من الاهتمام العابر إلى الشراء الفعلي."
-                : "Easy Reply connects to Instagram and runs natural human-like conversations that qualify followers and move them from casual interest to paying customers."}
+                ? "يتكامل Easy Reply مع إنستغرام ليجري محادثات طبيعية تشبه البشر، فيجيب عن كل رسالة ويحوّل المحادثة إلى فريقك عند الحاجة."
+                : "Easy Reply connects to Instagram and runs natural human-like conversations that answer every message and hand the chat to your team when needed."}
             </p>
           </div>
         </section>
@@ -346,18 +346,15 @@ export default function InstagramFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                             : "#";
 
                     return (

@@ -35,65 +35,65 @@ export default function AIIntegrationsFeaturePage() {
     ? [
         {
           id: "1",
-          title: "التقاط ذكي لبيانات العملاء",
-          body: "يجمع Easy Reply بيانات العملاء المحتملين أثناء المحادثة بشكل طبيعي ومنظم، مما يقلل الإدخال اليدوي ويحافظ على دقة السجلات.",
-          chip: "تجميع بيانات تلقائي",
+          title: "جهة اتصال لكل من يراسلك",
+          body: "كل شخص يراسل نشاطك التجاري يحصل على سجل جهة اتصال مرتبط بمحادثته، مع التفاصيل التي شاركها أثناء الحديث، مما يقلل الإدخال اليدوي ويحافظ على دقة السجلات.",
+          chip: "سجل لكل محادثة",
         },
         {
           id: "2",
-          title: "تقسيم ذكي للعملاء",
-          body: "يتم تصنيف جهات الاتصال تلقائيًا وفق النية والسلوك والسياق، ليحصل كل عميل على المسار الأنسب له دون تدخل يدوي.",
-          chip: "تصنيف حسب النية",
+          title: "وسوم لتنظيم جهات الاتصال",
+          body: "تُوسَم جهات الاتصال حسب موضوع السؤال أو نوع الطلب، ليجد فريقك المحادثات المهمة بسرعة ويعرف ما يحتاجه كل عميل.",
+          chip: "تنظيم بالوسوم",
         },
         {
           id: "3",
-          title: "تسلسلات متابعة",
-          body: "أنشئ متابعات متعددة الخطوات للأشخاص الذين تواصلوا معك بالفعل، تجمع بين ردود الذكاء الاصطناعي والتذكيرات المجدولة ضمن قواعد كل قناة.",
-          chip: "متابعة متعددة الخطوات",
+          title: "Webhooks وواجهة API",
+          body: "أرسل بيانات المحادثات وجهات الاتصال إلى أنظمتك الخاصة عبر Webhooks وواجهة API، لتبقى أدواتك محدّثة بما يطلبه عملاؤك. هذه الروابط تنقل البيانات فقط ولا ترسل رسائل.",
+          chip: "بيانات المحادثات إلى أدواتك",
         },
         {
           id: "4",
-          title: "رسائل قوالب بموافقة العميل",
-          body: "على واتساب، تُرسَل رسائل القوالب المعتمدة من Meta فقط إلى العملاء الذين وافقوا على استلامها، مثل تحديثات الطلبات والتذكيرات والعروض التي طلبوها.",
-          chip: "بموافقة العميل فقط",
+          title: "الربط مع Zapier",
+          body: "اربط Easy Reply بالتطبيقات التي تستخدمها بالفعل عبر Zapier، لتصل بيانات المحادثات إلى الجداول وأدوات العمل لدى فريقك دون كتابة كود.",
+          chip: "يعمل مع Zapier",
         },
         {
           id: "5",
-          title: "متابعة المسار والنتائج",
-          body: "تابع رحلة كل عميل من أول رسالة حتى النتيجة، وانقل الفرص بين مراحل المبيعات مع رؤية واضحة لنتائج المحادثات.",
-          chip: "يتابع الرحلة كاملة",
+          title: "تحليلات المحادثات",
+          body: "اطّلع على عدد المحادثات ونتائجها في تحليلات واضحة، لتعرف ما يسأل عنه عملاؤك أكثر وكيف يتم الرد عليهم.",
+          chip: "رؤية واضحة للمحادثات",
         },
       ]
     : [
         {
           id: "1",
-          title: "Intelligent Contact Capture",
-          body: "Easy Reply collects and organizes lead details naturally during conversations, reducing manual entry and keeping records clean.",
-          chip: "Captures Contact Data",
+          title: "A Contact for Everyone Who Messages You",
+          body: "Every person who messages your business gets a contact record linked to their conversation, with the details they shared in the chat, reducing manual entry and keeping records clean.",
+          chip: "A Record for Every Chat",
         },
         {
           id: "2",
-          title: "Smart Segmentation",
-          body: "Contacts are tagged dynamically by intent, behavior, and context so every lead enters the right journey automatically.",
-          chip: "Segments by Intent",
+          title: "Tags That Keep Contacts Organized",
+          body: "Contacts are tagged by the topic of their question or the type of request, so your team can find important conversations fast and see what each customer needs.",
+          chip: "Organized with Tags",
         },
         {
           id: "3",
-          title: "Follow-Up Sequences",
-          body: "Set up multi-step follow-ups for people who already contacted you, combining AI replies and scheduled reminders within each channel's messaging rules.",
-          chip: "Multi-Step Follow-Ups",
+          title: "Webhooks and API",
+          body: "Send conversation and contact data to your own systems through webhooks and the API, so your tools stay up to date with what customers ask for. These connections move data only; they do not send messages.",
+          chip: "Conversation Data to Your Tools",
         },
         {
           id: "4",
-          title: "Opt-In Template Messages",
-          body: "On WhatsApp, Meta-approved template messages go only to customers who opted in to receive them, such as order updates, reminders, and offers they asked for.",
-          chip: "Opt-In Only",
+          title: "Zapier Connection",
+          body: "Connect Easy Reply to the apps you already use through Zapier, so conversation data reaches your team's sheets and work tools without code.",
+          chip: "Works with Zapier",
         },
         {
           id: "5",
-          title: "Pipeline and Outcome Tracking",
-          body: "Follow each customer from first message to outcome, move opportunities through your sales stages, and see clear conversation results.",
-          chip: "Measures Full Journey",
+          title: "Conversation Analytics",
+          body: "See conversation volume and results in clear analytics, so you know what customers ask about most and how they are being answered.",
+          chip: "Clear View of Conversations",
         },
       ];
 
@@ -147,7 +147,7 @@ export default function AIIntegrationsFeaturePage() {
               {isAr ? "المزايا" : "Features"}
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
-              {isAr ? "تنظيم جهات الاتصال والمتابعة" : "Contact Organization and Follow-Up"}
+              {isAr ? "اربط محادثاتك بأدواتك" : "Connect Your Conversations to Your Tools"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -156,13 +156,13 @@ export default function AIIntegrationsFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يتم تنظيم الأشخاص الذين يراسلونك وتصنيفهم تلقائيًا، ليتابع كل عميل المسار المناسب له بجهد يدوي أقل."
-                : "People who message you are organized and segmented automatically, so every lead follows the right path with less manual work."}
+                ? "يحصل كل من يراسلك على جهة اتصال ووسوم منظمة، ليجد فريقك أي محادثة بجهد يدوي أقل."
+                : "Everyone who messages you gets an organized contact record and tags, so your team can find any conversation with less manual work."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تنطلق المتابعات المخصصة مع من تواصلوا معك بناءً على المحادثة، ولا تُرسَل رسائل قوالب واتساب إلا للعملاء الذين وافقوا على استلامها."
-                : "Personalized follow-ups with people who contacted you are triggered by chat activity, and WhatsApp template messages go only to customers who opted in."}
+                ? "أرسل بيانات المحادثات إلى أدواتك عبر Webhooks وواجهة API وZapier، وتابع نتائج المحادثات في تحليلات واضحة."
+                : "Send conversation data to your tools through webhooks, the API, and Zapier, and see conversation results in clear analytics."}
             </p>
             <a
               href="#pricing"
@@ -180,17 +180,17 @@ export default function AIIntegrationsFeaturePage() {
               {isAr ? "كيف تعمل" : "How it works"}
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
-              {isAr ? "Easy Reply يوحد المحادثات وجهات الاتصال والمتابعة" : "Easy Reply Unifies Conversations, Contacts, and Follow-Ups"}
+              {isAr ? "Easy Reply يوحد المحادثات وجهات الاتصال والتحليلات" : "Easy Reply Unifies Conversations, Contacts, and Analytics"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تعتمد كثير من الشركات على أدوات متفرقة، حيث تكون المحادثات وجهات الاتصال والمتابعات في أنظمة منفصلة."
-                : "Many businesses operate across disconnected tools where chat, contacts, and follow-ups live in separate silos."}
+                ? "تعتمد كثير من الشركات على أدوات متفرقة، حيث تكون المحادثات وجهات الاتصال والتقارير في أنظمة منفصلة."
+                : "Many businesses operate across disconnected tools where chat, contacts, and reporting live in separate silos."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع Easy Reply هذه الأنظمة في مكان واحد يربط بين المحادثات الطبيعية وتنظيم جهات الاتصال وأتمتة المتابعة."
-                : "Easy Reply brings these together in one place, combining natural conversations with contact organization and follow-up automation."}
+                ? "يجمع Easy Reply هذه الأنظمة في مكان واحد، ويرسل بيانات المحادثات إلى الأدوات التي يستخدمها فريقك بالفعل."
+                : "Easy Reply brings these together in one place and sends conversation data to the tools your team already uses."}
             </p>
           </div>
         </section>
@@ -349,18 +349,15 @@ export default function AIIntegrationsFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                               : "#";
 
                     return (

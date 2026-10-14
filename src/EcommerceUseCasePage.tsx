@@ -34,7 +34,7 @@ const flowStepsEn: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "Deep Product Understanding",
-    body: "Easy Reply leverages your product catalog to deliver accurate details, highlight key differences between options, and guide customers toward the most suitable choice based on their preferences.",
+    body: "Easy Reply leverages your product catalog to deliver accurate details, highlight key differences between options, and help customers choose the most suitable option for their preferences when they ask.",
     chip: "Understands Catalog Logic",
   },
   {
@@ -45,21 +45,21 @@ const flowStepsEn: UseCaseFlowStep[] = [
   },
   {
     id: "3",
-    title: "Confident Objection Handling",
-    body: "From sizing and material quality to shipping and returns, Easy Reply responds to common concerns with clear, reassuring answers that help customers move forward with confidence.",
-    chip: "Handles Purchase Concerns",
+    title: "Clear Answers to Common Concerns",
+    body: "From sizing and material quality to shipping and returns, Easy Reply responds to common concerns with clear, reassuring answers based on your own policies.",
+    chip: "Answers Shipping & Returns Questions",
   },
   {
     id: "4",
-    title: "Follow-Ups in the Same Conversation",
-    body: "When a shopper who messaged you goes quiet before buying, Easy Reply can follow up in that conversation to answer what held them back. On WhatsApp, follow-ups outside the 24-hour window use Meta-approved templates and go only to customers who opted in.",
-    chip: "Follows Up in Context",
+    title: "Conversations That Remember Details",
+    body: "Easy Reply keeps track of what the shopper already said in the conversation, so they never have to repeat their order details, size, or question.",
+    chip: "Remembers Conversation Context",
   },
   {
     id: "5",
-    title: "Relevant Product Suggestions",
-    body: "Based on what the shopper asked about, Easy Reply can suggest complementary products from your catalog that fit their needs.",
-    chip: "Suggests Related Products",
+    title: "Help Finding Matching Products",
+    body: "When a shopper asks what goes well with an item, Easy Reply can point them to matching products from your catalog that fit their needs.",
+    chip: "Points to Matching Products",
   },
 ];
 
@@ -67,7 +67,7 @@ const flowStepsAr: UseCaseFlowStep[] = [
   {
     id: "1",
     title: "فهم عميق للمنتجات",
-    body: "يستفيد Easy Reply من كتالوج منتجاتك لتقديم تفاصيل دقيقة، وإبراز الفروق الجوهرية بين الخيارات، وتوجيه العملاء نحو الأنسب وفق تفضيلاتهم.",
+    body: "يستفيد Easy Reply من كتالوج منتجاتك لتقديم تفاصيل دقيقة، وإبراز الفروق الجوهرية بين الخيارات، ومساعدة العملاء على اختيار الأنسب وفق تفضيلاتهم عندما يسألون.",
     chip: "يفهم منطق الكتالوج",
   },
   {
@@ -78,21 +78,21 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "3",
-    title: "التعامل الثابت مع الاعتراضات",
-    body: "من المقاسات وجودة المواد إلى الشحن والإرجاع، يجيب Easy Reply على المخاوف الشائعة بإجابات واضحة مطمئنة تساعد العملاء على المضي بثقة.",
-    chip: "يعالج مخاوف الشراء",
+    title: "إجابات واضحة عن المخاوف الشائعة",
+    body: "من المقاسات وجودة المواد إلى الشحن والإرجاع، يجيب Easy Reply على المخاوف الشائعة بإجابات واضحة مطمئنة مبنية على سياساتك.",
+    chip: "يجيب عن أسئلة الشحن والإرجاع",
   },
   {
     id: "4",
-    title: "متابعة داخل المحادثة نفسها",
-    body: "عندما يتوقف عميل راسلك عن الرد قبل الشراء، يمكن لـ Easy Reply متابعته في المحادثة نفسها للإجابة عمّا جعله يتردد. على واتساب، تُرسل المتابعات خارج نافذة الـ24 ساعة بقوالب معتمدة من Meta وفقط للعملاء الذين وافقوا على استقبالها.",
-    chip: "يتابع ضمن سياق المحادثة",
+    title: "محادثة تتذكّر التفاصيل",
+    body: "يتذكّر Easy Reply ما قاله العميل في المحادثة، فلا يضطر إلى تكرار تفاصيل طلبه أو مقاسه أو سؤاله.",
+    chip: "يتذكّر سياق المحادثة",
   },
   {
     id: "5",
-    title: "اقتراحات منتجات مناسبة",
-    body: "بناءً على ما سأل عنه العميل، يمكن لـ Easy Reply اقتراح منتجات مكمّلة من كتالوجك تناسب احتياجه.",
-    chip: "يقترح منتجات ذات صلة",
+    title: "المساعدة في إيجاد منتجات متناسقة",
+    body: "عندما يسأل العميل عمّا يناسب منتجًا معينًا، يمكن لـ Easy Reply أن يدلّه على منتجات متناسقة من كتالوجك تناسب احتياجه.",
+    chip: "يدلّ على منتجات متناسقة",
   },
 ];
 
@@ -355,18 +355,15 @@ export default function EcommerceUseCasePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                     : "#";
 
                     return (

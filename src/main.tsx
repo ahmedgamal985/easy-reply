@@ -27,7 +27,6 @@ import AIAppointmentBookingFeaturePage from "./AIAppointmentBookingFeaturePage";
 import OneClickAIOptimizationFeaturePage from "./OneClickAIOptimizationFeaturePage";
 import AISellingAgentFeaturePage from "./AISellingAgentFeaturePage";
 import MediaAIFeaturePage from "./MediaAIFeaturePage";
-import CommentDMAIFeaturePage from "./CommentDMAIFeaturePage";
 import AIIntegrationsFeaturePage from "./AIIntegrationsFeaturePage";
 import KeywordLandingPage from "./KeywordLandingPage";
 import { LanguageProvider } from "./LanguageContext";
@@ -149,9 +148,7 @@ const Page = KEYWORD_PATHS.includes(path as KeywordPageKey)
                                               ? AISellingAgentFeaturePage
                                               : path === "/features/complete-media-understanding"
                                                 ? MediaAIFeaturePage
-                                                : path === "/features/comment-to-dm-conversion"
-                                                  ? CommentDMAIFeaturePage
-                                                  : path === "/features/advanced-contact-campaign-management"
+                                                : path === "/features/integrations"
                                                     ? AIIntegrationsFeaturePage
         : App;
 

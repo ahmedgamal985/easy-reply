@@ -39,27 +39,27 @@ const flowStepsEn: UseCaseFlowStep[] = [
   },
   {
     id: "2",
-    title: "Smart Buyer Qualification",
-    body: "Through natural conversational interactions, Easy Reply identifies buyer motivation, budget, timeline, and financing status without relying on rigid forms or manual screening.",
-    chip: "Qualifies Serious Buyers",
+    title: "Answers That Fit Each Request",
+    body: "Through natural conversation, Easy Reply asks about the area, size, and budget the person has in mind, so it can point them to the listings that match what they asked for.",
+    chip: "Matches Listings to Needs",
   },
   {
     id: "3",
     title: "Interactive Visual Showcase",
-    body: "When prospects inquire about specific features, Easy Reply shares relevant images, highlights key aspects, and helps buyers visualize the property effectively.",
+    body: "When people ask about specific features, Easy Reply shares relevant images, highlights key aspects, and helps buyers visualize the property effectively.",
     chip: "Showcases Property Highlights",
   },
   {
     id: "4",
-    title: "Automated Viewing Scheduling",
-    body: "Once a buyer is qualified, Easy Reply checks your calendar and books the property viewing inside the chat, saving the back-and-forth of scheduling.",
-    chip: "Books Viewings Automatically",
+    title: "Viewing Booking in Chat",
+    body: "When someone asks to see a property, Easy Reply checks your calendar and books the viewing inside the chat, saving the back-and-forth of scheduling.",
+    chip: "Books Viewings on Request",
   },
   {
     id: "5",
-    title: "Follow-Ups With Past Inquiries",
-    body: "For people who contacted you but are not ready yet, Easy Reply can send scheduled follow-ups in the same conversation. On WhatsApp, messages outside the 24-hour window use Meta-approved templates sent only to contacts who opted in.",
-    chip: "Follows Up With Inquiries",
+    title: "Handoff to Your Agents",
+    body: "When someone wants to talk to a person, Easy Reply hands the chat to your agent with the full conversation context, so they never have to repeat themselves.",
+    chip: "Hands Off to Your Agents",
   },
 ];
 
@@ -72,9 +72,9 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "2",
-    title: "تأهيل ذكي للمشترين",
-    body: "عبر تفاعلات حوارية طبيعية، يحدّد Easy Reply دوافع المشتري والميزانية والجدول الزمني وحالة التمويل دون الاعتماد على نماذج جامدة أو فرز يدوي.",
-    chip: "يؤهّل المشترين الجادّين",
+    title: "إجابات تناسب كل طلب",
+    body: "عبر حوار طبيعي، يسأل Easy Reply عن المنطقة والمساحة والميزانية التي يفكر فيها السائل، ليرشده إلى العقارات المطابقة لما طلبه.",
+    chip: "يطابق العقارات مع الاحتياج",
   },
   {
     id: "3",
@@ -84,15 +84,15 @@ const flowStepsAr: UseCaseFlowStep[] = [
   },
   {
     id: "4",
-    title: "جدولة معاينات تلقائية",
-    body: "بعد تأهيل المشتري، يتحقق Easy Reply من تقويمك ويحجز معاينة العقار داخل المحادثة، فيوفّر عناء تنسيق المواعيد ذهابًا وإيابًا.",
-    chip: "يجدول المعاينات تلقائيًا",
+    title: "حجز المعاينات داخل المحادثة",
+    body: "عندما يطلب أحد معاينة عقار، يتحقق Easy Reply من تقويمك ويحجز المعاينة داخل المحادثة، فيوفّر عناء تنسيق المواعيد ذهابًا وإيابًا.",
+    chip: "يحجز المعاينات عند الطلب",
   },
   {
     id: "5",
-    title: "متابعة الاستفسارات السابقة",
-    body: "لمن تواصلوا معك ولم يكونوا مستعدين بعد، يمكن لـ Easy Reply إرسال متابعات مجدولة في المحادثة نفسها. على واتساب، تُرسل الرسائل خارج نافذة الـ24 ساعة بقوالب معتمدة من Meta وفقط لجهات الاتصال التي وافقت على استقبالها.",
-    chip: "يتابع الاستفسارات السابقة",
+    title: "التحويل إلى وكلائك",
+    body: "عندما يرغب السائل في التحدث إلى شخص، يحوّل Easy Reply المحادثة إلى وكيلك مع سياقها كاملًا، فلا يضطر إلى تكرار كلامه.",
+    chip: "يحوّل المحادثة لوكلائك",
   },
 ];
 
@@ -162,8 +162,8 @@ export default function RealEstateUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يرد Easy Reply على الاستفسارات الواردة فورًا، ويجيب عن أسئلة العقارات، ويؤهّل المشترين الجادّين، ويجدول المعاينات، ويتابع مع من تواصلوا معك من قبل."
-                : "Easy Reply replies to incoming inquiries instantly, answers listing questions, qualifies serious buyers, schedules viewings, and follows up with people who already contacted you."}
+                ? "يرد Easy Reply على الاستفسارات الواردة فورًا، ويجيب عن أسئلة العقارات، ويحجز المعاينات عندما يطلبها السائل، ويحوّل المحادثة إلى وكلائك عند الحاجة."
+                : "Easy Reply replies to incoming inquiries instantly, answers listing questions, books viewings when people ask, and hands the chat to your agents when needed."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -197,8 +197,8 @@ export default function RealEstateUseCasePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يرد Easy Reply على كل استفسار يصلك فورًا، ويقدّم إجابات تفصيلية، ويؤهّل المشترين المهتمين، ويجدول المعاينات تلقائيًا، بينما يركّز الوكلاء على العمل مع العملاء."
-                : "Easy Reply replies to every inquiry you receive instantly, provides detailed answers, qualifies interested buyers, and schedules viewings automatically, while agents focus on working with clients."}
+                ? "يرد Easy Reply على كل استفسار يصلك فورًا، ويقدّم إجابات تفصيلية، ويحجز المعاينات عندما يطلبها السائل، بينما يركّز الوكلاء على العمل مع العملاء."
+                : "Easy Reply replies to every inquiry you receive instantly, provides detailed answers, and books viewings when people ask, while agents focus on working with clients."}
             </p>
           </div>
         </section>
@@ -357,18 +357,15 @@ export default function RealEstateUseCasePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                       : "#";
 
                     return (

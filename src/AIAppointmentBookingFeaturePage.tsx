@@ -35,15 +35,15 @@ export default function AIAppointmentBookingFeaturePage() {
     ? [
         {
           id: "1",
-          title: "تأهيل العملاء المحتملين",
-          body: "يؤهل Easy Reply العملاء المحتملين عبر حوار طبيعي للتحقق من النية والتأكد من استيفائهم لمعايير الحجز قبل جدولة الاجتماع.",
-          chip: "اجتماعات مؤهّلة مسبقًا",
+          title: "فهم ما يحتاجه العميل",
+          body: "عندما يطلب العميل موعدًا، يطرح Easy Reply الأسئلة التي تحددها بحوار طبيعي ليفهم ما يحتاجه ويحجز له نوع الموعد المناسب.",
+          chip: "الموعد المناسب لكل طلب",
         },
         {
           id: "2",
-          title: "إجابة واضحة عن المخاوف",
-          body: "عند تردد العملاء بشأن التوقيت أو السعر أو الجاهزية، يجيب الذكاء الاصطناعي بالمعلومات التي تعتمدها ويساعدهم على اختيار موعد مناسب.",
-          chip: "يساعد العملاء المترددين",
+          title: "إجابات واضحة عن الأسئلة",
+          body: "عندما يسأل العملاء عن التوقيت أو السعر أو التحضير، يجيب الذكاء الاصطناعي بالمعلومات التي تعتمدها ويساعدهم على اختيار موعد مناسب.",
+          chip: "يساعد العملاء في اختيار الموعد",
         },
         {
           id: "3",
@@ -54,28 +54,28 @@ export default function AIAppointmentBookingFeaturePage() {
         {
           id: "4",
           title: "حجز فوري داخل المحادثة",
-          body: "تُؤكَّد المواعيد مباشرة داخل المحادثة دون إرسال المستخدمين إلى صفحات جدولة خارجية تقطع مسار البيع.",
+          body: "تُؤكَّد المواعيد مباشرة داخل المحادثة دون إرسال العملاء إلى صفحات جدولة خارجية تقطع المحادثة.",
           chip: "تأكيد داخل الدردشة",
         },
         {
           id: "5",
-          title: "متابعة آلية",
-          body: "يرسل Easy Reply التأكيدات والتذكيرات لمن حجزوا موعدًا ويتعامل مع طلبات إعادة الجدولة تلقائيًا، حتى لا يُنسى أي موعد.",
-          chip: "تدفق تذكيرات آلي",
+          title: "التأكيد وإعادة الجدولة عند الطلب",
+          body: "يؤكد Easy Reply كل حجز داخل المحادثة، وعندما يطلب العميل تغيير موعده يتعامل مع الطلب في المحادثة نفسها، ليبقى تقويمك دقيقًا.",
+          chip: "تأكيد وإعادة جدولة",
         },
       ]
     : [
         {
           id: "1",
-          title: "Lead Qualification",
-          body: "Easy Reply qualifies prospects through natural dialogue to verify intent and ensure they meet your booking criteria before a meeting is scheduled.",
-          chip: "Pre-Qualified Meetings",
+          title: "Understands What the Customer Needs",
+          body: "When a customer asks for an appointment, Easy Reply asks the questions you set through natural dialogue, so it understands what they need and books the right type of appointment.",
+          chip: "The Right Appointment for Each Request",
         },
         {
           id: "2",
-          title: "Clear Answers to Concerns",
-          body: "When prospects hesitate over timing, price, or readiness, the AI answers with the information you approve and helps them pick a suitable time.",
-          chip: "Helps Hesitant Leads Decide",
+          title: "Clear Answers to Questions",
+          body: "When customers ask about timing, price, or preparation, the AI answers with the information you approve and helps them pick a suitable time.",
+          chip: "Helps Customers Pick a Time",
         },
         {
           id: "3",
@@ -86,14 +86,14 @@ export default function AIAppointmentBookingFeaturePage() {
         {
           id: "4",
           title: "Instant Booking Within Chat",
-          body: "Appointments are confirmed directly in conversation without sending users to external scheduling pages that break sales flow.",
+          body: "Appointments are confirmed directly in conversation without sending customers to external scheduling pages that break the conversation.",
           chip: "In-Chat Confirmation",
         },
         {
           id: "5",
-          title: "Automated Follow-Up",
-          body: "Easy Reply sends confirmations and reminders to people who booked, and handles rescheduling requests automatically, so appointments don't slip through the cracks.",
-          chip: "Automated Reminder Flow",
+          title: "Confirmation and Rescheduling on Request",
+          body: "Easy Reply confirms each booking in the chat, and when a customer asks to change their appointment it handles the request in the same conversation, so your calendar stays accurate.",
+          chip: "Confirms and Reschedules",
         },
       ];
 
@@ -148,13 +148,13 @@ export default function AIAppointmentBookingFeaturePage() {
             </p>
             <h1 className="mt-5 font-display text-[1.9rem] font-bold leading-[1.2] text-ink sm:text-4xl md:text-5xl">
               {isAr
-                ? "من المحادثة إلى التقويم: ذكاء اصطناعي يحجز الاجتماعات عنك"
-                : "From Chat to Calendar: AI That Books Meetings for You"}
+                ? "من المحادثة إلى التقويم: ذكاء اصطناعي يحجز المواعيد عندما يطلبها عملاؤك"
+                : "From Chat to Calendar: AI That Books Appointments When Customers Ask"}
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تتوقف معظم روبوتات الدردشة عند إرسال رابط حجز. يمضي Easy Reply أبعد بتأهيل العملاء المحتملين ومعالجة الاعتراضات والتحقق من التوفر وتأكيد الاجتماعات تلقائيًا."
-                : "Most chatbots stop at sending a booking link. Easy Reply takes the conversation further by qualifying prospects, handling objections, checking availability, and securing meetings automatically."}
+                ? "تتوقف معظم روبوتات الدردشة عند إرسال رابط حجز. عندما يطلب العميل موعدًا، يجيب Easy Reply عن أسئلته ويتحقق من التوفر ويؤكد الموعد داخل المحادثة."
+                : "Most chatbots stop at sending a booking link. When a customer asks to book, Easy Reply answers their questions, checks availability, and confirms the appointment in the chat."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -163,8 +163,8 @@ export default function AIAppointmentBookingFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "تعمل الجدولة الذكية في الخلفية ليركز فريقك على إتمام الصفقات بدل مطاردة التقويمات."
-                : "Smart scheduling runs in the background so your team can focus on closing deals instead of chasing calendars."}
+                ? "تعمل الجدولة الذكية في الخلفية ليركز فريقك على خدمة العملاء بدل تنسيق التقويمات."
+                : "Smart scheduling runs in the background so your team can focus on serving customers instead of juggling calendars."}
             </p>
             <a
               href="#pricing"
@@ -188,13 +188,13 @@ export default function AIAppointmentBookingFeaturePage() {
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عادةً يتطلب جدولة اجتماعات المبيعات أو الاستشارات رسائل ذهابًا وإيابًا وفحص الأوقات وتذكيرات تستهلك ساعات من وقت الفريق."
-                : "Scheduling sales or consultation meetings usually requires back-and-forth messaging, slot checking, and reminders that consume hours of team time."}
+                ? "عادةً تتطلب جدولة الاستشارات والمواعيد رسائل ذهابًا وإيابًا وفحص الأوقات وتأكيدات تستهلك ساعات من وقت الفريق."
+                : "Scheduling consultations and appointments usually requires back-and-forth messaging, slot checking, and confirmations that consume hours of team time."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يؤتمت Easy Reply هذا المسار من البداية للنهاية بتأهيل العملاء وإدارة التوفر وتأكيد الاجتماعات مباشرة داخل المحادثة."
-                : "Easy Reply automates this flow end to end by qualifying leads, managing availability, and confirming meetings directly in chat."}
+                ? "عندما يطلب العميل موعدًا، يتولى Easy Reply هذا المسار من البداية للنهاية بالإجابة عن أسئلته وإدارة التوفر وتأكيد الموعد مباشرة داخل المحادثة."
+                : "When a customer asks to book, Easy Reply handles this flow end to end by answering their questions, managing availability, and confirming the appointment directly in chat."}
             </p>
           </div>
         </section>
@@ -353,18 +353,15 @@ export default function AIAppointmentBookingFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                                     : "#";
 
                     return (

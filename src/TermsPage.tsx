@@ -10,7 +10,7 @@ const termsSectionsEn: TermsSection[] = [
     title: "1. Agreement to Terms",
     paragraphs: [
       'These Terms of Service ("Terms") are a legally binding agreement between you ("Customer," "you") and Ahmed Gamal, an individual based in Egypt, who operates Easy Reply ("Easy Reply," "we," "us," or "our").',
-      'By accessing or using our AI-powered sales and customer conversation software and related services (the "Services"), you agree to be bound by these Terms.',
+      'By accessing or using our AI-powered customer conversation software and related services (the "Services"), you agree to be bound by these Terms.',
       "If you do not agree, you must not use the Services.",
     ],
   },
@@ -19,9 +19,8 @@ const termsSectionsEn: TermsSection[] = [
     paragraphs: ["Easy Reply is software that businesses use to answer their own customers. It provides:"],
     bullets: [
       "An AI agent that replies to customers who message your business on WhatsApp, Instagram, Facebook Messenger and your website chat",
-      "Lead qualification, appointment booking and follow-ups with people who contacted you",
-      "A shared inbox, contact management, tags and sales pipelines",
-      "Meta-approved WhatsApp template messages to customers who opted in to receive them",
+      "Appointment booking when a customer asks, and handoff of any chat to your team",
+      "A shared inbox, contact management and tags",
       "Integrations through webhooks, an API and automation tools",
       "Analytics and optimization tools",
     ],
@@ -153,7 +152,7 @@ const termsSectionsAr: TermsSection[] = [
     title: "١. الموافقة على الشروط",
     paragraphs: [
       'شروط الخدمة هذه ("الشروط") اتفاقية ملزمة قانونياً بينك ("العميل"، "أنت") وبين أحمد جمال (Ahmed Gamal)، فرد مقيم في مصر، وهو مشغّل خدمة Easy Reply ("Easy Reply"، "نحن").',
-      'باستخدامك برنامج Easy Reply لمحادثات المبيعات والعملاء بالذكاء الاصطناعي والخدمات المرتبطة به ("الخدمات")، فإنك توافق على الالتزام بهذه الشروط.',
+      'باستخدامك برنامج Easy Reply لمحادثات العملاء بالذكاء الاصطناعي والخدمات المرتبطة به ("الخدمات")، فإنك توافق على الالتزام بهذه الشروط.',
       "إذا لم توافق، فلا يجوز لك استخدام الخدمات.",
     ],
   },
@@ -162,9 +161,8 @@ const termsSectionsAr: TermsSection[] = [
     paragraphs: ["Easy Reply برنامج تستخدمه الأعمال للرد على عملائها. ويوفّر:"],
     bullets: [
       "وكيل ذكاء اصطناعي يرد على العملاء الذين يراسلون عملك عبر واتساب وإنستغرام وماسنجر ودردشة موقعك",
-      "تأهيل العملاء المحتملين وحجز المواعيد والمتابعة مع من تواصلوا معك",
-      "صندوق وارد مشترك وإدارة جهات الاتصال والتصنيفات ومسارات المبيعات",
-      "رسائل قوالب واتساب معتمدة من ميتا للعملاء الذين وافقوا على استقبالها",
+      "حجز المواعيد عندما يطلبها العميل، وتسليم أي محادثة لفريقك",
+      "صندوق وارد مشترك وإدارة جهات الاتصال والتصنيفات",
       "تكاملات عبر الويب هوك والـ API وأدوات الأتمتة",
       "أدوات التحليلات والتحسين",
     ],
@@ -303,7 +301,7 @@ export default function TermsPage() {
           {isAr ? "شروط الخدمة" : "Terms of Service"}
         </h1>
         <p className="mt-4 text-center text-ink-muted">
-          {isAr ? "آخر تحديث: ١٤ أكتوبر ٢٠٢٦" : "Last updated: October 14, 2026"}
+          {isAr ? "آخر تحديث: ١٥ أكتوبر ٢٠٢٦" : "Last updated: October 15, 2026"}
         </p>
 
         <div className="mt-10 space-y-8 text-ink-muted">

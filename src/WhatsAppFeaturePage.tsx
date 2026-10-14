@@ -47,15 +47,15 @@ export default function WhatsAppFeaturePage() {
         },
         {
           id: "3",
-          title: "إدارة WhatsApp Business API",
-          body: "يبسّط إعداد القوالب وتقديمها لموافقة Meta ومتابعة حالة اعتمادها، ليبقى حساب واتساب لديك منظمًا ومتوافقًا مع سياسات واتساب.",
-          chip: "عمليات API منظّمة",
+          title: "ربط رسمي مع WhatsApp Business",
+          body: "يتصل Easy Reply بحساب WhatsApp Business الخاص بك، ليجيب الذكاء الاصطناعي عن الرسائل التي يرسلها إليك العملاء ضمن سياسات واتساب.",
+          chip: "ربط رسمي بحسابك",
         },
         {
           id: "4",
-          title: "رسائل القوالب للعملاء الموافقين فقط",
-          body: "أرسل رسائل قوالب واتساب المعتمدة من Meta فقط إلى العملاء الذين وافقوا على استلامها، مثل تحديثات الطلبات وتذكيرات المواعيد والعروض التي طلبوها بأنفسهم.",
-          chip: "قوالب معتمدة بموافقة العميل",
+          title: "تحويل سلس إلى فريقك",
+          body: "عندما يحتاج العميل إلى شخص، يحوّل الذكاء الاصطناعي محادثة واتساب إلى فريقك مع سجلها الكامل، فلا يضطر أحد إلى تكرار ما قيل.",
+          chip: "تحويل سلس إلى الفريق",
         },
         {
           id: "5",
@@ -79,15 +79,15 @@ export default function WhatsAppFeaturePage() {
         },
         {
           id: "3",
-          title: "WhatsApp Business API Management",
-          body: "Simplify template setup, submission for Meta approval, and approval-status tracking to keep your WhatsApp account organized and within WhatsApp policies.",
-          chip: "Streamlined API Operations",
+          title: "Official WhatsApp Business Connection",
+          body: "Easy Reply connects to your WhatsApp Business account so the AI answers the messages customers send you, within WhatsApp's policies.",
+          chip: "Official Account Connection",
         },
         {
           id: "4",
-          title: "Opt-In Template Messages",
-          body: "Send Meta-approved WhatsApp template messages only to customers who opted in to receive them, such as order updates, appointment reminders, and offers they asked for.",
-          chip: "Approved, Opt-In Only",
+          title: "Smooth Handoff to Your Team",
+          body: "When a customer needs a person, the AI hands the WhatsApp chat to your team with the full conversation history, so nobody has to repeat anything.",
+          chip: "Smooth Human Handoff",
         },
         {
           id: "5",
@@ -156,8 +156,8 @@ export default function WhatsAppFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يرد Easy Reply على العملاء الذين يراسلونك على واتساب بأسلوب طبيعي، فيجيب عن أسئلتهم ويؤهل العملاء المحتملين ويحجز المواعيد اعتمادًا على المعلومات التي تعتمدها."
-                : "Easy Reply answers the customers who message you on WhatsApp in a natural, human-like way, answering their questions, qualifying leads, and booking appointments using the information you approve."}
+                ? "يرد Easy Reply على العملاء الذين يراسلونك على واتساب بأسلوب طبيعي، فيجيب عن أسئلتهم ويحجز المواعيد عندما يطلبونها اعتمادًا على المعلومات التي تعتمدها."
+                : "Easy Reply answers the customers who message you on WhatsApp in a natural, human-like way, answering their questions and booking appointments when they ask, using the information you approve."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -181,8 +181,8 @@ export default function WhatsAppFeaturePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Easy Reply يحوّل واتساب إلى قناة مبيعات ودعم منظمة"
-                : "Easy Reply Turns WhatsApp Into an Organized Sales and Support Channel"}
+                ? "Easy Reply يحوّل واتساب إلى قناة دعم منظمة"
+                : "Easy Reply Turns WhatsApp Into an Organized Support Channel"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -191,8 +191,8 @@ export default function WhatsAppFeaturePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجمع Easy Reply بين تكامل متخصص لواتساب ومحادثات طبيعية واعية بالسياق، ليجيب العملاء الذين يراسلونك ويؤهل المهتمين منهم ويتابع معهم."
-                : "Easy Reply combines a dedicated WhatsApp integration with natural, context-aware conversations to answer the customers who message you, qualify interested leads, and follow up with them."}
+                ? "يجمع Easy Reply بين تكامل متخصص لواتساب ومحادثات طبيعية واعية بالسياق، ليجيب العملاء الذين يراسلونك ويحوّل المحادثة إلى فريقك عند الحاجة."
+                : "Easy Reply combines a dedicated WhatsApp integration with natural, context-aware conversations to answer the customers who message you and hand the chat to your team when needed."}
             </p>
           </div>
         </section>
@@ -351,18 +351,15 @@ export default function WhatsAppFeaturePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                           : "#";
 
                     return (

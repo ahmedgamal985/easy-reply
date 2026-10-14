@@ -34,8 +34,8 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "Intercom's AI is designed largely around customer support and resolving questions. Easy Reply is built around sales conversations that keep context, build trust, and guide prospects toward a decision.",
-    chip: "Built for Sales Dialogue",
+    body: "Intercom's AI is designed largely around ticket-style support. Easy Reply answers the messages customers send you in a natural, human-like way, keeping the context of the whole conversation so every reply fits what was already said.",
+    chip: "Natural, Context-Aware Replies",
   },
   {
     id: "2",
@@ -51,9 +51,9 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   },
   {
     id: "4",
-    title: "Sales-First Design",
-    body: "Intercom offers sales features alongside its support focus. Easy Reply is sales-first, helping teams qualify leads, handle objections, and guide purchase decisions in chat.",
-    chip: "Sales-First by Design",
+    title: "Answers From Your Own Information",
+    body: "Easy Reply answers from your FAQs, website and documents, helps customers choose the right product or plan when they ask, books appointments on request, and hands the chat to your team when a person is needed.",
+    chip: "Grounded in Your Business",
   },
   {
     id: "5",
@@ -67,8 +67,8 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "صُمّم الذكاء الاصطناعي في Intercom إلى حد كبير حول دعم العملاء وحلّ استفساراتهم. أما Easy Reply فمبني حول محادثات البيع التي تحافظ على السياق، وتبني الثقة، وتوجّه العملاء المحتملين نحو القرار.",
-    chip: "مصمّم لحوار البيع",
+    body: "صُمّم الذكاء الاصطناعي في Intercom إلى حد كبير حول الدعم المبني على التذاكر. أما Easy Reply فيرد على الرسائل التي يرسلها إليك العملاء بأسلوب طبيعي قريب من الإنسان، ويحتفظ بسياق المحادثة كلها ليناسب كل رد ما قيل من قبل.",
+    chip: "ردود طبيعية واعية بالسياق",
   },
   {
     id: "2",
@@ -84,9 +84,9 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   },
   {
     id: "4",
-    title: "تصميم يبدأ بالمبيعات",
-    body: "يقدّم Intercom ميزات للبيع إلى جانب تركيزه على الدعم. أما Easy Reply فيضع المبيعات أولاً: يساعد الفرق على تأهيل العملاء المحتملين، ومعالجة الاعتراضات، وتوجيه قرار الشراء داخل المحادثة.",
-    chip: "المبيعات أولاً",
+    title: "إجابات من معلوماتك أنت",
+    body: "يجيب Easy Reply من أسئلتك الشائعة وموقعك ومستنداتك، ويساعد العملاء على اختيار المنتج أو الخطة المناسبة حين يسألون، ويحجز المواعيد عند الطلب، ويسلّم المحادثة لفريقك حين يلزم تدخّل شخص.",
+    chip: "مبني على معلومات عملك",
   },
   {
     id: "5",
@@ -160,13 +160,13 @@ export default function IntercomAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يسلك Easy Reply اتجاهاً مختلفاً عبر تشغيل حوارات طبيعية قريبة من الإنسان تتجاوز الرد على التذاكر والاستفسارات البسيطة."
-                : "Easy Reply takes a different direction by running natural human-like conversations that go beyond answering tickets and simple inquiries."}
+                ? "يسلك Easy Reply اتجاهاً مختلفاً: يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع بحوار طبيعي قريب من الإنسان بدلاً من التذاكر."
+                : "Easy Reply takes a different direction: it answers customers who message you on WhatsApp, Instagram, Messenger and web chat with natural, human-like replies instead of tickets."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يوجّه قرار الشراء، يعالج الاعتراضات، ويدعم مبيعات عالية القيمة لتتحوّل تفاعلات الدعم إلى فرص إيراد."
-                : "It guides buying decisions, handles objections, and supports high-value sales so support interactions can become revenue opportunities."}
+                ? "يجيب من معلومات عملك، ويفهم الصور والملاحظات الصوتية والمستندات، ويسلّم المحادثة لفريقك حين يلزم تدخّل شخص."
+                : "It answers from your business information, understands images, voice notes and documents, and hands the chat to your team when a person is needed."}
             </p>
             <a
               href="#pricing"
@@ -185,18 +185,18 @@ export default function IntercomAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Intercom رائد في الدعم، وEasy Reply مبني لمحادثات البيع"
-                : "Intercom Leads in Support; Easy Reply Is Built for Sales Conversations"}
+                ? "Intercom مبني حول التذاكر، وEasy Reply مبني للرد على تطبيقات المراسلة"
+                : "Intercom Is Built Around Tickets; Easy Reply Is Built for Messaging Apps"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "طالما كان Intercom رائداً في رسائل العملاء، خاصة في الدعم والتفاعل."
-                : "Intercom has long been a leader in customer messaging, especially for support and engagement."}
+                ? "طالما كان Intercom اسماً معروفاً في رسائل العملاء، خاصة في دعم الموقع والتطبيق."
+                : "Intercom has long been a well-known name in customer messaging, especially for website and in-app support."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "عندما يكون الهدف تحويل المحادثات إلى مبيعات، قد يكون وكيل مخصّص للبيع هو الخيار الأنسب. صُمّم Easy Reply لذلك، بمحادثات واعية بالسياق تساعد العملاء المهتمين على التقدّم نحو القرار."
-                : "When the goal is turning conversations into sales, an agent built for selling can be a better fit. Easy Reply is designed for that, with context-aware conversations that help interested customers move toward a decision."}
+                ? "عندما يراسلك عملاؤك أساساً على واتساب وإنستغرام وماسنجر، قد يكون مساعد مخصّص لهذه القنوات هو الخيار الأنسب. صُمّم Easy Reply لذلك، بردود واعية بالسياق تجيب العملاء عن أسئلتهم على مدار الساعة."
+                : "When your customers mostly message you on WhatsApp, Instagram and Messenger, an assistant built for those channels can be a better fit. Easy Reply is designed for that, with context-aware replies that answer customer questions 24/7."}
             </p>
           </div>
         </section>
@@ -355,18 +355,15 @@ export default function IntercomAlternativePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                 : "#";
 
                     return (

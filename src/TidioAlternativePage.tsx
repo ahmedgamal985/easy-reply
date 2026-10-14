@@ -34,7 +34,7 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   {
     id: "1",
     title: "Conversation Quality",
-    body: "Tidio combines live chat with templates and flow builders for common scenarios. Easy Reply runs AI conversations that follow context, remember earlier messages, and adapt replies in real time.",
+    body: "Tidio combines live chat with flow builders for common scenarios. Easy Reply answers customer messages with AI that understands context, remembers earlier messages, and adapts replies in real time.",
     chip: "Natural, Adaptive Replies",
   },
   {
@@ -45,9 +45,9 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   },
   {
     id: "3",
-    title: "Sales Capabilities",
-    body: "Tidio is widely used for FAQs, live chat, and lead capture. Easy Reply focuses on the sales conversation itself: qualifying leads, addressing objections, and guiding prospects toward a buying decision.",
-    chip: "Built for Conversion",
+    title: "Depth of Answers",
+    body: "Tidio is widely used for FAQs and live chat. Easy Reply focuses on giving complete answers: it uses your FAQs, website and documents, remembers the conversation context, and helps customers choose the right product or plan when they ask.",
+    chip: "Built for Complete Answers",
   },
   {
     id: "4",
@@ -57,9 +57,9 @@ const comparisonBlocksEn: ComparisonBlock[] = [
   },
   {
     id: "5",
-    title: "Sales Tools Built In",
-    body: "Easy Reply includes appointment booking in chat, objection handling, and contact management, and connects to your other tools through webhooks and API.",
-    chip: "Sales Workflow Built In",
+    title: "Support Tools Built In",
+    body: "Easy Reply includes appointment booking when a customer asks, human handoff, and contact management, and connects to your other tools through webhooks and API.",
+    chip: "Support Workflow Built In",
   },
 ];
 
@@ -67,7 +67,7 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   {
     id: "1",
     title: "جودة المحادثة",
-    body: "يجمع Tidio بين الدردشة المباشرة والقوالب وأدوات بناء التدفقات للحالات الشائعة. أما Easy Reply فيشغّل محادثات بالذكاء الاصطناعي تتابع السياق، وتتذكّر الرسائل السابقة، وتكيّف الردود لحظياً.",
+    body: "يجمع Tidio بين الدردشة المباشرة وأدوات بناء التدفقات للحالات الشائعة. أما Easy Reply فيرد على رسائل العملاء بذكاء اصطناعي يفهم السياق، ويتذكّر الرسائل السابقة، ويكيّف الردود لحظياً.",
     chip: "ردود طبيعية وتكيّفية",
   },
   {
@@ -78,9 +78,9 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   },
   {
     id: "3",
-    title: "قدرات البيع",
-    body: "يُستخدم Tidio على نطاق واسع للأسئلة الشائعة والدردشة المباشرة وجمع العملاء المحتملين. أما Easy Reply فيركّز على محادثة البيع نفسها: تأهيل العملاء المحتملين، ومعالجة الاعتراضات، وتوجيههم نحو قرار الشراء.",
-    chip: "مصمّم للتحويل",
+    title: "عمق الإجابات",
+    body: "يُستخدم Tidio على نطاق واسع للأسئلة الشائعة والدردشة المباشرة. أما Easy Reply فيركّز على تقديم إجابات كاملة: يستخدم أسئلتك الشائعة وموقعك ومستنداتك، ويتذكّر سياق المحادثة، ويساعد العملاء على اختيار المنتج أو الخطة المناسبة حين يسألون.",
+    chip: "مصمّم لإجابات كاملة",
   },
   {
     id: "4",
@@ -90,9 +90,9 @@ const comparisonBlocksAr: ComparisonBlock[] = [
   },
   {
     id: "5",
-    title: "أدوات بيع مدمجة",
-    body: "يتضمّن Easy Reply حجز المواعيد داخل المحادثة، ومعالجة الاعتراضات، وإدارة جهات الاتصال، ويتصل بأدواتك الأخرى عبر الويب هوكس وواجهة البرمجة (API).",
-    chip: "مسار بيع متكامل",
+    title: "أدوات دعم مدمجة",
+    body: "يتضمّن Easy Reply حجز المواعيد حين يطلبها العميل، وتسليم المحادثة لفريقك، وإدارة جهات الاتصال، ويتصل بأدواتك الأخرى عبر الويب هوكس وواجهة البرمجة (API).",
+    chip: "مسار دعم متكامل",
   },
 ];
 
@@ -155,18 +155,18 @@ export default function TidioAlternativePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يجعل Tidio التفاعل مع زوّار الموقع بسيطاً عبر الدردشة المباشرة والقوالب والأتمتة."
-                : "Tidio makes website engagement simple with live chat, templates, and automation."}
+                ? "يجعل Tidio دردشة الموقع بسيطة عبر الدردشة المباشرة والأتمتة."
+                : "Tidio makes website chat simple with live chat and automation."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يسلك Easy Reply مساراً مختلفاً عبر تشغيل محادثات طبيعية قريبة من الإنسان تتجاوز مجرد الرد على الاستفسارات."
-                : "Easy Reply takes a different path by running natural, human-like conversations that go beyond answering inquiries."}
+                ? "يسلك Easy Reply مساراً مختلفاً: يرد على العملاء الذين يراسلونك على واتساب وإنستغرام وماسنجر ودردشة الموقع بردود طبيعية قريبة من الإنسان."
+                : "Easy Reply takes a different path: it answers customers who message you on WhatsApp, Instagram, Messenger and web chat with natural, human-like replies."}
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "يبني الثقة، ويعالج الاعتراضات، ويوجّه العملاء المحتملين نحو قرار الشراء، لتتحوّل الاستفسارات اليومية إلى فرص بيع."
-                : "It builds trust, addresses objections, and guides prospects toward purchase decisions, so everyday inquiries can turn into sales opportunities."}
+                ? "يجيب من أسئلتك الشائعة وموقعك ومستنداتك، ويتذكّر سياق المحادثة، ويسلّم المحادثة لفريقك حين يلزم تدخّل شخص."
+                : "It answers from your FAQs, website and documents, remembers the conversation context, and hands the chat to your team when a person is needed."}
             </p>
             <a
               href="#pricing"
@@ -185,8 +185,8 @@ export default function TidioAlternativePage() {
             </p>
             <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-ink md:text-5xl">
               {isAr
-                ? "Tidio يسهّل دردشة الموقع، وEasy Reply يركّز على محادثات البيع"
-                : "Tidio Makes Website Chat Easy; Easy Reply Focuses on Sales Conversations"}
+                ? "Tidio يسهّل دردشة الموقع، وEasy Reply يركّز على الإجابة عن أسئلة العملاء"
+                : "Tidio Makes Website Chat Easy; Easy Reply Focuses on Answering Customers"}
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
@@ -195,8 +195,8 @@ export default function TidioAlternativePage() {
             </p>
             <p className="mx-auto mt-3 max-w-3xl text-base leading-relaxed text-ink-muted md:text-lg">
               {isAr
-                ? "حين تصبح محادثات البيع أكثر تعقيداً، تحتاج بعض الفرق إلى وكيل يدير حواراً أطول وواعياً بالسياق. صُمّم Easy Reply لذلك، فيعالج الاعتراضات ويساعد العملاء على الانتقال من الاهتمام إلى الشراء."
-                : "As sales conversations get more complex, some teams need an agent that can carry a longer, context-aware exchange. Easy Reply is designed for that, handling objections and helping customers move from interest to purchase."}
+                ? "حين تصبح أسئلة العملاء أكثر تفصيلاً، تحتاج بعض الفرق إلى مساعد يدير حواراً أطول وواعياً بالسياق. صُمّم Easy Reply لذلك، فيجيب عن الأسئلة التفصيلية ويسلّم المحادثة لفريقك حين يلزم."
+                : "As customer questions get more detailed, some teams need an assistant that can carry a longer, context-aware exchange. Easy Reply is designed for that, answering detailed questions and handing the chat to your team when needed."}
             </p>
           </div>
         </section>
@@ -355,18 +355,15 @@ export default function TidioAlternativePage() {
                                                                     : link === "1-Click AI" ||
                                                                         link === "ذكاء بنقرة واحدة"
                                                                       ? "/features/one-click-ai-optimization"
-                                                                      : link === "AI Selling Agent" ||
-                                                                          link === "وكيل بيع بالذكاء الاصطناعي"
+                                                                      : link === "Buying Questions AI" ||
+                                                                          link === "إجابات أسئلة الشراء"
                                                                         ? "/features/high-ticket-sales-capability"
                                                                         : link === "Media AI" ||
                                                                             link === "فهم الوسائط"
                                                                           ? "/features/complete-media-understanding"
-                                                                          : link === "Comment DM AI" ||
-                                                                              link === "تعليقات إلى رسائل"
-                                                                            ? "/features/comment-to-dm-conversion"
-                                                                            : link === "AI Integrations" ||
+                                                                          : link === "AI Integrations" ||
                                                                                 link === "تكاملات الذكاء الاصطناعي"
-                                                                              ? "/features/advanced-contact-campaign-management"
+                                                                              ? "/features/integrations"
                                                   : "#";
 
                     return (
