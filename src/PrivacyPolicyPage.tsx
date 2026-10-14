@@ -11,7 +11,7 @@ const sectionsEn: PolicySection[] = [
     body: [
       'This Privacy Policy describes how Easy Reply ("we," "us," or "our") collects, uses, and shares information when you use our AI-powered sales and customer engagement platform and related services ("Services").',
       "We are committed to protecting your privacy and complying with the General Data Protection Regulation (GDPR) and other applicable data protection laws.",
-      `Data Controller Contact: ${contactEmail}`,
+      `Data Controller: Ahmed Gamal, Egypt, operating Easy Reply. Contact: ${contactEmail}`,
     ],
   },
   {
@@ -146,7 +146,7 @@ const sectionsAr: PolicySection[] = [
     body: [
       'تصف سياسة الخصوصية هذه كيفية قيام Easy Reply («نحن» أو «لنا») بجمع المعلومات واستخدامها ومشاركتها عند استخدامكم منصة المبيعات والتفاعل مع العملاء المدعومة بالذكاء الاصطناعي والخدمات ذات الصلة («الخدمات»).',
       "نلتزم بحماية خصوصيتكم والامتثال للائحة حماية البيانات العامة (GDPR) وغيرها من قوانين حماية البيانات المعمول بها.",
-      `جهة التحكم في البيانات — للتواصل: ${contactEmail}`,
+      `جهة التحكم في البيانات: أحمد جمال (Ahmed Gamal)، مصر، مشغّل خدمة Easy Reply. للتواصل: ${contactEmail}`,
     ],
   },
   {

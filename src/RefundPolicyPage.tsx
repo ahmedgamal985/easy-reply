@@ -12,7 +12,7 @@ const termsSectionsEn: TermsSection[] = [
     title: "Who handles payments and refunds",
     paragraphs: [
       'Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle provides all customer service inquiries and handles returns.',
-      "Refunds are paid by Paddle to the payment method you used.",
+      "Refunds are paid by Paddle to the payment method you used. Easy Reply is operated by Ahmed Gamal, Egypt.",
     ],
   },
   {
@@ -71,7 +71,7 @@ const termsSectionsAr: TermsSection[] = [
     title: "من يتولّى المدفوعات والاسترداد",
     paragraphs: [
       "تتم عملية الشراء من خلال الموزّع المعتمد لدينا Paddle.com، وهو البائع الرسمي (Merchant of Record) لجميع طلباتنا. ويتولّى Paddle جميع استفسارات خدمة العملاء المتعلقة بالدفع ويتعامل مع عمليات الاسترداد.",
-      "يردّ Paddle المبالغ المستردّة إلى وسيلة الدفع التي استخدمتها.",
+      "يردّ Paddle المبالغ المستردّة إلى وسيلة الدفع التي استخدمتها. ويشغّل خدمة Easy Reply أحمد جمال (Ahmed Gamal)، مصر.",
     ],
   },
   {

@@ -9,7 +9,7 @@ const termsSectionsEn: TermsSection[] = [
   {
     title: "1. Agreement to Terms",
     paragraphs: [
-      'These Terms of Service ("Terms") are a legally binding agreement between you ("Customer," "you") and Easy Reply ("Easy Reply," "we," "us," or "our").',
+      'These Terms of Service ("Terms") are a legally binding agreement between you ("Customer," "you") and Ahmed Gamal, an individual based in Egypt, who operates Easy Reply ("Easy Reply," "we," "us," or "our").',
       'By accessing or using our AI-powered sales and customer conversation software and related services (the "Services"), you agree to be bound by these Terms.',
       "If you do not agree, you must not use the Services.",
     ],
@@ -141,7 +141,10 @@ const termsSectionsEn: TermsSection[] = [
   },
   {
     title: "17. Contact",
-    paragraphs: [`For legal, billing, support or terms-related questions: ${contactEmail}`],
+    paragraphs: [
+      "Easy Reply is operated by Ahmed Gamal, Egypt.",
+      `For legal, billing, support or terms-related questions: ${contactEmail}`,
+    ],
   },
 ];
 
@@ -149,7 +152,7 @@ const termsSectionsAr: TermsSection[] = [
   {
     title: "١. الموافقة على الشروط",
     paragraphs: [
-      'شروط الخدمة هذه ("الشروط") اتفاقية ملزمة قانونياً بينك ("العميل"، "أنت") وبين Easy Reply ("Easy Reply"، "نحن").',
+      'شروط الخدمة هذه ("الشروط") اتفاقية ملزمة قانونياً بينك ("العميل"، "أنت") وبين أحمد جمال (Ahmed Gamal)، فرد مقيم في مصر، وهو مشغّل خدمة Easy Reply ("Easy Reply"، "نحن").',
       'باستخدامك برنامج Easy Reply لمحادثات المبيعات والعملاء بالذكاء الاصطناعي والخدمات المرتبطة به ("الخدمات")، فإنك توافق على الالتزام بهذه الشروط.',
       "إذا لم توافق، فلا يجوز لك استخدام الخدمات.",
     ],
@@ -281,7 +284,10 @@ const termsSectionsAr: TermsSection[] = [
   },
   {
     title: "١٧. الاتصال",
-    paragraphs: [`لأي أسئلة قانونية أو متعلقة بالفوترة أو الدعم أو الشروط: ${contactEmail}`],
+    paragraphs: [
+      "يشغّل خدمة Easy Reply أحمد جمال (Ahmed Gamal)، مصر.",
+      `لأي أسئلة قانونية أو متعلقة بالفوترة أو الدعم أو الشروط: ${contactEmail}`,
+    ],
   },
 ];
 
