@@ -445,8 +445,8 @@ export function buildSoftwareApplicationJsonLd(lang: "en" | "ar") {
         : "AI chat automation and reply automation platform for WhatsApp, Instagram, and Messenger",
     offers: {
       "@type": "AggregateOffer",
-      lowPrice: "19",
-      highPrice: "199",
+      lowPrice: "29",
+      highPrice: "349",
       priceCurrency: "USD",
       offerCount: 4,
     },
